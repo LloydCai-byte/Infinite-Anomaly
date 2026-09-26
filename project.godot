@@ -1,0 +1,34 @@
+; 无限异常 — apartment / memory edition
+config_version=5
+
+[application]
+config/name="无限异常"
+config/description="门外是异常，门内是你最后的日常。"
+run/main_scene="res://scenes/campaign/main.tscn"
+config/features=PackedStringArray("4.4", "GL Compatibility")
+
+[autoload]
+Game="*res://scripts/game.gd"
+Home="*res://scripts/home/session.gd"
+Journey="*res://scripts/campaign/session.gd"
+
+[display]
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/window_width_override=1600
+window/size/window_height_override=900
+window/stretch/mode="canvas_items"
+window/size/resizable=true
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.047, 0.065, 0.071, 1)
+textures/default_filters/use_nearest_mipmap_filter=false
+
+[debug]
+gdscript/warnings/untyped_declaration=0
+file_logging/log_path="user://logs/godot.log"
+
+[audio]
+driver/enable_input=false

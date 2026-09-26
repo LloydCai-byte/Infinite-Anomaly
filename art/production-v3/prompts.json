@@ -1,0 +1,225 @@
+[
+  {
+    "id": "home/entry",
+    "prompt": "Use case: style-transfer. Production background for the point-and-click game 无限异常. Image 1 is the exact composition/layout to preserve; image 2 is the color-comic rendering reference. Redraw image 1 in the visual language of image 2. Keep every wall, door opening, doorframe, wooden entry door, cabinet, router, breaker and furniture at the exact same screen position and size. This is the player's tidy comfortable apartment, no characters. Make colors cleaner, shadows simpler, dark crisp linework stronger, remove all surface grain and photographic wood noise. Do not add UI, labels, text, sci-fi gadgets or a black sphere. Full bleed widescreen 16:9, 1920x1080. Precise fine black manga ink contours, rigorously constructed perspective, clean layered digital manga color, explicit cel shadow shapes with selective soft gradients. Cream ivory walls, natural medium warm brown wood, broad near-black forms with restrained gray highlights. Clean quiet surfaces, no sepia filter, no paper grain, no painterly rendering, no bloom. Reference comic page is only for rendering style and color; do not copy its characters or objects.",
+    "refs": [
+      "assets/home/entry.png",
+      "art/production-v3/references/vol02-193.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-b4398c8e-e0e1-4e65-bcc0-4d9abce8d24a.png"
+  },
+  {
+    "id": "home/hall",
+    "prompt": "Use case: style-transfer. Finished 16:9 game background, full bleed. Image 1 is the exact composition and architecture. Image 2 is the approved new coloring master for this same apartment; image 3 is the manga rendering reference. Redraw image 1 only. Preserve exact camera, wall corners, openings, furniture silhouettes and screen locations; do not change the apartment layout. Remove uniform grain and tiny photoreal texture; use clean cream whites and clear brown wood. Keep the home tidy and comfortable. No UI, no labels, no characters. Precise fine black manga ink contours, rigorously constructed perspective, clean layered digital manga color, explicit cel shadow shapes with selective soft gradients. Cream ivory walls, natural medium warm brown wood, broad near-black forms with restrained gray highlights. Clean quiet surfaces, no sepia filter, no paper grain, no painterly rendering, no bloom. Reference comic page is only for rendering style and color; do not copy its characters or objects.",
+    "refs": [
+      "D:\\无限异常\\assets\\home\\hall.png",
+      "D:\\无限异常\\assets\\v3\\home\\entry.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol02-193.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-72469e1e-251e-4824-a502-d44fa5f9b9e6.png"
+  },
+  {
+    "id": "home/kitchen",
+    "prompt": "Use case: style-transfer. Finished 16:9 game background, full bleed. Image 1 is the exact composition and architecture. Image 2 is the approved new coloring master for this same apartment; image 3 is the manga rendering reference. Redraw image 1 only. Preserve exact camera, wall corners, openings, furniture silhouettes and screen locations; do not change the apartment layout. Remove uniform grain and tiny photoreal texture; use clean cream whites and clear brown wood. Keep the home tidy and comfortable. No UI, no labels, no characters. Precise fine black manga ink contours, rigorously constructed perspective, clean layered digital manga color, explicit cel shadow shapes with selective soft gradients. Cream ivory walls, natural medium warm brown wood, broad near-black forms with restrained gray highlights. Clean quiet surfaces, no sepia filter, no paper grain, no painterly rendering, no bloom. Reference comic page is only for rendering style and color; do not copy its characters or objects.",
+    "refs": [
+      "D:\\无限异常\\assets\\home\\kitchen.png",
+      "D:\\无限异常\\assets\\v3\\home\\entry.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol02-193.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-91194faa-bb15-40e4-a851-62a6bb4fe03c.png"
+  },
+  {
+    "id": "home/bathroom",
+    "prompt": "Use case: style-transfer. Finished 16:9 game background, full bleed. Image 1 is the exact composition and architecture. Image 2 is the approved new coloring master for this same apartment; image 3 is the manga rendering reference. Redraw image 1 only. Preserve exact camera, wall corners, openings, furniture silhouettes and screen locations; do not change the apartment layout. Remove uniform grain and tiny photoreal texture; use clean cream whites and clear brown wood. Keep the home tidy and comfortable. No UI, no labels, no characters. Precise fine black manga ink contours, rigorously constructed perspective, clean layered digital manga color, explicit cel shadow shapes with selective soft gradients. Cream ivory walls, natural medium warm brown wood, broad near-black forms with restrained gray highlights. Clean quiet surfaces, no sepia filter, no paper grain, no painterly rendering, no bloom. Reference comic page is only for rendering style and color; do not copy its characters or objects.",
+    "refs": [
+      "D:\\无限异常\\assets\\home\\bathroom.png",
+      "D:\\无限异常\\assets\\v3\\home\\entry.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol02-193.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-e30b3448-c678-4c46-acff-952fbe9da212.png"
+  },
+  {
+    "id": "home/bedroom",
+    "prompt": "Use case: style-transfer. Finished 16:9 game background, full bleed. Image 1 is the exact composition and architecture. Image 2 is the approved new coloring master for this same apartment; image 3 is the manga rendering reference. Redraw image 1 only. Preserve exact camera, wall corners, openings, furniture silhouettes and screen locations; do not change the apartment layout. Remove uniform grain and tiny photoreal texture; use clean cream whites and clear brown wood. Keep the home tidy and comfortable. Keep the closed dark gray sketchbook on the front table clearly visible; this will be a clickable memory album. No UI, no labels, no characters. Precise fine black manga ink contours, rigorously constructed perspective, clean layered digital manga color, explicit cel shadow shapes with selective soft gradients. Cream ivory walls, natural medium warm brown wood, broad near-black forms with restrained gray highlights. Clean quiet surfaces, no sepia filter, no paper grain, no painterly rendering, no bloom. Reference comic page is only for rendering style and color; do not copy its characters or objects.",
+    "refs": [
+      "D:\\无限异常\\assets\\home\\bedroom.png",
+      "D:\\无限异常\\assets\\v3\\home\\entry.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol02-193.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-35a1a587-048b-490a-9c57-c67567a14bba.png"
+  },
+  {
+    "id": "home/desk",
+    "prompt": "Use case: style-transfer. Finished 16:9 game background, full bleed. Image 1 is the exact composition and architecture. Image 2 is the approved new coloring master for this same apartment; image 3 is the manga rendering reference. Redraw image 1 only. Preserve exact camera, wall corners, openings, furniture silhouettes and screen locations; do not change the apartment layout. Remove uniform grain and tiny photoreal texture; use clean cream whites and clear brown wood. Keep the home tidy and comfortable. No UI, no labels, no characters. Precise fine black manga ink contours, rigorously constructed perspective, clean layered digital manga color, explicit cel shadow shapes with selective soft gradients. Cream ivory walls, natural medium warm brown wood, broad near-black forms with restrained gray highlights. Clean quiet surfaces, no sepia filter, no paper grain, no painterly rendering, no bloom. Reference comic page is only for rendering style and color; do not copy its characters or objects.",
+    "refs": [
+      "D:\\无限异常\\assets\\home\\desk.png",
+      "D:\\无限异常\\assets\\v3\\home\\entry.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol02-193.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-59181347-d0f7-4e08-abf3-e4e66601ce58.png"
+  },
+  {
+    "id": "home/balcony",
+    "prompt": "Use case: style-transfer. Finished 16:9 game background, full bleed. Image 1 is the exact composition and architecture. Image 2 is the approved new coloring master for this same apartment; image 3 is the manga rendering reference. Redraw image 1 only. Preserve exact camera, wall corners, openings, furniture silhouettes and screen locations; do not change the apartment layout. Remove uniform grain and tiny photoreal texture; use clean cream whites and clear brown wood. Keep the home tidy and comfortable. No UI, no labels, no characters. Precise fine black manga ink contours, rigorously constructed perspective, clean layered digital manga color, explicit cel shadow shapes with selective soft gradients. Cream ivory walls, natural medium warm brown wood, broad near-black forms with restrained gray highlights. Clean quiet surfaces, no sepia filter, no paper grain, no painterly rendering, no bloom. Reference comic page is only for rendering style and color; do not copy its characters or objects.",
+    "refs": [
+      "D:\\无限异常\\assets\\home\\balcony.png",
+      "D:\\无限异常\\assets\\v3\\home\\entry.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol02-193.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-a2b6a263-920e-4c1f-a1ac-be14902c3275.png"
+  },
+  {
+    "id": "world/lobby",
+    "prompt": "Use case: illustration-story. Finished full bleed widescreen 16:9 production environment background for original point-and-click game 无限异常. Single continuous image, NO panels, NO UI, NO captions or logos. Text in scene incidental tiny marks only. Objects must be in specified image positions because real click targets attach to them. Lower 20% may receive interface, so keep important story objects above 78%. Scene: First-person view into an empty ordinary Chinese apartment elevator lobby. Left wall small battered floor directory with scratched-out numbers at x20% y28%; two divergent human shadows with no visible human cast across pale floor centered x48% y68%; stainless elevator doors right-center x70% y40%, faint warm slit of light. One fluorescent practical light. Unsettling clean architecture. Pale cream and blue-gray, muted moss lower wall. Style references: use supplied manga pages only for ink drawing and clean digital color. Do not copy existing characters. Precise fine black manga ink contours, rigorously constructed perspective, clean layered digital manga color, explicit cel shadow shapes with selective soft gradients. Cream ivory walls, natural medium warm brown wood, broad near-black forms with restrained gray highlights. Clean quiet surfaces, no sepia filter, no paper grain, no painterly rendering, no bloom. Reference comic page is only for rendering style and color; do not copy its characters or objects. For night scenes use clear indigo/blue-violet colors and small practical warm lights; never gray-brown filter.",
+    "refs": [
+      "D:\\无限异常\\art\\production-v3\\references\\vol02-193.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol01-140.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol01-007.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-4a744e25-49de-4bbf-a293-ab10bd3f7691.png"
+  },
+  {
+    "id": "world/elevator",
+    "prompt": "Use case: illustration-story. Finished full bleed widescreen 16:9 production environment background for original point-and-click game 无限异常. Single continuous image, NO panels, NO UI, NO captions or logos. Text in scene incidental tiny marks only. Objects must be in specified image positions because real click targets attach to them. Lower 20% may receive interface, so keep important story objects above 78%. Scene: First person inside ordinary stainless elevator. Reflective left wall x27% y43% contains the original protagonist: adult Chinese man 29, short neat black hair, broad straight nose, lavender gray crewneck T-shirt and plain black zipped jacket, dark trousers. His reflection raises one hand a little too late. Steel doors centered x55%, illuminated red digital number 10 topcenter x55% y13%, dark button panel on right x82% y40%. Cold blue metal, tiny warm lamp, visible pale skin. Clear three interactable areas. Style references: use supplied manga pages only for ink drawing and clean digital color. Do not copy existing characters. Precise fine black manga ink contours, rigorously constructed perspective, clean layered digital manga color, explicit cel shadow shapes with selective soft gradients. Cream ivory walls, natural medium warm brown wood, broad near-black forms with restrained gray highlights. Clean quiet surfaces, no sepia filter, no paper grain, no painterly rendering, no bloom. Reference comic page is only for rendering style and color; do not copy its characters or objects. For night scenes use clear indigo/blue-violet colors and small practical warm lights; never gray-brown filter.",
+    "refs": [
+      "D:\\无限异常\\art\\production-v3\\references\\vol02-193.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol01-140.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol01-007.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-1ff3912a-ee4d-44c8-ac00-f6afc63a2217.png"
+  },
+  {
+    "id": "world/telephone",
+    "prompt": "Use case: illustration-story. Finished full bleed widescreen 16:9 production environment background for original point-and-click game 无限异常. Single continuous image, NO panels, NO UI, NO captions or logos. Text in scene incidental tiny marks only. Objects must be in specified image positions because real click targets attach to them. Lower 20% may receive interface, so keep important story objects above 78%. Scene: A long pale apartment corridor receding to a closed dark wood door at x49% y44%. On left wall x30% y22% an ordinary round clock stuck at 11:59. At right x73% y57%, a small wooden console supports a black old-fashioned push-button telephone with disconnected cable. Rigorously exact depth perspective. Cool blue-gray walls, warm small wall lamps, cream floor, big quiet surfaces, no people. Style references: use supplied manga pages only for ink drawing and clean digital color. Do not copy existing characters. Precise fine black manga ink contours, rigorously constructed perspective, clean layered digital manga color, explicit cel shadow shapes with selective soft gradients. Cream ivory walls, natural medium warm brown wood, broad near-black forms with restrained gray highlights. Clean quiet surfaces, no sepia filter, no paper grain, no painterly rendering, no bloom. Reference comic page is only for rendering style and color; do not copy its characters or objects. For night scenes use clear indigo/blue-violet colors and small practical warm lights; never gray-brown filter.",
+    "refs": [
+      "D:\\无限异常\\art\\production-v3\\references\\vol02-193.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol01-140.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol01-007.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-c1e773a7-f514-4230-9ed1-a90594a3cdba.png"
+  },
+  {
+    "id": "world/courtyard",
+    "prompt": "Use case: illustration-story. Finished full bleed widescreen 16:9 production environment background for original point-and-click game 无限异常. Single continuous image, NO panels, NO UI, NO captions or logos. Text in scene incidental tiny marks only. Objects must be in specified image positions because real click targets attach to them. Lower 20% may receive interface, so keep important story objects above 78%. Scene: Empty ordinary Chinese residential courtyard at night, indigo blue-violet buildings with a few pale-yellow lit windows. Tall simple lamppost left x20% y40%, several large readable apartment windows around x62% y30%, wooden park bench with one ivory envelope at right x76% y65%. Two lamps illuminate different patches of pale pavement. Quiet trees silhouette, no people, no fog, believable lowrise residential buildings. Style references: use supplied manga pages only for ink drawing and clean digital color. Do not copy existing characters. Precise fine black manga ink contours, rigorously constructed perspective, clean layered digital manga color, explicit cel shadow shapes with selective soft gradients. Cream ivory walls, natural medium warm brown wood, broad near-black forms with restrained gray highlights. Clean quiet surfaces, no sepia filter, no paper grain, no painterly rendering, no bloom. Reference comic page is only for rendering style and color; do not copy its characters or objects. For night scenes use clear indigo/blue-violet colors and small practical warm lights; never gray-brown filter.",
+    "refs": [
+      "D:\\无限异常\\art\\production-v3\\references\\vol02-193.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol01-140.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol01-007.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-4c5efe16-dc74-4f5b-af59-0ede407733ff.png"
+  },
+  {
+    "id": "world/mailroom",
+    "prompt": "Use case: illustration-story. Finished full bleed widescreen 16:9 production environment background for original point-and-click game 无限异常. Single continuous image, NO panels, NO UI, NO captions or logos. Text in scene incidental tiny marks only. Objects must be in specified image positions because real click targets attach to them. Lower 20% may receive interface, so keep important story objects above 78%. Scene: Ordinary small residential mailroom office. Metal numbered mailboxes along left wall at x25% y40% with one open box holding envelopes. A heavy wooden sorting table middle foreground with an open ivory ledger at x60% y63%. One red wooden stamp prominently on table right x84% y55%. Disconnected fluorescent lamp, cream wall, gray metal, warm brown table, faint cool window light. Camera at eye height, objects easy to find, no people. Style references: use supplied manga pages only for ink drawing and clean digital color. Do not copy existing characters. Precise fine black manga ink contours, rigorously constructed perspective, clean layered digital manga color, explicit cel shadow shapes with selective soft gradients. Cream ivory walls, natural medium warm brown wood, broad near-black forms with restrained gray highlights. Clean quiet surfaces, no sepia filter, no paper grain, no painterly rendering, no bloom. Reference comic page is only for rendering style and color; do not copy its characters or objects. For night scenes use clear indigo/blue-violet colors and small practical warm lights; never gray-brown filter.",
+    "refs": [
+      "D:\\无限异常\\art\\production-v3\\references\\vol02-193.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol01-140.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol01-007.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-385132fd-846b-4d93-be13-255c4604f822.png"
+  },
+  {
+    "id": "world/rooftop",
+    "prompt": "Use case: illustration-story. Finished full bleed widescreen 16:9 production environment background for original point-and-click game 无限异常. Single continuous image, NO panels, NO UI, NO captions or logos. Text in scene incidental tiny marks only. Objects must be in specified image positions because real click targets attach to them. Lower 20% may receive interface, so keep important story objects above 78%. Scene: Ordinary Chinese lowrise residential rooftop at indigo night. Clothesline with three pale shirts upperleft x30% y27% and small key emerging from nearest shirt pocket. Plain dark rooftop access door center-right x60% y45%, thin warm cream light underneath. Old wall-mounted ventilation fan on right x81% y46%. Shallow puddle in foreground reflects the door; low parapet, blue-violet roofs beyond. Crisp quiet manga, no people, no dramatic fantasy effects. Style references: use supplied manga pages only for ink drawing and clean digital color. Do not copy existing characters. Precise fine black manga ink contours, rigorously constructed perspective, clean layered digital manga color, explicit cel shadow shapes with selective soft gradients. Cream ivory walls, natural medium warm brown wood, broad near-black forms with restrained gray highlights. Clean quiet surfaces, no sepia filter, no paper grain, no painterly rendering, no bloom. Reference comic page is only for rendering style and color; do not copy its characters or objects. For night scenes use clear indigo/blue-violet colors and small practical warm lights; never gray-brown filter.",
+    "refs": [
+      "D:\\无限异常\\art\\production-v3\\references\\vol02-193.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol01-140.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol01-007.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-476aff63-57f6-4db7-ac72-d55e42869fc8.png"
+  },
+  {
+    "id": "world/registrar",
+    "prompt": "Use case: illustration-story. Finished full bleed widescreen 16:9 production environment background for original point-and-click game 无限异常. Single continuous image, NO panels, NO UI, NO captions or logos. Text in scene incidental tiny marks only. Objects must be in specified image positions because real click targets attach to them. Lower 20% may receive interface, so keep important story objects above 78%. Scene: Close-medium environmental shot in ordinary registration office. Sinister registrar: middle aged male with long angular pale face, short neatly parted graying black hair, thin wire spectacles, gray-blue plain workers coat, ordinary ID badge at x53% y29%, seated behind wooden desk, pen hand x64% y53% paused above a ledger. Old opened ivory envelope left on desk x28% y64%. His face is readable and calm, small intense eyes, realistic manga facial structure. Warm lamp and cool blue shadows, no supernatural glowing eyes, no monsters, no gore. Style references: use supplied manga pages only for ink drawing and clean digital color. Do not copy existing characters. Precise fine black manga ink contours, rigorously constructed perspective, clean layered digital manga color, explicit cel shadow shapes with selective soft gradients. Cream ivory walls, natural medium warm brown wood, broad near-black forms with restrained gray highlights. Clean quiet surfaces, no sepia filter, no paper grain, no painterly rendering, no bloom. Reference comic page is only for rendering style and color; do not copy its characters or objects. For night scenes use clear indigo/blue-violet colors and small practical warm lights; never gray-brown filter.",
+    "refs": [
+      "D:\\无限异常\\art\\production-v3\\references\\vol02-193.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol01-140.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol01-007.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-fda81d90-3315-4125-aa0c-ec572829b7f0.png"
+  },
+  {
+    "id": "world/doors",
+    "prompt": "Use case: illustration-story. Finished full bleed widescreen 16:9 production environment background for original point-and-click game 无限异常. Single continuous image, NO panels, NO UI, NO captions or logos. Text in scene incidental tiny marks only. Objects must be in specified image positions because real click targets attach to them. Lower 20% may receive interface, so keep important story objects above 78%. Scene: Wide first-person view of impossible apartment hallway with exactly repeated plain dark brown doors arranged along both walls in convincing perspective. Foreground left door x23% y40% with dark gap underneath; repeated warm thin floor light from other doors. Scratched small wall panel center x52% y40%, wood floor seam clear right foreground x75% y68%. Pale cream walls, dark wood, quiet blue-gray end of hall. No people, no decorative effects. Style references: use supplied manga pages only for ink drawing and clean digital color. Do not copy existing characters. Precise fine black manga ink contours, rigorously constructed perspective, clean layered digital manga color, explicit cel shadow shapes with selective soft gradients. Cream ivory walls, natural medium warm brown wood, broad near-black forms with restrained gray highlights. Clean quiet surfaces, no sepia filter, no paper grain, no painterly rendering, no bloom. Reference comic page is only for rendering style and color; do not copy its characters or objects. For night scenes use clear indigo/blue-violet colors and small practical warm lights; never gray-brown filter.",
+    "refs": [
+      "D:\\无限异常\\art\\production-v3\\references\\vol02-193.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol01-140.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol01-007.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-228f3411-b428-43b6-8d1c-aa6cc3335e6d.png"
+  },
+  {
+    "id": "world/ledger",
+    "prompt": "Use case: illustration-story. Finished full bleed widescreen 16:9 production environment background for original point-and-click game 无限异常. Single continuous image, NO panels, NO UI, NO captions or logos. Text in scene incidental tiny marks only. Objects must be in specified image positions because real click targets attach to them. Lower 20% may receive interface, so keep important story objects above 78%. Scene: Climax in same ordinary registration office. Foreground desk holds ivory signed receipt on left x27% y63%, an open ledger center x54% y62% with abstract tiny illegible ink marks, no readable lettering. Middle-aged registrar with angular pale face, wire spectacles, short graying parted hair, gray-blue work coat behind desk at x57% y35%, recoiling with controlled but unmistakable fear. At right x83% y40%, ordinary wood door stands open to warm light. From bottom edge protagonist hand in plain black jacket extends a pen toward ledger. Strong clear story composition, manga weight and physical contact, no magic beams. Style references: use supplied manga pages only for ink drawing and clean digital color. Do not copy existing characters. Precise fine black manga ink contours, rigorously constructed perspective, clean layered digital manga color, explicit cel shadow shapes with selective soft gradients. Cream ivory walls, natural medium warm brown wood, broad near-black forms with restrained gray highlights. Clean quiet surfaces, no sepia filter, no paper grain, no painterly rendering, no bloom. Reference comic page is only for rendering style and color; do not copy its characters or objects. For night scenes use clear indigo/blue-violet colors and small practical warm lights; never gray-brown filter.",
+    "refs": [
+      "D:\\无限异常\\art\\production-v3\\references\\vol02-193.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol01-140.png",
+      "D:\\无限异常\\art\\production-v3\\references\\vol01-007.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-b06e3f92-9916-4881-a962-44c98a9d78d7.png"
+  },
+  {
+    "id": "memories/chapter1",
+    "prompt": "Create a finished BLACK AND WHITE manga memory page, portrait 2:3 ratio. Exactly THREE equally tall horizontal rows, each taking one third of image height. Each row has two sequential panels, left then right, with thin black frame and white gutters. No text, no speech balloons. The same adult Chinese man from reference 1: short black hair, black casual jacket, gray crewneck shirt, strong nose and jaw. TOP ROW: his feet enter the lobby from reference 2; then he notices two diverging shadows. MIDDLE ROW: inside elevator reference 1 he raises one hand; his reflection raises the opposite hand late. BOTTOM ROW: he reaches toward the disconnected phone in reference 3; closeup of his tense face staying silent. Do not illustrate a victory yet, these are remembered encounters. Pure black ink on white, fine line anatomy, careful black masses, true screentones, expressive manga composition; absolutely no color, no sepia, no gray photographic filter. Original redraw, not desaturation.",
+    "refs": [
+      "D:\\无限异常\\assets\\v3\\world\\elevator.png",
+      "D:\\无限异常\\assets\\v3\\world\\lobby.png",
+      "D:\\无限异常\\assets\\v3\\world\\telephone.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-c5b55ecd-b681-451e-a65b-6db509f5c58a.png"
+  },
+  {
+    "id": "memories/chapter2",
+    "prompt": "Finished BLACK AND WHITE manga memory page, portrait 2:3. Exactly THREE equally tall horizontal rows, each exactly one third of canvas height; two panels per row read left to right. No text or balloons. Same original adult male protagonist from reference1, black casual jacket short black hair. TOP ROW: he stands under the courtyard lamppost from reference2; closeup envelope on bench. MIDDLE ROW: open wall mailbox; his hand rests beside open ledger on a sorting desk with red wooden stamp rendered black. BOTTOM ROW: the rooftop from reference3 with shirts on line, fan and door; closeup of his face looking DOWN into a puddle reflection instead of turning around. Encounters only, no victory or result. Fine precise original manga ink, solid black areas, bright white faces, selective crosshatching and screentone; not gray photographic rendering, no color, no sepia.",
+    "refs": [
+      "D:\\无限异常\\assets\\v3\\world\\elevator.png",
+      "D:\\无限异常\\assets\\v3\\world\\courtyard.png",
+      "D:\\无限异常\\assets\\v3\\world\\rooftop.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-cc750537-1e7c-4103-b715-00b4703a79b7.png"
+  },
+  {
+    "id": "memories/chapter3",
+    "prompt": "Finished BLACK AND WHITE manga memory page, portrait 2:3. Exactly THREE equal-height horizontal rows, each one third of total canvas height, each row two consecutive panels read left to right. No writing or balloons. Same adult black-haired male protagonist from reference1, black casual jacket and crewneck shirt; same middle-aged gray-haired wire-spectacled registrar from reference2. TOP ROW: registrar pen paused over ledger; closeup on signed receipt in protagonist hand. MIDDLE ROW: repeated doors corridor from reference3; protagonist kneels to inspect a wood floor joint. BOTTOM ROW: protagonist lays receipt beside the ledger; extreme closeup of registrar eyes noticing it. IMPORTANT no victory shown yet, only tension of confrontation. Original fine manga ink line, clean white paper, strong black masses, selective screentone and facial structure. Pure black and white, no tint, not desaturated photo.",
+    "refs": [
+      "D:\\无限异常\\assets\\v3\\world\\elevator.png",
+      "D:\\无限异常\\assets\\v3\\world\\registrar.png",
+      "D:\\无限异常\\assets\\v3\\world\\doors.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-abdeb242-21a0-40ef-9b92-6b33ff9d4072.png"
+  },
+  {
+    "id": "world/ending",
+    "prompt": "Finished full bleed widescreen 16:9 concluding manga illustration for 无限异常. Reference1 is the exact original apartment entry layout; preserve the wall, cabinet left, router right, doorframe coordinates. Reference2 supplies original protagonist appearance. The dark brown wooden entry door is now OPEN inward revealing an ordinary seventh-floor apartment landing washed in pale morning blue and cream light, normal staircase railing visible. The original man in plain black casual jacket and lavender shirt is seen from behind stepping across threshold, carrying a closed sketchbook by his side. Small ordinary neighbor silhouette through landing window, no fantasy effect. The home remains tidy and comfortable, same geometry. Emotion: quiet satisfying liberation after defeating the rule keeper, the world has resumed. Precise fine manga ink, clear cream and wood local colors, pale morning blue, explicit cel shadows with selective soft gradient, no grain or sepia, no UI, no text.",
+    "refs": [
+      "D:\\无限异常\\assets\\v3\\home\\entry.png",
+      "D:\\无限异常\\assets\\v3\\world\\elevator.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-ee85ddc5-9c3a-47ac-8b83-69480ee3522d.png"
+  },
+  {
+    "id": "home/bathroom",
+    "prompt": "Precise object/material correction of the supplied finished game background. Keep every other pixel's composition, objects, outlines, color style and geometry. ONLY replace the visible brown wooden FLOOR with clean pale ivory ceramic square tiles that match the wall tile family. Bathroom floor must be ceramic, not wood. Keep the same fine clean ink and cel shading. 16:9, no text, no UI.",
+    "refs": [
+      "D:\\无限异常\\assets\\v3\\home\\bathroom.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-a04cdd3a-3f8d-40b9-ba18-ef8e41016309.png"
+  },
+  {
+    "id": "world/registrar",
+    "prompt": "Precise localized correction of supplied finished manga background. Preserve registrar exact face, glasses, gray hair, clothes, ID badge, hands and pen, all architecture, desk, envelope, camera and color. Remove every piece of large readable Japanese writing on wall poster, door placard, and foreground desk sign. Make the wall poster a simple faint blank grid form, door placard blank, and desk sign a plain pale card. All other content unchanged. Fine manga ink, no new text. 16:9.",
+    "refs": [
+      "D:\\无限异常\\assets\\v3\\world\\registrar.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-72137eaa-6d39-4326-b256-ecdecec1b145.png"
+  },
+  {
+    "id": "home/entry_open",
+    "prompt": "Use case: precise-object-edit. Create the OPEN DOOR state of the exact apartment in image1. Preserve camera and every wall corner, cabinet, router, breaker, floor, furniture, lighting and linework outside the door. Only swing the same brown entry door inward on its RIGHT hinge, so door leaf points toward viewer at the right side of door frame and the rectangular doorway opens fully. Through this opening see the cold blue-gray impossible elevator lobby from image2, with elevator hinted inside the doorway, no normal staircase. Empty scene, no people. Doorway must stay exactly x56.5%-73.5% and y13%-74% of canvas. Clean precise manga line and cel color matching image1, tidy home, no labels/UI/text, no grain, 16:9.",
+    "refs": [
+      "D:\\无限异常\\assets\\v3\\home\\entry.png",
+      "D:\\无限异常\\assets\\v3\\world\\lobby.png"
+    ],
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0d34a-56ab-7ea2-a388-895084ca6632\\exec-61aa6f71-2058-4051-a81c-2a4952e6ad98.png"
+  }
+]

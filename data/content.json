@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "tags": {"anchor": "回归锚定", "silence": "静默隔离"},
+  "dungeons": {
+    "A01": {
+      "name": "末班电梯", "subtitle": "不存在的十三层", "collection": "A01", "unlock_stage": "",
+      "description": "电梯停在不存在的十三层。门外没有住户，只有一张写着你姓名的门卡。派小队重返公寓，查明这栋建筑正在登记什么。",
+      "stages": ["A01_S1", "A01_S2", "A01_S3", "A01_S4", "A01_S5", "A01_S6"],
+      "farms": ["A01_FRONT", "A01_END"]
+    },
+    "B01": {
+      "name": "空站来信", "subtitle": "扩展验证 · 占位副本", "collection": "B01", "unlock_stage": "A01_S6",
+      "description": "一座停运车站持续寄出没有收件人的信。三阶段占位内容，用于验证跨副本解锁、独立卡册与保底。",
+      "stages": ["B01_S1", "B01_S2", "B01_S3"], "farms": ["B01_END"]
+    }
+  },
+  "stages": {
+    "A01_S1": {"name": "空无一人的大厅", "dungeon": "A01", "duration": 10, "power": 1, "tags": ["anchor"], "credits": 20, "energy": 5, "card": "A01_02", "comic": "A01_1"},
+    "A01_S2": {"name": "反向上升", "dungeon": "A01", "duration": 20, "power": 1, "tags": [], "credits": 20, "energy": 5, "card": "", "comic": "A01_2"},
+    "A01_S3": {"name": "没有接线的电话", "dungeon": "A01", "duration": 30, "power": 1, "tags": [], "credits": 20, "energy": 10, "card": "A01_03", "comic": "A01_3"},
+    "A01_S4": {"name": "住户确认", "dungeon": "A01", "duration": 30, "power": 2, "tags": ["silence"], "credits": 20, "energy": 5, "card": "", "comic": "A01_4"},
+    "A01_S5": {"name": "写着出口的墙", "dungeon": "A01", "duration": 30, "power": 2, "tags": ["silence"], "credits": 20, "energy": 5, "card": "A01_04", "comic": "A01_5"},
+    "A01_S6": {"name": "巡层员", "dungeon": "A01", "duration": 40, "power": 2, "tags": ["silence"], "credits": 40, "energy": 10, "card": "A01_08", "comic": "A01_6"},
+    "B01_S1": {"name": "停运月台", "dungeon": "B01", "duration": 15, "power": 2, "tags": ["anchor"], "credits": 25, "energy": 8, "card": "B01_01", "comic": "B01_1"},
+    "B01_S2": {"name": "未寄出的回信", "dungeon": "B01", "duration": 20, "power": 2, "tags": ["silence"], "credits": 25, "energy": 8, "card": "", "comic": "B01_2"},
+    "B01_S3": {"name": "末班邮车", "dungeon": "B01", "duration": 25, "power": 2, "tags": ["silence"], "credits": 40, "energy": 12, "card": "B01_03", "comic": "B01_3"}
+  },
+  "farms": {
+    "A01_FRONT": {"name": "前段回响", "dungeon": "A01", "unlock_stage": "A01_S3", "duration": 30, "credits": 20, "energy": 8, "pool": "A01_FRONT"},
+    "A01_END": {"name": "关底回响", "dungeon": "A01", "unlock_stage": "A01_S6", "duration": 30, "credits": 20, "energy": 8, "pool": "A01_END"},
+    "B01_END": {"name": "月台回响", "dungeon": "B01", "unlock_stage": "B01_S3", "duration": 30, "credits": 25, "energy": 10, "pool": "B01_END"}
+  },
+  "pools": {
+    "A01_FRONT": {"cards": ["A01_01", "A01_02", "A01_03", "A01_05", "A01_06"], "pity": 5},
+    "A01_END": {"cards": ["A01_01", "A01_02", "A01_03", "A01_04", "A01_05", "A01_06", "A01_07", "A01_08"], "pity": 5},
+    "B01_END": {"cards": ["B01_01", "B01_02", "B01_03"], "pity": 5}
+  },
+  "cards": {
+    "A01_01": {"name": "无主门卡", "case": "A01", "art": "key", "tag": "anchor", "source": "教程固定获得", "duplicate": 5, "rule": "卡面会浮现尚未入住者的姓名。触碰之后，原本不存在的门会短暂打开。", "containment": "门卡存入主神空间的锚定匣，建立小队可使用的回归坐标。"},
+    "A01_02": {"name": "倒行楼层牌", "case": "A01", "art": "floors", "tag": "", "source": "阶段 1 首通；前段池 / 关底池", "duplicate": 5, "rule": "显示经过者即将抵达的错误楼层。有人转身时，数字才会改变。", "containment": "拆下并置于无镜面封存框中，停止与公寓楼层同步。"},
+    "A01_03": {"name": "白噪声听筒", "case": "A01", "art": "phone", "tag": "silence", "source": "阶段 3 首通；前段池 / 关底池", "duplicate": 5, "rule": "没有接线，却能复述下一句话。它从不接受已经说出口的回答。", "containment": "在隔音罩中建立白噪声屏障，获得静默隔离能力。"},
+    "A01_04": {"name": "无门出口灯", "case": "A01", "art": "exit", "tag": "", "source": "阶段 5 首通；关底池", "duplicate": 5, "rule": "箭头指向一面完整的墙。停止确认出口的位置时，墙面会形成短暂通道。", "containment": "拆除方向标识，保留灯体作为异常通道的定位记录。"},
+    "A01_05": {"name": "逆时腕表", "case": "A01", "art": "watch", "tag": "", "source": "前段池 / 关底池", "duplicate": 5, "rule": "走针方向随楼层改变。回到大厅后，它比进入电梯前早一分钟。", "containment": "表冠固定在封存位，记录表盘与异常楼层的对应关系。"},
+    "A01_06": {"name": "空白住户册", "case": "A01", "art": "book", "tag": "", "source": "前段池 / 关底池", "duplicate": 5, "rule": "空白页缓慢形成来访者的记录。尚未签名的人，也会被写成住户。", "containment": "以不透明夹层隔开每一页，中断连续登记。"},
+    "A01_07": {"name": "无影名牌", "case": "A01", "art": "badge", "tag": "", "source": "关底池", "duplicate": 5, "rule": "名牌能映出房间，却不映出佩戴者。号码与十三层的空房一一对应。", "containment": "将名牌与住户记录分离保存，不再分配佩戴者。"},
+    "A01_08": {"name": "巡层员", "case": "A01", "art": "warden", "tag": "", "source": "阶段 6 首通；关底池", "duplicate": 5, "rule": "没有身份，却负责为所有人分配身份。它从不离开尚未登记完的楼层。", "containment": "隔离广播与名单后，将实体封入独立的空白登记区。"},
+    "B01_01": {"name": "无字车票", "case": "B01", "art": "key", "tag": "", "source": "停运月台首通；月台池", "duplicate": 5, "rule": "车票没有目的地，检票灯却始终亮着。", "containment": "占位档案：封存在不通向任何站台的票匣中。"},
+    "B01_02": {"name": "返程信封", "case": "B01", "art": "badge", "tag": "", "source": "月台池", "duplicate": 5, "rule": "每次拆封，信封内都会多出一个同样的信封。", "containment": "占位档案：停止拆封后登记最外层邮戳。"},
+    "B01_03": {"name": "末班邮袋", "case": "B01", "art": "book", "tag": "", "source": "末班邮车首通；月台池", "duplicate": 5, "rule": "邮袋没有重量，列车却因它一直无法离站。", "containment": "占位档案：移出邮车，封存最后一批未投递记录。"}
+  },
+  "collections": {
+    "A01": {"name": "末班电梯", "cards": ["A01_01", "A01_02", "A01_03", "A01_04", "A01_05", "A01_06", "A01_07", "A01_08"], "credits": 100, "energy": 30, "ending": "A01_END", "text": "十三层是一套持续寻找新住户的登记机制。门卡、广播、出口灯与巡层员分别封存后，名单停止增加。\n\n公寓恢复原有楼层。物业的纸质记录里，多了一页没有编号的住户名单；其中所有姓名都已被划去。\n\n主神空间保留这份记录。事件结案，后续探索转为封存回响采集。"},
+    "B01": {"name": "空站来信", "cards": ["B01_01", "B01_02", "B01_03"], "credits": 100, "energy": 30, "ending": "B01_END", "text": "车票、信封与邮袋封存后，停运车站不再寄出新的信件。月台时钟重新开始转动。\n\n这份占位结案用于验证独立的完成奖励和卡册状态。"}
+  },
+  "upgrades": {
+    "action": {"name": "行动中枢", "credits": 60, "energy": 20, "max": 1, "effect": "处置等级 1 → 2，满足末班电梯阶段 4 的等级门槛。", "preview": "临时终端 → 完整控制台；补齐供电线路与监视屏。"},
+    "display": {"name": "收容展示", "credits": 80, "energy": 25, "max": 1, "effect": "改善展柜；未来结案的信用点奖励提高 20%（原型参数）。不限制收容容量。", "preview": "开放式空柜 → 封存展柜、陈列灯与完整标签。"},
+    "living": {"name": "生活空间", "credits": 80, "energy": 0, "max": 1, "effect": "改善居住环境，纯视觉升级。", "preview": "简易床铺 → 完整床铺、照明、墙面和生活设备。"}
+  },
+  "comics": {
+    "OPEN": {"title": "开场 · 不存在的楼层", "panels": [
+      {"scene": "elevator", "text": "末班电梯里只有你一个人。显示屏跳到了不存在的十三层。"},
+      {"scene": "key", "text": "门外没有住户。一张无主门卡上，慢慢浮现你的姓名。"},
+      {"scene": "portal", "text": "触碰门卡的一瞬，走廊折起。你跌进一间陌生而安静的房间。"},
+      {"scene": "base", "text": "终端亮起：回归锚点已建立。你留在这里，小队将重返那栋公寓。"}
+    ]},
+    "A01_1": {"title": "01 · 空无一人的大厅", "panels": [
+      {"scene": "hall", "text": "两名队员沿着锚点抵达大厅。值班室里空无一人。"},
+      {"scene": "floors", "text": "楼层牌显示 12。队员转过身，数字变成了 11。"},
+      {"scene": "hall", "text": "他们再次回头，数字又少了一层。楼梯却始终没有尽头。"},
+      {"scene": "floors", "text": "将楼层牌从墙面分离。大厅停止变化，第一件异常被送回。"}
+    ]},
+    "A01_2": {"title": "02 · 反向上升", "panels": [
+      {"scene": "elevator", "text": "电梯门合拢。两人确认回归锚点，按下上行键。"},
+      {"scene": "floors", "text": "身体感到上升，楼层号却从 11 变成 10。"},
+      {"scene": "watch", "text": "一枚遗落的腕表开始倒转。电梯外传来翻动纸页的声音。"},
+      {"scene": "elevator", "text": "电梯停下。门缝后方，响起了一阵无人接听的铃声。"}
+    ]},
+    "A01_3": {"title": "03 · 没有接线的电话", "panels": [
+      {"scene": "hall", "text": "走廊尽头放着一部电话。线路被剪断，铃声仍然继续。"},
+      {"scene": "phone", "text": "听筒说：“这里没有人。”队员张开的嘴停在半空。"},
+      {"scene": "phone", "text": "他们停止说话，将听筒罩住。白噪声填满了狭小的隔音箱。"},
+      {"scene": "phone", "text": "收容登记完成。静默隔离已建立，前段区域可安全重复采集。"}
+    ]},
+    "BLOCKED": {"title": "前线受阻 · 暂时撤回", "panels": [
+      {"scene": "speaker", "text": "广播开始确认来访者的身份。队员的影子停在门口。"},
+      {"scene": "warden", "text": "新的住户记录正在形成。当前处置条件不足，停止深入。"},
+      {"scene": "key", "text": "小队启动回归锚点。已收容异常和已到账资源全部保留。"},
+      {"scene": "base", "text": "退回合法刷取段落继续采集。升级后，可主动重试前线。"}
+    ]},
+    "A01_4": {"title": "04 · 住户确认", "panels": [
+      {"scene": "speaker", "text": "广播再次响起：“请确认您的姓名。”"},
+      {"scene": "hall", "text": "静默隔离覆盖走廊。两名队员用手势确认，没有人回应。"},
+      {"scene": "book", "text": "正在生成的姓名停在最后一笔。住户确认没有完成。"},
+      {"scene": "hall", "text": "小队通过广播区。前方的绿色出口灯，照着一堵完整的墙。"}
+    ]},
+    "A01_5": {"title": "05 · 写着出口的墙", "panels": [
+      {"scene": "exit", "text": "出口箭头指向墙内。地面没有门槛，也没有使用过的痕迹。"},
+      {"scene": "hall", "text": "队员停止直视灯牌。墙面出现一道很窄的缝。"},
+      {"scene": "portal", "text": "利用短暂形成的通道，他们绕过了登记区。"},
+      {"scene": "exit", "text": "出口灯被分离封存。另一侧，一位没有名牌的人正在巡层。"}
+    ]},
+    "A01_6": {"title": "06 · 巡层员", "panels": [
+      {"scene": "warden", "text": "巡层员抬起住户册。制服上没有姓名，也没有编号。"},
+      {"scene": "book", "text": "它准备写下队员的身份。静默隔离使广播无法完成确认。"},
+      {"scene": "portal", "text": "回归锚点将名单与实体分离。巡层员走进独立的空白登记区。"},
+      {"scene": "warden", "text": "核心实体收容成功。关底回响已开放，剩余异常仍待登记。"}
+    ]},
+    "A01_END": {"title": "结案 · 不再增加的名单", "panels": [
+      {"scene": "book", "text": "八件异常全部登记，十三层的机制终于完整呈现。"},
+      {"scene": "floors", "text": "门卡、广播、灯与巡层员分别封存。楼层恢复原来的顺序。"},
+      {"scene": "hall", "text": "物业找到一页没有编号的名单。上面的姓名，全部被划去了。"},
+      {"scene": "base", "text": "事件结案。卡册获得永久金边，公寓的残余记录转入封存回响。"}
+    ]},
+    "B01_1": {"title": "占位 01 · 停运月台", "panels": [{"scene": "hall", "text": "小队抵达停运车站。"}, {"scene": "key", "text": "无字车票仍能通过检票口。"}, {"scene": "portal", "text": "锚点固定了月台的位置。"}, {"scene": "key", "text": "第一张车票送回主神空间。"}]},
+    "B01_2": {"title": "占位 02 · 未寄出的回信", "panels": [{"scene": "hall", "text": "售票窗口后传来读信声。"}, {"scene": "badge", "text": "信封里装着同样的信封。"}, {"scene": "phone", "text": "静默隔离阻止了新的回应。"}, {"scene": "hall", "text": "一辆邮车出现在月台边。"}]},
+    "B01_3": {"title": "占位 03 · 末班邮车", "panels": [{"scene": "hall", "text": "邮车上没有司机。"}, {"scene": "book", "text": "车厢里只剩一只邮袋。"}, {"scene": "portal", "text": "小队将它移出车厢。"}, {"scene": "book", "text": "邮袋收容，月台回响开放。"}]},
+    "B01_END": {"title": "占位结案 · 最后一封信", "panels": [{"scene": "badge", "text": "所有寄件记录完成核对。"}, {"scene": "book", "text": "邮袋不再生成新的信件。"}, {"scene": "watch", "text": "月台时钟重新开始转动。"}, {"scene": "base", "text": "独立卡册完成，封存回响保留。"}]}
+  }
+}

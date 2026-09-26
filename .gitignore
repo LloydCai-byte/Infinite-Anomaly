@@ -1,0 +1,18 @@
+.godot/
+.local/
+build/
+builds/
+backups/
+tmp/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+!.env.template
+export_credentials.cfg
+.git-credentials
+# Original study references are archived separately in the private Feishu repository.
+art/production-v3/references/
+art/comics/well-battle-2026-09-26/references/
+*.tmp
