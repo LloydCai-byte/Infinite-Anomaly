@@ -1,8 +1,8 @@
 @echo off
 setlocal
 cd /d "%~dp0"
-if exist "%~dp0builds\InfiniteAnomaly-1.0\InfiniteAnomaly.exe" (
-  start "" /D "%~dp0builds\InfiniteAnomaly-1.0" "%~dp0builds\InfiniteAnomaly-1.0\InfiniteAnomaly.exe" --main-pack "%~dp0builds\InfiniteAnomaly-1.0\InfiniteAnomaly.pck"
+if exist "%~dp0builds\InfiniteAnomaly-Reboot\InfiniteAnomaly.exe" (
+  start "" /D "%~dp0builds\InfiniteAnomaly-Reboot" "%~dp0builds\InfiniteAnomaly-Reboot\InfiniteAnomaly.exe" --main-pack "%~dp0builds\InfiniteAnomaly-Reboot\InfiniteAnomaly.pck"
   exit /b 0
 )
 if not exist ".local" mkdir ".local"
@@ -12,5 +12,6 @@ if not exist "%ANOMALY_GODOT%" (
   pause
   exit /b 1
 )
-start "" "%ANOMALY_GODOT%" --path "%~dp0." --log-file "%~dp0.local\game.log"
+start "" "%ANOMALY_GODOT%" --path "%~dp0." --log-file "%~dp0.local\reboot-game.log"
 exit /b 0
+

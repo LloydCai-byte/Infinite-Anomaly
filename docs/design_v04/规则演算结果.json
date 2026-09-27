@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "elevator_lobby pity",
+      "result": {
+        "empty_pool_max_samples": 7,
+        "one_owned_max_samples": 6,
+        "states_examined": 42
+      }
+    },
+    {
+      "check": "floor_13 pity",
+      "result": {
+        "empty_pool_max_samples": 7,
+        "one_owned_max_samples": 6,
+        "states_examined": 42
+      }
+    },
+    {
+      "check": "intro after first training and house upgrade",
+      "result": {
+        "food": 92,
+        "echo": 0
+      }
+    },
+    {
+      "check": "combat chapter clear",
+      "result": {
+        "food": 82,
+        "echo": 2,
+        "level": 3
+      }
+    },
+    {
+      "check": "perception chapter clear",
+      "result": {
+        "food": 82,
+        "echo": 2,
+        "level": 3
+      }
+    },
+    {
+      "check": "survival chapter clear",
+      "result": {
+        "food": 82,
+        "echo": 2,
+        "level": 3
+      }
+    },
+    {
+      "check": "lobby_repeat net",
+      "result": {
+        "per_run": "3/2",
+        "per_minute": "1"
+      }
+    },
+    {
+      "check": "lobby_repeat 10000 automated runs",
+      "result": {
+        "food": 3,
+        "echo": 15000,
+        "completed": 10000
+      }
+    },
+    {
+      "check": "floor_repeat net",
+      "result": {
+        "per_run": "3",
+        "per_minute": "6/5"
+      }
+    },
+    {
+      "check": "floor_repeat 10000 automated runs",
+      "result": {
+        "food": 1,
+        "echo": 30001,
+        "completed": 10000
+      }
+    },
+    {
+      "check": "safe stop and purchase reserve",
+      "result": "passed"
+    },
+    {
+      "check": "training refund ledger",
+      "result": {
+        "levels_1_to_7_investment": 54,
+        "full_refund": 54
+      }
+    },
+    {
+      "check": "illustrative idempotent ledger",
+      "result": "passed; runtime still needs implementation"
+    },
+    {
+      "check": "coverage boundary",
+      "result": "Checks paper formulas and proposed algorithm only; no Godot, UI, save-file or real playtest validation"
+    }
+  ]
+}

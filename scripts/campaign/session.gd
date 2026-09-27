@@ -19,6 +19,9 @@ var transient = false
 var last_save_held = false
 
 func _ready() -> void:
+	if str(ProjectSettings.get_setting("application/run/main_scene", "")).contains("continuity"):
+		set_process(false)
+		return
 	transient = "--campaign-test" in OS.get_cmdline_user_args() or "--campaign-capture" in OS.get_cmdline_user_args()
 	get_tree().auto_accept_quit = false
 	if transient: return
@@ -118,6 +121,7 @@ func apply_settings() -> void:
 		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN if s.fullscreen else DisplayServer.WINDOW_MODE_WINDOWED)
 
 func _notification(what: int) -> void:
+	if not is_processing(): return
 	if what == NOTIFICATION_APPLICATION_FOCUS_OUT and started:
 		paused = true
 		event.emit("pause")

@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-28",
+  "version": "0.4.0-chapter1",
+  "entry": "scenes/reboot/main.tscn",
+  "packed_files": 286,
+  "release_hash_entries": 85,
+  "hash_mismatches": 0,
+  "model_checks": 46,
+  "ui_assertions": 4079,
+  "pointer_checks": 35,
+  "persistence_checks": 12,
+  "failures": 0,
+  "package_headless_exit": 0,
+  "package_graphics_exit": 0,
+  "captures": [
+    "1600x900",
+    "1280x720"
+  ],
+  "feishu_revision": 244,
+  "pck_sha256": "4FE3D823663CD13E0BB304D2D0D840B1AD8FBAF283DC7711E9C84CCABAD56510"
+}

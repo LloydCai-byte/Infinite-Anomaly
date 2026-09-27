@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "new_blocks": [
+        {
+          "block_id": "doxcnYxhvW1BMt54EKHCVRIgxVe",
+          "block_token": "Iub6bKov7oWXLOxNTmHcXUhknEf",
+          "block_type": "image"
+        },
+        {
+          "block_id": "doxcntaptgbXFB8DmCFbbAouEVe",
+          "block_token": "LUdWbEMIno8VFexns0rc880MnJ1",
+          "block_type": "image"
+        },
+        {
+          "block_id": "doxcnxr4wbpNZQcRpuaOaOk2Kge",
+          "block_token": "WzVsbJdydo8bbkxmKY8cYpyHn4f",
+          "block_type": "image"
+        }
+      ],
+      "revision_id": 244,
+      "url": "https://c4onokeos5.feishu.cn/docx/V8Ked8XImoFShKxHIl0cQDsBnee"
+    },
+    "result": "success",
+    "warnings": []
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.94",
+      "latest": "1.0.96",
+      "message": "lark-cli 1.0.96 available, current 1.0.94, run: lark-cli update"
+    }
+  }
+}

@@ -16,3 +16,14 @@ export_credentials.cfg
 art/production-v3/references/
 art/comics/well-battle-2026-09-26/references/
 *.tmp
+# Original recordings, downloaded references and Feishu response snapshots.
+# Archived in the private Feishu reference ZIP rather than the public repository.
+minutes/
+docs/design-baseline-2026-09-27/
+docs/design-update-2026-09-27/
+docs/feishu-design-2026-09-27/
+docs/reboot-source-2026-09-27/
+docs/reboot-corrected-source-2026-09-27/
+docs/reference-research-2026-09-27/
+draft_1cd088fb_folder/
+draft_d45c8838_folder/

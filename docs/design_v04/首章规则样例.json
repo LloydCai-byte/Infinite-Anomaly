@@ -1,0 +1,37 @@
+{
+  "schema_version": "design-0.4",
+  "status": "proposal_not_runtime_data",
+  "initial": {"food": 100, "echo": 0, "combat": 1, "perception": 1, "survival": 1},
+  "economy": {
+    "food_cap": 200,
+    "food_per_echo": 4,
+    "echo_per_sample": 2,
+    "upgrade_cost_formula": "2 * current_level + 2",
+    "minimum_route_food": 2,
+    "safety_food": 1,
+    "home_costs": [4, 24, 80],
+    "final_construction_escrow": 100
+  },
+  "pity": {"non_new_samples_before_guarantee": 2, "scope": "per_pool", "full_pool_counter": 0},
+  "pools": [
+    {"id": "elevator_lobby", "cards": ["C01", "C02", "C03"], "weights": [50, 30, 20]},
+    {"id": "floor_13", "cards": ["C04", "C05", "C06"], "weights": [50, 30, 20]}
+  ],
+  "chapter": {
+    "id": "ch01",
+    "core_card": "C08",
+    "cards": ["C01", "C02", "C03", "C04", "C05", "C06", "C07", "C08"],
+    "first_story_segments": [
+      {"id": "N01_N02", "duration_s": 90, "food": 2, "any_stat_min": 1, "guaranteed_cards": ["C01"]},
+      {"id": "N03_N04", "duration_s": 150, "food": 4, "any_stat_min": 2, "guaranteed_cards": ["C07", "C04"], "recruit": "cheng_ye"},
+      {"id": "N05_N06", "duration_s": 150, "food": 4, "any_stat_min": 3, "guaranteed_cards": ["C08"]}
+    ],
+    "routes": [
+      {"id": "lobby_repeat", "unlock_after": "N02", "pool": "elevator_lobby", "duration_s": 90, "window_s": 240, "food": 2, "samples": 1, "any_stat_min": 1},
+      {"id": "floor_repeat", "unlock_after": "N04", "pool": "floor_13", "duration_s": 150, "window_s": 240, "food": 4, "samples": 2, "any_stat_min": 2}
+    ],
+    "tutorial_completed_route_rewards": ["C01", "C02", "C01"],
+    "next_chapter_requires": {"core_card": "C08", "home_stage_min": 1}
+  },
+  "save": {"version": 4, "autosave_active_minutes": 20, "rotating_normal_slots": 3, "game_over_must_not_overwrite": true}
+}

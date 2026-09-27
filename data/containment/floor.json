@@ -1,0 +1,498 @@
+{
+  "id": "floor",
+  "title": "不存在的楼层",
+  "start": "landing",
+  "nodes": {
+    "landing": {
+      "name": "门外的楼梯",
+      "image": "res://assets/continuity/story-floor/01.png",
+      "line": "门牌写着十楼。你刚才明明又往下走了一层。",
+      "spots": [
+        {
+          "id": "number",
+          "title": "核对门牌",
+          "rect": [
+            1080,
+            255,
+            120,
+            135
+          ],
+          "evidence": "number",
+          "text": "你记下了门牌。下楼前后都是十楼，脚步声却没有倒放。"
+        },
+        {
+          "id": "window",
+          "title": "看向窗外",
+          "rect": [
+            150,
+            100,
+            450,
+            460
+          ],
+          "evidence": "window",
+          "text": "对面的车一直向前开。外面的时间没有重来。"
+        },
+        {
+          "id": "down",
+          "title": "沿楼梯继续",
+          "rect": [
+            1110,
+            620,
+            520,
+            335
+          ],
+          "next": "stranger"
+        },
+        {
+          "id": "inspect",
+          "title": "辨认墙角痕迹",
+          "rect": [
+            660,
+            480,
+            130,
+            190
+          ],
+          "stat": "perception",
+          "threshold": 3,
+          "next": "trace",
+          "evidence": "trace"
+        }
+      ]
+    },
+    "stranger": {
+      "name": "楼道里的人",
+      "image": "res://assets/continuity/story-floor/02.png",
+      "line": "楼道里的人站在门牌下。他没有跟着你下楼，却又出现在这里。",
+      "spots": [
+        {
+          "id": "stranger",
+          "title": "和他交谈",
+          "rect": [
+            145,
+            250,
+            440,
+            650
+          ],
+          "choices": [
+            {
+              "id": "ask",
+              "label": "问他刚才有没有移动",
+              "evidence": "witness",
+              "text": "“我一直在这里。你从那边下去，过一会儿又从那边上来。”"
+            },
+            {
+              "id": "follow",
+              "label": "相信他指的方向",
+              "next": "follow"
+            },
+            {
+              "id": "reason_route",
+              "label": "根据已有线索推断",
+              "stat": "reason",
+              "threshold": 4,
+              "next": "trace",
+              "evidence": "trace"
+            }
+          ]
+        },
+        {
+          "id": "paper",
+          "title": "走近门牌下面的纸",
+          "rect": [
+            1570,
+            190,
+            310,
+            665
+          ],
+          "next": "note"
+        },
+        {
+          "id": "up",
+          "title": "回到楼梯口",
+          "rect": [
+            740,
+            80,
+            440,
+            350
+          ],
+          "next": "landing"
+        }
+      ],
+      "speech": {
+        "text": "你也在找十一层？",
+        "rect": [
+          620,
+          140,
+          420,
+          140
+        ],
+        "tail": [
+          505,
+          370
+        ]
+      }
+    },
+    "follow": {
+      "name": "另一个方向",
+      "image": "res://assets/continuity/story-floor/01.png",
+      "line": "你跟着他的手势走进暗处。脚下的台阶开始变得稀薄。",
+      "spots": [
+        {
+          "id": "retreat",
+          "title": "沿刚才的扶手退回",
+          "rect": [
+            220,
+            250,
+            400,
+            650
+          ],
+          "next": "stranger",
+          "evidence": "hazard",
+          "text": "你退回原处。他仍然站在门牌下面。"
+        },
+        {
+          "id": "jump",
+          "title": "跨过断开的台阶",
+          "rect": [
+            1090,
+            420,
+            560,
+            400
+          ],
+          "stat": "physique",
+          "threshold": 4,
+          "next": "trace",
+          "evidence": "trace"
+        },
+        {
+          "id": "persist",
+          "title": "继续向下走",
+          "rect": [
+            1200,
+            850,
+            410,
+            200
+          ],
+          "death": "你以为还有一级台阶。脚落下去时，那里已经没有任何东西。"
+        }
+      ]
+    },
+    "trace": {
+      "name": "墙角的划痕",
+      "image": "res://assets/continuity/story-floor/01.png",
+      "line": "同一道新划痕，出现在楼梯上下两个出口边上。",
+      "spots": [
+        {
+          "id": "check_trace",
+          "title": "比对划痕与门的位置",
+          "rect": [
+            480,
+            240,
+            580,
+            480
+          ],
+          "evidence": "connection",
+          "text": "划痕连着出口边缘。重复的是通路，不是时间，也不是那个人。"
+        },
+        {
+          "id": "trace_next",
+          "title": "沿划痕找到两扇门",
+          "rect": [
+            1210,
+            530,
+            510,
+            430
+          ],
+          "next": "doors"
+        }
+      ]
+    },
+    "note": {
+      "name": "纸角下面",
+      "image": "res://assets/continuity/story-floor/03.png",
+      "line": "纸角被反复揭起。背面还有一层被压住的字。",
+      "spots": [
+        {
+          "id": "read_note",
+          "title": "翻开纸角",
+          "rect": [
+            998,
+            349,
+            235,
+            297
+          ],
+          "evidence": "rule",
+          "text": "「灯灭的门通向家。亮灯的门，把两个出口接在一起。收容接缝，不要收人。」"
+        },
+        {
+          "id": "tool_note",
+          "title": "用收容夹照出压痕",
+          "rect": [
+            820,
+            570,
+            190,
+            210
+          ],
+          "stat": "dexterity",
+          "threshold": 3,
+          "evidence": "connection",
+          "text": "夹片贴上纸面，门框接缝的轮廓显现出来。"
+        },
+        {
+          "id": "continue",
+          "title": "走到两扇门前",
+          "rect": [
+            235,
+            510,
+            415,
+            430
+          ],
+          "next": "doors"
+        },
+        {
+          "id": "back_person",
+          "title": "回去询问那个人",
+          "rect": [
+            1480,
+            300,
+            340,
+            550
+          ],
+          "next": "stranger"
+        }
+      ]
+    },
+    "doors": {
+      "name": "两扇门",
+      "image": "res://assets/continuity/story-floor/04.png",
+      "line": "一盏灯亮着。两扇门之间，有一道几乎看不见的接缝。",
+      "spots": [
+        {
+          "id": "dark_door",
+          "title": "查看灯灭的门",
+          "rect": [
+            275,
+            190,
+            525,
+            685
+          ],
+          "choices": [
+            {
+              "id": "listen_dark",
+              "label": "贴近门听一听",
+              "evidence": "home",
+              "text": "门后有家里的声音，但接缝没有松开。先完成收容。"
+            },
+            {
+              "id": "return_home",
+              "label": "暂时回家",
+              "leave": true
+            },
+            {
+              "id": "nerve_route",
+              "label": "在门缝变化前记录它",
+              "stat": "nerve",
+              "threshold": 4,
+              "evidence": "connection",
+              "text": "你抓住了一瞬间：亮灯门的内侧，接着楼梯的另一端。"
+            }
+          ]
+        },
+        {
+          "id": "lit_door",
+          "title": "查看亮灯的门",
+          "rect": [
+            1110,
+            190,
+            525,
+            685
+          ],
+          "choices": [
+            {
+              "id": "listen",
+              "label": "听门里的脚步",
+              "evidence": "echo",
+              "text": "你向后退一步，脚步声从楼梯出口传来。声音穿过了不该相接的地方。"
+            },
+            {
+              "id": "open_lit",
+              "label": "推开门查看",
+              "next": "danger"
+            },
+            {
+              "id": "focus_route",
+              "label": "凭当前能力直接确认接缝",
+              "stat": "$focus",
+              "threshold": 4,
+              "evidence": "connection",
+              "next": "inspect"
+            }
+          ]
+        },
+        {
+          "id": "seam",
+          "title": "检查两扇门之间的接缝",
+          "rect": [
+            850,
+            280,
+            190,
+            530
+          ],
+          "next": "inspect"
+        },
+        {
+          "id": "back_note",
+          "title": "回去看那张纸",
+          "rect": [
+            40,
+            380,
+            160,
+            520
+          ],
+          "next": "note"
+        }
+      ]
+    },
+    "danger": {
+      "name": "门后的空处",
+      "image": "res://assets/continuity/story-floor/04.png",
+      "line": "亮灯门里没有地板。你抓住把手，身体已经悬空。",
+      "spots": [
+        {
+          "id": "survive",
+          "title": "稳住呼吸，沿门框攀回",
+          "rect": [
+            1050,
+            180,
+            560,
+            620
+          ],
+          "stat": "survival",
+          "threshold": 3,
+          "next": "doors",
+          "evidence": "hazard"
+        },
+        {
+          "id": "trust_voice",
+          "title": "松手，跟随下面的声音",
+          "rect": [
+            340,
+            490,
+            390,
+            390
+          ],
+          "death": "下面的声音和你一样。你松开手，再也没有落到地面。"
+        }
+      ]
+    },
+    "inspect": {
+      "name": "确认目标",
+      "image": "res://assets/continuity/story-floor/04.png",
+      "line": "收容夹只有一次闭合机会。你需要判断它该夹住什么。",
+      "spots": [
+        {
+          "id": "verify",
+          "title": "用脚步与划痕验证连接",
+          "rect": [
+            440,
+            600,
+            430,
+            200
+          ],
+          "verify": true,
+          "evidence": "connection",
+          "text": "你确认亮灯门接回了楼梯。异常位于门框的连接边界。"
+        },
+        {
+          "id": "prepare",
+          "title": "打开收容夹",
+          "rect": [
+            900,
+            520,
+            520,
+            310
+          ],
+          "containment": true
+        },
+        {
+          "id": "inspect_back",
+          "title": "暂时收起，继续调查",
+          "rect": [
+            100,
+            270,
+            290,
+            570
+          ],
+          "next": "doors"
+        }
+      ]
+    },
+    "threshold": {
+      "name": "回家的门",
+      "image": "res://assets/continuity/story-floor/05.png",
+      "line": "夹片合拢。亮灯门后的脚步声断开了，另一扇门透出家里的光。",
+      "spots": [
+        {
+          "id": "return_success",
+          "title": "推门回家",
+          "rect": [
+            670,
+            110,
+            615,
+            730
+          ],
+          "complete": true
+        },
+        {
+          "id": "look_result",
+          "title": "确认收容记录",
+          "rect": [
+            1320,
+            450,
+            420,
+            340
+          ],
+          "text": "收容夹内留下一道细线。门不再连接同一个出口。"
+        }
+      ]
+    }
+  },
+  "evidence": {
+    "number": "重复的十楼门牌",
+    "window": "外界时间继续前进",
+    "witness": "始终没有移动的人",
+    "rule": "纸背的收容提醒",
+    "trace": "重复的墙面痕迹",
+    "connection": "门框连接了错误的出口",
+    "hazard": "错误路线没有地面",
+    "home": "门后传来家中的声音",
+    "echo": "脚步从另一端传回"
+  },
+  "judgments": [
+    {
+      "id": "boundary",
+      "name": "亮灯门的接缝",
+      "reason": "出口被错误连接",
+      "correct": true
+    },
+    {
+      "id": "person",
+      "name": "站在楼道里的人",
+      "reason": "他出现在相同位置",
+      "correct": false
+    },
+    {
+      "id": "sign",
+      "name": "十楼的门牌",
+      "reason": "号码重复出现",
+      "correct": false
+    }
+  ],
+  "idle_sequence": [
+    "landing",
+    "stranger",
+    "note",
+    "doors",
+    "threshold"
+  ]
+}

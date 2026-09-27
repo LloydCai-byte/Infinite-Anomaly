@@ -1,0 +1,14 @@
+{
+  "round_seconds": 60,
+  "sequence": ["landing", "stranger", "note", "doors", "threshold"],
+  "drops": [
+    {"item":"paper", "count":2, "every":1},
+    {"item":"brass", "count":1, "every":1},
+    {"item":"button", "count":1, "every":3}
+  ],
+  "items": {
+    "paper":{"name":"写着十楼的纸片", "description":"纸上的楼层，和记忆里一样。"},
+    "brass":{"name":"门锁碎片", "description":"还留着一点手心的温度。"},
+    "button":{"name":"黑色纽扣", "description":"不记得从哪件衣服上掉下来的。"}
+  }
+}

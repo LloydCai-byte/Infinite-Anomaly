@@ -1,0 +1,55 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-27",
+  "prompts": [
+    {
+      "id": "bedroom-reading",
+      "prompt": "Use case: illustration-story. Asset: 16:9 full-screen game scene, 1920x1080 composition. Image 1 is the room edit target, image 2 is the heroine appearance reference (ignore all phone UI, text, selfie pose and other people), image 3 sets the simplified game drawing style. Preserve image 1 bedroom architecture, viewpoint, gray curtain positions on the left, green upper far wall, white lower wall, bed at right, wood floor, white table in foreground and right foreground brown door edge. Tidy comfortable ordinary Chinese home. Simplify all rendering to restrained full-color seinen manga: clear imperfect black ink lines, large flat local colors, only 1-2 shadow tones, black hair masses, ordinary realistic faces, absolutely no polished anime pin-up rendering, no glossy 3D textures. Add one adult female heroine sitting naturally on the foreground chair at the white table, turned three-quarter toward viewer, reading a small open book. Her appearance based closely on image 2: medium black hair loosely gathered back with long center-parted loose strands framing cheeks, fine rounded metal glasses, modest natural soft face, unexaggerated eyes, gentle quiet expression. Light gray casual loose overshirt over fully opaque white T-shirt, ordinary dark charcoal trousers. Do not copy sheer fabric. Keep enough visible face for recognition. Simplify desktop by removing stacked wire baskets/wooden organizer to clear face. On left area of table place a small retro cream tabletop radio with one round knob and a little warm gray square physical digital kitchen timer with blank dark display, plus white tea cup. Keep radio and timer distinct, visible, clickable-sized, not HUD. No text, no logos, no speech bubbles, no panels, no UI, no phone. Warm pale cream indoor lighting, muted sage, warm brown, gray, black. The woman is part of the space, correctly seated at the table, not a giant foreground portrait.",
+      "references": [
+        "D:/无限异常/assets/v3/home/bedroom.png",
+        "C:/Users/q/Desktop/微信图片_20260927030113_464_311.jpg",
+        "D:/无限异常/assets/continuity/home.png"
+      ],
+      "output": "art/continuity-stage2/reading-detailed-draft.png",
+      "selected": false
+    },
+    {
+      "id": "bedroom-reading-simple",
+      "prompt": "Edit image 1 ONLY to drastically simplify its DRAWING AND COLORING while preserving exact composition, all architecture, furniture, seated reading pose and identity. Image 2 is the required graphic simplicity target. Deliver single full-screen 16:9 game illustration. The first draft is too exquisite. Remove ALL cloth woven textures, stipple, small folds, crosshatching, polished reflections and strand-by-strand hair rendering. Her hair should be a large mostly solid BLACK ink silhouette with only 5-8 simple locks. Skin should be a flat light peach fill with ONE flat shadow shape, no makeup, no blush gradient, no airbrushed skin, no sparkling eyes. Fine rounded metal glasses remain unmistakable. Eyes ordinary-sized, realistic unglamorous face. Shirt two large flat pale-gray tones and only a handful of contour fold lines; trousers near-solid charcoal; no fabric texture. Background becomes broad flat cream/sage/gray/brown colors with only essential architectural black outlines, floor planks simple lines not woodgrain. Reduce minor bed wrinkles by 80 percent. Keep face matching photograph-derived image 1, natural and quiet. No text, UI, panels, speech bubbles or logos. It should look like an economical colored manga panel drawn with clean black pen, NOT an elaborate digital illustration. Keep radio and digital timer at same exact places and timer display blank.",
+      "references": [
+        "D:/无限异常/art/continuity-stage2/reading-detailed-draft.png",
+        "D:/无限异常/assets/continuity/story-floor/02.png"
+      ],
+      "output": "assets/continuity/companion/reading.png",
+      "selected": true
+    },
+    {
+      "id": "bedroom-tea",
+      "prompt": "Precise edit of the reference game scene for the SECOND idle pose. Keep the ENTIRE background, architecture, camera, framing, table, radio, timer, bed, chair and heroine clothing/face/hair/glasses absolutely the same. Change ONLY her arms, book and teacup: she has placed the closed sage book flat on the table near where she held it; now she holds the white teacup close to her mouth with two natural hands, eyes gently looking down toward the tea. Relaxed quiet reading break. Same adult woman, dark loosely gathered hair, long loose cheek-framing strands, thin rounded glasses, pale-gray overshirt over opaque white tee and charcoal trousers. Match exactly the simple black outlines and near-flat colors of reference. No intricate texture, no realistic rendering, no extra folds or hair strands. Preserve radio and small blank-display timer at exact positions. Single 16:9 image with NO text, HUD, bubbles, panels, logos, collage or border.",
+      "references": [
+        "D:/无限异常/assets/continuity/companion/reading.png"
+      ],
+      "output": "assets/continuity/companion/tea.png",
+      "selected": true
+    },
+    {
+      "id": "peephole",
+      "prompt": "Asset: an 8:9 near-portrait full-bleed game scene to occupy RIGHT HALF of a 16:9 game window. Image 1 defines the exact heroine identity, clothing and extremely simple colored manga linework. Image 2 defines the brown apartment entry door and cream wall design. Show same adult black-haired woman with loosely tied low hair, cheek framing strands, fine rounded glasses, pale gray open casual shirt over an opaque white T-shirt and dark trousers. Three-quarter side view, upper body and hips visible, she leans naturally to look through the small physical peephole at eye height in the CLOSED brown entry door. One hand rests on the door near the peephole, shoulders relaxed, curious expression, no glamour. She is standing at the actual door, eye aligned to the peephole, glasses still visible in profile. Door occupies left part of this portrait, heroine the right part, cream wall at far right. Ordinary eye-level camera from inside her home. Simple decisive black outlines, black hair masses, broad flat cream/brown/gray colors, two tone shadows, minimal detail. NO text, UI, comics panels, split screen, HUD, black sphere, sci-fi equipment, photographic gradients, dense texture. Output only this right-half illustration; game will separately draw the left-half exploration. Warm calm indoor light, same face and outfit as image 1.",
+      "references": [
+        "D:/无限异常/assets/continuity/companion/reading.png",
+        "D:/无限异常/assets/continuity/home.png"
+      ],
+      "output": "assets/continuity/companion/peephole.png",
+      "selected": true
+    },
+    {
+      "id": "entry-delivery-box",
+      "prompt": "Precise edit of image 1, a 16:9 game room background. Keep its exact architecture, camera, closed dark brown entry door, peephole, both cabinets, cream walls, floor, kitchen opening at far left, right foreground wooden table, and all their positions. Add ONLY a small open rectangular sturdy household storage box on the right foreground wooden table, fully inside frame, empty pale lining, simple dark gray sides and lid propped behind. It will be the game's delivery box. Sized about a laptop box, not huge chest. Draw it in matching simple black pen outlines and flat muted color. Leave its interior empty so game can add a small delivery indicator. Reduce unnecessary wood grain and gradients if needed to match economical colored manga, but never change layout or door/cabinet positions. No characters, no text, no HUD, no arrows, no icons, no sci-fi controls, no extra doors or windows. Quiet tidy ordinary home.",
+      "references": [
+        "D:/无限异常/assets/continuity/home.png"
+      ],
+      "output": "assets/continuity/companion/entry.png",
+      "selected": true
+    }
+  ]
+}

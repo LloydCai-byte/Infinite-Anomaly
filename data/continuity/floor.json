@@ -1,0 +1,56 @@
+{
+  "id": "floor_without_eleven",
+  "title": "不存在的楼层",
+  "card": {"id": "stair", "name": "没有十一层", "description": "向下走了一层，又回到了十楼。\n门牌没有变，回家的路却变了。", "image": "res://assets/continuity/story-floor/01.png"},
+  "start": "landing",
+  "nodes": {
+    "landing": {
+      "image": "res://assets/continuity/story-floor/01.png",
+      "line": "楼下的脚步声，停了。",
+      "spots": [
+        {"id":"window","title":"看向窗外","rect":[150,100,450,460],"text":"天还没黑。对面楼里，同一盏灯亮了两次。","flag":"window"},
+        {"id":"number","title":"看楼层牌","rect":[1080,255,110,115],"text":"十楼。和家门口一样。","flag":"number"},
+        {"id":"down","title":"往下走","rect":[1110,620,520,335],"next":"stranger","cue":"step"}
+      ]
+    },
+    "stranger": {
+      "image": "res://assets/continuity/story-floor/02.png",
+      "line": "明明往下走了，还是十楼。",
+      "speech":{"text":"你也在找十一层？","rect":[620,140,420,140],"tail":[505,370]},
+      "spots": [
+        {"id":"stranger","title":"问他怎么出去","rect":[145,250,440,650],"text":"他没有回答，只朝门牌下面指了指。","flag":"asked","speech":"看看那张纸。\n别急着选门。"},
+        {"id":"paper","title":"走近门牌","rect":[1570,190,310,665],"next":"note","cue":"step"}
+      ]
+    },
+    "note": {
+      "image": "res://assets/continuity/story-floor/03.png",
+      "line": "纸角翘了起来，像是有人刚刚翻过。",
+      "spots": [
+        {"id":"read_note","title":"翻开纸角","rect":[998,349,235,297],"text":"「门牌会骗人。灯灭的那扇门，才通向家。」","flag":"rule"},
+        {"id":"continue","title":"沿走廊继续","rect":[235,510,415,430],"next":"doors","cue":"step"}
+      ]
+    },
+    "doors": {
+      "image": "res://assets/continuity/story-floor/04.png",
+      "line": "两扇一模一样的门。一盏灯亮着。",
+      "spots": [
+        {"id":"dark_door","title":"灯灭的门","rect":[275,190,525,685],"choices":[
+          {"id":"quiet","label":"轻轻转动把手","next":"threshold","cue":"door"},
+          {"id":"force","label":"用力撞开","stat":"nerve","threshold":5,"next":"threshold","death":"你撞上了门。\n撞击声却从你的身后传来。"}
+        ]},
+        {"id":"lit_door","title":"亮着灯的门","rect":[1110,190,525,685],"choices":[
+          {"id":"open_lit","label":"推门进去","death":"灯突然熄了。\n你迈出一步，脚下却没有地面。"},
+          {"id":"listen","label":"贴近门听一听","text":"门后是你的声音。\n它正在数你还有几步。","flag":"heard"}
+        ]}
+      ]
+    },
+    "threshold": {
+      "image": "res://assets/continuity/story-floor/05.png",
+      "line": "是家里的灯光。地上多了一张卡。",
+      "spots": [
+        {"id":"take_card","title":"拾起卡片","rect":[670,900,235,125],"complete":true,"cue":"paper"},
+        {"id":"enter_home","title":"捡起卡片，回家","rect":[670,110,615,730],"complete":true,"cue":"return"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"keyword\" keyword=\"制作进度｜首章0.4.0\"><h1 id=\"doxcnxbFJA1MrbVAmjv9QOspnMb\">制作进度｜首章0.4.0（2026-09-28）</h1><p id=\"doxcnPhcxkFvXTfITA5xieDbN2e\">已按 V2.2 和“漫画平涂、正式画面、所有按钮使用素材”的要求开始制作，首个可玩版本已打包。以下图片均由运行中的 Godot 游戏截取。当前交付为第一章的四人基地与前三项任务，原制作方案中的后续章节继续保留。</p><h2 id=\"doxcntcme0unpeUZgyPtmrV62Ge\">现在可以玩到什么</h2><p id=\"doxcnYdAGgE90D0zcYg08M6QU6e\">开场广播 → 四人房间整备 → 选择任务 → 自动战斗 → 召回或结算 → 成长、制造和穿戴 → 再次挑战。已接入体质/武器/防具/能力升级、批量训练、基地 T2、三张异常卡、三独立存档、暂停、设置和恢复。</p><p id=\"doxcnlfmYKNi5td8Thb1UfKXzhc\">M01 废弃地铁为 3 波，M02 封闭公寓为 4 波，M03 高架桥底为 5 波。出战时锁定成长，波间只恢复幸存者，失败停止自动挑战；完成全任务才增加卡片胜场。正式任务的波数由任务配置决定。</p><h2 id=\"doxcn2IYzel53P0IzwXZdzVmIfe\">实际画面：基地与人物</h2><img id=\"doxcnYxhvW1BMt54EKHCVRIgxVe\" name=\"03-base.png\" caption=\"实际游戏：四名队员、任务门、打印机、训练与基地设施均可点击；底部提供对应快捷入口。&#xA;\" height=\"900\" mime=\"image/png\" scale=\"0.637499\" src=\"Iub6bKov7oWXLOxNTmHcXUhknEf\" width=\"1600\"/><p id=\"doxcnZ8jB4TBeSuJaIlT8eLcrGh\">本批资源包括基地 T1/T2 与三张战场背景、四名队员共 64 格动作、三类敌人与首领共 48 格动作、12 件装备插画。动作已运行，后续继续清理帧间造型与扩展完整动作集。</p><h2 id=\"doxcn3BqTTyk8KlZ1UcPyJKPoec\">实际画面：自动战斗</h2><img id=\"doxcntaptgbXFB8DmCFbbAouEVe\" name=\"06-battle.png\" caption=\"实际游戏：固定场景内双方自动跑动和攻击，可切换速度、查看统计、召回整备。截图来自测试记录，资源数值仅表示该存档。&#xA;\" height=\"900\" mime=\"image/png\" scale=\"0.637499\" src=\"LUdWbEMIno8VFexns0rc880MnJ1\" width=\"1600\"/><h2 id=\"doxcnWu1Wp98D4vFTLqFmLA7rwb\">实际画面：装备制造界面</h2><img id=\"doxcnxr4wbpNZQcRpuaOaOk2Kge\" name=\"04-printer.png\" caption=\"实际游戏：角色职业、武器/防具配方、Mk1/Mk2 与成品插画；未解锁时显示具体条件并禁用制造。&#xA;\" height=\"900\" mime=\"image/png\" scale=\"0.637499\" src=\"WzVsbJdydo8bbkxmKY8cYpyHn4f\" width=\"1600\"/><p id=\"doxcnfa1oNetYmd7SoUEVJYpXWg\">所有按钮接入专用 SVG 图形与图标，具备普通、悬停、按下、禁用和焦点状态。共 69 份 UI 图形资源；面板、进度条也使用资源贴图。</p><h2 id=\"doxcnR6W4noPBvC3UlXVpWxNOzb\">启动、验证与后续范围</h2><p id=\"doxcnpQRxw4pvCBLBcmEKVZpVwg\">本机双击 D:\\无限异常\\启动游戏.cmd，或运行 builds/InfiniteAnomaly-Reboot/InfiniteAnomaly.exe。当前工程入口为 scenes/reboot/main.tscn。历史收容版及其存档仍保留，通过“启动历史收容版.cmd”访问。</p><p id=\"doxcnchfIQLPze8u3XC7e2jWugc\">模型 46 项检查、界面 4079 项断言、跨进程存档 12 项检查通过；界面断言主要检查素材、边界与信号行为，不等于真人游玩次数。另已检查 1600×900/1280×720 实际画面与独立发行包启动。完整记录在本地 docs/重做首章实现与验收.md。</p><p id=\"doxcniLemZgaUrUn7d24IEs0MDe\">尚未实装：M04—M10、毕业揭示、房间往返投送网络、星际战争及结局。后续仍按原规则制作：原四人成为可永久阵亡的战士；房间放下四人后空房离开，返回培养四名新人，无需等前一批阵亡，持续循环输送。不会改为四人教官或复活模板。当前每名队员 16 格动作、首批合成音效及试运行数值也不代表完整动作、完整配乐与平衡工作已完成。</p></fragment>",
+      "document_id": "V8Ked8XImoFShKxHIl0cQDsBnee",
+      "revision_id": 244
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.94",
+      "latest": "1.0.96",
+      "message": "lark-cli 1.0.96 available, current 1.0.94, run: lark-cli update"
+    }
+  }
+}

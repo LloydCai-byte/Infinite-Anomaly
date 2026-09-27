@@ -15,6 +15,9 @@ var low_warning: int = 0
 var invalid_checkpoint: bool = false
 
 func _ready() -> void:
+	if str(ProjectSettings.get_setting("application/run/main_scene", "")).contains("continuity"):
+		set_process(false)
+		return
 	if str(ProjectSettings.get_setting("application/run/main_scene", "")).contains("campaign") and not "--home-test" in OS.get_cmdline_user_args() and not "--home-smoke" in OS.get_cmdline_user_args() and not "--home-capture" in OS.get_cmdline_user_args():
 		set_process(false)
 		return

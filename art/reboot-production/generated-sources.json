@@ -1,0 +1,54 @@
+{
+  "base": {
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0e366-79e6-7672-84a2-a0347e300381\\exec-c434c970-f9f7-4b32-82ba-a742c824d9fa.png",
+    "folder": "backgrounds"
+  },
+  "metro": {
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0e366-79e6-7672-84a2-a0347e300381\\exec-4518ff0c-c966-49f6-9d7b-beeb52bae038.png",
+    "folder": "backgrounds"
+  },
+  "qiaoyue": {
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0e366-79e6-7672-84a2-a0347e300381\\exec-28f2ed88-88d8-4f11-b56b-bd9461deaef3.png",
+    "folder": "characters"
+  },
+  "zhouji": {
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0e366-79e6-7672-84a2-a0347e300381\\exec-b13630ca-1545-4463-8754-4594b681dee1.png",
+    "folder": "characters"
+  },
+  "linheng": {
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0e366-79e6-7672-84a2-a0347e300381\\exec-c60cdc3e-049c-48ec-85c0-2df15435d004.png",
+    "folder": "characters"
+  },
+  "hewei": {
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0e366-79e6-7672-84a2-a0347e300381\\exec-c2de1bac-5ff6-4b27-a568-e18bdeeedb16.png",
+    "folder": "characters"
+  },
+  "apartment": {
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0e366-79e6-7672-84a2-a0347e300381\\exec-5f267259-0dcd-4cb9-9a6e-81f7c109eadc.png",
+    "folder": "backgrounds"
+  },
+  "overpass": {
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0e366-79e6-7672-84a2-a0347e300381\\exec-4a46aad7-b0df-48f8-ac8d-9aa3f925ca52.png",
+    "folder": "backgrounds"
+  },
+  "crawler": {
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0e366-79e6-7672-84a2-a0347e300381\\exec-ba70e4d0-19ca-4653-be54-d85028231a68.png",
+    "folder": "enemies"
+  },
+  "hollow": {
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0e366-79e6-7672-84a2-a0347e300381\\exec-37e1a61d-2e47-4f91-b5c3-615e7535fbfd.png",
+    "folder": "enemies"
+  },
+  "hound": {
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0e366-79e6-7672-84a2-a0347e300381\\exec-fc79cda9-9bed-4f22-a498-0fc3e23e4a36.png",
+    "folder": "enemies"
+  },
+  "base_t2": {
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0e366-79e6-7672-84a2-a0347e300381\\exec-54107891-8920-4297-8f82-27b0f5c94659.png",
+    "folder": "backgrounds"
+  },
+  "equipment": {
+    "source": "C:\\Users\\q\\.codex\\generated_images\\01a0e366-79e6-7672-84a2-a0347e300381\\exec-fc1c3f3d-fdde-4077-892c-91411285b13e.png",
+    "folder": "equipment"
+  }
+}
