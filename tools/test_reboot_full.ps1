@@ -14,6 +14,7 @@ function Invoke-GameCheck([string]$Name,[string]$Script,[string]$Success,[string
 }
 Invoke-GameCheck 'model' 'test_model' 'REBOOT_MODEL:.*0 failures' 'model-user'
 Invoke-GameCheck 'equipment' 'test_equipment' 'EQUIPMENT:.*0 failures' 'equipment-user'
+Invoke-GameCheck 'invincibility' 'test_invincibility' 'INVINCIBILITY:.*0 failures' 'invincibility-user'
 Invoke-GameCheck 'natural-progression' 'test_progression' 'NATURAL_PROGRESSION:.*0 failures' 'progression-user'
 Invoke-GameCheck 'campaign' 'test_campaign' 'CAMPAIGN:.*0 failures' 'campaign-user'
 Invoke-GameCheck 'ui' 'test_ui' 'REBOOT_UI:.*0 failures' 'ui-user'

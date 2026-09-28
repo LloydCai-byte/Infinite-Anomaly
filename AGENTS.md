@@ -2,7 +2,7 @@
 
 - 用户指定本工作区及其主对话用于 Godot 游戏《无限异常》。工作区为 `D:\无限异常`。
 - 本机工具入口、验证结果及已有实现参考见 `docs/本地工具清单.md`。开始相关工作时优先复用已经安装的工具。
-- 2026-09-28 当前入口为 `scenes/reboot/main.tscn`，发行包为 `builds/InfiniteAnomaly-Reboot-Full-0.5.1/`，根目录 `启动游戏.cmd` 启动完整流程版 0.5.1（装备强化修复）；0.5.0 保留于 `builds/InfiniteAnomaly-Reboot-Full/`；首章 0.4.0 发行包保留于 `builds/InfiniteAnomaly-Reboot/`。历史收容版 0.3.0 通过 `启动历史收容版.cmd` 或 `builds/InfiniteAnomaly-Full/` 启动。`containment`、`continuity`、`campaign` 均保留其资源、发行包和存档。
+- 2026-09-28 当前入口为 `scenes/reboot/main.tscn`，发行包为 `builds/InfiniteAnomaly-Reboot-Full-0.5.2/`，根目录 `启动游戏.cmd` 启动完整流程版 0.5.2（F1 全员无敌开关）；0.5.0 保留于 `builds/InfiniteAnomaly-Reboot-Full/`；首章 0.4.0 发行包保留于 `builds/InfiniteAnomaly-Reboot/`。历史收容版 0.3.0 通过 `启动历史收容版.cmd` 或 `builds/InfiniteAnomaly-Full/` 启动。`containment`、`continuity`、`campaign` 均保留其资源、发行包和存档。
 - 其他游戏目录中的脚本、素材和配置仅是实现参考；复用前检查目标路径、项目标识和版本，不能将它们默认视为《无限异常》的工程或发布目标。
 - 飞书 CLI 的正式入口是 `C:\Users\q\AppData\Roaming\npm\lark-cli.cmd`。沙箱可能无法访问该目录或 Windows 凭据库；曾在沙箱内显示无身份，而正常用户环境验证成功。先区分环境限制与真实登录失效，不因此直接重新登录。
 

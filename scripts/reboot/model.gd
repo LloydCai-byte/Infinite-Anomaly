@@ -6,6 +6,8 @@ var error = ""
 var notice = ""
 var events: Array = []
 var dirty = false
+# Session-only F1 switch; never written into a save.
+var invincible = false
 
 func _init() -> void:
 	reset("未命名基地")
@@ -47,7 +49,9 @@ func migrate() -> void:
 func in_war() -> bool: return s.phase=="war" and not s.history_active
 
 func war_model() -> RefCounted:
-	return War.new(s.war)
+	var war=War.new(s.war)
+	war.invincible=invincible
+	return war
 
 func graduate_ready() -> bool:
 	for d in C.MISSIONS:
@@ -412,7 +416,7 @@ func nearest(u: Dictionary, units: Array) -> Dictionary:
 	return best
 
 func hit(u: Dictionary, target: Dictionary, attack: float, penetration=1.0) -> void:
-	if target.hp<=0: return
+	if target.hp<=0 or (invincible and target.side==0): return
 	var damage=maxf(1,roundf(attack*100.0/(100.0+target.armor*penetration)))
 	var absorbed=minf(target.shield,damage)
 	target.shield-=absorbed

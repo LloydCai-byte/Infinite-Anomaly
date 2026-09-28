@@ -183,7 +183,24 @@ func draw() -> void:
 		"quit": quit_dialog()
 		"recovery","save_error": recovery()
 		_: campaign.draw_page(g.page)
+	update_invincibility()
 	refresh()
+
+func update_invincibility() -> void:
+	var previous=g.overlay.get_node_or_null("invincibility_indicator")
+	if previous!=null:
+		g.overlay.remove_child(previous)
+		previous.queue_free()
+	if g.model.invincible:
+		var indicator=Control.new()
+		indicator.name="invincibility_indicator"
+		indicator.position=Vector2(1110,62)
+		indicator.size=Vector2(340,36)
+		indicator.mouse_filter=Control.MOUSE_FILTER_IGNORE
+		g.overlay.add_child(indicator)
+		image(indicator,Art.ui("button_primary_normal"),Rect2(0,0,340,36))
+		image(indicator,Art.ui("icon_shield"),Rect2(13,7,22,22))
+		text(indicator,"F1 · 全员无敌已开启",Rect2(46,3,282,30),17,GOLD)
 
 func title_screen() -> void:
 	image(g.ui_root,Art.ui("vignette"),Rect2(0,0,1500,900))

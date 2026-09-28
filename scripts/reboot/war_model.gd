@@ -7,6 +7,7 @@ var s: Dictionary
 var events: Array=[]
 var dirty=false
 var error=""
+var invincible=false
 
 func _init(state: Dictionary={}) -> void: s=state
 
@@ -247,6 +248,7 @@ func combat(delta: float) -> void:
 	if s.hull<=0: finish("defeat")
 
 func damage_army(raw: float, order: Array) -> void:
+	if invincible: return
 	for a in order:
 		if raw<=0: break
 		if a.count<=0: continue

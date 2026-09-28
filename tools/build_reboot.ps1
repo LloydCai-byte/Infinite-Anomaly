@@ -1,7 +1,7 @@
 param([string]$Godot = 'D:\Godot\Godot_v4.7.1-stable_mono_win64\Godot_v4.7.1-stable_mono_win64_console.exe')
 $ErrorActionPreference = 'Stop'
 $rebootRoot = Split-Path -Parent $PSScriptRoot
-$rebootRelease = Join-Path $rebootRoot 'builds\InfiniteAnomaly-Reboot-Full-0.5.1'
+$rebootRelease = Join-Path $rebootRoot 'builds\InfiniteAnomaly-Reboot-Full-0.5.2'
 $rebootRuntime = Join-Path (Split-Path -Parent $Godot) 'Godot_v4.7.1-stable_mono_win64.exe'
 $env:APPDATA = Join-Path $rebootRoot '.local\reboot-build-env'
 New-Item -ItemType Directory -Force -Path $rebootRelease,$env:APPDATA | Out-Null

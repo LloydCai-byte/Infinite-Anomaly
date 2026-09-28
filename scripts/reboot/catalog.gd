@@ -1,6 +1,6 @@
 extends RefCounted
 ## Ten training operations. Each operation owns its wave schedule and enemy behavior.
-const VERSION = "0.5.1"
+const VERSION = "0.5.2"
 const PEOPLE = [
 	{"id":"qiaoyue","name":"乔越","age":24,"job":"快递员","role":"盾卫","icon":"shield","hp":240.0,"atk":22.0,"armor":12.0,"interval":1.2,"range":76.0,"skill":"护盾冲击","cd":12.0,"note":"先质疑规则，危险时却总是先挡在前面。","line":"先别问出口，我看见它过来了。"},
 	{"id":"zhouji","name":"周霁","age":30,"job":"电工","role":"射手","icon":"rifle","hp":160.0,"atk":28.0,"armor":5.0,"interval":1.0,"range":350.0,"skill":"连锁电击","cd":10.0,"note":"他比其他人更早注意到，房间里的设备一直在回应。","line":"电没断，断的是外面的声音。"},

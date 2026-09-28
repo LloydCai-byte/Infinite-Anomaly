@@ -89,6 +89,8 @@ func slot_store(n: int) -> RefCounted:
 func render() -> void:
 	ui.draw()
 	toast_label.position.y=48 if page=="equipment" else 719
+	toast_label.position.x=120 if page=="equipment" else 310
+	toast_label.size.x=950 if page=="equipment" else 980
 	set_music("battle" if view=="battle" or (view=="war" and model.s.war.active) else "base")
 	world.queue_redraw()
 
@@ -411,6 +413,13 @@ func save_settings() -> void:
 	commit()
 	back()
 	toast("设置已应用。")
+
+func _input(event: InputEvent) -> void:
+	if event is InputEventKey and event.pressed and not event.echo and (event.keycode==KEY_F1 or event.physical_keycode==KEY_F1):
+		model.invincible=not model.invincible
+		toast("全员无敌已开启 · F1 关闭" if model.invincible else "全员无敌已关闭")
+		ui.update_invincibility()
+		get_viewport().set_input_as_handled()
 
 func _unhandled_key_input(event: InputEvent) -> void:
 	if event.is_action_pressed("ui_cancel"):
