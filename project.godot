@@ -1,11 +1,11 @@
-; 无限异常 — reboot chapter one, manga flat-color production
+; 无限异常 — complete training and interstellar campaign
 config_version=5
 
 [application]
 config/name="无限异常"
-config/description="房间里的四个人。漫画平涂自动战斗与基地养成。"
+config/description="培养四人，送往星海。百万房间与真实远征。"
 run/main_scene="res://scenes/reboot/main.tscn"
-config/version="0.4.0-chapter1"
+config/version="0.5.0-campaign"
 config/icon="res://assets/reboot/ui/emblem.svg"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 

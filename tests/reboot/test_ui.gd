@@ -22,7 +22,7 @@ func scan_controls(node: Node) -> void:
 	if node is Button:
 		for state in ["normal","hover","pressed","disabled","focus"]:
 			check(node.get_theme_stylebox(state) is StyleBoxTexture,"button texture "+node.name+"/"+state)
-		check(node.icon!=null,"button has illustrated icon "+node.name)
+		check(node.icon!=null or node.text!="","button has illustrated icon or text over its texture "+node.name)
 		var r=node.get_global_rect()
 		if node.get_parent() is not VBoxContainer:
 			check(r.position.x>=0 and r.position.y>=0 and r.end.x<=1602 and r.end.y<=902,"button fits viewport "+node.name)

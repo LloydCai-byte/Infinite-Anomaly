@@ -88,7 +88,7 @@ func slot_store(n: int) -> RefCounted:
 
 func render() -> void:
 	ui.draw()
-	set_music("battle" if view=="battle" else "base")
+	set_music("battle" if view=="battle" or (view=="war" and model.s.war.active) else "base")
 	world.queue_redraw()
 
 func open(name: String, args: Dictionary={}) -> void:
@@ -106,6 +106,9 @@ func back() -> void:
 	if page=="result":
 		go_base()
 		return
+	if page=="war_result":
+		close_war_result()
+		return
 	if page=="recovery":
 		view="title"
 		history.clear()
@@ -117,7 +120,7 @@ func back() -> void:
 	elif not history.is_empty(): restore_page()
 	elif page!="": page=""
 	elif view=="battle": open("pause")
-	elif view=="base": open("pause")
+	elif view in ["base","war"]: open("pause")
 	else: open("quit")
 	auto_timer=-1
 	render()
@@ -130,7 +133,7 @@ func restore_page() -> void:
 		payload=r.payload
 
 func go_base() -> void:
-	view="base"
+	view="war" if model.in_war() else "base"
 	page=""
 	history.clear()
 	model.s.result={}
@@ -170,6 +173,9 @@ func load_game(n: int) -> bool:
 	committed=model.s.duplicate(true)
 	view="battle" if model.active() or not model.s.result.is_empty() else "base"
 	page="result" if not model.s.result.is_empty() else ("" if model.s.intro_done else "intro")
+	if model.in_war():
+		view="war"
+		page="war_result" if not model.s.war.result.is_empty() else ""
 	history.clear()
 	auto_timer=-1
 	render()
@@ -208,6 +214,10 @@ func perform(action: String, value: Variant=null) -> bool:
 		"train": ok=model.train()
 		"cancel_training": ok=model.cancel_training()
 		"facility": ok=model.facility()
+		"module_upgrade": ok=model.module_upgrade(str(value))
+		"module_equip": ok=model.module_equip(str(value))
+		"graduate": ok=model.graduate()
+		"history": ok=model.history_mode(bool(value))
 		"depart": ok=model.depart(str(value))
 		"recall": ok=model.recall()
 		"intro":
@@ -237,6 +247,11 @@ func perform(action: String, value: Variant=null) -> bool:
 		elif action=="intro" and model.s.intro_done:
 			page=""
 			toast("检查队员，然后从任务门出发。")
+		elif action=="graduate" or action=="history":
+			view="war" if model.in_war() else "base"
+			page=""
+			history.clear()
+			world.particles.clear()
 		elif action=="dismantle": restore_page()
 		if model.notice!="": toast(model.notice)
 		play_sound("upgrade" if action in ["upgrade","manufacture","facility"] else "click")
@@ -249,13 +264,16 @@ func perform(action: String, value: Variant=null) -> bool:
 	return ok
 
 func is_paused() -> bool:
-	return view=="title" or page in ["intro","pause","quit","settings","recall","dismantle","save_error","recovery","newsave","delete"] or (not model.s.settings.background and not get_window().has_focus() and not transient)
+	return view=="title" or page in ["intro","pause","quit","settings","recall","dismantle","save_error","recovery","newsave","delete","story","handoff","war_retreat","war_history"] or (not model.s.settings.background and not get_window().has_focus() and not transient)
 
 func _process(delta: float) -> void:
 	animation_clock+=delta
 	toast_clock=maxf(0,toast_clock-delta)
 	toast_label.visible=toast_clock>0
 	if not is_paused():
+		if model.in_war() and model.s.war.phase=="fight" and animation_clock-last_sound>.33 and model.war_model().soldiers()>0:
+			play_sound("heavy" if int(animation_clock*3)%4==0 else "shot")
+			last_sound=animation_clock
 		clock+=minf(delta,.2)*model.s.speed
 		while clock>=.05:
 			clock-=.05
@@ -263,11 +281,14 @@ func _process(delta: float) -> void:
 			process_events()
 			if page=="save_error": break
 		checkpoint+=delta
-		if model.dirty or checkpoint>=5:
+		if (model.dirty and not model.in_war()) or checkpoint>=5:
 			checkpoint=0
 			commit()
 	if auto_timer>0:
 		auto_timer-=delta
+		if auto_timer<=0 and page=="war_result" and model.s.war.auto_push:
+			if not model.s.war.story_queue.is_empty(): close_war_result()
+			else: war_action("launch",model.s.war.occupied)
 		if auto_timer<=0 and page=="result":
 			var id=str(model.s.result.get("mission","M01"))
 			if model.s.auto=="next":
@@ -290,6 +311,10 @@ func process_events() -> void:
 			last_sound=animation_clock
 		if e.type=="heal": play_sound("heal")
 		if e.type=="result":
+			if e.outcome=="victory":
+				var mission=str(model.s.result.mission)
+				var story={"M01":"first","M05":"rooftop","M10":"zero"}.get(mission,"")
+				if story!="" and not model.s.story_seen.has(story) and not model.s.story_queue.has(story): model.s.story_queue.append(story)
 			if not commit(): return
 			page="result"
 			history.clear()
@@ -301,7 +326,52 @@ func process_events() -> void:
 			toast(model.notice)
 			play_sound("upgrade")
 			render()
+		if e.type=="war_result":
+			if not commit(): return
+			view="war"
+			page="war_result"
+			history.clear()
+			auto_timer=5.0 if e.outcome=="victory" and model.s.war.auto_push and model.s.war.occupied<12 else -1.0
+			play_sound("victory" if e.outcome=="victory" else "defeat")
+			render()
+		if e.type=="war_death": toast(e.name+"已阵亡。身份永久归档，无法重建。")
 	model.events.clear()
+
+func war_action(action: String, value: Variant=null) -> bool:
+	if busy or not model.in_war(): return false
+	busy=true
+	var before=model.s.duplicate(true)
+	var war=model.war_model()
+	var ok=war.action(action,value)
+	if ok:
+		model.events.append_array(war.events)
+		if not commit(): busy=false;return false
+		if action in ["launch","next"]:
+			page=""
+			history.clear()
+			view="war"
+			world.particles.clear()
+		if action=="retreat":
+			page="war_result"
+			history.clear()
+		if action=="tech": play_sound("upgrade")
+		model.events.clear()
+	else:
+		model.s=before
+		toast(war.error)
+	busy=false
+	auto_timer=-1
+	render()
+	return ok
+
+func close_war_result() -> void:
+	model.s.war.result={}
+	page=""
+	history.clear()
+	auto_timer=-1
+	if not commit(): return
+	render()
+	if not model.s.war.story_queue.is_empty(): ui.campaign.begin_story(model.s.war.story_queue[0])
 
 func toast(text: String) -> void:
 	toast_label.text=text
@@ -347,6 +417,10 @@ func _unhandled_key_input(event: InputEvent) -> void:
 	elif event is InputEventKey and event.pressed and not event.echo and event.keycode==KEY_SPACE:
 		if page=="intro": perform("intro")
 		elif page=="dialogue": ui.next_dialogue()
+		elif page=="story": ui.campaign.next_story()
+
+func _exit_tree() -> void:
+	if ui!=null and ui.campaign!=null: ui.campaign.u=null
 
 func _notification(what: int) -> void:
 	if what==NOTIFICATION_WM_CLOSE_REQUEST:

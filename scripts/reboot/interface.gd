@@ -1,6 +1,8 @@
 extends RefCounted
 const Art=preload("res://scripts/reboot/art.gd")
 const C=preload("res://scripts/reboot/catalog.gd")
+const Campaign=preload("res://scripts/reboot/campaign_interface.gd")
+const Story=preload("res://scripts/reboot/story_catalog.gd")
 const INK=Color("e4e6d9")
 const MUTED=Color("a2b5b0")
 const ACCENT=Color("a5d6bd")
@@ -15,8 +17,11 @@ var recipe_slot="weapon"
 var recipe_mk=1
 var talk_index=0
 var gear_kind="weapon"
+var campaign: RefCounted
 
-func _init(game: Control) -> void: g=game
+func _init(game: Control) -> void:
+	g=game
+	campaign=Campaign.new(self)
 
 func large() -> bool:
 	return bool(g.settings_draft.get("large",g.model.s.settings.large)) if g.page=="settings" else bool(g.model.s.settings.large)
@@ -34,6 +39,7 @@ func image(parent: Control, tex: Texture2D, r: Rect2, contain=false) -> TextureR
 	n.size=r.size
 	n.stretch_mode=TextureRect.STRETCH_KEEP_ASPECT_CENTERED if contain else TextureRect.STRETCH_SCALE
 	n.mouse_filter=Control.MOUSE_FILTER_IGNORE
+	n.set_meta("layout_rect",r)
 	parent.add_child(n)
 	return n
 
@@ -79,18 +85,23 @@ func button(parent: Control, id: String, title: String, r: Rect2, callback: Call
 	var b=Button.new()
 	b.name=id.validate_node_name()
 	b.text=title
+	b.set_meta("layout_rect",r)
 	b.position=r.position
 	b.size=r.size
 	b.disabled=blocked
 	b.focus_mode=Control.FOCUS_ALL
 	b.mouse_default_cursor_shape=Control.CURSOR_POINTING_HAND
-	b.add_theme_font_size_override("font_size",20+(2 if large() else 0))
+	b.add_theme_font_size_override("font_size",(18 if r.size.x<170 and title!="" else 20)+(2 if large() else 0))
 	b.add_theme_color_override("font_color",INK)
 	b.add_theme_color_override("font_hover_color",Color("ffffff"))
 	b.add_theme_color_override("font_pressed_color",ACCENT)
 	b.add_theme_color_override("font_disabled_color",Color("7c8c89"))
 	for state in ["normal","hover","pressed","disabled","focus"]:
-		b.add_theme_stylebox_override(state,style("button_"+kind+"_"+state))
+		var button_style=style("button_"+kind+"_"+state)
+		if r.size.y<50:
+			button_style.set_content_margin(SIDE_TOP,4)
+			button_style.set_content_margin(SIDE_BOTTOM,4)
+		b.add_theme_stylebox_override(state,button_style)
 	if icon!="":
 		b.icon=Art.ui("icon_"+icon)
 		b.expand_icon=true
@@ -145,6 +156,7 @@ func draw() -> void:
 	form=null
 	if g.view=="title": title_screen()
 	elif g.view=="base": base_screen()
+	elif g.view=="war": campaign.war_main()
 	else: battle_screen()
 	match g.page:
 		"slots": slots()
@@ -170,6 +182,7 @@ func draw() -> void:
 		"pause": pause()
 		"quit": quit_dialog()
 		"recovery","save_error": recovery()
+		_: campaign.draw_page(g.page)
 	refresh()
 
 func title_screen() -> void:
@@ -189,8 +202,8 @@ func title_screen() -> void:
 	button(g.ui_root,"slots","开始新游戏" if recent==0 else "选择存档",Rect2(105,562 if recent>0 else 485,300,64),func():g.open("slots"),"door","primary" if recent==0 else "neutral")
 	button(g.ui_root,"settings","设置",Rect2(105,639 if recent>0 else 562,300,64),func():g.open("settings"),"settings")
 	button(g.ui_root,"quit","退出",Rect2(105,716 if recent>0 else 639,300,64),func():g.open("quit"),"exit")
-	text(g.ui_root,"第一章 · 房间里的四个人",Rect2(103,825,870,32),19,MUTED)
-	text(g.ui_root,"0.4.0",Rect2(1400,835,135,25),18,MUTED,HORIZONTAL_ALIGNMENT_RIGHT)
+	text(g.ui_root,"房间里的四个人  /  群星之间的一百万间房",Rect2(103,825,1080,32),19,MUTED)
+	text(g.ui_root,C.VERSION,Rect2(1400,835,135,25),18,MUTED,HORIZONTAL_ALIGNMENT_RIGHT)
 
 func topbar(title: String,subtitle: String) -> void:
 	image(g.ui_root,Art.ui("topbar"),Rect2(0,0,1600,96))
@@ -208,7 +221,12 @@ func base_screen() -> void:
 	var goal="从任务门出发，完成废弃地铁。"
 	if m.s.wins.M01>0: goal="升级体质与装备，挑战封闭公寓。"
 	if m.s.wins.M02>0: goal="清除高架桥底目标，解锁基地 T2。"
-	if m.s.wins.M03>0: goal="升级基地 T2，继续收集金卡与钻石卡。"
+	if m.s.wins.M03>0:
+		goal="继续完成十项试验，逐步升级基地设施。"
+		for d in C.MISSIONS:
+			if m.s.wins[d.id]==0: goal="下一目标："+d.id+" "+d.name;break
+	if m.s.wins.M10>0: goal="完善十张金卡，主动读取毕业简报。"
+	if m.s.history_active: goal="历史模拟 · 真实战争与运输已暂停。"
 	if m.active(): goal="小队出战中 · 可通过监控查看进度。"
 	live.goal=text(g.ui_root,goal,Rect2(574,13,407,60),20,ACCENT)
 	button(g.ui_root,"door_hotspot","任务门",Rect2(625,343,182,54),func():g.open("missions"),"door","primary")
@@ -235,6 +253,12 @@ func base_screen() -> void:
 		var e=entries[i]
 		button(g.ui_root,"nav_"+e[2],e[0],Rect2(41+i*254,805,237, sixty()),func():g.open(e[2]),e[1],"primary" if i==5 else "neutral")
 	live.training_base=text(g.ui_root,"",Rect2(77,777,1010,25),18,ACCENT)
+	button(g.ui_root,"journal","广播记录",Rect2(40,121,201,50),func():g.open("journal"),"file")
+	if not m.s.story_queue.is_empty(): button(g.ui_root,"new_story","新的广播",Rect2( forty_ui(),184,201,50),func():campaign.begin_story(m.s.story_queue[0]),"volume","primary")
+	if m.graduate_ready() and m.s.phase!="war": button(g.ui_root,"base_graduation","毕业简报",Rect2(40,247,201,50),func():g.open("graduation"),"file","primary")
+	if m.s.history_active: button(g.ui_root,"leave_history","退出历史模拟",Rect2( forty_ui(),247,246,50),func():g.perform("history",false),"back","primary")
+
+func forty_ui() -> float: return 40.0
 
 func sixty() -> float: return 60.0
 
@@ -261,6 +285,7 @@ func battle_screen() -> void:
 
 func refresh() -> void:
 	var m=g.model
+	campaign.refresh()
 	if live.has("credits"): live.credits.text=str(m.s.credits)+" 积分"
 	if live.has("alloy"): live.alloy.text=str(m.s.alloy)+" 合金"
 	if live.has("training_base"): live.training_base.text="培养中 · 还需 %d 秒"%ceili(m.s.training.remaining) if not m.s.training.is_empty() else "点击场景设施或下方入口进行整备。"
@@ -275,7 +300,7 @@ func refresh() -> void:
 			if not live.has("hp_%d"%i): continue
 			var u=b.units[i]
 			live["hp_%d"%i].value=maxf(0,u.hp/u.max_hp*100)
-			live["hp_label_%d"%i].text=("%d / %d"%[ceili(u.hp),roundi(u.max_hp)]) if u.hp>0 else "已倒下 · 等待返回"
+			live["hp_label_%d"%i].text=("%d / %d"%[ceili(u.hp),ceili(u.max_hp)]) if u.hp>0 else "已倒下 · 等待返回"
 	if live.has("training_time"):
 		live.training_time.text="剩余 %d 秒"%ceili(m.s.training.remaining) if not m.s.training.is_empty() else "训练已完成"
 		live.training_progress.value=(30-m.s.training.remaining)/30*100 if not m.s.training.is_empty() else 100
@@ -367,22 +392,7 @@ func intro() -> void:
 	button(box,"intro_next","继续广播  ·  空格",Rect2(1094,169,294,51),func():g.perform("intro"),"play","primary")
 
 func missions() -> void:
-	var m=g.model
-	var d=C.mission(m.s.selected_mission)
-	var p=modal("任务门","选择任务查看情报，确认小队后出发。")
-	image(p,Art.background(d.bg),Rect2(40,131,759,335))
-	image(p,Art.frame(d.enemy,8),Rect2(559,234,212,212),true)
-	text(p,d.id+"  "+d.name,Rect2(840,132,478,56),35)
-	text(p,d.desc,Rect2(841,208,466,88),22,MUTED)
-	separator(p,840,305,468)
-	text(p,"作战段数  %d 波\n参考战力  %d\n首领  %s"%[d.waves.size(),d.power,d.boss],Rect2(841,326,468,126),23)
-	text(p,"完成奖励  %d 积分 / %d 合金\n首胜解锁  %s"%[d.credits,d.alloy,d.reward],Rect2(841,470,468,92),21,GOLD)
-	for i in range(3):
-		var def=C.MISSIONS[i]
-		button(p,"mission_"+def.id,def.id+"\n"+def.name,Rect2(40+i*258,487,241,86),func():m.s.selected_mission=def.id;g.render(),"map" if m.unlocked(def.id) else "lock","primary" if d.id==def.id else "neutral")
-	text(p,"已完成 %d 次  ·  %s  ·  队伍战力 %d"%[m.s.wins[d.id],m.quality(d.id),m.power()],Rect2(40,588,760,42),20,ACCENT)
-	var why="小队已在出战" if m.active() else ("需先完成上一任务" if not m.unlocked(d.id) else ("训练尚未结束" if not m.s.training.is_empty() else ""))
-	button(p,"prepare",why if why!="" else "准备出发",Rect2(999,587,305,61),func():g.open("ready"),"door","primary",why!="")
+	campaign.missions()
 
 func ready() -> void:
 	var m=g.model
@@ -474,7 +484,7 @@ func equipment() -> void:
 		var b=button(list,"gear_"+v.id,("◆ " if v.id==current.id else "")+n,Rect2(0,0,529,68),func():selected_gear=v.id;g.render(),C.PEOPLE[i].icon if gear_kind=="weapon" else "shield","primary" if selected_gear==v.id else "neutral")
 		b.custom_minimum_size=Vector2(529,68)
 	var detail=panel(p,Rect2(637,205,663,337),"card")
-	image(detail,Art.frame("equipment",i+(4*(chosen.mk-1) if gear_kind=="weapon" else 8)),Rect2(23,17,117,119),true)
+	image(detail,Art.frame("equipment_advanced" if chosen.mk>=3 else "equipment",i+(4*(chosen.mk-3) if chosen.mk>=3 and gear_kind=="weapon" else (4*(chosen.mk-1) if gear_kind=="weapon" else 8))),Rect2(23,17,117,119),true)
 	text(detail,C.weapon_name(i,chosen.mk) if gear_kind=="weapon" else "复合防护衣",Rect2(162,25,461,47),30)
 	text(detail,"Mk.%02d  ·  Lv.%d"%[chosen.mk,chosen.level],Rect2(163,83,431,40),24,ACCENT)
 	var attack_diff=C.PEOPLE[i].atk*.1*(chosen.level-current.level)+10*(chosen.mk-current.mk)
@@ -505,6 +515,7 @@ func skills() -> void:
 	if not lock_notice(p,577):
 		text(p,"消耗 %d 积分 / %d 合金"%[180*level,4*level],Rect2(417,590,573, forty()),22,GOLD)
 		button(p,"upgrade_skill","升级能力" if level<5 else "已满级",Rect2(1013,580,290,59),func():g.perform("upgrade","skill"),"skill","primary",level>=5)
+	button(p,"second_slot","第二能力槽",Rect2(961,130,342,49),func():g.open("modules"),"skill","primary",m.s.tier<3)
 
 func training() -> void:
 	var m=g.model
@@ -532,45 +543,27 @@ func printer() -> void:
 		button(p,"recipe_person_%d"%i,C.PEOPLE[i].role,Rect2(42+i*225,132,208,52),func():recipe_role=i;g.render(),C.PEOPLE[i].icon,"primary" if i==recipe_role else "neutral")
 	button(p,"recipe_type", "武器配方" if recipe_slot=="weapon" else "防具配方",Rect2(1000,132,309,52),func():recipe_slot="armor" if recipe_slot=="weapon" else "weapon";g.render(),"rifle" if recipe_slot=="weapon" else "shield")
 	var plate=panel(p,Rect2(43,212,393,317),"card")
-	image(plate,Art.frame("equipment",recipe_role+(4*(recipe_mk-1) if recipe_slot=="weapon" else 8)),Rect2(45,28,304,207),true)
+	image(plate,Art.frame("equipment_advanced" if recipe_mk>=3 else "equipment",recipe_role+(4*(recipe_mk-3) if recipe_mk>=3 and recipe_slot=="weapon" else (4*(recipe_mk-1) if recipe_slot=="weapon" else 8))),Rect2(45,28,304,207),true)
 	text(plate,"Mk.%02d"%recipe_mk,Rect2(25,246,343,45),32,ACCENT,HORIZONTAL_ALIGNMENT_CENTER)
 	text(p,C.weapon_name(recipe_role,recipe_mk) if recipe_slot=="weapon" else "复合防护衣",Rect2(480,213,820,56),35)
 	text(p,"适用队员  "+C.PEOPLE[recipe_role].name+"\n初始等级  Lv.1\n额外属性  "+("攻击" if recipe_slot=="weapon" else "护甲")+" +%d"%((recipe_mk-1)*10),Rect2(483,294,814,136),24,MUTED)
-	for i in range(2):
+	for i in range(4):
 		var mk=i+1
 		button(p,"recipe_mk_%d"%mk,"Mk.%02d"%mk,Rect2(485+i*206,453,188,55),func():recipe_mk=mk;g.render(),"printer","primary" if recipe_mk==mk else "neutral")
 	var why=""
 	if m.s.wins.M01<1: why="完成 M01 后开放打印配方。"
 	elif recipe_mk==2 and (m.s.wins.M02<1 if recipe_role==1 else m.s.wins.M03<1): why="完成 %s 后解锁此配方。"%("M02" if recipe_role==1 else "M03")
+	if recipe_mk==3 and m.s.wins.M08<1: why="完成 M08 解锁 Mk.03。"
+	if recipe_mk==4 and m.s.wins.M10<1: why="完成 M10 解锁 Mk.04。"
 	if not lock_notice(p,574):
-		text(p,why if why!="" else "固定制造费用  %d 积分 / %d 合金"%[100 if recipe_mk==1 else 180,4 if recipe_mk==1 else 6],Rect2(43,579,880, fifty()),22,GOLD)
+		text(p,why if why!="" else "固定制造费用  %d 积分 / %d 合金"%C.MK_COST[recipe_mk-1],Rect2(43,579,880, fifty()),22,GOLD)
 		button(p,"manufacture","打印成品",Rect2(1000,576,310, sixty()),func():g.perform("manufacture",{"role":recipe_role,"slot":recipe_slot,"mk":recipe_mk}),"printer","primary",why!="")
 
 func facility() -> void:
-	var m=g.model
-	var p=modal("基地设施","配电、打印与培养统一由基地等级统筹。")
-	image(p,Art.background("base_t2" if m.s.tier>=2 else "base"),Rect2(40,135,745,419))
-	image(p,Art.ui("emblem"),Rect2(985,137,132,132))
-	text(p,"基地 T%d"%m.s.tier,Rect2(847,277,419, sixty()),38,INK,HORIZONTAL_ALIGNMENT_CENTER)
-	text(p,"当前成长上限  Lv.%d\n下一阶段上限  Lv.10\n升级需求  M03 首次完成"%m.cap(),Rect2(842,368,461,141),22,MUTED)
-	if not lock_notice(p,583):
-		text(p,"T2 费用：500 积分 / 12 合金" if m.s.tier<2 else "当前章节的设施已全部建成。",Rect2(48,583,899, forty()),23,GOLD)
-		button(p,"upgrade_facility","升级至 T2" if m.s.tier<2 else "T2 已建成",Rect2(1000,575,306,64),func():g.perform("facility"),"facility","primary",m.s.tier>=2)
+	campaign.facility()
 
 func cards() -> void:
-	var m=g.model
-	var p=modal("异常档案","完成任务记录目标。8 次胜利成为金卡，25 次成为钻石卡。")
-	for i in range(3):
-		var d=C.MISSIONS[i]
-		var quality=m.quality(d.id)
-		var c=panel(p,Rect2(47+i*431,137,404,485),"card_gold" if quality=="金卡" else ("card_diamond" if quality=="钻石" else "card"))
-		image(c,Art.background(d.bg),Rect2(13,13,378,202))
-		var figure=image(c,Art.frame(d.enemy,8),Rect2(73,36,258,242),true)
-		if m.s.wins[d.id]==0: figure.modulate=Color(.07,.10,.10,1)
-		text(c,d.boss,Rect2(24,282,356,46),30,INK,HORIZONTAL_ALIGNMENT_CENTER)
-		text(c,quality+"  ·  %d 次完成"%m.s.wins[d.id],Rect2(24,336,356,36),21,GOLD,HORIZONTAL_ALIGNMENT_CENTER)
-		bar(c,Rect2(32,392,340,12),float(m.s.wins[d.id])/(25 if m.s.wins[d.id]>=8 else 8)*100,true)
-		button(c,"card_"+d.id,"查看档案",Rect2(57,429,291, fifty()),func():g.open("card_detail",{"mission":d.id}),"file")
+	campaign.cards()
 
 func card_detail() -> void:
 	var m=g.model
@@ -588,16 +581,21 @@ func dialogue() -> void:
 	var i=int(g.model.s.selected_person)
 	var p=modal("广播交谈  /  "+C.PEOPLE[i].name,"对话会保存在人物记录中，不影响装备与任务解锁。")
 	image(p,Art.frame(C.PEOPLE[i].id,13),Rect2(64,150,310,455),true)
-	var entry=C.CONVERSATIONS[i][mini(talk_index,2)]
+	var conversation=current_conversation(i)
+	var entry=conversation[mini(talk_index,conversation.size()-1)]
 	text(p,entry[0],Rect2(437,176,846,61),35,ACCENT)
 	text(p,entry[1],Rect2(437,285,843,168),30)
 	if talk_index==1:
 		button(p,"response_calm","我在这里。",Rect2(438,516,377,65),next_dialogue,"volume","primary")
 		button(p,"response_direct","先完成这次任务。",Rect2(839,516,446,65),next_dialogue,"volume")
-	else: button(p,"dialogue_next","结束交谈" if talk_index>=2 else "继续  ·  空格",Rect2(980,551,311,64),next_dialogue,"chat","primary")
+	else: button(p,"dialogue_next","结束交谈" if talk_index>=current_conversation(i).size()-1 else "继续  ·  空格",Rect2(980,551,311,64),next_dialogue,"chat","primary")
+
+func current_conversation(i: int) -> Array:
+	if g.model.s.wins.M05>0: return Story.talk(i,2 if g.model.s.wins.M10>0 else 1)
+	return C.CONVERSATIONS[i]
 
 func next_dialogue() -> void:
-	if talk_index>=2:
+	if talk_index>=current_conversation(int(g.model.s.selected_person)).size()-1:
 		if not g.model.s.selected_person in g.model.s.dialogues: g.model.s.dialogues.append(g.model.s.selected_person)
 		g.commit()
 		g.back()
@@ -624,8 +622,8 @@ func result() -> void:
 	button(p,"result_stats","查看统计",Rect2(340,589,243,60),func():g.open("stats"),"stats")
 	button(p,"result_repeat","再次出发",Rect2(726,589,271,60),func():g.perform("depart",d.id),"door")
 	var idx=C.MISSIONS.find(d)+1
-	if victory and idx<3: button(p,"result_next","下一任务",Rect2(1014,589,292,60),func():g.perform("depart",C.MISSIONS[idx].id),"play")
-	elif victory: text(p,"第一章三个任务已完成",Rect2(1014,590,292,59),21,ACCENT,HORIZONTAL_ALIGNMENT_CENTER)
+	if victory and idx<C.MISSIONS.size(): button(p,"result_next","下一任务",Rect2(1014,589,292,60),func():g.perform("depart",C.MISSIONS[idx].id),"play")
+	elif victory: text(p,"十项试验已全部开放",Rect2(1014,590,292,59),21,ACCENT,HORIZONTAL_ALIGNMENT_CENTER)
 
 func stats() -> void:
 	var p=modal("战斗统计","统计来自本次实际战斗事件，治疗只记录有效恢复量。")
@@ -669,6 +667,9 @@ func pause() -> void:
 			g.history.clear()
 			g.render(),"save")
 	button(p,"pause_quit","保存并退出",Rect2(638,435,540,68),g.quit_game,"exit")
+	if g.model.in_war():
+		button(p,"pause_history","历史模拟",Rect2(638,533,258, sixty()),func():g.open("war_history"),"home", "neutral",g.model.s.war.active)
+		button(p,"pause_journal","远征记录",Rect2(915,533,263, sixty()),func():g.open("journal"),"file")
 
 func quit_dialog() -> void:
 	var p=modal("退出游戏","退出前将保存当前进度，关闭期间不进行离线战斗。")

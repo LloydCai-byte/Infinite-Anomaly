@@ -1,5 +1,6 @@
 extends RefCounted
 const C = preload("res://scripts/reboot/catalog.gd")
+const War = preload("res://scripts/reboot/war_model.gd")
 var s: Dictionary = {}
 var error = ""
 var notice = ""
@@ -16,18 +17,69 @@ func reset(base_name: String) -> void:
 		s.people.append(p)
 		s.inventory.append({"id":p.weapon,"role":i,"slot":"weapon","mk":1,"level":1})
 		s.inventory.append({"id":p.armor,"role":i,"slot":"armor","mk":1,"level":1})
+	migrate()
 	error = ""
 	dirty = true
 
 func import_state(data: Dictionary) -> bool:
-	if int(data.get("schema_version",0)) != 1:
+	if int(data.get("schema_version",0)) not in [1,2]:
 		error = "此存档版本与当前程序不兼容，原文件已保留。"
 		return false
 	if not data.get("people",[]) is Array or data.people.size()!=4 or not data.get("wins",{}) is Dictionary or not data.has("inventory"):
 		error = "存档内容不完整，原文件已保留。"
 		return false
 	s = data.duplicate(true)
+	migrate()
 	events.clear()
+	return true
+
+func migrate() -> void:
+	s.schema_version=2
+	s.design_version=C.VERSION
+	for mission in C.MISSIONS:
+		if not s.wins.has(mission.id): s.wins[mission.id]=0
+	for p in s.people:
+		if not p.has("modules"): p.modules={}
+		if not p.has("module"): p.module=""
+	for pair in [["phase","training"],["war",{}],["history_active",false],["reveal_read",false],["story_seen",[]],["story_queue",[]]]:
+		if not s.has(pair[0]): s[pair[0]]=pair[1]
+
+func in_war() -> bool: return s.phase=="war" and not s.history_active
+
+func war_model() -> RefCounted:
+	return War.new(s.war)
+
+func graduate_ready() -> bool:
+	for d in C.MISSIONS:
+		if s.wins[d.id]<8: return false
+	return true
+
+func graduate() -> bool:
+	if s.phase=="war": return fail("房间网络已经接管，交接只能发生一次。")
+	if not graduate_ready() or not s.reveal_read: return fail("完成十张金卡并阅读毕业简报后才能接管。")
+	if not growth_available(): return false
+	var originals=[]
+	for i in range(4):
+		var d=stats(i)
+		d.merge({"id":C.PEOPLE[i].id,"name":C.PEOPLE[i].name,"role":i,"equipment":s.people[i].duplicate(true),"skill":s.people[i].skill,"module":s.people[i].module,"modules":s.people[i].modules.duplicate(true)})
+		originals.append(d)
+	s.war=War.create(originals)
+	s.phase="war"
+	s.auto="return"
+	s.result={}
+	s.battle={}
+	dirty=true
+	return true
+
+func history_mode(enabled: bool) -> bool:
+	if s.phase!="war": return fail("历史模拟在接管房间网络后开放。")
+	if enabled and s.war.get("active",false): return fail("请先结束战斗或撤退，再进入历史模拟。")
+	if active(): recall()
+	s.battle={}
+	s.result={}
+	s.auto="return"
+	s.history_active=enabled
+	dirty=true
 	return true
 
 func item(id: String) -> Dictionary:
@@ -54,7 +106,9 @@ func active() -> bool:
 	return not s.battle.is_empty() and s.battle.get("active",false)
 
 func unlocked(id: String) -> bool:
-	return id=="M01" or (id=="M02" and s.wins.M01>0) or (id=="M03" and s.wins.M02>0)
+	for i in range(C.MISSIONS.size()):
+		if C.MISSIONS[i].id==id: return i==0 or s.wins[C.MISSIONS[i-1].id]>0
+	return false
 
 func cap() -> int: return int(s.tier)*5
 
@@ -63,6 +117,7 @@ func fail(message: String) -> bool:
 	return false
 
 func growth_available() -> bool:
+	if in_war(): return fail("真实战士已交接，训练档案只能在历史模拟中调整。")
 	if active(): return fail("小队正在出战，召回后才可升级、制造或换装。")
 	if not s.training.is_empty(): return fail("队员正在训练，请等待完成或取消训练。")
 	return true
@@ -100,10 +155,13 @@ func upgrade(index: int, kind: String) -> bool:
 
 func manufacture(role: int, slot_name: String, mk: int) -> bool:
 	if not growth_available(): return false
+	if role<0 or role>3 or slot_name not in ["weapon","armor"] or mk not in [1,2,3,4]: return fail("配方无效。")
 	if s.wins.M01<1: return fail("完成 M01 后解锁标准制造配方。")
 	if mk==2 and ((role==1 and s.wins.M02<1) or (role!=1 and s.wins.M03<1)):
 		return fail("完成 %s 后解锁此配方。" % ("M02" if role==1 else "M03"))
-	if not pay(100 if mk==1 else 180,4 if mk==1 else 6): return false
+	if mk==3 and s.wins.M08<1: return fail("完成 M08 后解锁 Mk.03。")
+	if mk==4 and s.wins.M10<1: return fail("完成 M10 后解锁 Mk.04。")
+	if not pay(C.MK_COST[mk-1][0],C.MK_COST[mk-1][1]): return false
 	var id="item_%d"%s.next_item
 	s.next_item+=1
 	s.inventory.append({"id":id,"role":role,"slot":slot_name,"mk":mk,"level":1})
@@ -160,15 +218,41 @@ func cancel_training() -> bool:
 
 func facility() -> bool:
 	if not growth_available(): return false
-	if s.tier>=2: return fail("当前章节的基地设施已全部建成。")
-	if s.wins.M03<1: return fail("完成 M03 高架桥底后可升级 T2。")
-	if not pay(500,12): return false
-	s.tier=2
+	if s.tier>=4: return fail("基地已达 T4，全部设施已经建成。")
+	var d=C.FACILITIES[int(s.tier)-1]
+	if s.wins[d.mission]<1: return fail("完成 %s 后可升级下一代设施。"%d.mission)
+	if not pay(d.credits,d.alloy): return false
+	s.tier+=1
 	dirty=true
-	notice="基地升至 T2，成长上限提升到 10 级。"
+	notice="基地升至 T%d，成长上限提升到 %d 级。"%[s.tier,cap()]
+	return true
+
+func module_upgrade(id: String) -> bool:
+	if not growth_available(): return false
+	if s.tier<3: return fail("基地 T3 开放第二能力槽。")
+	var def={}
+	for d in C.MODULES:
+		if d.id==id: def=d
+	if def.is_empty() or s.wins[def.mission]<1: return fail("需要先完成此能力对应的任务。")
+	var p=s.people[int(s.selected_person)]
+	var level=int(p.modules.get(id,0))
+	if level>=5: return fail("能力已满级。")
+	if not pay(180*maxi(1,level),4*maxi(1,level)): return false
+	p.modules[id]=level+1
+	if p.module=="": p.module=id
+	dirty=true
+	return true
+
+func module_equip(id: String) -> bool:
+	if not growth_available(): return false
+	var p=s.people[int(s.selected_person)]
+	if not p.modules.has(id): return fail("请先学习此能力。")
+	p.module=id
+	dirty=true
 	return true
 
 func depart(id: String) -> bool:
+	if in_war(): return fail("训练任务只在历史模拟中开放。")
 	if active(): return fail("小队已经出发。")
 	if not s.training.is_empty(): return fail("训练尚未结束，请先完成或取消训练。")
 	if not unlocked(id): return fail("需要先完成前一个任务。")
@@ -201,15 +285,30 @@ func spawn_wave() -> void:
 		var boss=bool(w.boss) and i==w.count
 		b.seq+=1
 		var hp=(450.0 if boss else 70.0)*d.factor*2.4
+		if d.get("mechanic","")=="swarm" and not boss: hp*=.62
 		var attack=(18.0 if boss else 8.0)*pow(d.factor,.75)
 		var role=C.MISSIONS.find(d)
 		b.units.append({"id":"e_%d"%b.seq,"side":1,"role":role,"boss":boss,"hp":hp,"max_hp":hp,"atk":attack,"armor":5.0*role+(5 if boss else 0),"interval":1.6 if boss else 1.4,"range":260.0 if role==1 else (90.0 if boss else 60.0),"x":1300.0+(i%3)*65,"y":408.0+(i%4)*56,"cd":.4+(i%4)*.12,"skill_cd":99.0,"anim":"run","anim_time":0.0,"flash":0.0,"shield":0.0,"shield_time":0.0,"dead_time":0.0})
+		var unit=b.units.back()
+		unit.mechanic=d.get("mechanic","")
+		if unit.mechanic=="final": unit.mechanic=["armor","laser","shield","regen"][int(b.wave)%4]
+		if unit.mechanic=="armor": unit.armor+=50
+		if unit.mechanic=="shield": unit.shield=hp*.25;unit.shield_time=999
+		if unit.mechanic=="laser" or (unit.mechanic=="mixed" and i%2==1): unit.range=340.0
+		unit.support=(unit.mechanic=="regen" and i==0)
+		unit.skill_cd=7.0
 	b.phase="fight"
 	events.append({"type":"wave","value":b.wave+1})
 	dirty=true
 
 func tick(delta: float) -> void:
 	s.playtime+=delta
+	if in_war():
+		var war=war_model()
+		war.tick(delta)
+		for e in war.events: events.append(e)
+		if war.dirty: dirty=true
+		return
 	if not s.training.is_empty():
 		s.training.remaining-=delta
 		if s.training.remaining<=0:
@@ -235,9 +334,23 @@ func tick(delta: float) -> void:
 			continue
 		u.cd=maxf(0.0,u.cd-delta)
 		u.skill_cd=maxf(0.0,u.skill_cd-delta)
+		if u.side==0: tick_module(u,delta)
+		elif u.skill_cd<=0:
+			u.skill_cd=7.0
+			if u.get("support",false):
+				for ally in alive(1): ally.hp=minf(ally.max_hp,ally.hp+ally.max_hp*.08)
+			elif u.get("mechanic","")=="laser":
+				var targets=alive(0)
+				if u.boss:
+					for ally in targets: hit(u,ally,u.atk*.8)
+				elif not targets.is_empty():
+					hit(u,nearest(u,targets),u.atk*1.2)
 		var foes=alive(1-int(u.side))
 		if foes.is_empty(): continue
 		var target=nearest(u,foes)
+		if u.side==0:
+			for foe in foes:
+				if foe.get("support",false): target=foe;break
 		var dx=target.x-u.x
 		var dy=target.y-u.y
 		var dist=sqrt(dx*dx+dy*dy)
@@ -287,11 +400,37 @@ func hit(u: Dictionary, target: Dictionary, attack: float, penetration=1.0) -> v
 	target.flash=.11
 	if u.side==0: s.battle.stats[u.role].damage+=real
 	if target.side==0: s.battle.stats[target.role].taken+=real
+	if target.side==0 and target.hp>0 and u.side==1:
+		var p=s.people[target.role]
+		if p.module=="reflect":
+			var reflected=minf(u.hp,real*(.05+.02*(int(p.modules.get("reflect",1))-1)))
+			u.hp-=reflected
+			s.battle.stats[target.role].damage+=reflected
 	events.append({"type":"hit","x":target.x,"y":target.y,"value":roundi(real),"side":target.side})
 	if target.hp<=0:
 		set_anim(target,"dead",true)
 		events.append({"type":"death","side":target.side,"role":target.role})
 	# Incoming hits never change the surviving target's attack timer or animation.
+
+func tick_module(u: Dictionary, delta: float) -> void:
+	var p=s.people[u.role]
+	var id=str(p.module)
+	if id=="" or id=="reflect": return
+	var cd={"regen":10.0,"beam":16.0,"barrier":18.0}[id]
+	u.module_cd=float(u.get("module_cd",cd))-delta
+	if u.module_cd>0: return
+	u.module_cd=cd
+	var lvl=int(p.modules.get(id,1))
+	if id=="regen":
+		var healing=minf(u.max_hp-u.hp,u.max_hp*(.04+.01*(lvl-1)))
+		u.hp+=healing
+		s.battle.stats[u.role].heal+=healing
+		events.append({"type":"heal","x":u.x,"y":u.y,"value":roundi(healing)})
+	elif id=="beam" and not alive(1).is_empty(): hit(u,nearest(u,alive(1)),u.atk*(1+.2*(lvl-1)))
+	elif id=="barrier":
+		for ally in alive(0):
+			ally.shield=maxf(ally.shield,20+8*(lvl-1))
+			ally.shield_time=maxf(ally.shield_time,4)
 
 func use_skill(u: Dictionary, target: Dictionary, foes: Array) -> void:
 	var level=int(s.people[u.role].skill)

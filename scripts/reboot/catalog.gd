@@ -1,6 +1,6 @@
 extends RefCounted
-## The first production milestone: three complete mission chains, data-driven waves.
-const VERSION = "0.4.0"
+## Ten training operations. Each operation owns its wave schedule and enemy behavior.
+const VERSION = "0.5.0"
 const PEOPLE = [
 	{"id":"qiaoyue","name":"乔越","age":24,"job":"快递员","role":"盾卫","icon":"shield","hp":240.0,"atk":22.0,"armor":12.0,"interval":1.2,"range":76.0,"skill":"护盾冲击","cd":12.0,"note":"先质疑规则，危险时却总是先挡在前面。","line":"先别问出口，我看见它过来了。"},
 	{"id":"zhouji","name":"周霁","age":30,"job":"电工","role":"射手","icon":"rifle","hp":160.0,"atk":28.0,"armor":5.0,"interval":1.0,"range":350.0,"skill":"连锁电击","cd":10.0,"note":"他比其他人更早注意到，房间里的设备一直在回应。","line":"电没断，断的是外面的声音。"},
@@ -9,8 +9,15 @@ const PEOPLE = [
 ]
 const MISSIONS = [
 	{"id":"M01","name":"废弃地铁","bg":"metro","enemy":"crawler","small":"节肢幼体","boss":"蜈节行者","power":440,"credits":100,"alloy":3,"factor":1.0,"reward":"标准武装配方","desc":"最后一班列车已经停运。站台深处仍然传来整齐的敲击声。","tip":"盾卫贴近目标，后排保持火力。倒下的队员不会在本次任务中归队。","waves":[{"count":4,"boss":false,"weight":20},{"count":6,"boss":false,"weight":20},{"count":2,"boss":true,"weight":60}]},
-	{"id":"M02","name":"封闭公寓","bg":"apartment","enemy":"hollow","small":"空壳住民","boss":"回声母体","power":680,"credits":130,"alloy":3,"factor":1.43,"reward":"电弧步枪 Mk.02","desc":"楼里没有开灯，每一扇门后却都响起了同一个人的脚步。","tip":"空壳住民会远程攻击。强化火力，尽快清理后排。","waves":[{"count":4,"boss":false,"weight":15},{"count":5,"boss":false,"weight":20},{"count":5,"boss":false,"weight":20},{"count":2,"boss":true,"weight":45}]},
-	{"id":"M03","name":"高架桥底","bg":"overpass","enemy":"hound","small":"板甲犬","boss":"磁脊犬王","power":1000,"credits":170,"alloy":4,"factor":2.0,"reward":"磁脊盾 Mk.02 / 基地 T2","desc":"钢筋在桥墩里轻轻震动。积水倒映出一个背生刀脊的影子。","tip":"甲壳会削减伤害。林衡的穿透炮击可以击穿一半护甲。","waves":[{"count":4,"boss":false,"weight":12},{"count":5,"boss":false,"weight":16},{"count":6,"boss":false,"weight":16},{"count":4,"boss":false,"weight":16},{"count":2,"boss":true,"weight":40}]}
+	{"id":"M02","name":"封闭公寓","bg":"apartment","enemy":"hollow","small":"空壳住民","boss":"回声母体","power":560,"credits":130,"alloy":3,"factor":1.43,"reward":"电弧步枪 Mk.02","desc":"楼里没有开灯，每一扇门后却都响起了同一个人的脚步。","tip":"空壳住民会远程攻击。强化火力，尽快清理后排。","waves":[{"count":4,"boss":false,"weight":15},{"count":5,"boss":false,"weight":20},{"count":5,"boss":false,"weight":20},{"count":2,"boss":true,"weight":45}]},
+	{"id":"M03","name":"高架桥底","bg":"overpass","enemy":"hound","small":"板甲犬","boss":"磁脊犬王","power":670,"credits":170,"alloy":4,"factor":2.0,"reward":"磁脊盾 Mk.02 / 基地 T2","desc":"钢筋在桥墩里轻轻震动。积水倒映出一个背生刀脊的影子。","tip":"甲壳会削减伤害。林衡的穿透炮击可以击穿一半护甲。","waves":[{"count":4,"boss":false,"weight":12},{"count":5,"boss":false,"weight":16},{"count":6,"boss":false,"weight":16},{"count":4,"boss":false,"weight":16},{"count":2,"boss":true,"weight":40}]},
+	{"id":"M04","name":"地下商场","bg":"mall","enemy":"mirror","small":"碎镜偶","boss":"镜壳主机","power":1050,"credits":220,"alloy":5,"factor":2.5,"reward":"碎镜甲 / 反射研究","desc":"卷帘门已经落下，橱窗里的反光却比你慢了一步。","tip":"目标数量多、单体生命低；连锁电击与穿透炮击可以清场。","mechanic":"swarm","waves":[{"count":7,"boss":false,"weight":20},{"count":8,"boss":false,"weight":20},{"count":9,"boss":false,"weight":20},{"count":5,"boss":true,"weight":40}]},
+	{"id":"M05","name":"旧城区天台","bg":"rooftop","enemy":"eye","small":"浮游眼","boss":"百眼灯塔","power":1250,"credits":280,"alloy":6,"factor":3.1,"reward":"反射甲片","desc":"天线全部朝着同一个方向。楼顶的灯，没有接电。","tip":"普通浮游眼定点射击，首领激光扫射全队；防具与医疗帮助撑过齐射。","mechanic":"laser","waves":[{"count":4,"boss":false,"weight":15},{"count":5,"boss":false,"weight":15},{"count":5,"boss":false,"weight":15},{"count":6,"boss":false,"weight":15},{"count":3,"boss":true,"weight":40}]},
+	{"id":"M06","name":"冷冻仓库","bg":"freezer","enemy":"frost","small":"冻壳体","boss":"霜棘搬运体","power":1500,"credits":350,"alloy":7,"factor":3.8,"reward":"基地 T3 / 第二能力槽","desc":"仓库温度不再下降。被冻结的东西，开始从里面撞门。","tip":"冻壳体有厚重护甲；炮击穿透与持续治疗比单次爆发可靠。","mechanic":"armor","waves":[{"count":4,"boss":false,"weight":12},{"count":5,"boss":false,"weight":12},{"count":6,"boss":false,"weight":12},{"count":5,"boss":false,"weight":12},{"count":6,"boss":false,"weight":12},{"count":3,"boss":true,"weight":40}]},
+	{"id":"M07","name":"海边泵站","bg":"pumps","enemy":"parasite","small":"寄生壳","boss":"潮汐簇","power":1900,"credits":430,"alloy":8,"factor":4.5,"reward":"再生膜","desc":"海水从停止的水泵里向上涌。壳下面，有第二个心跳。","tip":"队尾的潮汐器官会治疗同伴。队伍会优先处理治疗目标。","mechanic":"regen","waves":[{"count":5,"boss":false,"weight":15},{"count":6,"boss":false,"weight":15},{"count":6,"boss":false,"weight":15},{"count":7,"boss":false,"weight":15},{"count":4,"boss":true,"weight":40}]},
+	{"id":"M08","name":"旧观测台","bg":"observatory","enemy":"sentinel","small":"观测卫士","boss":"环首观察者","power":2050,"credits":520,"alloy":9,"factor":5.2,"reward":"聚束轨炮 / Mk.03 武装","desc":"望远镜不朝着天空。它正在追踪你们。","tip":"每波敌人带着护盾进入；聚束能力与炮兵能集中破盾。","mechanic":"shield","waves":[{"count":5,"boss":false,"weight":12},{"count":6,"boss":false,"weight":12},{"count":5,"boss":false,"weight":12},{"count":7,"boss":false,"weight":12},{"count":6,"boss":false,"weight":12},{"count":4,"boss":true,"weight":40}]},
+	{"id":"M09","name":"通信塔群","bg":"towers","enemy":"beacon","small":"信标偶","boss":"信号巨人","power":2200,"credits":620,"alloy":10,"factor":6.0,"reward":"信号屏障","desc":"没有人呼叫，全部信道却同时收到了确认。","tip":"前排与远程交错出现，集体护盾能覆盖敌人齐射的间隔。","mechanic":"mixed","waves":[{"count":5,"boss":false,"weight":10},{"count":6,"boss":false,"weight":10},{"count":7,"boss":false,"weight":10},{"count":5,"boss":false,"weight":10},{"count":7,"boss":false,"weight":10},{"count":6,"boss":false,"weight":10},{"count":4,"boss":true,"weight":40}]},
+	{"id":"M10","name":"零号试验场","bg":"zero","enemy":"warden","small":"训练残影","boss":"门卫","power":2250,"credits":740,"alloy":12,"factor":5.0,"reward":"基地 T4 / 毕业档案 / Mk.04","desc":"白色地面下面露出了格线。这里的一切都像是为你们准备的。","tip":"最后试验会轮换此前的作战特征。任务通关后仍可继续收集金卡。","mechanic":"final","waves":[{"count":5,"boss":false,"weight":8},{"count":6,"boss":false,"weight":8},{"count":6,"boss":false,"weight":8},{"count":7,"boss":false,"weight":8},{"count":5,"boss":false,"weight":8},{"count":7,"boss":false,"weight":8},{"count":6,"boss":false,"weight":8},{"count":4,"boss":true,"weight":44}]}
 ]
 const INTRO = [
 	["广播","连接已建立。请确认能够听见我的声音。"],
@@ -44,7 +51,7 @@ static func mission(id: String) -> Dictionary:
 	return MISSIONS[0]
 
 static func weapon_name(role: int, mk: int) -> String:
-	return ["短刃与轻盾","制式步枪","重轨炮","修复器"][role] if mk == 1 else ["磁脊盾刃","电弧步枪","加强轨炮","脉冲修复器"][role]
+	return [["短刃与轻盾","制式步枪","重轨炮","修复器"],["磁脊盾刃","电弧步枪","加强轨炮","脉冲修复器"],["折光盾刃","聚束步枪","聚束轨炮","再生修复器"],["零式盾刃","零式步枪","零式轨炮","零式修复器"]][clampi(mk-1,0,3)][role]
 
 static func skill_description(role: int, level: int) -> String:
 	match role:
@@ -53,3 +60,16 @@ static func skill_description(role: int, level: int) -> String:
 		2: return "每14秒穿透最多6名敌人，造成%d%%伤害，忽略50%%护甲。" % [150+20*(level-1)]
 		_: return "每8秒治疗生命比例最低的存活队员，恢复%d生命。" % [40+15*(level-1)]
 
+
+const MODULES = [
+ {"id":"reflect","name":"反射甲片","mission":"M05","icon":"shield","description":"把受到的直接伤害的 5% / 7% / 9% / 11% / 13% 反射给攻击者。"},
+ {"id":"regen","name":"再生膜","mission":"M07","icon":"medical","description":"每 10 秒恢复自身最大生命的 4% / 5% / 6% / 7% / 8%。阵亡后停止。"},
+ {"id":"beam","name":"聚束轨炮","mission":"M08","icon":"cannon","description":"每 16 秒额外造成 100% / 120% / 140% / 160% / 180% 攻击伤害。"},
+ {"id":"barrier","name":"信号屏障","mission":"M09","icon":"skill","description":"每 18 秒给存活队员 20 / 28 / 36 / 44 / 52 护盾，持续 4 秒。同类护盾取较高值。"}
+]
+const FACILITIES = [
+ {"mission":"M03","credits":500,"alloy":12},
+ {"mission":"M06","credits":1600,"alloy":35},
+ {"mission":"M10","credits":4000,"alloy":80}
+]
+const MK_COST = [[100,4],[180,6],[260,8],[420,12]]

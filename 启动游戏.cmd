@@ -1,8 +1,8 @@
 @echo off
 setlocal
 cd /d "%~dp0"
-if exist "%~dp0builds\InfiniteAnomaly-Reboot\InfiniteAnomaly.exe" (
-  start "" /D "%~dp0builds\InfiniteAnomaly-Reboot" "%~dp0builds\InfiniteAnomaly-Reboot\InfiniteAnomaly.exe" --main-pack "%~dp0builds\InfiniteAnomaly-Reboot\InfiniteAnomaly.pck"
+if exist "%~dp0builds\InfiniteAnomaly-Reboot-Full\InfiniteAnomaly.exe" (
+  start "" /D "%~dp0builds\InfiniteAnomaly-Reboot-Full" "%~dp0builds\InfiniteAnomaly-Reboot-Full\InfiniteAnomaly.exe" --main-pack "%~dp0builds\InfiniteAnomaly-Reboot-Full\InfiniteAnomaly.pck"
   exit /b 0
 )
 if not exist ".local" mkdir ".local"

@@ -1,0 +1,21 @@
+<h1>2026-09-28 · 0.5.0 完整流程实现与运行验收</h1>
+<p><b>后续任务和星际战争已经实装。</b>本节取代先前首章进度中“尚未实现 M04—M10 / 星际阶段”的状态描述；前文的设计来源、已确认约束和历史记录保留。当前从新档可以玩到远征结局。</p>
+<table><thead><tr><th><p>范围</p></th><th><p>本版实际行为</p></th></tr></thead><tbody>
+<tr><td><p>训练内容</p></td><td><p>十项独立任务，3/4/5/4/5/6/5/6/7/8波；后续背景、敌人、首领、治疗/激光/厚甲/护盾等机制。</p></td></tr>
+<tr><td><p>成长与毕业</p></td><td><p>T1—T4、Mk.01—04、第二能力槽、十金毕业、完整真相广播、两次接管确认。原四人保留成长和身份。</p></td></tr>
+<tr><td><p>百万房间</p></td><td><p>培养四名新人 → 满员去程 → 卸载 → 空房返航。每批独立身份，前批存活不妨碍新批投送；四个网络群可以分别调整四席编制和投送开关。</p></td></tr>
+<tr><td><p>真实战争</p></td><td><p>原四人就是战士，永久阵亡。四兵种、科技、补给、撤退、驻守、十二星区与文明卡、伤亡与运输记录、完整结局及历史模拟。</p></td></tr>
+<tr><td><p>生产画面</p></td><td><p>新增36项PNG资源，漫画平涂场景与逐帧人物/敌人；专用按钮五状态和图标已接入。屏幕抽样显示军团，全部实际人数参与战斗。</p></td></tr>
+</tbody></table>
+<p><b>启动：</b>工作区双击“启动游戏.cmd”，或打开 builds/InfiniteAnomaly-Reboot-Full/InfiniteAnomaly.exe。0.4.0首章包和历史收容版单独保留；0.4.0存档自动补齐新字段和任务，勿再用旧版覆盖已升级存档。</p>
+<p><b>验证：</b>从初始150积分/8合金出发，自动实际打完295场、购买356次成长，无资源注入，获得十金并接管；随后该存档完成十二星区。另有三组成熟编制完整通关。鼠标输入、写盘失败回退、跨进程续算、人数守恒与永久伤亡均通过。独立EXE/PCK脱离工程目录完成图形启动与362项载入/流程断言。</p>
+<p>这些是自动化推演与引擎输入验证，不代表上万次真人测试或最终商业平衡。训练路径36676.6模拟秒，四次战争为891—987.5模拟秒；实际游玩还包含整备、阅读与决策。长期节奏、动作观感和不同硬件兼容性继续随试玩反馈调整。</p>
+<h2>实际运行截图：后续任务、战争与永久伤亡</h2>
+<p>以下是Godot运行画面。界面示例使用布局检查状态；结局与最终士兵档案来自实际完整战争推演的保存结果。</p>
+<img path="@./art/reboot-war/captures/02-missions-late.png" width="1000" caption="M10零号试验场：8波，后续任务和成长已经可玩"/>
+<img path="@./art/reboot-war/captures/10-war-battle.png" width="1000" caption="真实战争：全军数值参与计算，画面显示军团抽样"/>
+<img path="@./art/reboot-war/captures/11-war_rooms.png" width="1000" caption="原房间卸载后空返，正在培养下一批新人"/>
+<img path="@./art/reboot-war/captures/11-war_formation.png" width="1000" caption="四个生产网络群，每间四席；改编从新培养批次开始生效"/>
+<img path="@./art/reboot-war/captures/18-final-memorial.png" width="1000" caption="实际通关档案：原四人中三人阵亡，一人驻守；新兵不会替换死者身份"/>
+<img path="@./art/reboot-war/captures/15-ending.png" width="1000" caption="实际完整推演的远征结局：十二星区和十二文明卡"/>
+<p>完整说明与可复现测试入口：工程 docs/后续任务与星际战争实现与验收.md、docs/无限异常0.5完整流程说明.txt、tools/test_reboot_full.ps1。源码保存于既有 <a href="https://github.com/LloydCai-byte/Infinite-Anomaly">Infinite-Anomaly Git 仓库</a>。</p>

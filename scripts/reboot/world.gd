@@ -1,6 +1,8 @@
 extends Control
 const Art=preload("res://scripts/reboot/art.gd")
 const C=preload("res://scripts/reboot/catalog.gd")
+const WarWorld=preload("res://scripts/reboot/war_world.gd")
+var war_world=WarWorld.new()
 var game: Control
 var clock=0.0
 var particles: Array=[]
@@ -16,9 +18,11 @@ func _process(delta: float) -> void:
 		clock+=delta*game.model.s.speed
 		for p in particles: p.life-=delta*game.model.s.speed
 		particles=particles.filter(func(p): return p.life>0)
+		war_world.update(self,delta*game.model.s.speed)
 	queue_redraw()
 
 func add_event(e: Dictionary) -> void:
+	if game.model.in_war(): war_world.event(e,game.model.s.war.time)
 	if e.type in ["hit","heal","attack","skill"]:
 		var p=e.duplicate()
 		p.life=.75 if e.type in ["hit","heal"] else .2
@@ -30,14 +34,21 @@ func actor(id: String, index: int, foot: Vector2, height: float, tint=Color.WHIT
 	var r=t.region
 	var scale_factor=height/Art.manifest[id].cell[1]
 	var sz=Vector2(r.size)*scale_factor
+	var anchor=Vector2(sz.x*.5,sz.y)
+	var frames=Art.manifest[id].frames
+	var data=frames[clampi(index,0,frames.size()-1)]
+	if data.has("pivot"): anchor=Vector2(data.pivot[0],data.pivot[1])*scale_factor
 	draw_texture_rect(Art.ui("shadow"),Rect2(foot-Vector2(height*.24,7),Vector2(height*.48,15)),false,Color(1,1,1,tint.a))
-	draw_texture_rect(t,Rect2(foot-Vector2(sz.x*.5,sz.y),sz),false,tint)
+	draw_texture_rect(t,Rect2(foot-anchor,sz),false,tint)
 
 func _draw() -> void:
 	if game==null: return
 	var s=game.model.s
+	if game.view=="war":
+		war_world.draw(self)
+		return
 	var battle_view=game.view=="battle" and not s.battle.is_empty()
-	draw_texture_rect(Art.background(C.mission(s.battle.mission).bg if battle_view else ("base_t2" if s.tier>=2 else "base")),Rect2(0,0,1600,900),false)
+	draw_texture_rect(Art.background(C.mission(s.battle.mission).bg if battle_view else ("base_t%d"%s.tier if s.tier>=2 else "base")),Rect2(0,0,1600,900),false)
 	if not battle_view:
 		if not game.model.active() and game.view!="title":
 			for i in range(4):
