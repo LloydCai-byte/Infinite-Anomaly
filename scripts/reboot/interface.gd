@@ -459,7 +459,7 @@ func fifty() -> float: return 50.0
 func equipment() -> void:
 	var m=g.model
 	var i=int(m.s.selected_person)
-	var p=modal("装备  /  "+C.PEOPLE[i].name,"固定成品，没有随机词条。更换保留旧装备及其等级。")
+	var p=modal("装备  /  "+C.PEOPLE[i].name,"选中哪件，就强化哪件。库存装备需要穿戴后才会影响角色。")
 	person_tabs(p)
 	button(p,"gear_weapon","武器",Rect2(942,130,167,48),func():gear_kind="weapon";selected_gear="";g.render(),"rifle","primary" if gear_kind=="weapon" else "neutral")
 	button(p,"gear_armor","防具",Rect2(1123,130,178,48),func():gear_kind="armor";selected_gear="";g.render(),"shield","primary" if gear_kind=="armor" else "neutral")
@@ -467,11 +467,11 @@ func equipment() -> void:
 	var inventory=[]
 	for v in m.s.inventory:
 		if v.role==i and v.slot==gear_kind: inventory.append(v)
-	if selected_gear=="" or m.item(selected_gear).is_empty(): selected_gear=current.id
+	if not inventory.has(m.item(selected_gear)): selected_gear=current.id
 	var chosen=m.item(selected_gear)
 	var scroll=ScrollContainer.new()
 	scroll.position=Vector2(38,206)
-	scroll.size=Vector2(565,329)
+	scroll.size=Vector2(565,370)
 	p.add_child(scroll)
 	for state in ["scroll","scroll_focus"]: scroll.get_v_scroll_bar().add_theme_stylebox_override(state,style("button_neutral_normal"))
 	for state in ["grabber","grabber_highlight","grabber_pressed"]: scroll.get_v_scroll_bar().add_theme_stylebox_override(state,style("button_primary_normal"))
@@ -483,22 +483,31 @@ func equipment() -> void:
 		var n=(C.weapon_name(i,v.mk) if gear_kind=="weapon" else "复合防护衣")+"  Mk.%02d / Lv.%d"%[v.mk,v.level]
 		var b=button(list,"gear_"+v.id,("◆ " if v.id==current.id else "")+n,Rect2(0,0,529,68),func():selected_gear=v.id;g.render(),C.PEOPLE[i].icon if gear_kind=="weapon" else "shield","primary" if selected_gear==v.id else "neutral")
 		b.custom_minimum_size=Vector2(529,68)
-	var detail=panel(p,Rect2(637,205,663,337),"card")
+	var equipped=chosen.id==current.id
+	var current_stats=m.stats(i)
+	var chosen_stats=m.stats(i,chosen)
+	var next_gear=chosen.duplicate(true)
+	next_gear.level+=1
+	var next_stats=m.stats(i,next_gear)
+	var detail=panel(p,Rect2(637,205,663,370),"card")
 	image(detail,Art.frame("equipment_advanced" if chosen.mk>=3 else "equipment",i+(4*(chosen.mk-3) if chosen.mk>=3 and gear_kind=="weapon" else (4*(chosen.mk-1) if gear_kind=="weapon" else 8))),Rect2(23,17,117,119),true)
 	text(detail,C.weapon_name(i,chosen.mk) if gear_kind=="weapon" else "复合防护衣",Rect2(162,25,461,47),30)
-	text(detail,"Mk.%02d  ·  Lv.%d"%[chosen.mk,chosen.level],Rect2(163,83,431,40),24,ACCENT)
-	var attack_diff=C.PEOPLE[i].atk*.1*(chosen.level-current.level)+10*(chosen.mk-current.mk)
-	var armor_diff=6*(chosen.level-current.level)+10*(chosen.mk-current.mk)
-	text(detail,"攻击变化  %+.1f"%attack_diff if gear_kind=="weapon" else "护甲变化  %+d"%armor_diff,Rect2(33,155,602,55),26,GOLD)
-	text(detail,"正在使用此装备" if chosen.id==current.id else "更换后，当前装备会回到库存。",Rect2(33,219,602,46),20,MUTED)
-	button(detail,"equip","装备",Rect2(33,275,277,48),func():g.perform("equip",chosen.id),"check","primary",chosen.id==current.id or m.active() or not m.s.training.is_empty())
-	button(detail,"dismantle","分解",Rect2(329,275,300,48),func():g.open("dismantle",{"item":chosen.id}),"recycle","danger",chosen.id==current.id or m.active() or not m.s.training.is_empty())
-	if not lock_notice(p,574):
-		var n=int(current.level)
-		var money=(50+30*n) if gear_kind=="weapon" else (40+25*n)
-		var alloy=1+int(n/3) if gear_kind=="weapon" else 1+int(n/4)
-		text(p,"强化当前穿戴  /  %d 积分 + %d 合金"%[money,alloy] if n<m.cap() else "已达当前成长上限，需要升级基地设施。",Rect2(40,581,827,55),22,MUTED)
-		button(p,"upgrade_gear","强化当前装备",Rect2(966,577,335,60),func():g.perform("upgrade",gear_kind),"upgrade","primary",n>=m.cap())
+	text(detail,"Mk.%02d  ·  Lv.%d  ·  %s"%[chosen.mk,chosen.level,"已穿戴" if equipped else "未穿戴"],Rect2(163,83,467,40),23,ACCENT)
+	var absolute="攻击  %.1f"%chosen_stats.atk if gear_kind=="weapon" else "护甲  %d    生命  %.1f"%[chosen_stats.armor,chosen_stats.hp]
+	text(detail,("当前角色：" if equipped else "穿戴后：")+absolute,Rect2(33,147,602,44),25,ACCENT)
+	var comparison="换装变化：攻击 %+.1f"%(chosen_stats.atk-current_stats.atk) if gear_kind=="weapon" else "换装变化：护甲 %+d    生命 %+.1f"%[chosen_stats.armor-current_stats.armor,chosen_stats.hp-current_stats.hp]
+	text(detail,"已穿戴此装备，强化会立即提升角色属性。" if equipped else comparison,Rect2(33,197,602,43),21,MUTED if equipped else GOLD)
+	text(detail,"升级前后数值与消耗见下方。" if equipped else "强化这件库存装备后，仍需点击「装备」。",Rect2(33,252,602,38),20,MUTED)
+	button(detail,"equip","装备",Rect2(33,306,277,48),func():g.perform("equip",chosen.id),"check","primary",equipped or m.active() or not m.s.training.is_empty())
+	button(detail,"dismantle","分解",Rect2(329,306,300,48),func():g.open("dismantle",{"item":chosen.id}),"recycle","danger",equipped or m.active() or not m.s.training.is_empty())
+	if not lock_notice(p,602):
+		var n=int(chosen.level)
+		var cost=m.gear_upgrade_cost(chosen.id)
+		var capped=n>=m.cap()
+		var preview="攻击 %.1f → %.1f（%+.1f）"%[chosen_stats.atk,next_stats.atk,next_stats.atk-chosen_stats.atk] if gear_kind=="weapon" else "护甲 %d → %d（+%d）  /  生命 %.1f → %.1f"%[chosen_stats.armor,next_stats.armor,next_stats.armor-chosen_stats.armor,chosen_stats.hp,next_stats.hp]
+		text(p,"所选装备 Lv.%d → %d  /  %d 积分 + %d 合金"%[n,n+1,cost.credits,cost.alloy] if not capped else "所选装备已达 Lv.%d 上限，需要升级基地设施。"%n,Rect2(40,587,898,33),21,MUTED)
+		text(p,("强化后：" if equipped else "强化后穿戴：")+preview if not capped else "更换或强化其他装备不会降低这件装备的属性。",Rect2(40,625,898,33),21,ACCENT)
+		button(p,"upgrade_gear","强化选中装备" if not capped else "已达强化上限",Rect2(966,599,335,60),func():g.perform("upgrade_gear",chosen.id),"upgrade","primary",capped)
 
 func skills() -> void:
 	var m=g.model

@@ -1,5 +1,5 @@
 extends SceneTree
-const OUT="res://builds/InfiniteAnomaly-Reboot-Full/"
+const OUT="res://builds/InfiniteAnomaly-Reboot-Full-0.5.1/"
 var pack=PCKPacker.new()
 var packed: Dictionary={}
 var failed=false
@@ -34,7 +34,7 @@ func _initialize() -> void:
 	checked(config.load("res://project.godot"),"read project")
 	config.set_value("application","config/name","无限异常")
 	config.set_value("application","config/description","培养四人，送往星海。百万房间与真实远征。")
-	config.set_value("application","config/version","0.5.0-campaign")
+	config.set_value("application","config/version","0.5.1-campaign")
 	config.set_value("application","run/main_scene","res://scenes/reboot/main.tscn")
 	config.set_value("display","window/size/viewport_width",1600)
 	config.set_value("display","window/size/viewport_height",900)

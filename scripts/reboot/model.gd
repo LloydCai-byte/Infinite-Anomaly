@@ -87,11 +87,15 @@ func item(id: String) -> Dictionary:
 		if v.id == id: return v
 	return {}
 
-func stats(index: int) -> Dictionary:
+func stats(index: int, gear_override: Dictionary={}) -> Dictionary:
 	var d = C.PEOPLE[index]
 	var p = s.people[index]
 	var w = item(p.weapon)
 	var a = item(p.armor)
+	# Preview and combat share this calculation; a preview never mutates inventory.
+	if int(gear_override.get("role",-1))==index:
+		if gear_override.get("slot","")=="weapon": w=gear_override
+		elif gear_override.get("slot","")=="armor": a=gear_override
 	var hp = d.hp*(1.0+.08*(p.body-1)+.03*(a.get("level",1)-1))
 	var atk = d.atk*(1.0+.03*(p.body-1)+.1*(w.get("level",1)-1))+10*(w.get("mk",1)-1)
 	var armor = d.armor+6*(a.get("level",1)-1)+10*(a.get("mk",1)-1)
@@ -132,6 +136,9 @@ func pay(credits: int, alloy: int) -> bool:
 func body_cost(index: int) -> int: return 35+15*int(s.people[index].body)
 
 func upgrade(index: int, kind: String) -> bool:
+	if index<0 or index>=s.people.size(): return fail("队员不存在。")
+	if kind in ["weapon","armor"]: return upgrade_gear(index,s.people[index][kind])
+	if kind not in ["body","skill"]: return fail("升级类型无效。")
 	if not growth_available(): return false
 	var p = s.people[index]
 	if kind=="body":
@@ -142,15 +149,30 @@ func upgrade(index: int, kind: String) -> bool:
 		if p.skill>=5: return fail("职业能力已满级。")
 		if not pay(180*int(p.skill),4*int(p.skill)): return false
 		p.skill+=1
-	else:
-		var gear = item(p.get(kind,""))
-		if gear.is_empty(): return fail("没有可升级的装备。")
-		if gear.level>=cap(): return fail("已到成长上限，需要基地 T%d。" % (s.tier+1))
-		var n = int(gear.level)
-		if not pay((50+30*n) if kind=="weapon" else (40+25*n),1+int(n/3) if kind=="weapon" else 1+int(n/4)): return false
-		gear.level+=1
 	dirty=true
 	notice="%s的%s提升了。"%[C.PEOPLE[index].name,{"body":"体质","skill":"能力","weapon":"武器","armor":"防具"}[kind]]
+	return true
+
+func gear_upgrade_cost(id: String) -> Dictionary:
+	var gear=item(id)
+	if gear.is_empty(): return {}
+	var n=int(gear.level)
+	return {"credits":50+30*n if gear.slot=="weapon" else 40+25*n,"alloy":1+int(n/3) if gear.slot=="weapon" else 1+int(n/4)}
+
+func upgrade_gear(index: int, id: String) -> bool:
+	if not growth_available(): return false
+	var gear=item(id)
+	if index<0 or index>=s.people.size() or gear.is_empty() or int(gear.role)!=index or gear.slot not in ["weapon","armor"]:
+		return fail("请选择该队员可用的装备。")
+	if gear.level>=cap(): return fail("已到成长上限，需要升级基地设施。")
+	var cost=gear_upgrade_cost(id)
+	if not pay(cost.credits,cost.alloy): return false
+	var old_level=int(gear.level)
+	gear.level+=1
+	dirty=true
+	var title=C.weapon_name(index,gear.mk) if gear.slot=="weapon" else "复合防护衣"
+	var state="已穿戴，属性已提升" if s.people[index][gear.slot]==id else "库存装备，穿戴后生效"
+	notice="%s Mk.%02d：Lv.%d → %d；%s。"%[title,gear.mk,old_level,gear.level,state]
 	return true
 
 func manufacture(role: int, slot_name: String, mk: int) -> bool:

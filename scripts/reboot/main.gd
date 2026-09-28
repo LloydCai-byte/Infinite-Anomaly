@@ -88,6 +88,7 @@ func slot_store(n: int) -> RefCounted:
 
 func render() -> void:
 	ui.draw()
+	toast_label.position.y=48 if page=="equipment" else 719
 	set_music("battle" if view=="battle" or (view=="war" and model.s.war.active) else "base")
 	world.queue_redraw()
 
@@ -208,6 +209,7 @@ func perform(action: String, value: Variant=null) -> bool:
 	var ok=true
 	match action:
 		"upgrade": ok=model.upgrade(int(model.s.selected_person),str(value))
+		"upgrade_gear": ok=model.upgrade_gear(int(model.s.selected_person),str(value))
 		"manufacture": ok=model.manufacture(int(value.role),str(value.slot),int(value.mk))
 		"equip": ok=model.equip(int(model.s.selected_person),str(value))
 		"dismantle": ok=model.dismantle(str(value))
@@ -254,7 +256,7 @@ func perform(action: String, value: Variant=null) -> bool:
 			world.particles.clear()
 		elif action=="dismantle": restore_page()
 		if model.notice!="": toast(model.notice)
-		play_sound("upgrade" if action in ["upgrade","manufacture","facility"] else "click")
+		play_sound("upgrade" if action in ["upgrade","upgrade_gear","manufacture","facility"] else "click")
 		model.events.clear()
 	else:
 		model.s=before

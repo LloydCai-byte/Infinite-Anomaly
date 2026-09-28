@@ -6,7 +6,7 @@ func check(ok: bool,label: String) -> void:
 	if not ok: failures+=1;printerr("PACK FAIL: "+label)
 func _initialize() -> void: call_deferred("run")
 func run() -> void:
-	check(ProjectSettings.get_setting("application/config/version")=="0.5.0-campaign","package version")
+	check(ProjectSettings.get_setting("application/config/version")=="0.5.1-campaign","package version")
 	check(ProjectSettings.get_setting("application/run/main_scene")=="res://scenes/reboot/main.tscn","package entry")
 	check(not FileAccess.file_exists("res://tests/reboot/test_campaign.gd"),"test fixtures excluded")
 	check(not FileAccess.file_exists("res://docs/reboot-war/feishu-progress.xml"),"authoring documents excluded")

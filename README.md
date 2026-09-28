@@ -1,8 +1,8 @@
 # 无限异常
 
-## 当前版本：四人房间与星际远征 · 0.5.0
+## 当前版本：四人房间与星际远征 · 0.5.1
 
-双击根目录 **启动游戏.cmd**，或 **builds/InfiniteAnomaly-Reboot-Full/InfiniteAnomaly.exe**。
+双击根目录 **启动游戏.cmd**，或 **builds/InfiniteAnomaly-Reboot-Full-0.5.1/InfiniteAnomaly.exe**。
 
 十项训练任务、基地 T1—T4、Mk.01—04 装备、第二能力、毕业真相和权限交接已接通。任务按独立的 3—8 波配置，不把正式任务固定为三波。原有 0.4.0 存档保留成长，继续解锁后续内容。
 
