@@ -1,0 +1,31 @@
+{
+  "status": "待用户确认；非最终布局",
+  "version": "room-layout-20260930-v01",
+  "method": "同一矢量空间示意的开门／关门两状态；没有生成新分镜",
+  "files": [
+    {
+      "path": "source.html",
+      "sha256": "dfdb7bbefb09e1e790399e161d01cfeb1b249cc5734a8587e5e13a329f2ca736"
+    },
+    {
+      "path": "index.html",
+      "sha256": "a2de335109892a7213c9dc65d47087faf1c740f6d50388218ef1096b11d9f514"
+    },
+    {
+      "path": "plan-closed.svg",
+      "sha256": "e8eba3edaaeeb3334a35eb0b2ed2651d03b28d25b83e784a919b2f086de4f28b"
+    },
+    {
+      "path": "plan-open.svg",
+      "sha256": "e12e7fbaceca2955e5f0e08645184e96f6c696bda9f83bfb8cc09ccbbfba780d"
+    },
+    {
+      "path": "plan-closed.png",
+      "sha256": "0fbee2a7e69267fb3661298b14b0748cd07e92f5ac31a41af51d41ac69c9fe03"
+    },
+    {
+      "path": "plan-open.png",
+      "sha256": "f12b5aefd9d13d1a3879445753ca5e46a3912f6fe5e576109351bb39df907607"
+    }
+  ]
+}

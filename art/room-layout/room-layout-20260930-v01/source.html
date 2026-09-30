@@ -1,0 +1,77 @@
+<div id="room-layout-review">
+  <h2>房间布局草案 · 待确认</h2>
+  <div class="viz-controls" role="group" aria-label="查看门的开合">
+    <button class="btn" type="button" data-door="closed" aria-pressed="true">出口关闭</button>
+    <button class="btn" type="button" data-door="open" aria-pressed="false">出口向内打开</button>
+  </div>
+  <div class="room-plan"></div>
+  <div class="text-small" aria-live="polite" id="room-plan-state">A 出口 → 门外异境　B 内门 → 打印工作间</div>
+  <div class="text-small text-muted">主房间暂按 6.4 × 4.8 米；尺寸、门位及家具均为提案。</div>
+  <style>
+    #room-layout-review .room-plan svg{display:block;width:100%;height:auto;overflow:visible}
+    #room-layout-review .room-plan text{font-family:inherit;font-size:var(--font-size-base);fill:var(--foreground);font-weight:400}
+    #room-layout-review .room-plan .structure{fill:none;stroke:var(--foreground);stroke-width:2}
+    #room-layout-review .room-plan .furniture{fill:var(--muted);stroke:var(--border);stroke-width:1.5}
+    #room-layout-review .room-plan .door{fill:none;stroke:var(--viz-series-1);stroke-width:2.5}
+    #room-layout-review .room-plan .route{fill:none;stroke:var(--viz-series-2);stroke-width:2;stroke-dasharray:6 5}
+  </style>
+  <script>
+    (()=>{
+      const root=document.getElementById('room-layout-review');
+      const host=root.querySelector('.room-plan');
+      const buttons=Array.from(root.querySelectorAll('[data-door]'));
+      let isOpen=false;
+      const saved=window.openai?.widgetState?.privateContent;
+      if(saved?.door==='open')isOpen=true;
+      function draw(){
+        const width=Math.max(300,Math.floor(host.getBoundingClientRect().width));
+        const narrow=width<520;
+        const margin=narrow?23:44, scale=(width-margin*2)/6.4;
+        const top=2.3*scale+55, height=top+4.8*scale+50;
+        const X=x=>margin+x*scale,Y=y=>top+y*scale;
+        const line=(x1,y1,x2,y2,cls='structure')=>`<line class="${cls}" x1="${X(x1)}" y1="${Y(y1)}" x2="${X(x2)}" y2="${Y(y2)}"/>`;
+        const rect=(x,y,w,h)=>`<rect class="furniture" x="${X(x)}" y="${Y(y)}" width="${w*scale}" height="${h*scale}" rx="3"/>`;
+        const label=(x,y,text,anchor='middle')=>`<text x="${X(x)}" y="${Y(y)}" text-anchor="${anchor}" dominant-baseline="middle">${text}</text>`;
+        let s=`<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="待确认平面布局：后墙左侧为门外异境出口，后墙中部为打印工作间内门，右墙有窗和轩轩座椅，沙发茶几在左侧。"><title>房间固定平面草案</title>`;
+        s+=line(2.65,-2.1,6.4,-2.1)+line(2.65,-2.1,2.65,0)+line(6.4,-2.1,6.4,0);
+        s+=rect(2.9,-1.8,1.45,0.9)+label(3.625,-1.34,narrow?'打印机':'打印设备');
+        s+=line(6.17,-1.85,6.17,-0.55)+label(5.15,-1.32,narrow?'卡墙':'任务卡墙');
+        s+=label(4.6,-0.47,'工作间');
+        s+=line(0,0,0.55,0)+line(1.6,0,3.2,0)+line(4.3,0,6.4,0);
+        s+=line(0,0,0,4.8)+line(0,4.8,6.4,4.8);
+        s+=line(6.4,0,6.4,1.1)+line(6.4,3.05,6.4,4.8);
+        s+=line(6.34,1.1,6.34,3.05,'door')+line(6.46,1.1,6.46,3.05,'door');
+        s+=label(6.08,2.08,'窗');
+        s+=label(1.05,-0.85,'门外异境')+label(1.08,-0.27,'A 出口');
+        s+=label(3.75,0.34,'B 内门');
+        if(isOpen){
+          s+=line(0.55,0,0.55,1.05,'door');
+          s+=`<path class="door" stroke-dasharray="4 4" stroke-width="1" d="M ${X(1.6)} ${Y(0)} A ${1.05*scale} ${1.05*scale} 0 0 1 ${X(0.55)} ${Y(1.05)}"/>`;
+        }else{s+=line(0.55,0,1.6,0,'door');}
+        s+=`<circle cx="${X(0.55)}" cy="${Y(0)}" r="4" fill="var(--viz-series-1)"/>`;
+        s+=rect(4.8,0.16,1.25,0.45)+label(5.425,0.87,'矮柜');
+        s+=rect(0.18,2.2,0.82,2.15);
+        s+=line(0.38,2.3,0.38,4.24)+label(0.6,2.95,'沙')+label(0.6,3.4,'发');
+        s+=rect(1.42,3.47,1.4,0.82)+label(2.12,3.88,'茶几');
+        s+=rect(4.95,3.13,0.76,0.94)+line(5.59,3.17,5.59,4.03);
+        s+=line(4.72,3.6,4.21,3.6,'door')+line(4.21,3.6,4.4,3.45,'door')+line(4.21,3.6,4.4,3.75,'door');
+        s+=label(5.34,4.43,narrow?'轩轩椅':'轩轩座椅');
+        s+=`<rect x="${X(2.05)}" y="${Y(1.25)}" width="${2.45*scale}" height="${1.38*scale}" rx="8" fill="var(--viz-series-2)" fill-opacity="0.08" stroke="var(--border)" stroke-dasharray="5 4"/>`;
+        s+=label(3.275,1.78,'六名来客')+label(3.275,2.19,'站立区');
+        s+=`<path class="route" d="M ${X(1.08)} ${Y(0.28)} L ${X(1.08)} ${Y(1.65)} Q ${X(1.08)} ${Y(2.62)} ${X(1.66)} ${Y(2.91)}"/>`;
+        s+=label(3.2,5.15,'视图下方为前墙');
+        s+='</svg>';
+        host.innerHTML=s;
+        buttons.forEach(b=>b.setAttribute('aria-pressed',String((b.dataset.door==='open')===isOpen)));
+        root.querySelector('#room-plan-state').textContent=isOpen?'A 出口：左侧门轴，门扇拉入室内；虚线为出入动线。':'A 出口 → 门外异境　B 内门 → 打印工作间';
+      }
+      buttons.forEach(b=>b.addEventListener('click',()=>{
+        isOpen=b.dataset.door==='open';draw();
+        window.openai?.setWidgetState?.({modelContent:{layoutStatus:'待确认草案',door:isOpen?'open':'closed'},privateContent:{door:isOpen?'open':'closed'}})?.catch(()=>{});
+      }));
+      window.addEventListener('openai:set_globals',e=>{const state=e.detail?.globals?.widgetState?.privateContent;if(state?.door){isOpen=state.door==='open';draw();}});
+      new ResizeObserver(draw).observe(host);
+      draw();
+    })();
+  </script>
+</div>
