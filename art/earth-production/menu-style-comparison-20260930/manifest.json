@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-30",
+  "selectedOutputCount": 6,
+  "images": [
+    {
+      "file": "A-hand-drawn-game.png",
+      "id": "A",
+      "bytes": 2202960,
+      "unchangedFromGeneratedSource": true,
+      "name": "挖神手绘风",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4D558F04B8EDA72D84FAA3EDE89E427426AA14ABFE56CA7D275ECB27540AC0B7"
+    },
+    {
+      "file": "B-retro-cel-film.png",
+      "id": "B",
+      "bytes": 2110051,
+      "unchangedFromGeneratedSource": true,
+      "name": "90年代动画赛璐璐",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8C4A5EE0DCEB4D5A83EC04DE7D72EF2E10CB59D2873EF513A2EC3CA82EBA30AB"
+    },
+    {
+      "file": "C-ink-noir-red.png",
+      "id": "C",
+      "bytes": 2640200,
+      "unchangedFromGeneratedSource": true,
+      "name": "黑白赤色漫画",
+      "width": 1672,
+      "height": 941,
+      "sha256": "26D6B5E282B1869AF8BAED6D88A1553D3F8B99637835B0D4B9A492255DDF8C50"
+    },
+    {
+      "file": "D-clear-line-comic.png",
+      "id": "D",
+      "bytes": 2213511,
+      "unchangedFromGeneratedSource": true,
+      "name": "欧式清线漫画",
+      "width": 1672,
+      "height": 941,
+      "sha256": "22F8737108451435A174B45DE327B16BC2B6B1DBC1A267E48D80D71A754BE60F"
+    },
+    {
+      "file": "E-watercolor-gouache.png",
+      "id": "E",
+      "bytes": 2681464,
+      "unchangedFromGeneratedSource": true,
+      "name": "水彩水粉绘本",
+      "width": 1672,
+      "height": 941,
+      "sha256": "37C7BCCDA6FA9807012FC7712B49014BE0F4A98F49FA6E76957B3FAFB997407A"
+    },
+    {
+      "file": "F-pixel-key-art.png",
+      "id": "F",
+      "bytes": 2244914,
+      "unchangedFromGeneratedSource": true,
+      "name": "精细像素插画",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0E5B6E30293D4F4A6A7DFC1DD5220A2488677AA99D10CE6021054E3CE8314543"
+    }
+  ],
+  "roomLayoutNotApprovedByTheseImages": true,
+  "gameMenuUnchanged": true,
+  "gameMenuSha256": "1658B6F09A9DF99FCBEE2C5CBE3427EE9AC8B3D95E306B48D916E6927276DC62",
+  "state": "style-comparison-awaiting-user-selection",
+  "generationCalls": 8,
+  "method": "built-in image_gen",
+  "checks": [
+    "six images exist",
+    "PNG dimensions read from headers",
+    "all workspace copies match generated originals by SHA256",
+    "game menu matches previous menu-cel-v02"
+  ]
+}
