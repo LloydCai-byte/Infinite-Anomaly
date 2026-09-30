@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-30",
+  "status": "待用户美术评价",
+  "method": "built-in image_gen",
+  "generation_calls": 1,
+  "face_redesign_authorized": true,
+  "runtime_asset": "assets/earth/menu.png",
+  "build": "0.6.0-earth-preview / 594 files / OK",
+  "capture": "Actual Godot release package rendering / NVIDIA RTX 5060",
+  "room_layout_status": "仍待确认；本菜单不作为布局定案",
+  "files": [
+    {
+      "path": "menu-cel.png",
+      "sha256": "1658b6f09a9df99fcbee2c5cbe3427ee9ac8b3d95e306b48d916e6927276dc62",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "menu-in-game.png",
+      "sha256": "7f762f96f05422e07da8a14f48f06d7a489f688553ace0e8a7af37f69c5636e3",
+      "dimensions": [
+        1600,
+        900
+      ]
+    },
+    {
+      "path": "prompt.txt",
+      "sha256": "572777a6f0f0659be3b8973f5fcfa029270938207e15790e7c6735cbb3cb4534"
+    }
+  ]
+}
