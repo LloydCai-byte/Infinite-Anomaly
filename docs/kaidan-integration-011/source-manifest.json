@@ -1,0 +1,188 @@
+{
+  "copied_originals": [
+    {
+      "id": "K004-S01",
+      "source": "art/anomaly-concepts/continuous-20261003/K004-hasshaku/scenes/01-rich.png",
+      "runtime": "assets/earth/anomalies/hasshaku/scene-01.png",
+      "sha256": "4d24a35e514bcf09becb0ee3d6bca81ba49078694358c69f066bac6e83a2dffb"
+    },
+    {
+      "id": "K004-S02",
+      "source": "art/anomaly-concepts/continuous-20261003/K004-hasshaku/scenes/02-rich.png",
+      "runtime": "assets/earth/anomalies/hasshaku/scene-02.png",
+      "sha256": "33340f76aa4c0e71286ab5e040b6e9e2d85d1492226da47ad4542637fb4a783f"
+    },
+    {
+      "id": "K004-M01-G",
+      "source": "art/anomaly-concepts/continuous-20261003/K004-hasshaku/enemies/01-side-green.png",
+      "runtime": "assets/earth/anomalies/hasshaku/01-side-green.png",
+      "sha256": "be0ce44389e320de43a3068db7bd2609cb50df2092cf486fe2d868692d931c0d"
+    },
+    {
+      "id": "K004-M01-A",
+      "source": "art/anomaly-concepts/continuous-20261003/K004-hasshaku/enemies/01-attack-green.png",
+      "runtime": "assets/earth/anomalies/hasshaku/01-attack-green.png",
+      "sha256": "1c32d50e471f2bd2e9a0547a69a57248cdc778ceff83a9b8e38376d31b42daea"
+    },
+    {
+      "id": "K004-M02-G",
+      "source": "art/anomaly-concepts/continuous-20261003/K004-hasshaku/enemies/02-side-green.png",
+      "runtime": "assets/earth/anomalies/hasshaku/02-side-green.png",
+      "sha256": "8e595383da82da18a271a92bdd497fe75c8ee1980e2e59994960034003a25b31"
+    },
+    {
+      "id": "K004-M02-A",
+      "source": "art/anomaly-concepts/continuous-20261003/K004-hasshaku/enemies/02-attack-green.png",
+      "runtime": "assets/earth/anomalies/hasshaku/02-attack-green.png",
+      "sha256": "a106ebec6474e3f33c69eb7d17080814da93d7c5e4e7073f833753f4565654a9"
+    },
+    {
+      "id": "K004-M03-G",
+      "source": "art/anomaly-concepts/continuous-20261003/K004-hasshaku/enemies/03-side-green.png",
+      "runtime": "assets/earth/anomalies/hasshaku/03-side-green.png",
+      "sha256": "56ecb9f92bbd599ae14d34b2c98fbffdc228c49cd3c3758adc78561993869136"
+    },
+    {
+      "id": "K004-M03-A",
+      "source": "art/anomaly-concepts/continuous-20261003/K004-hasshaku/enemies/03-attack-green.png",
+      "runtime": "assets/earth/anomalies/hasshaku/03-attack-green.png",
+      "sha256": "2308277824f2bff435b3f2e761c1372ccb330439dc6e468fdcb523e7d25adf16"
+    },
+    {
+      "id": "K004-M04-G",
+      "source": "art/anomaly-concepts/continuous-20261003/K004-hasshaku/enemies/04-side-green.png",
+      "runtime": "assets/earth/anomalies/hasshaku/04-side-green.png",
+      "sha256": "a22ea1a7676ac39e867e4cf01380bd1263fd94120adb571de340f079e5b57ac0"
+    },
+    {
+      "id": "K004-M04-A",
+      "source": "art/anomaly-concepts/continuous-20261003/K004-hasshaku/enemies/04-attack-green.png",
+      "runtime": "assets/earth/anomalies/hasshaku/04-attack-green.png",
+      "sha256": "ca5bb6f61485ccec97902d0557af74b7570ce8b9c63c8404ddaa45e9d4275712"
+    },
+    {
+      "id": "K004-M05-G",
+      "source": "art/anomaly-concepts/continuous-20261003/K004-hasshaku/enemies/05-side-green.png",
+      "runtime": "assets/earth/anomalies/hasshaku/05-side-green.png",
+      "sha256": "2b04226fd948b0c77ca4254e0ea7387e4b22b4fbbbbdbd1fd957012eb1af0110"
+    },
+    {
+      "id": "K004-S03",
+      "source": "art/anomaly-concepts/continuous-20261003/K004-hasshaku/scenes/03-rich.png",
+      "runtime": "assets/earth/anomalies/hasshaku/scene-03.png",
+      "sha256": "b2bbd43e02a3dfec3d6b7dd86bf8706bd091a3045dd887564d46e2ea2de3309f"
+    },
+    {
+      "id": "K004-S04",
+      "source": "art/anomaly-concepts/continuous-20261003/K004-hasshaku/scenes/04-rich.png",
+      "runtime": "assets/earth/anomalies/hasshaku/scene-04.png",
+      "sha256": "17299b4feb944e52108f2f1f825b5f33923bb7d63695a91c0b2e6fedf730ebbe"
+    },
+    {
+      "id": "K004-S05",
+      "source": "art/anomaly-concepts/continuous-20261003/K004-hasshaku/scenes/05-rich.png",
+      "runtime": "assets/earth/anomalies/hasshaku/scene-05.png",
+      "sha256": "b5cdb284e23a6a25877852a06dfe457dbacda7e9f01946018f9815f1db6e3c1b"
+    },
+    {
+      "id": "K004-M05-A",
+      "source": "art/anomaly-concepts/continuous-20261003/K004-hasshaku/enemies/05-attack-green.png",
+      "runtime": "assets/earth/anomalies/hasshaku/05-attack-green.png",
+      "sha256": "0ee01f598c5bf2ca93bb8fcf2796bd4e9b6ea3ec227531c70de87029c57cf551"
+    },
+    {
+      "id": "K005-S01",
+      "source": "art/anomaly-concepts/continuous-20261003/K005-kuchisake/scenes/01-rich.png",
+      "runtime": "assets/earth/anomalies/kuchisake/scene-01.png",
+      "sha256": "81bc7939243f005aa70bfad0c464e1bfe45a24fecba00ba7e53bf8932b128dc9"
+    },
+    {
+      "id": "K005-M02-G",
+      "source": "art/anomaly-concepts/continuous-20261003/K005-kuchisake/enemies/02-side-green.png",
+      "runtime": "assets/earth/anomalies/kuchisake/02-side-green.png",
+      "sha256": "32038f5953947cf3b9e6adb018027f82ea7359378fd209a3ee9065772e448195"
+    },
+    {
+      "id": "K005-M01-G",
+      "source": "art/anomaly-concepts/continuous-20261003/K005-kuchisake/enemies/01-side-green.png",
+      "runtime": "assets/earth/anomalies/kuchisake/01-side-green.png",
+      "sha256": "3555248740aca58a79eb32a5029bb485222bbf5f0d95fb84512e15e163277c14"
+    },
+    {
+      "id": "K005-S03",
+      "source": "art/anomaly-concepts/continuous-20261003/K005-kuchisake/scenes/03-rich.png",
+      "runtime": "assets/earth/anomalies/kuchisake/scene-03.png",
+      "sha256": "7456be7943924bfd8029b84202125a479c069187e35a6d6a626806f6d4104cc9"
+    },
+    {
+      "id": "K005-S02",
+      "source": "art/anomaly-concepts/continuous-20261003/K005-kuchisake/scenes/02-rich.png",
+      "runtime": "assets/earth/anomalies/kuchisake/scene-02.png",
+      "sha256": "245cdca9066230ebf5e328aed2e1c76befde2102dc5f8138e7e71d687a1492c4"
+    },
+    {
+      "id": "K005-S04",
+      "source": "art/anomaly-concepts/continuous-20261003/K005-kuchisake/scenes/04-rich.png",
+      "runtime": "assets/earth/anomalies/kuchisake/scene-04.png",
+      "sha256": "804c4c44c6710588ed1cf1b7d441a20c27caea93c89b3d433a226b4d0c31aec3"
+    },
+    {
+      "id": "K005-S05",
+      "source": "art/anomaly-concepts/continuous-20261003/K005-kuchisake/scenes/05-rich.png",
+      "runtime": "assets/earth/anomalies/kuchisake/scene-05.png",
+      "sha256": "274ed1674e494ad5cb3245467a9138fe4eea4dde0cc0f07cbb11fc44acf4f5ff"
+    },
+    {
+      "id": "K005-M01-A",
+      "source": "art/anomaly-concepts/continuous-20261003/K005-kuchisake/enemies/01-attack-green.png",
+      "runtime": "assets/earth/anomalies/kuchisake/01-attack-green.png",
+      "sha256": "f0ab145b9b355ab0ac85aef3b170d0a98d008174e62926ade9ed08f24b63d6de"
+    },
+    {
+      "id": "K005-M02-A",
+      "source": "art/anomaly-concepts/continuous-20261003/K005-kuchisake/enemies/02-attack-green.png",
+      "runtime": "assets/earth/anomalies/kuchisake/02-attack-green.png",
+      "sha256": "7994bc8692120d4a03bad9aae2f0dd33bc8a06d88bb2f3884236f1f8bcdb8b3a"
+    },
+    {
+      "id": "K005-M03-G",
+      "source": "art/anomaly-concepts/continuous-20261003/K005-kuchisake/enemies/03-side-green.png",
+      "runtime": "assets/earth/anomalies/kuchisake/03-side-green.png",
+      "sha256": "a4dcbe78e7ba7a9070a75092a63a76620afa09ce657f3e96dc9b6eb23f6eaedb"
+    },
+    {
+      "id": "K005-M04-G",
+      "source": "art/anomaly-concepts/continuous-20261003/K005-kuchisake/enemies/04-side-green.png",
+      "runtime": "assets/earth/anomalies/kuchisake/04-side-green.png",
+      "sha256": "84a3e9ff5534e4005361fa32212c31d1a7a7b41dc823cee5e5016bacd8f9f8d1"
+    },
+    {
+      "id": "K005-M05-G",
+      "source": "art/anomaly-concepts/continuous-20261003/K005-kuchisake/enemies/05-side-green.png",
+      "runtime": "assets/earth/anomalies/kuchisake/05-side-green.png",
+      "sha256": "c2800af97632e092a02af8194f6fc42c7de12179e001af8304fbcf579b32ea70"
+    },
+    {
+      "id": "K005-M03-A",
+      "source": "art/anomaly-concepts/continuous-20261003/K005-kuchisake/enemies/03-attack-green.png",
+      "runtime": "assets/earth/anomalies/kuchisake/03-attack-green.png",
+      "sha256": "39f495ae58e8033c468104f36690fcd5b05a0efbc6ce87df7ff326ce96586d79"
+    },
+    {
+      "id": "K005-M04-A",
+      "source": "art/anomaly-concepts/continuous-20261003/K005-kuchisake/enemies/04-attack-green.png",
+      "runtime": "assets/earth/anomalies/kuchisake/04-attack-green.png",
+      "sha256": "8798debd7549f47e50e5366d4b2e77db0fcb84ca9a2ffee3b7a3f520e146a051"
+    },
+    {
+      "id": "K005-M05-A",
+      "source": "art/anomaly-concepts/continuous-20261003/K005-kuchisake/enemies/05-attack-green.png",
+      "runtime": "assets/earth/anomalies/kuchisake/05-attack-green.png",
+      "sha256": "4919ab66faa757861cf1363b8d3a8120070f91c918db11a9c4abad87c28f279b"
+    }
+  ],
+  "count": 30,
+  "processing": "PNG bytes unchanged; pivot/bounds analysis only; runtime shader keys green",
+  "formal_animation": false,
+  "native_hd": false
+}

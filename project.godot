@@ -1,11 +1,11 @@
-; 无限异常 — complete training and interstellar campaign
+; 无限异常 — Earth production preview, legacy campaign retained
 config_version=5
 
 [application]
 config/name="无限异常"
-config/description="培养四人，送往星海。百万房间与真实远征。"
-run/main_scene="res://scenes/reboot/main.tscn"
-config/version="0.5.2-campaign"
+config/description="五人出战与成长、七个房间交互。地球篇功能版，美术分项替换。"
+run/main_scene="res://scenes/earth/main.tscn"
+config/version="0.11.0-earth-kaidan"
 config/icon="res://assets/reboot/ui/emblem.svg"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 

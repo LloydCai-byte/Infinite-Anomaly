@@ -1,0 +1,92 @@
+{
+  "battles": [
+    {
+      "counts": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "normal_starting_team": true,
+      "result": {
+        "alloy": 9,
+        "cores": 1,
+        "credits": 340,
+        "damage": 2568.0,
+        "first": true,
+        "healing": 15.0,
+        "killed": 25,
+        "loot": [
+          {
+            "affixes": {
+              "atk": 4.3,
+              "hp": 4.4
+            },
+            "base": 5,
+            "id": 1,
+            "level": 4,
+            "quality": 1
+          }
+        ],
+        "reason": "victory",
+        "stage": 301,
+        "time": 82.5333333333299,
+        "unlocks": []
+      },
+      "section_cameras": [
+        184.066666666668,
+        2874.91666666669,
+        5562.37306281485,
+        8263.95819913802,
+        10963.3615140558
+      ],
+      "stage": 301
+    },
+    {
+      "counts": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "normal_starting_team": true,
+      "result": {
+        "alloy": 9,
+        "cores": 1,
+        "credits": 375,
+        "damage": 2953.2,
+        "first": true,
+        "healing": 19.0,
+        "killed": 25,
+        "loot": [
+          {
+            "affixes": {
+              "hp": 4.2,
+              "skill": 4.2
+            },
+            "base": 1,
+            "id": 1,
+            "level": 5,
+            "quality": 1
+          }
+        ],
+        "reason": "victory",
+        "stage": 302,
+        "time": 86.7499999999964,
+        "unlocks": []
+      },
+      "section_cameras": [
+        184.066666666668,
+        2885.65000000002,
+        5580.71666666629,
+        8275.55252873545,
+        10975.7189655177
+      ],
+      "stage": 302
+    }
+  ],
+  "checks": 49,
+  "failures": 0
+}

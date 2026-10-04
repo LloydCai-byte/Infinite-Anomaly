@@ -1,0 +1,308 @@
+{
+  "temporary": true,
+  "source": "art/earth-production/stage01-cel-motion-test-20261002/source-sprites/wang.png",
+  "source_sha256": "cf6e41b9897012eeb6e167e5ecac0496052861f0907f4aae470e25e06f7836f7",
+  "canvas": [
+    432,
+    320
+  ],
+  "pivot": [
+    216,
+    302
+  ],
+  "native_height": 280,
+  "stride_pixels": 245,
+  "source_direction": 1,
+  "keyframe_count": 20,
+  "actions": {
+    "idle": 4,
+    "move": 8,
+    "attack": 4,
+    "hit": 2,
+    "fall": 3
+  },
+  "method": "内置imagegen生成20个独立姿势；透明区域切帧、统一比例和脚底基准。未插帧，不是60fps源动作。",
+  "costume": "现有人设日常服＋临时T1武器，所有套装级别在无正式动作时共用本测试形象；不代表正式战斗服已完成。",
+  "source_coordinates": [
+    {
+      "frame": 0,
+      "source_bbox": [
+        98,
+        18,
+        196,
+        278
+      ],
+      "anchor_x": 145.0,
+      "dest": [
+        165,
+        22
+      ]
+    },
+    {
+      "frame": 1,
+      "source_bbox": [
+        368,
+        18,
+        470,
+        278
+      ],
+      "anchor_x": 416.0,
+      "dest": [
+        164,
+        22
+      ]
+    },
+    {
+      "frame": 2,
+      "source_bbox": [
+        644,
+        18,
+        743,
+        278
+      ],
+      "anchor_x": 691.0,
+      "dest": [
+        165,
+        22
+      ]
+    },
+    {
+      "frame": 3,
+      "source_bbox": [
+        922,
+        27,
+        1023,
+        278
+      ],
+      "anchor_x": 967.5,
+      "dest": [
+        167,
+        32
+      ]
+    },
+    {
+      "frame": 4,
+      "source_bbox": [
+        79,
+        297,
+        216,
+        554
+      ],
+      "anchor_x": 138.0,
+      "dest": [
+        152,
+        25
+      ]
+    },
+    {
+      "frame": 5,
+      "source_bbox": [
+        361,
+        296,
+        488,
+        553
+      ],
+      "anchor_x": 419.0,
+      "dest": [
+        154,
+        25
+      ]
+    },
+    {
+      "frame": 6,
+      "source_bbox": [
+        623,
+        297,
+        746,
+        553
+      ],
+      "anchor_x": 687.0,
+      "dest": [
+        147,
+        26
+      ]
+    },
+    {
+      "frame": 7,
+      "source_bbox": [
+        893,
+        301,
+        1057,
+        553
+      ],
+      "anchor_x": 965.0,
+      "dest": [
+        138,
+        31
+      ]
+    },
+    {
+      "frame": 8,
+      "source_bbox": [
+        67,
+        574,
+        226,
+        833
+      ],
+      "anchor_x": 138.0,
+      "dest": [
+        140,
+        23
+      ]
+    },
+    {
+      "frame": 9,
+      "source_bbox": [
+        346,
+        573,
+        481,
+        832
+      ],
+      "anchor_x": 417.0,
+      "dest": [
+        140,
+        23
+      ]
+    },
+    {
+      "frame": 10,
+      "source_bbox": [
+        629,
+        572,
+        771,
+        833
+      ],
+      "anchor_x": 692.0,
+      "dest": [
+        148,
+        21
+      ]
+    },
+    {
+      "frame": 11,
+      "source_bbox": [
+        896,
+        579,
+        1068,
+        834
+      ],
+      "anchor_x": 977.0,
+      "dest": [
+        129,
+        27
+      ]
+    },
+    {
+      "frame": 12,
+      "source_bbox": [
+        79,
+        853,
+        215,
+        1107
+      ],
+      "anchor_x": 140.0,
+      "dest": [
+        150,
+        28
+      ]
+    },
+    {
+      "frame": 13,
+      "source_bbox": [
+        355,
+        849,
+        527,
+        1107
+      ],
+      "anchor_x": 414.0,
+      "dest": [
+        152,
+        24
+      ]
+    },
+    {
+      "frame": 14,
+      "source_bbox": [
+        634,
+        847,
+        758,
+        1107
+      ],
+      "anchor_x": 692.0,
+      "dest": [
+        154,
+        22
+      ]
+    },
+    {
+      "frame": 15,
+      "source_bbox": [
+        927,
+        846,
+        1039,
+        1107
+      ],
+      "anchor_x": 979.0,
+      "dest": [
+        160,
+        21
+      ]
+    },
+    {
+      "frame": 16,
+      "source_bbox": [
+        89,
+        1130,
+        223,
+        1376
+      ],
+      "anchor_x": 150.0,
+      "dest": [
+        150,
+        37
+      ]
+    },
+    {
+      "frame": 17,
+      "source_bbox": [
+        354,
+        1184,
+        478,
+        1375
+      ],
+      "anchor_x": 414.0,
+      "dest": [
+        151,
+        96
+      ]
+    },
+    {
+      "frame": 18,
+      "source_bbox": [
+        579,
+        1239,
+        780,
+        1381
+      ],
+      "anchor_x": 723.0,
+      "dest": [
+        61,
+        149
+      ]
+    },
+    {
+      "frame": 19,
+      "source_bbox": [
+        829,
+        1301,
+        1101,
+        1381
+      ],
+      "anchor_x": 965.0,
+      "dest": [
+        70,
+        216
+      ]
+    }
+  ]
+}

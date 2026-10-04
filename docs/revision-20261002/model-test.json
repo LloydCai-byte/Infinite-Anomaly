@@ -1,0 +1,6 @@
+{
+  "checks": 437,
+  "failures": 0,
+  "fixture": "Only isolated support-effect scenarios use high enemy health; first victory uses natural starting stats.",
+  "natural_first_stage": true
+}

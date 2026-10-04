@@ -1,0 +1,655 @@
+{
+  "version": "0.11.0",
+  "entries": [
+    {
+      "id": "K004",
+      "key": "hasshaku",
+      "stage": 301,
+      "name": "八尺大人",
+      "source_boundary": "沿用原表已整理的网络怪谈概述。白衣高个女性、帽子、乡间宅院及封闭房间为题材锚点；下面五段路线、怪物伴生角色与动作均为游戏原创改编，不作为民俗原文事实。",
+      "scenes": [
+        {
+          "id": "K004-S01",
+          "name": "高篱村道",
+          "path": "res://assets/earth/anomalies/hasshaku/scene-01.png",
+          "size": [
+            2172,
+            724
+          ],
+          "world_x": 0.0,
+          "world_width": 2700.0,
+          "encounter_x": 1404.0
+        },
+        {
+          "id": "K004-S02",
+          "name": "旧宅外廊",
+          "path": "res://assets/earth/anomalies/hasshaku/scene-02.png",
+          "size": [
+            2164,
+            727
+          ],
+          "world_x": 2700.0,
+          "world_width": 2678.9546079779916,
+          "encounter_x": 4093.056396148556
+        },
+        {
+          "id": "K004-S03",
+          "name": "封窗客房侧院",
+          "path": "res://assets/earth/anomalies/hasshaku/scene-03.png",
+          "size": [
+            2171,
+            724
+          ],
+          "world_x": 5378.954607977992,
+          "world_width": 2698.756906077348,
+          "encounter_x": 6782.308199138213
+        },
+        {
+          "id": "K004-S04",
+          "name": "村界石像道",
+          "path": "res://assets/earth/anomalies/hasshaku/scene-04.png",
+          "size": [
+            2172,
+            724
+          ],
+          "world_x": 8077.71151405534,
+          "world_width": 2700.0,
+          "encounter_x": 9481.71151405534
+        },
+        {
+          "id": "K004-S05",
+          "name": "空车等候路口",
+          "path": "res://assets/earth/anomalies/hasshaku/scene-05.png",
+          "size": [
+            2172,
+            724
+          ],
+          "world_x": 10777.71151405534,
+          "world_width": 2700.0,
+          "encounter_x": 12181.71151405534
+        }
+      ],
+      "enemies": [
+        {
+          "id": "K004-M01",
+          "name": "借声亲属",
+          "height": 193.5,
+          "lore": "院门关上后，门外仍传来熟悉的问候。他记得每个人的小名，却从不记得自己刚才说过什么。衣领后垂着一道黑色侧影，只有影子会在他说话前先张开嘴。",
+          "attack_steps": [
+            "两手提起衣领，黑影缩向肩后",
+            "身体前探，影子侧脸朝前撞击",
+            "影子退回领口，双手恢复垂落"
+          ],
+          "poses": {
+            "idle": {
+              "path": "res://assets/earth/anomalies/hasshaku/01-side-green.png",
+              "bbox": [
+                407,
+                145,
+                827,
+                866
+              ],
+              "pivot": [
+                725.0,
+                866
+              ],
+              "native_height": 721,
+              "size": [
+                1536,
+                1024
+              ]
+            },
+            "attack": {
+              "path": "res://assets/earth/anomalies/hasshaku/01-attack-green.png",
+              "bbox": [
+                585,
+                80,
+                1219,
+                867
+              ],
+              "pivot": [
+                706.0,
+                867
+              ],
+              "native_height": 787,
+              "size": [
+                1536,
+                1024
+              ]
+            }
+          },
+          "native_height": 721
+        },
+        {
+          "id": "K004-M02",
+          "name": "窗框探客",
+          "height": 258.0,
+          "lore": "客房的窗被封住以后，外面的敲击声并没有停。第二天，窗框少了一块木料，却多出两道长长的袖子。它总想把自己的脸塞进每一扇窗，仿佛那里才是它真正的身体。",
+          "attack_steps": [
+            "窗框后倾，双臂折回两侧",
+            "一只长臂向前探出抓击，另一臂稳定框体",
+            "白手缩回，木闩双腿落稳"
+          ],
+          "poses": {
+            "idle": {
+              "path": "res://assets/earth/anomalies/hasshaku/02-side-green.png",
+              "bbox": [
+                614,
+                155,
+                883,
+                840
+              ],
+              "pivot": [
+                761.0,
+                840
+              ],
+              "native_height": 685,
+              "size": [
+                1536,
+                1024
+              ]
+            },
+            "attack": {
+              "path": "res://assets/earth/anomalies/hasshaku/02-attack-green.png",
+              "bbox": [
+                557,
+                152,
+                1186,
+                843
+              ],
+              "pivot": [
+                703.5,
+                843
+              ],
+              "native_height": 691,
+              "size": [
+                1536,
+                1024
+              ]
+            }
+          },
+          "native_height": 685
+        },
+        {
+          "id": "K004-M03",
+          "name": "纸封匍行者",
+          "height": 124.69999999999999,
+          "lore": "用来封窗的纸一夜之间皱成许多层。拆下来的纸团会自己翻到门边，贴住仍有光透进来的缝隙。它平日像一摞不起眼的旧拉门，靠近时却能展开比门更宽的身体。",
+          "attack_steps": [
+            "四条木腿压低，纸层收拢",
+            "折叠身朝前展开，封签拍击",
+            "纸层逐道合上，封签卷回"
+          ],
+          "poses": {
+            "idle": {
+              "path": "res://assets/earth/anomalies/hasshaku/03-side-green.png",
+              "bbox": [
+                240,
+                361,
+                1367,
+                714
+              ],
+              "pivot": [
+                742.0,
+                714
+              ],
+              "native_height": 353,
+              "size": [
+                1536,
+                1024
+              ]
+            },
+            "attack": {
+              "path": "res://assets/earth/anomalies/hasshaku/03-attack-green.png",
+              "bbox": [
+                240,
+                361,
+                1361,
+                714
+              ],
+              "pivot": [
+                619.5,
+                714
+              ],
+              "native_height": 353,
+              "size": [
+                1536,
+                1024
+              ]
+            }
+          },
+          "native_height": 353
+        },
+        {
+          "id": "K004-M04",
+          "name": "背路石童",
+          "height": 154.79999999999998,
+          "lore": "村界的石像原本都面朝外面。多年后，有人发现其中一尊的脸已经转到背后，脚下却没有挪动过的痕迹。它把一截矮墙背在身上，沿着村界慢慢行走，像要把所有出去的路一寸寸搬回来。",
+          "attack_steps": [
+            "弯下短腿，背墙抬起",
+            "半转身，以弧形背墙撞向前方",
+            "转回原向，石脚站稳"
+          ],
+          "poses": {
+            "idle": {
+              "path": "res://assets/earth/anomalies/hasshaku/04-side-green.png",
+              "bbox": [
+                486,
+                92,
+                1014,
+                926
+              ],
+              "pivot": [
+                785.0,
+                926
+              ],
+              "native_height": 834,
+              "size": [
+                1536,
+                1024
+              ]
+            },
+            "attack": {
+              "path": "res://assets/earth/anomalies/hasshaku/04-attack-green.png",
+              "bbox": [
+                302,
+                91,
+                1319,
+                918
+              ],
+              "pivot": [
+                674.0,
+                918
+              ],
+              "native_height": 827,
+              "size": [
+                1536,
+                1024
+              ]
+            }
+          },
+          "native_height": 834
+        },
+        {
+          "id": "K004-M05",
+          "name": "八尺白帽女",
+          "height": 301.0,
+          "lore": "篱墙的高度没有变，她的帽子却一直露在上面。傍晚的光照亮白裙，帽檐下的表情平静得像一位来访的客人。她走过的每一扇门都显得太矮，伸手时，袖口便越过了本该够不到的距离。",
+          "attack_steps": [
+            "抬起一侧长臂，帽檐保持水平",
+            "俯身向前，一掌下压横扫",
+            "手臂收回，身体直立，裙摆回落"
+          ],
+          "poses": {
+            "idle": {
+              "path": "res://assets/earth/anomalies/hasshaku/05-side-green.png",
+              "bbox": [
+                641,
+                153,
+                871,
+                862
+              ],
+              "pivot": [
+                755.0,
+                862
+              ],
+              "native_height": 709,
+              "size": [
+                1536,
+                1024
+              ]
+            },
+            "attack": {
+              "path": "res://assets/earth/anomalies/hasshaku/05-attack-green.png",
+              "bbox": [
+                612,
+                146,
+                1004,
+                887
+              ],
+              "pivot": [
+                737.0,
+                887
+              ],
+              "native_height": 741,
+              "size": [
+                1536,
+                1024
+              ]
+            }
+          },
+          "native_height": 709
+        }
+      ],
+      "height": 900,
+      "native_hd": false,
+      "animation_method": "Two authored poses with runtime movement, recoil and fall; not full frame animation.",
+      "world_width": 13477.71151405534
+    },
+    {
+      "id": "K005",
+      "key": "kuchisake",
+      "stage": 302,
+      "name": "裂口女",
+      "source_boundary": "戴口罩女性、询问美丑和追逐来自原表都市传说概述；五段空间、四款伴生怪及具体普攻均是本作原创改编。不同版本的逃脱说法不作为战斗机制。",
+      "scenes": [
+        {
+          "id": "K005-S01",
+          "name": "校门外归家路",
+          "path": "res://assets/earth/anomalies/kuchisake/scene-01.png",
+          "size": [
+            2172,
+            724
+          ],
+          "world_x": 0.0,
+          "world_width": 2700.0,
+          "encounter_x": 1404.0
+        },
+        {
+          "id": "K005-S02",
+          "name": "口罩药店街面",
+          "path": "res://assets/earth/anomalies/kuchisake/scene-02.png",
+          "size": [
+            2172,
+            724
+          ],
+          "world_x": 2700.0,
+          "world_width": 2700.0,
+          "encounter_x": 4104.0
+        },
+        {
+          "id": "K005-S03",
+          "name": "闭店理发铺",
+          "path": "res://assets/earth/anomalies/kuchisake/scene-03.png",
+          "size": [
+            2167,
+            725
+          ],
+          "world_x": 5400.0,
+          "world_width": 2690.0689655172414,
+          "encounter_x": 6798.835862068965
+        },
+        {
+          "id": "K005-S04",
+          "name": "电话亭街角",
+          "path": "res://assets/earth/anomalies/kuchisake/scene-04.png",
+          "size": [
+            2172,
+            724
+          ],
+          "world_x": 8090.068965517241,
+          "world_width": 2700.0,
+          "encounter_x": 9494.068965517241
+        },
+        {
+          "id": "K005-S05",
+          "name": "公园铁门尽头",
+          "path": "res://assets/earth/anomalies/kuchisake/scene-05.png",
+          "size": [
+            2172,
+            724
+          ],
+          "world_x": 10790.068965517241,
+          "world_width": 2700.0,
+          "encounter_x": 12194.068965517241
+        }
+      ],
+      "enemies": [
+        {
+          "id": "K005-M01",
+          "name": "袋口应声人",
+          "height": 193.5,
+          "lore": "药店关门后，送货员还在逐户询问有没有人订口罩。他手里的单据只有折痕，纸袋上的笑纹却总在等人回答。每次路灯闪过，袋口都会朝来人的方向多折一次。",
+          "attack_steps": [
+            "弯膝将布包拉向身后",
+            "侧身前送，以布包向前短促撞击",
+            "收包退回肩侧，双脚站稳"
+          ],
+          "poses": {
+            "idle": {
+              "path": "res://assets/earth/anomalies/kuchisake/01-side-green.png",
+              "bbox": [
+                581,
+                123,
+                890,
+                880
+              ],
+              "pivot": [
+                753.5,
+                880
+              ],
+              "native_height": 757,
+              "size": [
+                1536,
+                1024
+              ]
+            },
+            "attack": {
+              "path": "res://assets/earth/anomalies/kuchisake/01-attack-green.png",
+              "bbox": [
+                454,
+                132,
+                1137,
+                879
+              ],
+              "pivot": [
+                698.5,
+                879
+              ],
+              "native_height": 747,
+              "size": [
+                1536,
+                1024
+              ]
+            }
+          },
+          "native_height": 757
+        },
+        {
+          "id": "K005-M02",
+          "name": "空椅剪匠",
+          "height": 150.5,
+          "lore": "最后一位客人离开之后，理发椅仍会自己调高。镜子里总少一张椅子，地上却多出一串细短的金属脚印。它把每个经过的人都当成还没剪完的客人。",
+          "attack_steps": [
+            "四条短腿撑稳，剪刀臂向后收拢",
+            "椅身前倾，一只剪刀臂向前剪击",
+            "合拢剪刀收回扶手位置，恢复低站姿"
+          ],
+          "poses": {
+            "idle": {
+              "path": "res://assets/earth/anomalies/kuchisake/02-side-green.png",
+              "bbox": [
+                464,
+                116,
+                1136,
+                858
+              ],
+              "pivot": [
+                708.0,
+                858
+              ],
+              "native_height": 742,
+              "size": [
+                1536,
+                1024
+              ]
+            },
+            "attack": {
+              "path": "res://assets/earth/anomalies/kuchisake/02-attack-green.png",
+              "bbox": [
+                379,
+                111,
+                1395,
+                863
+              ],
+              "pivot": [
+                634.0,
+                863
+              ],
+              "native_height": 752,
+              "size": [
+                1536,
+                1024
+              ]
+            }
+          },
+          "native_height": 742
+        },
+        {
+          "id": "K005-M03",
+          "name": "围巾折面客",
+          "height": 247.24999999999997,
+          "lore": "街角的风停了，他的围巾却还在绕着人行道拐弯。围巾结下没有呼吸，只有一声像在重复问题的布料摩擦声。他总比自己的脚步先伸到路灯下面。",
+          "attack_steps": [
+            "低头收肩，围巾尾弯向后方",
+            "身体前倾，围巾尾横向抽击",
+            "布尾弯回颈后，恢复侧站"
+          ],
+          "poses": {
+            "idle": {
+              "path": "res://assets/earth/anomalies/kuchisake/03-side-green.png",
+              "bbox": [
+                525,
+                129,
+                857,
+                883
+              ],
+              "pivot": [
+                790.5,
+                883
+              ],
+              "native_height": 754,
+              "size": [
+                1536,
+                1024
+              ]
+            },
+            "attack": {
+              "path": "res://assets/earth/anomalies/kuchisake/03-attack-green.png",
+              "bbox": [
+                336,
+                139,
+                1287,
+                868
+              ],
+              "pivot": [
+                637.0,
+                868
+              ],
+              "native_height": 729,
+              "size": [
+                1536,
+                1024
+              ]
+            }
+          },
+          "native_height": 754
+        },
+        {
+          "id": "K005-M04",
+          "name": "镜背照面师",
+          "height": 215.0,
+          "lore": "照相馆橱窗的镜子总比街道晚一点入夜。站在它面前的人离开后，自己的侧脸还会留在里面。如今镜子离开了墙，只把背面朝着路人，像在寻找不肯被照出的另一张脸。",
+          "attack_steps": [
+            "镜框向后倾，两手护住边缘",
+            "镜背向前推撞，镜面始终不转向镜头",
+            "木腿回收，椭圆镜框恢复直立"
+          ],
+          "poses": {
+            "idle": {
+              "path": "res://assets/earth/anomalies/kuchisake/04-side-green.png",
+              "bbox": [
+                692,
+                114,
+                868,
+                879
+              ],
+              "pivot": [
+                780.5,
+                879
+              ],
+              "native_height": 765,
+              "size": [
+                1536,
+                1024
+              ]
+            },
+            "attack": {
+              "path": "res://assets/earth/anomalies/kuchisake/04-attack-green.png",
+              "bbox": [
+                541,
+                108,
+                920,
+                853
+              ],
+              "pivot": [
+                722.0,
+                853
+              ],
+              "native_height": 745,
+              "size": [
+                1536,
+                1024
+              ]
+            }
+          },
+          "native_height": 765
+        },
+        {
+          "id": "K005-M05",
+          "name": "长剪口罩女",
+          "height": 232.20000000000002,
+          "lore": "路灯照不到她的眼睛，白色口罩却亮得十分清楚。她从商业街的一端跟到另一端，始终保持着像要说话的距离。剪刀闭合时只发出很轻的一响，附近橱窗里的笑容便一起消失了。",
+          "attack_steps": [
+            "后脚压稳，持剪手收至腰后",
+            "向前跨一小步，剪刀臂平直刺出",
+            "剪刀收回身体外侧，双脚重回待机基线"
+          ],
+          "poses": {
+            "idle": {
+              "path": "res://assets/earth/anomalies/kuchisake/05-side-green.png",
+              "bbox": [
+                678,
+                124,
+                840,
+                901
+              ],
+              "pivot": [
+                765.0,
+                901
+              ],
+              "native_height": 777,
+              "size": [
+                1536,
+                1024
+              ]
+            },
+            "attack": {
+              "path": "res://assets/earth/anomalies/kuchisake/05-attack-green.png",
+              "bbox": [
+                470,
+                124,
+                1164,
+                890
+              ],
+              "pivot": [
+                692.5,
+                890
+              ],
+              "native_height": 766,
+              "size": [
+                1536,
+                1024
+              ]
+            }
+          },
+          "native_height": 777
+        }
+      ],
+      "height": 900,
+      "native_hd": false,
+      "animation_method": "Two authored poses with runtime movement, recoil and fall; not full frame animation.",
+      "world_width": 13490.068965517241
+    }
+  ]
+}

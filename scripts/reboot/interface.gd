@@ -221,6 +221,8 @@ func title_screen() -> void:
 	button(g.ui_root,"quit","退出",Rect2(105,716 if recent>0 else 639,300,64),func():g.open("quit"),"exit")
 	text(g.ui_root,"房间里的四个人  /  群星之间的一百万间房",Rect2(103,825,1080,32),19,MUTED)
 	text(g.ui_root,C.VERSION,Rect2(1400,835,135,25),18,MUTED,HORIZONTAL_ALIGNMENT_RIGHT)
+	button(g.ui_root,"street_preview","长街实机试玩",Rect2(452,485,330,64),g.start_street_preview,"play","primary")
+	text(g.ui_root,"新角色动画 · 超长街景",Rect2(465,552,390,38),20,MUTED)
 
 func topbar(title: String,subtitle: String) -> void:
 	image(g.ui_root,Art.ui("topbar"),Rect2(0,0,1600,96))
@@ -271,6 +273,7 @@ func base_screen() -> void:
 		button(g.ui_root,"nav_"+e[2],e[0],Rect2(41+i*254,805,237, sixty()),func():g.open(e[2]),e[1],"primary" if i==5 else "neutral")
 	live.training_base=text(g.ui_root,"",Rect2(77,777,1010,25),18,ACCENT)
 	button(g.ui_root,"journal","广播记录",Rect2(40,121,201,50),func():g.open("journal"),"file")
+	button(g.ui_root,"street_preview","长街实机试玩",Rect2(1320,121,240,50),g.start_street_preview,"play","primary")
 	if not m.s.story_queue.is_empty(): button(g.ui_root,"new_story","新的广播",Rect2( forty_ui(),184,201,50),func():campaign.begin_story(m.s.story_queue[0]),"volume","primary")
 	if m.graduate_ready() and m.s.phase!="war": button(g.ui_root,"base_graduation","毕业简报",Rect2(40,247,201,50),func():g.open("graduation"),"file","primary")
 	if m.s.history_active: button(g.ui_root,"leave_history","退出历史模拟",Rect2( forty_ui(),247,246,50),func():g.perform("history",false),"back","primary")

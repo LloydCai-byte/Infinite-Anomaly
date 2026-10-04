@@ -5,6 +5,8 @@ const Art=preload("res://scripts/reboot/art.gd")
 const Store=preload("res://scripts/reboot/save_store.gd")
 const World=preload("res://scripts/reboot/world.gd")
 const Interface=preload("res://scripts/reboot/interface.gd")
+const StreetPreview=preload("res://scripts/reboot/street_preview.gd")
+var street_preview: Control
 var model=Model.new()
 var store: RefCounted
 var slot=0
@@ -81,6 +83,29 @@ func _ready() -> void:
 			sound_players.append(a)
 	get_tree().auto_accept_quit=false
 	committed=model.s.duplicate(true)
+	render()
+	if "--street-preview" in OS.get_cmdline_user_args(): call_deferred("start_street_preview")
+
+func start_street_preview() -> void:
+	if is_instance_valid(street_preview): return
+	street_preview=StreetPreview.new()
+	street_preview.game=self
+	world.hide()
+	world.set_process(false)
+	ui_root.hide()
+	overlay.hide()
+	toast_label.hide()
+	add_child(street_preview)
+
+func close_street_preview() -> void:
+	if not is_instance_valid(street_preview): return
+	remove_child(street_preview)
+	street_preview.queue_free()
+	street_preview=null
+	world.show()
+	world.set_process(true)
+	ui_root.show()
+	overlay.show()
 	render()
 
 func slot_store(n: int) -> RefCounted:
@@ -268,9 +293,11 @@ func perform(action: String, value: Variant=null) -> bool:
 	return ok
 
 func is_paused() -> bool:
+	if is_instance_valid(street_preview): return true
 	return view=="title" or page in ["intro","pause","quit","settings","recall","dismantle","save_error","recovery","newsave","delete","story","handoff","war_retreat","war_history"] or (not model.s.settings.background and not get_window().has_focus() and not transient)
 
 func _process(delta: float) -> void:
+	if is_instance_valid(street_preview): return
 	animation_clock+=delta
 	toast_clock=maxf(0,toast_clock-delta)
 	toast_label.visible=toast_clock>0
@@ -415,6 +442,11 @@ func save_settings() -> void:
 	toast("设置已应用。")
 
 func _input(event: InputEvent) -> void:
+	if is_instance_valid(street_preview):
+		if event is InputEventKey:
+			street_preview.handle_key(event)
+			get_viewport().set_input_as_handled()
+		return
 	if event is InputEventKey and event.pressed and not event.echo and (event.keycode==KEY_F1 or event.physical_keycode==KEY_F1):
 		model.invincible=not model.invincible
 		toast("全员无敌已开启 · F1 关闭" if model.invincible else "全员无敌已关闭")

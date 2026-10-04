@@ -1,5 +1,5 @@
 extends SceneTree
-const OUT="res://builds/InfiniteAnomaly-Reboot-Full-0.5.2/"
+const OUT="res://builds/InfiniteAnomaly-Reboot-Full-0.5.3/"
 var pack=PCKPacker.new()
 var packed: Dictionary={}
 var failed=false
@@ -25,7 +25,7 @@ func directory(path: String) -> void:
 		failed=true
 		return
 	for file in d.get_files():
-		if file.get_extension() in ["gd","png","svg","wav","json","import"]: add(path.path_join(file))
+		if file.get_extension() in ["gd","tres","png","svg","wav","json","import"]: add(path.path_join(file))
 	for sub in d.get_directories(): directory(path.path_join(sub))
 
 func _initialize() -> void:
@@ -34,7 +34,7 @@ func _initialize() -> void:
 	checked(config.load("res://project.godot"),"read project")
 	config.set_value("application","config/name","无限异常")
 	config.set_value("application","config/description","培养四人，送往星海。百万房间与真实远征。")
-	config.set_value("application","config/version","0.5.2-campaign")
+	config.set_value("application","config/version","0.5.3-street")
 	config.set_value("application","run/main_scene","res://scenes/reboot/main.tscn")
 	config.set_value("display","window/size/viewport_width",1600)
 	config.set_value("display","window/size/viewport_height",900)
@@ -46,7 +46,9 @@ func _initialize() -> void:
 	add("res://.local/reboot-project.godot","res://project.godot")
 	add("res://scenes/reboot/main.tscn")
 	directory("res://scripts/reboot")
+	add("res://scripts/earth/gait.gd")
 	directory("res://assets/reboot")
+	directory("res://assets/character_sequences")
 	checked(pack.flush(),"pack flush")
 	var f=FileAccess.open(OUT+"files.json",FileAccess.WRITE)
 	f.store_string(JSON.stringify(packed.keys(),"  "))

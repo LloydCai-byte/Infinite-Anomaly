@@ -1,0 +1,43 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "record_id_list": [
+      "reczz28I4GXvbFxD",
+      "reczz28I4GXvbaUS",
+      "reczz28I4GXvbauV",
+      "reczz28I4GXvbcAK",
+      "reczz28I4GXvbfL5",
+      "reczz28I4GXvbxAQ",
+      "reczz28I4GXvcB6x",
+      "reczz28I4GXvcFJk",
+      "reczz28I4GXvcfvj",
+      "reczz28I4GXvco2x",
+      "reczz28I4GXvco9k",
+      "reczz28I4GXvcpx3",
+      "reczz28I4GXvctki",
+      "reczz28I4GXvd9Ba",
+      "reczz28I4GXvdQoI",
+      "reczz28I4GXvdRbU",
+      "reczz28I4GXvdYzd",
+      "reczz28I4GXvdb2Y",
+      "reczz28I4GXvdm2o",
+      "reczz28I4GXveDxg",
+      "reczz28I4GXveKud",
+      "reczz28I4GXvePhD",
+      "reczz28I4GXveX26",
+      "reczz28I4GXvesOc",
+      "reczz28I4GXvexkE",
+      "reczz28I4GXvey8L",
+      "reczz28I4GXvfAr1"
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.94",
+      "latest": "1.0.97",
+      "message": "lark-cli 1.0.97 available, current 1.0.94, run: lark-cli update"
+    }
+  }
+}

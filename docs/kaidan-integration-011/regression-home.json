@@ -1,0 +1,6 @@
+{
+  "captures": false,
+  "checks": 161,
+  "failures": 0,
+  "fixture_currency": "only gated UI tests; progression has separate no-injection simulation"
+}

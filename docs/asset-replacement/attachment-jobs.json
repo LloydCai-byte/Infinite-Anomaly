@@ -1,0 +1,56 @@
+[
+  {
+    "id": "menu",
+    "record_id": "reczz28I4GXvfAXo",
+    "field": "当前预览",
+    "file": "assets/earth/menu.png"
+  },
+  {
+    "id": "room.living",
+    "record_id": "reczz28I4GXvbuOH",
+    "field": "当前预览",
+    "file": "assets/earth/home/living.png"
+  },
+  {
+    "id": "room.workroom",
+    "record_id": "reczz28I4GXveJ9d",
+    "field": "当前预览",
+    "file": "assets/earth/home/workroom.png"
+  },
+  {
+    "id": "room.kitchen",
+    "record_id": "reczz28I4GXvdUuS",
+    "field": "当前预览",
+    "file": "assets/earth/home/kitchen.png"
+  },
+  {
+    "id": "room.bathroom",
+    "record_id": "reczz28I4GXvcn8c",
+    "field": "当前预览",
+    "file": "assets/earth/home/bathroom.png"
+  },
+  {
+    "id": "room.bedroom",
+    "record_id": "reczz28I4GXvbEoH",
+    "field": "当前预览",
+    "file": "assets/earth/home/bedroom.png"
+  },
+  {
+    "id": "room.balcony",
+    "record_id": "reczz28I4GXvbvrE",
+    "field": "当前预览",
+    "file": "assets/earth/home/balcony.png"
+  },
+  {
+    "id": "room.corridor",
+    "record_id": "reczz28I4GXvbwBL",
+    "field": "当前预览",
+    "file": "assets/earth/home/corridor.png"
+  },
+  {
+    "id": "floorplan",
+    "record_id": "reczz28I4GXvfDEN",
+    "field": "当前预览",
+    "file": "assets/earth/home/floorplan.png"
+  }
+]

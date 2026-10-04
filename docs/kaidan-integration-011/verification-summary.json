@@ -1,0 +1,210 @@
+{
+  "verified_at": "2026-10-04T00:16:23.268107+08:00",
+  "version": "0.11.0-earth-kaidan",
+  "release": "builds/InfiniteAnomaly-Earth-0.11.0",
+  "runtime_originals": 30,
+  "source_bytes_unchanged": true,
+  "pck_entries": 976,
+  "pck_sha256": "52af9798d8ff192a44570030ff2a5137c66231d5c8883ccff3a9bcf0c2786eb6",
+  "regression_checks": 1538,
+  "model_checks": 49,
+  "actual_new_launcher_ui_checks": 125,
+  "other_launcher_checks": 13,
+  "failures": 0,
+  "package_regression_pass": true,
+  "package_test_workdir": "D:/Codex/home/visualizations/2026/10/03/01a1018f-2c67-7002-a6ee-cb0ba54c9c79",
+  "ledger": {
+    "total": 278,
+    "status": {
+      "未替换": 164,
+      "已接入待验收": 114,
+      "已验收": 0
+    },
+    "problems": 0,
+    "version": "0.11.0"
+  },
+  "captures": [
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-portal-hasshaku.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "162e4a77b50a55b0c907b93e96ae00c6ce9d025f12e2da09eabc3e95497e3c75"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-portal-kuchisake.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "00d7ea4de91a9d9311b2c37812d3085910c91ee8368849140df6b61806107865"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-301-section-1.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "3eeac3248b8763ec90fe62291a69c34ad23786a4fb1a45b688be3939a41bc9ee"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-301-section-2.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "4e749288947b279eee6d95841113d781c5c85d0c1619d99256af4cb4c69b83a2"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-301-section-3.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "ab94156bd9472aa5bd091c1a7569eed063b8fc0927f4fab31a785fa498fb2719"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-301-section-4.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "46a890cba34d76c6ceb4eb645ab92e3663eaf774ac07039e44da5e3457f093f5"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-301-section-5.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "92ef7e7ca56b4527300f2a774c534629c626f45837252385561753acfac18f95"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-301-all-idle.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "37d31ffd4c91771b74ecc91b5512a7180f5e9bb4595a1d94eddfb0233ad5500c"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-301-all-attack.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "1ddfe64b13e7ff537ecb66c6f36ce6e7f6c503d95ca3d39fa48fbc171f736501"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-301-natural-combat.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "706e0f68600ba39e3dec0022704b2e6189ac08d0398d7898ecc596afd015f27e"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-301-victory.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "0f294f9db81c5ea17945acf020199472b64cc34dc8dd2bf4cdb2559e6e775d80"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-302-section-1.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "e366af0e0999423ef5bf0e322f83bce27c75377cc2ec9a7da7334f1d2498e651"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-302-section-2.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "d9d1c946d914b9f07c23f2b6f7b50f23a3c9b1b2aae4cf4e3bf9b145436b5252"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-302-section-3.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "1210c4b91ddacfe51fbd0ca6cbb7d1f700c8e3a0f483a8d274da0220175e29d3"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-302-section-4.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "f5899932d4dd670170437d76a4283af4a70c057db79d89b1bc9d139e842d0911"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-302-section-5.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "824a3552e41835810ae1399bb7b032b4c1a687302445180c89dea5477f90d122"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-302-all-idle.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "6370769d30514e554b5ce3b3cd1ede437c9ed076e4698252ff43b6657dc9676d"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-302-all-attack.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "ffbcc181fbf4a48d5f6d50e83da0030fb255ec3052d21288160699207e0a3187"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-302-natural-combat.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "d36bdc0909c0777f97f865ada87ee52f192a43fca903766926bc47d3476f34e0"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-302-victory.png",
+      "size": [
+        1600,
+        900
+      ],
+      "sha256": "10d7184c89c9cbaeb9ae70aa8798ff927e1fcde9631661a2ce6a5237be486ce1"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-viewport-2560x1440.png",
+      "size": [
+        2560,
+        1440
+      ],
+      "sha256": "f32c9cf4a2f6482e47c78ff63e1186cbd0d57a9236dc98a3d93cc2209aafe127"
+    },
+    {
+      "file": "art/earth-production/kaidan-integration-011/captures/preview-entry-viewport-3840x2160.png",
+      "size": [
+        3840,
+        2160
+      ],
+      "sha256": "e35994507ebbbf6cc5572717aca597397d232b6b83811902228120e82589fc15"
+    }
+  ],
+  "native_hd_source_complete": false,
+  "full_frame_animation_complete": false,
+  "seam_art_refinement_complete": false,
+  "feishu_written_this_turn": false,
+  "github_pushed": false,
+  "harness_note": "First launcher orchestration timed out waiting on inherited stdout after CMD returned; the child finished with 125 checks and zero failures. Collected its fresh report; runner now redirects stdout to a file."
+}
