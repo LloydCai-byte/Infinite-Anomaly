@@ -1,0 +1,15 @@
+{
+  "id": "K009",
+  "batch": "B0003",
+  "status": "in_progress",
+  "expected_new_images": 16,
+  "expected_generated_images": 15,
+  "expected_derived_panoramas": 1,
+  "assets": [],
+  "created_at": "2026-10-04T11:27:44.913117+08:00",
+  "user_approved": false,
+  "generated_images": 0,
+  "derived_panoramas": 0,
+  "updated_at": "2026-10-04T14:45:57.423605+08:00",
+  "feishu_verified_images": 0
+}

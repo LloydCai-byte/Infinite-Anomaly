@@ -1,0 +1,30 @@
+{
+  "batch": "R0000",
+  "selected_images": 20,
+  "idle": 10,
+  "attack": 10,
+  "all_actual_sizes": [
+    1536,
+    1024
+  ],
+  "all_hashes_match": true,
+  "all_prompts_exist": true,
+  "all_individual_visual_reviews": true,
+  "resampled": false,
+  "feishu_written": false,
+  "game_changed": false,
+  "next": {
+    "batch": "B0002",
+    "batch_anomalies": [
+      "K006",
+      "K007"
+    ],
+    "anomaly": "K006",
+    "phase": "local_detailed_design_before_generation",
+    "next_assets": [
+      "K006-S01"
+    ],
+    "stop_after_batch": false
+  },
+  "user_approved": false
+}

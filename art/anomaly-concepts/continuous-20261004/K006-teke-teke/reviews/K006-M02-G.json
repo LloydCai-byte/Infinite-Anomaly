@@ -1,0 +1,46 @@
+{
+  "id": "K006-M02-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/02-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "484867c811fd68644bcd9aba9f86575d99d0ea385ecb17013fc22459ce6ab2ca",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-b0f7f253-317e-481a-89a6-e9f12e7e8fff.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-02-side-reframe.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "朝右信号灯头三格、工装安全带、独立两手和双靴完整；头顶脚下留白已补足，灯无绿色。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      706,
+      167,
+      853,
+      836
+    ],
+    "margins_ltrb": [
+      0.4596354166666667,
+      0.1630859375,
+      0.4446614583333333,
+      0.18359375
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      16,
+      240,
+      17
+    ]
+  }
+}

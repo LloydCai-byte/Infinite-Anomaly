@@ -1,0 +1,22 @@
+{
+  "id": "K006-S03",
+  "kind": "scene",
+  "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/03.png",
+  "size": [
+    2172,
+    724
+  ],
+  "sha256": "1fe781cea1aa6b83b0066ac1228b572f597bc799bced8d17747eeaa9d044c401",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-1f0e59bd-ea9b-469f-9a14-06d678f95e93.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-03.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "user_approved": false,
+  "resampled": false,
+  "review": {
+    "visual": "道口支路向后穿轨，主路仍水平畅通；警示设备无人物，路沿高度稳定。前景补丁与02有重复结构，后续全景需评审。",
+    "continuity": "pairwise_join_review_pending",
+    "user_approved": false
+  }
+}

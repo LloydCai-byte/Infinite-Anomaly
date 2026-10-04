@@ -1,0 +1,25 @@
+{
+  "join": 4,
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-4b6892dd-0ecd-454f-a3b3-1cc91f4bc3ce.png",
+  "repaint": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-04-repaint.png",
+  "sha256": "248702a5ee9175df1dee25969092434524d5e426b5a8d026470697894e632306",
+  "size": [
+    2172,
+    724
+  ],
+  "selected_crop": [
+    734,
+    0,
+    1426,
+    724
+  ],
+  "assembly": "AI artwork cropped and pasted at native coordinates; no scaling, painting or blending",
+  "boundary_mean_abs_rgb_difference": [
+    3.0689584612236542,
+    2.6253325148352773
+  ],
+  "visual_review": "维修间至窗边的墙砖、踢脚线、地面连续，正常查看无突出的矩形色差；待用户评价。",
+  "user_approved": false,
+  "needs_revision": false
+}

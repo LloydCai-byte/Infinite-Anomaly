@@ -1,0 +1,46 @@
+{
+  "id": "K006-M03-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/03-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "be3db1b559c9d0241f74480c2d265da6edb0db9a45a13ee683a495b93b988384",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-58db6a79-6355-4d8f-8d2f-420aa4965260.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-03-attack-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "近侧道闸臂水平横扫，另一臂向后低垂，完整两臂两腿，头部与掌端留白足够。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      525,
+      132,
+      1200,
+      865
+    ],
+    "margins_ltrb": [
+      0.341796875,
+      0.12890625,
+      0.21875,
+      0.1552734375
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      16,
+      240,
+      23
+    ]
+  }
+}

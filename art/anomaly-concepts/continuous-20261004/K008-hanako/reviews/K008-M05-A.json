@@ -1,0 +1,46 @@
+{
+  "id": "K008-M05-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/05-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "0cef19b2459dfc0c92f2ae0a7f93b3b27bb7f794178a6cf3f3b8bfd0a5615dec",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-49506fca-63ed-406f-a250-732bf6c92429.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-05-attack-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "同脸同服同红裙，朝右小跨步推出一掌，另一掌收在胸前，两臂两手两脚完整；输出的伸出手为远侧臂，按实际动作记录，不声称与文字近侧臂完全一致。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      576,
+      157,
+      1020,
+      875
+    ],
+    "margins_ltrb": [
+      0.375,
+      0.1533203125,
+      0.3359375,
+      0.1455078125
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      14,
+      238,
+      17
+    ]
+  }
+}

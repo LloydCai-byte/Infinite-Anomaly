@@ -1,0 +1,751 @@
+{
+  "id": "K008",
+  "batch": "B0003",
+  "status": "in_progress",
+  "expected_new_images": 16,
+  "expected_generated_images": 15,
+  "expected_derived_panoramas": 1,
+  "assets": [
+    {
+      "id": "K008-S01",
+      "kind": "scene",
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/01.png",
+      "size": [
+        2169,
+        725
+      ],
+      "sha256": "2fb464bde0980dc3d0ee4385f0f4a7b0d44e2640203ae9b8ebce93893e449b7b",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-45e77ced-2eb1-45f6-99bf-8422e6064d1a.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/scene-01-edge-v02.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "user_approved": false,
+      "resampled": false,
+      "review": {
+        "visual": "入口木门、鞋柜、窗框与六角地砖细节清楚；右侧截断水槽已移除；实际后墙地面交界约73%而非初案64%，后续按成图固定衔接，暂无人物。",
+        "continuity": "pairwise_join_review_pending",
+        "user_approved": false
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "JIgZjv",
+        "cell": "D22",
+        "token": "EPHWbjNxioiY6jx5rTNcCXirnRe",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/01.png",
+        "uploaded_sha256": "2fb464bde0980dc3d0ee4385f0f4a7b0d44e2640203ae9b8ebce93893e449b7b",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K008-S02",
+      "kind": "scene",
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/02.png",
+      "size": [
+        2169,
+        725
+      ],
+      "sha256": "60cc976ca69ab576bd83cba40c083719d4c3f4b03811c9dfd9e2f3d13ab1201b",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-f2485c06-0bdc-458b-9d1f-5b32231daffe.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/scene-02.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "user_approved": false,
+      "resampled": false,
+      "review": {
+        "visual": "五黄铜水龙头、双排水管、窄镜与肥皂架完整；后侧水槽不挡前景，镜内空墙正确，六角地砖与上一段同风格；接缝待合成检查。",
+        "continuity": "pairwise_join_review_pending",
+        "user_approved": false
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "JIgZjv",
+        "cell": "D23",
+        "token": "PGt7b6kz4oatS9xSvsAcgJoynPc",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/02.png",
+        "uploaded_sha256": "60cc976ca69ab576bd83cba40c083719d4c3f4b03811c9dfd9e2f3d13ab1201b",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K008-S03",
+      "kind": "scene",
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/03.png",
+      "size": [
+        2169,
+        725
+      ],
+      "sha256": "142d1b95adbdfcbc72de1b282785da4ed1d8c4000469bfc1a9f366f103b765c4",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-f0dc2df8-a0ef-4b9c-8b3f-c4666c158b6a.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/scene-03.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "user_approved": false,
+      "resampled": false,
+      "review": {
+        "visual": "三门均左铰链，第三门暗青色和小红绳可辨；门底无人物，前景完整六角地砖，尺度色光沿用前段；接缝待复核。",
+        "continuity": "pairwise_join_review_pending",
+        "user_approved": false
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "JIgZjv",
+        "cell": "D24",
+        "token": "JBSZbRe5Fo8V9YxXnUJcHVQZnSg",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/03.png",
+        "uploaded_sha256": "142d1b95adbdfcbc72de1b282785da4ed1d8c4000469bfc1a9f366f103b765c4",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K008-S04",
+      "kind": "scene",
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/04.png",
+      "size": [
+        2169,
+        725
+      ],
+      "sha256": "661026d882b75897e9119d4d73da4a2ce25df7d9dadad74d59df618163e6f46b",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-7d5fce36-6016-4068-b0d4-78e6b4cd57ad.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/scene-04.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "user_approved": false,
+      "resampled": false,
+      "review": {
+        "visual": "左铰链半开百叶门、桶/拖把/折凳、深水池和表管完整；前景通畅，暖灯及木梁尺度匹配；墙面接口待拼接复核。",
+        "continuity": "pairwise_join_review_pending",
+        "user_approved": false
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "JIgZjv",
+        "cell": "D25",
+        "token": "NyuFbjWucoZ7FjxIiqGcyIETnRf",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/04.png",
+        "uploaded_sha256": "661026d882b75897e9119d4d73da4a2ce25df7d9dadad74d59df618163e6f46b",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K008-S05",
+      "kind": "scene",
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/05.png",
+      "size": [
+        2169,
+        725
+      ],
+      "sha256": "85a8f5ffeb57460d07fc262d296edf5d1970b87f81871e2a0f6461c5088b91c3",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-c767ead7-1300-4353-80de-f7cd2d74fe1d.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/scene-05.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "user_approved": false,
+      "resampled": false,
+      "review": {
+        "visual": "窗格/护栏、完整长凳、暖气与闭合木门清楚，窗外无人物；手摇铃改为画中拉杆式旧铜铃，作为原创道具选择记录；地面比例一致，待拼接复核。",
+        "continuity": "pairwise_join_review_pending",
+        "user_approved": false
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "JIgZjv",
+        "cell": "D26",
+        "token": "E2yOb0alUovsrrxkuU4c07Cdn3c",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/05.png",
+        "uploaded_sha256": "85a8f5ffeb57460d07fc262d296edf5d1970b87f81871e2a0f6461c5088b91c3",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K008-M01-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/01-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "37c85a66d034172272013b6020c55d74dcf35368d91243d5a33cfe60cb470f50",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-ffe280e9-3a90-485e-af37-9cc4c87d78f5.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-01-side-green-margin-v02.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "门体朝右薄侧面、双黑臂各连一白手、双足、铜钮完整；修正头顶边距，无地面影或额外肢体。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          651,
+          181,
+          903,
+          829
+        ],
+        "margins_ltrb": [
+          0.423828125,
+          0.1767578125,
+          0.412109375,
+          0.1904296875
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          13,
+          240,
+          21
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D32",
+        "token": "TcB3bjwDpotpShxsBeccebkFnbb",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/01-side-green.png",
+        "uploaded_sha256": "37c85a66d034172272013b6020c55d74dcf35368d91243d5a33cfe60cb470f50",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K008-M01-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/01-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "89bd31cbbf438f229c8b460821606deb5163c00dd98b87b502b8770a1f66b494",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-e61b6b96-8863-4372-90c4-fdbda3458ac8.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-01-attack-green-hand-v03.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "近侧白掌向右伸出，四指与拇指均清楚；远手收回门侧，两臂两足完整，门钮和五金保持，留白充足。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          633,
+          177,
+          1126,
+          830
+        ],
+        "margins_ltrb": [
+          0.412109375,
+          0.1728515625,
+          0.2669270833333333,
+          0.189453125
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          12,
+          240,
+          24
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E32",
+        "token": "E9e8bSDe6oupwLxcAXtc1It7nXg",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/01-attack-green.png",
+        "uploaded_sha256": "89bd31cbbf438f229c8b460821606deb5163c00dd98b87b502b8770a1f66b494",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K008-M02-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/02-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "a5a3b0c63427253b960a56aa2cc6921322b605d9169b1e30f8e03fcb58e2892d",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-bb612191-7294-4ef7-aa25-80658ddbaa3b.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-02-side-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "无头衣壳领内封闭黑影，无伤口；藏青外套、及膝裙、白手套和双黑鞋一致，双臂其中远臂部分被躯干遮挡，严格朝右站姿。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          668,
+          224,
+          852,
+          876
+        ],
+        "margins_ltrb": [
+          0.4348958333333333,
+          0.21875,
+          0.4453125,
+          0.14453125
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          15,
+          240,
+          17
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D33",
+        "token": "Q9Rvb3oRyovLE9xggdhc2BVJnBf",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/02-side-green.png",
+        "uploaded_sha256": "a5a3b0c63427253b960a56aa2cc6921322b605d9169b1e30f8e03fcb58e2892d",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K008-M02-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/02-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "e3a40720c1eaac837597fc07f3060c3fa5effaecf8ceedb793a3af75fccebe9d",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-4caa7cdf-29fc-422d-9c78-833b294146fc.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-02-attack-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "右向跨步推掌，两臂两手两腿完整，远手回腰，领口封闭黑影；服色、扣子、裙长和鞋保持，无地面影。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          488,
+          173,
+          1071,
+          879
+        ],
+        "margins_ltrb": [
+          0.3177083333333333,
+          0.1689453125,
+          0.302734375,
+          0.1416015625
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          16,
+          240,
+          20
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E33",
+        "token": "RhYhbPmYcom6xNxWbMEcQZ4rnBh",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/02-attack-green.png",
+        "uploaded_sha256": "e3a40720c1eaac837597fc07f3060c3fa5effaecf8ceedb793a3af75fccebe9d",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K008-M03-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/03-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "4dc7fcdd01e3d672309e9ce02f7545cb2823712223a47d2d856971bdbf153704",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-8d17b4dc-fbf7-4d89-a7ea-4cdad7f9fab1.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-03-side-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "搪瓷桶体四条铁腿和四木足可数，单根布颈朝右、后方一条垂布，桶把为正常物件部件，留白充足，无影。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          412,
+          152,
+          1112,
+          799
+        ],
+        "margins_ltrb": [
+          0.2682291666666667,
+          0.1484375,
+          0.2760416666666667,
+          0.2197265625
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          16,
+          240,
+          19
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D34",
+        "token": "DVgNbWtOXo6Lx2x2FJ1c9sHknfh",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/03-side-green.png",
+        "uploaded_sha256": "4dc7fcdd01e3d672309e9ce02f7545cb2823712223a47d2d856971bdbf153704",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K008-M03-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/03-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "5f9b6febec1418e03b281b771cb35f868c74c89eb000db0f81caa6422e2a20c3",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-c64c6c13-f774-4f76-b9c4-8ece4e803f23.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-03-attack-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "四铁腿四木足完整，单根布颈连在桶内并右向前探，桶把和后垂布保持；头与前足未裁切，绿幕无投影。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          233,
+          307,
+          1356,
+          799
+        ],
+        "margins_ltrb": [
+          0.15169270833333334,
+          0.2998046875,
+          0.1171875,
+          0.2197265625
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          16,
+          240,
+          17
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E34",
+        "token": "WLOEbQYVMoy7GBxnrG9ciozNnec",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/03-attack-green.png",
+        "uploaded_sha256": "5f9b6febec1418e03b281b771cb35f868c74c89eb000db0f81caa6422e2a20c3",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K008-M04-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/04-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "dd3dca86ede790427ce182ed86902b0a78b5dd38e078abc49fcce2bc0a1e09e7",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-ed95f192-a061-464f-8f70-48e6694a4d52.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-04-side-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "右侧面铜铃头、黑布封颈、长工作衫、双鞋及近手木槌完整；远臂手大部分在躯干后遮挡，仅边缘可见，非宣称双手完全展开；无额外肢体或影。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          699,
+          91,
+          852,
+          884
+        ],
+        "margins_ltrb": [
+          0.455078125,
+          0.0888671875,
+          0.4453125,
+          0.13671875
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          16,
+          241,
+          19
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D35",
+        "token": "MQ35bKWfboN8tPxqTXfc4DOanJf",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/04-side-green.png",
+        "uploaded_sha256": "dd3dca86ede790427ce182ed86902b0a78b5dd38e078abc49fcce2bc0a1e09e7",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K008-M04-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/04-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "ff40f27f5bcf8ba0f483a733eee3d644b9032ca3e5f4eb1daff8c3775972a009",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-c9222ae0-96f4-4e6f-8156-bfcf386e1c2a.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-04-attack-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "木槌向右短击，近手握柄、远手在腰后可见，两臂两腿完整；铜铃柄顶部和槌头未裁切，服饰五金一致，绿幕无影。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          608,
+          90,
+          1158,
+          899
+        ],
+        "margins_ltrb": [
+          0.3958333333333333,
+          0.087890625,
+          0.24609375,
+          0.1220703125
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          16,
+          240,
+          18
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E35",
+        "token": "YzjyboTggozd8ox85g7cxEERnEc",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/04-attack-green.png",
+        "uploaded_sha256": "ff40f27f5bcf8ba0f483a733eee3d644b9032ca3e5f4eb1daff8c3775972a009",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K008-M05-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/05-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "5b562f815ad36d4891ace168402fd684af23223cee47b6fea4df2534687b99ca",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-280ca75f-e3dd-4eed-8e91-4e91f34e7f09.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-05-side-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "黑短发、白长袖、红背带及膝裙、白袜黑搭扣鞋，右侧面鼻尖及单眼清楚；双手双足完整，服装端正，无伤口或额外部件。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          671,
+          157,
+          857,
+          877
+        ],
+        "margins_ltrb": [
+          0.4368489583333333,
+          0.1533203125,
+          0.4420572916666667,
+          0.1435546875
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          14,
+          241,
+          19
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D36",
+        "token": "C5TEbIsh5opjgSxMdzVc7GVdndf",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/05-side-green.png",
+        "uploaded_sha256": "5b562f815ad36d4891ace168402fd684af23223cee47b6fea4df2534687b99ca",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K008-M05-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/05-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "0cef19b2459dfc0c92f2ae0a7f93b3b27bb7f794178a6cf3f3b8bfd0a5615dec",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-49506fca-63ed-406f-a250-732bf6c92429.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-05-attack-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "同脸同服同红裙，朝右小跨步推出一掌，另一掌收在胸前，两臂两手两脚完整；输出的伸出手为远侧臂，按实际动作记录，不声称与文字近侧臂完全一致。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          576,
+          157,
+          1020,
+          875
+        ],
+        "margins_ltrb": [
+          0.375,
+          0.1533203125,
+          0.3359375,
+          0.1455078125
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          14,
+          238,
+          17
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E36",
+        "token": "PCipbeYjLoXnjfxTf24cgvzxnnb",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/05-attack-green.png",
+        "uploaded_sha256": "0cef19b2459dfc0c92f2ae0a7f93b3b27bb7f794178a6cf3f3b8bfd0a5615dec",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    }
+  ],
+  "created_at": "2026-10-04T11:27:44.913117+08:00",
+  "user_approved": false,
+  "generated_images": 15,
+  "derived_panoramas": 0,
+  "updated_at": "2026-10-04T14:45:57.423605+08:00",
+  "feishu_verified_images": 15
+}

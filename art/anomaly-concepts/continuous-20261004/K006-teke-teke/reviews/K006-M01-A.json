@@ -1,0 +1,46 @@
+{
+  "id": "K006-M01-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/01-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "85d8f21d1e0724476a02a5cc352940866d6bf902784de6e1c4ab8fd0641dd189",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-4d50e34c-1e2b-4b08-a480-034a30c7b598.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-01-attack-reframe.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "完整右向抓击，一臂伸出一臂下撑，布尾无伤口；修订后两侧留白充分。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      262,
+      327,
+      1276,
+      685
+    ],
+    "margins_ltrb": [
+      0.17057291666666666,
+      0.3193359375,
+      0.16927083333333334,
+      0.3310546875
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      14,
+      240,
+      22
+    ]
+  }
+}

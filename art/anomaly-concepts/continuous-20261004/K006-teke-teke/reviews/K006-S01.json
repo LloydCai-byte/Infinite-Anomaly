@@ -1,0 +1,22 @@
+{
+  "id": "K006-S01",
+  "kind": "scene",
+  "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/01.png",
+  "size": [
+    2172,
+    724
+  ],
+  "sha256": "0a95836ece1ea98b8b12e2785d2d15fcf874eb8087945130d426c212c59a78e0",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-353c0f35-4411-4ea9-94fb-6e9e5645d661.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-01-road-v02.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "user_approved": false,
+  "resampled": false,
+  "review": {
+    "visual": "维修铺、轨道、电网及路面细节清楚；修订后路面约下方36%，路沿水平，无角色或障碍。接口需与后段实际拼看。",
+    "continuity": "pairwise_join_review_pending",
+    "user_approved": false
+  }
+}

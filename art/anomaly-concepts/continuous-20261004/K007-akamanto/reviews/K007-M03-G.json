@@ -1,0 +1,46 @@
+{
+  "id": "K007-M03-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/03-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "f5aa28cc77b07de338f5e34e6201ecfce8fdd5b2c9abe85f78798672fb787c21",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-bba2eeb8-1040-4423-bcff-da6e9866efe6.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-03-side-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "镜面头朝右无人物倒影，开衫长裙和双手双鞋完整，近手握一把刮水器，头脚留白充足。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      705,
+      134,
+      849,
+      889
+    ],
+    "margins_ltrb": [
+      0.458984375,
+      0.130859375,
+      0.447265625,
+      0.1318359375
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      15,
+      241,
+      20
+    ]
+  }
+}

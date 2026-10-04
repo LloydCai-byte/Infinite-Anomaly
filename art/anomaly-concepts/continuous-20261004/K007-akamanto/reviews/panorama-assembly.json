@@ -1,0 +1,53 @@
+{
+  "id": "K007-P01",
+  "kind": "panorama",
+  "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/panorama.png",
+  "size": [
+    10860,
+    724
+  ],
+  "sha256": "bcc3cc1d9d89cf7271e5c8a4a7e134a06a865bbd2426b5a2739ca08508eb993b",
+  "generator": "native assembly of built-in image_gen outputs",
+  "status": "reviewed_local_art_draft",
+  "resampled": false,
+  "uploaded": false,
+  "user_approved": false,
+  "source_scenes": [
+    "K007-S01",
+    "K007-S02",
+    "K007-S03",
+    "K007-S04",
+    "K007-S05"
+  ],
+  "join_sources": [
+    {
+      "join": 1,
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-01-composite.png",
+      "sha256": "fd048ef0165880dac73d73bb9d1b481b5a6730d0d73fb061d21235aae747c50b",
+      "metadata": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-01-metadata.json"
+    },
+    {
+      "join": 2,
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-02-composite.png",
+      "sha256": "2c376b2a5fb9b32df4bea1c2c11bf1a4173076c62cd4f8b362a19cefad70b22e",
+      "metadata": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-02-metadata.json"
+    },
+    {
+      "join": 3,
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-03-composite.png",
+      "sha256": "8977c417707600d29b536027e8a97ac594e95ec427a0a3404b1e755289de2594",
+      "metadata": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-03-metadata.json"
+    },
+    {
+      "join": 4,
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-04-composite.png",
+      "sha256": "049e1597bbabb89047aac7d60fde6798aacfef28d724b66500a40ea27b7b1a55",
+      "metadata": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-04-metadata.json"
+    }
+  ],
+  "continuous_scene_directory": "art/anomaly-concepts/continuous-20261004/K007-akamanto/continuous-scenes",
+  "review": {
+    "visual": "五段及四处接缝逐一复核；当前普通尺寸静态美术草案，非像素无缝或用户最终验收。",
+    "user_approved": false
+  }
+}

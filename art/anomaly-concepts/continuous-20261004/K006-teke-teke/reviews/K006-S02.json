@@ -1,0 +1,22 @@
+{
+  "id": "K006-S02",
+  "kind": "scene",
+  "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/02.png",
+  "size": [
+    2172,
+    724
+  ],
+  "sha256": "78c47addc3ed28b76ff9c40ad96724b9fcc0396ae4dbb1f3d4721adcc46ebbd2",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-ab858757-e291-4e15-8033-a5c4087b6e16.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-02.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "user_approved": false,
+  "resampled": false,
+  "review": {
+    "visual": "信号所窗框、管线、柜体清楚，路沿和网栏高度保持01基准，无前景障碍；连接电线与远屋需拼图检查。",
+    "continuity": "pairwise_join_review_pending",
+    "user_approved": false
+  }
+}

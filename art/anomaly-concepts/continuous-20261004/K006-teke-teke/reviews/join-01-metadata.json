@@ -1,0 +1,25 @@
+{
+  "join": 1,
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-93200e96-4e0a-42d0-a274-c703374765f3.png",
+  "repaint": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-01-repaint.png",
+  "sha256": "c801aab0980a89cbe23850777ae99577a068fe6b8a9d411327943acd81a0f92e",
+  "size": [
+    2172,
+    724
+  ],
+  "selected_crop": [
+    624,
+    0,
+    1460,
+    724
+  ],
+  "assembly": "AI artwork cropped and pasted at native coordinates; no scaling, painting or blending",
+  "boundary_mean_abs_rgb_difference": [
+    6.3721608348680165,
+    6.93549212195621
+  ],
+  "visual_review": "重绘后原中央切口电线、围栏和路面连贯，拼回整体无明显色带；局部远屋细线仍待用户评价，不宣称逐像素无缝。",
+  "user_approved": false,
+  "needs_revision": false
+}

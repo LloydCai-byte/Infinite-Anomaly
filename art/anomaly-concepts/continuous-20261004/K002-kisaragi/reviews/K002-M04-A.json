@@ -1,0 +1,46 @@
+{
+  "id": "K002-M04-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/04-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "0204924cc1423137c7fc595607b0e1e1ea79f3de47060974f9826f2bce9cc479",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-8a60618d-2470-464c-a265-2da4dd88dec8.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-04-attack-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "同一鼓腹祭客朝右迈步双槌击鼓，上下双槌与双手分明，嵌腹鼓和服饰一致；完整双腿双足，头脚余量稳定，无声浪特效或地面。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      538,
+      157,
+      913,
+      867
+    ],
+    "margins_ltrb": [
+      0.3502604166666667,
+      0.1533203125,
+      0.4055989583333333,
+      0.1533203125
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      14,
+      241,
+      20
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "K006-S05",
+  "kind": "scene",
+  "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/05.png",
+  "size": [
+    2172,
+    724
+  ],
+  "sha256": "f7f27c94c16e4cb4c541eccf10c133f701bb9f2628991a4751a1fdee0985e4e4",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-6f7fdeb3-562e-4f6d-a76b-8789c6c019cf.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-05-road-v02.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "user_approved": false,
+  "resampled": false,
+  "review": {
+    "visual": "路面色调和水迹向03靠拢，桥梁构图和道路高度保留；尚有微纹理差异，接口修订未验收。",
+    "continuity": "pairwise_join_review_pending",
+    "user_approved": false
+  },
+  "previous_versions": [
+    {
+      "id": "K006-S05",
+      "kind": "scene",
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/05.png",
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "bf040125474462b1fb8a01d4bbd389a19655b476af68e51fb8e703f9d5133a3f",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-ecf2f158-5faf-457d-bc27-4224f1d3f6e4.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-05.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": false,
+      "user_approved": false,
+      "resampled": false,
+      "review": {
+        "visual": "桥梁铆钉、桥墩与铁路围栏完整，前景畅通，05桥台向右边缘延伸。与04道路接口及远屋待实际拼看。",
+        "continuity": "pairwise_join_review_pending",
+        "user_approved": false
+      }
+    }
+  ]
+}

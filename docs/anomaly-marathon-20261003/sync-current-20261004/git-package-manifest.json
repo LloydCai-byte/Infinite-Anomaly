@@ -1,0 +1,1726 @@
+{
+  "branch": "codex/art-checkpoint-20261004",
+  "base": "64e7b9783386c4a5115ee8e418468440a0897458",
+  "file_count": 343,
+  "bytes": 280351024,
+  "gallery_link_count": 67,
+  "gallery_links_all_exist": true,
+  "files": [
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/index.html",
+      "bytes": 29137,
+      "sha256": "4b0c0cc6358c72b75054284ace3cae4e977785aabe84e2a97876b25659ce2913"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/01-attack-green.png",
+      "bytes": 1266556,
+      "sha256": "1e46e81c6cc635630f698beb177012010bb2f4a50fa3d190ff21bccbca0db3c0"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/01-side-green.png",
+      "bytes": 1229013,
+      "sha256": "4286ff2bf7ae620283436a0f3d8117a3a2140c7725a036af6377c2dfdee63e81"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/02-attack-green.png",
+      "bytes": 1269214,
+      "sha256": "6e5c855cdf8c305c60982e0dffb35fb76b5273cbfe6e5656a2b55fb882d5668d"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/02-side-green.png",
+      "bytes": 1247184,
+      "sha256": "5d34136575a1a95fbb317d68d1630ca7b18c9df2f55d3f95e16bdad399cd9f9d"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/03-attack-green.png",
+      "bytes": 1457540,
+      "sha256": "fa5610d33c2636e31066ae852329b41eddd5753a8a8501109b36b5e72eabc8aa"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/03-side-green.png",
+      "bytes": 1486826,
+      "sha256": "dc231e79a627dadf4ba2f97dba4868ddcba1ad0049b71cfc0779280178f84b26"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/04-attack-green.png",
+      "bytes": 1361646,
+      "sha256": "0204924cc1423137c7fc595607b0e1e1ea79f3de47060974f9826f2bce9cc479"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/04-side-green.png",
+      "bytes": 1297090,
+      "sha256": "bc4e7fabd5852d254d32fc193609aa05ffa6539486ee3557ffc25fad339c8526"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/05-attack-green.png",
+      "bytes": 1293773,
+      "sha256": "59a989e00fdb33fc23cc875d30353dcbae05a5bea4b0d25b81b00aeff373efda"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/05-side-green.png",
+      "bytes": 1246604,
+      "sha256": "01c1f63935c1165629d937b550a4ca6eee145add18c7150803a4c75f8551bb5a"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/manifest.json",
+      "bytes": 22103,
+      "sha256": "5d35e5fdd00a605642f96f40f8862938a1b5e6f1f3b447bb6c3503dd836841f0"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-01-attack-green.txt",
+      "bytes": 1345,
+      "sha256": "bbbc8c40aafca4d7bf244f036fd862b0683c50334663b82951dc99bc6ac27c9c"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-01-side-green-v02-margin.txt",
+      "bytes": 882,
+      "sha256": "ddfd484bd66a909f42f587cb3d02b63d4e615e92e7454acc195330de2794a9dd"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-01-side-green.txt",
+      "bytes": 1932,
+      "sha256": "204650bfc5e46757ee6c6b4787592cd04a98e85973866bbad3acd9b93c488751"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-02-attack-green.txt",
+      "bytes": 1249,
+      "sha256": "12a57d4ba469ad61af83c769d6e3ecc1660d5879abcbb6f5e37ff1346a4631c2"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-02-side-green.txt",
+      "bytes": 1958,
+      "sha256": "a99d55e5197c55fca6f5f99910df2ec24a317321efb8215f6fdf6b46f81f114b"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-03-attack-green.txt",
+      "bytes": 1248,
+      "sha256": "caf914d1fa2c0735ddb2b41813df1d0b04824da07480080d44d328bd9d94fae8"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-03-side-green-v02-margin.txt",
+      "bytes": 792,
+      "sha256": "51e67bb25b71bd535fac8f8ee31fee616a98232a9974aef1c4d92f2e13d9953e"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-03-side-green-v03-feet.txt",
+      "bytes": 1308,
+      "sha256": "00107293e60a3ca708fa17e359acbc4b51b44d5f151fa95b66afd725a81bafdd"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-03-side-green.txt",
+      "bytes": 1583,
+      "sha256": "300e8bba854d8dcd8afeb485018105d8b58e187f3b6e6463d5e972dfdebb8384"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-04-attack-green.txt",
+      "bytes": 1257,
+      "sha256": "678d5b5427a882b48df97ff5266fd854fbcfb111f233ec2cd729512d5351a71d"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-04-side-green-v02-margin.txt",
+      "bytes": 619,
+      "sha256": "2bcbbd6adbdef7db1e4b12a0f12d9f4d1250cc4b1294269718722af4f75a210f"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-04-side-green.txt",
+      "bytes": 1583,
+      "sha256": "5bbff9cd8432843fb95db796a67028314a14b4b2e572b7a66406a06595a17431"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-05-attack-green.txt",
+      "bytes": 1475,
+      "sha256": "a54138ed30def550767190f5a2b683752b79c3758cdb6363d40c6f1eb8fc2ffa"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-05-side-green-v02-hands-margin.txt",
+      "bytes": 1235,
+      "sha256": "12c628a66806458612cde68aca1378b2703eaa862101e530efa9235462ea96a3"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-05-side-green.txt",
+      "bytes": 2082,
+      "sha256": "9ec40cfe28cd81368db30d4af59a904d5befacb7518305c457f1100eac64bb9e"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/reviews/01-side-green-v01-tight.png",
+      "bytes": 1250838,
+      "sha256": "91f7200e8aafae85ce07db3e033d1ed5c0a80df015a51919dd4195037816275d"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/reviews/03-side-green-v01-tight.png",
+      "bytes": 1484879,
+      "sha256": "e07b4faa5b72f9c6208a40f358c180d624aa141c71b772ef245c1d8beb021375"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/reviews/03-side-green-v02-front-leg.png",
+      "bytes": 1353943,
+      "sha256": "9a65d1a9630a97d59d178f81c3ed7ba1c3642da894b65d15c0e07d78868ef8a3"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/reviews/04-side-green-v01-tight.png",
+      "bytes": 1293127,
+      "sha256": "97314f832212ac74921c80b8c19ab90017bab06aa6416c44435c949d8876ab10"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/reviews/05-side-green-v01-wrist-tight.png",
+      "bytes": 1267342,
+      "sha256": "19ab2fcfde1a417309052dc3c9724570c7c5a98b15ee889939d14c93d5465e6a"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/reviews/K002-M01-A.json",
+      "bytes": 1435,
+      "sha256": "1e38c99e23b59af495077aff1f7d00e85b2c8315a686b7ffc013a7ba183ed4a1"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/reviews/K002-M01-G.json",
+      "bytes": 1430,
+      "sha256": "00b13b3adf31b99641babdfcca8e0b799ee6dcdb6c3d8993e938a5beb7956940"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/reviews/K002-M02-A.json",
+      "bytes": 1445,
+      "sha256": "ecaf152554c5e5d047afc521d9dd959393520a30bf882b81f297647388a812d6"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/reviews/K002-M02-G.json",
+      "bytes": 1438,
+      "sha256": "7c5251424342d81bce50e5d5343652f35494dabcda7c6f9549778a3444eef0a1"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/reviews/K002-M03-A.json",
+      "bytes": 1461,
+      "sha256": "4aad9bf423fb1d1101c9dbf29d6ed75d0ecfdd1590345aff8f197bf50f839ef7"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/reviews/K002-M03-G.json",
+      "bytes": 1453,
+      "sha256": "baded4643093b8732b8baf1e3d81d20b340ca69a1ead3519c59b66c19bb3cadc"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/reviews/K002-M04-A.json",
+      "bytes": 1439,
+      "sha256": "8c94b875e49f53fe1c71e8e1b99064d095b4cd3a314f303e2add7a6d5a83d009"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/reviews/K002-M04-G.json",
+      "bytes": 1447,
+      "sha256": "c7c9ecc3659153eb2cc39153faf17482af4e0753a214a1c4b83f293718733a36"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/reviews/K002-M05-A.json",
+      "bytes": 1447,
+      "sha256": "325fd7c1817067afb0acc099609076d5e23252fd7996bbfbb7e94d7b83567e9c"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/reviews/K002-M05-G.json",
+      "bytes": 1478,
+      "sha256": "25be0b728585ee0ff8b5135ea3dcb5827aa8ff14c1c5a8a446450832b0baaf42"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/spec.json",
+      "bytes": 11798,
+      "sha256": "bd84fbd90aac9a44131e89757c22dc0e81d04164f9a49e60efbe84c165d027e6"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/01-attack-green.png",
+      "bytes": 1304405,
+      "sha256": "ba6f0cfd1216511893eeda8d05baf5c368d9b40416fa486244d61484ca56b7c5"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/01-side-green.png",
+      "bytes": 1269321,
+      "sha256": "5a8b3c1b36255e5faf585f097049407f6bc6480a34b9ca26da9543e17307cc83"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/02-attack-green.png",
+      "bytes": 1486765,
+      "sha256": "4adc176b39acaf79b9d1ce750968b2842571c19eb6441844db1f9bf7257cf743"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/02-side-green.png",
+      "bytes": 1346674,
+      "sha256": "93c287d800175deaa604c9d72753e41efc9b9581c234f80c36ad4bbf9c1eec4b"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/03-attack-green.png",
+      "bytes": 1702597,
+      "sha256": "1b12ae3893c9d1480e5793384146526d704399985826d860859d32859b26442c"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/03-side-green.png",
+      "bytes": 1651560,
+      "sha256": "43275df79bb200ec729f9b9318394569b19140be74e2888e6df9a71793fe0ece"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/04-attack-green.png",
+      "bytes": 1594030,
+      "sha256": "16bf63761d713771b130efb4aa19b1c394fec8bed70abb0da2bdf650f00a4c3f"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/04-side-green.png",
+      "bytes": 1483472,
+      "sha256": "9c2a4de4b71b8e2786c44c34de51d3f26bd9af0e3c514cd6c090d79589097f63"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/05-attack-green.png",
+      "bytes": 1321595,
+      "sha256": "86c8808aef9c69977efedaac2df33ad6418acd9c32c6cff1785c6a615f458434"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/05-side-green.png",
+      "bytes": 1316508,
+      "sha256": "8b78708244c75f21292fc8f77371c29e45a951a9d9acba8e1d2971f2cc390097"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/manifest.json",
+      "bytes": 22021,
+      "sha256": "57ead2347509f74d434654d50cc0ead32b906eb10abd10742f3b6f9f0d7d7d61"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-01-attack-green.txt",
+      "bytes": 1334,
+      "sha256": "00aa1d2fe59405e39899c6795fb686069035a685b6037d7672dc2e794b3f0093"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-01-side-green.txt",
+      "bytes": 1691,
+      "sha256": "9e6923de4038fe0d780e6dadf42c292248b93413759d67769279f2e638da686e"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-02-attack-green-v02-hands.txt",
+      "bytes": 813,
+      "sha256": "ce2ec82114d1e7ab2b13371be9f8bd27a482681d016897e92624937f470bc3cc"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-02-attack-green.txt",
+      "bytes": 1245,
+      "sha256": "6e122dec345a448cec7ecb0285ecec6e42009fb635ec2fc21a2b16f5af619c12"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-02-side-green.txt",
+      "bytes": 1772,
+      "sha256": "3fce8d0cdc03e97b9758aa2131887816b8fdb5760d334fc40a84cc0bc48f2e7b"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-03-attack-green.txt",
+      "bytes": 1391,
+      "sha256": "8458d77fd317346d6899f0802ad8683686a6b149ca58787f1110ae32c73fbd65"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-03-side-green.txt",
+      "bytes": 1834,
+      "sha256": "38ed987f48d26d663919ec40e2164faf21bd53ddc1539b24c5ccf7b63428ae57"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-04-attack-green.txt",
+      "bytes": 1298,
+      "sha256": "51f682e61cd7f2fdf7b0aeb4ddf7c412c9748cfad4ed92bfc6ba8c6c32328494"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-04-side-green.txt",
+      "bytes": 1769,
+      "sha256": "104214fb718d3d77d8e77668021541a38d12a04acff8303a0d72c27133346aa5"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-05-attack-green.txt",
+      "bytes": 1221,
+      "sha256": "d75f9849e747b807ad4dab0e15250823429304009e6080371bf9d173fc45d43b"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-05-side-green-v02-far-arm.txt",
+      "bytes": 977,
+      "sha256": "530fd33cfc1cb27d33e03ad1475f109dc72f387e1656d6d336714f7b3b3bc755"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-05-side-green.txt",
+      "bytes": 1587,
+      "sha256": "c4125a51039e7882948cf1de4fc30f5720e830363e0af0688eb1d022416f505a"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/reviews/02-attack-green-v01-extra-hand.png",
+      "bytes": 1425332,
+      "sha256": "1ded673e571ab7a5b21f3baa717112465cc7a6e6c549ad657da1c52234c4dcaf"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/reviews/05-side-green-v01-occluded-arm.png",
+      "bytes": 1288596,
+      "sha256": "ff0ea13050d8ab81625156773df38ec216652ba3f3c39944677595154a925319"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/reviews/K003-M01-A.json",
+      "bytes": 1436,
+      "sha256": "c95ce57840a5459076ad65aac50ec565216f04eccd1b39f08c414b859296067c"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/reviews/K003-M01-G.json",
+      "bytes": 1442,
+      "sha256": "b223b13f2d893ee2bc5f9739f2311bef16242114690e200db933147f8ab12289"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/reviews/K003-M02-A.json",
+      "bytes": 1443,
+      "sha256": "663c944e201bb44cda5c30adf48b2cddd836c139fd1708ee05677036b2657de1"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/reviews/K003-M02-G.json",
+      "bytes": 1430,
+      "sha256": "f02f0823a03e4fcbf2ad4cf7d43e33efc17b7c26be84986b2428cc961355f6b3"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/reviews/K003-M03-A.json",
+      "bytes": 1440,
+      "sha256": "111271ac2be4401acde70764bae0ad27203e98cf773370b92884096cf8d18742"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/reviews/K003-M03-G.json",
+      "bytes": 1438,
+      "sha256": "beda8451f6420aa98b786d89bd7f0a884e6788d7f4e30480d70b39f2c6f5ebdd"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/reviews/K003-M04-A.json",
+      "bytes": 1446,
+      "sha256": "7cb60d73a45fc18582a914fdd57a43a1a40bc6a95c9e601e7ddb95950720a9c4"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/reviews/K003-M04-G.json",
+      "bytes": 1429,
+      "sha256": "3f99fa0098133a2be358bfd051dcaf175472a092ad6c51d61489ee0324c3fdde"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/reviews/K003-M05-A.json",
+      "bytes": 1443,
+      "sha256": "01c6973600628d4a80195e7bdfd6bae7da04742cbf0cec02b6039cea1ca06e22"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/reviews/K003-M05-G.json",
+      "bytes": 1444,
+      "sha256": "3dac07ad2bfd3c7edd0b8b6de5f96a89a2e9b5010c9c12089d1033b92cb851ab"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/spec.json",
+      "bytes": 12114,
+      "sha256": "00570e34f86b056458f6815161b4fba16af8091a774d559b01ca9c017ff050fd"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/continuous-scenes/01.png",
+      "bytes": 2478534,
+      "sha256": "ea8ccad961c07092b6797a2561024117d90430bd1a2cc272ef0653b9658646f4"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/continuous-scenes/02.png",
+      "bytes": 2565473,
+      "sha256": "10d3ad3171064833e64b85282d04236fc638e602bf244f26724b26a046f128f9"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/continuous-scenes/03.png",
+      "bytes": 2493891,
+      "sha256": "dc202aabe68a73c8fed9ea94377ac2296df18d35e8526e3f007ab1cfad214030"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/continuous-scenes/04.png",
+      "bytes": 2316486,
+      "sha256": "2668fcc8ba1e792acdcb32099165e7240cf8d33ef6ee968189b2654ed0c308e4"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/continuous-scenes/05.png",
+      "bytes": 2449380,
+      "sha256": "15af176d8b4bfa249bdbde68b93f79400bfa524f0ca0818ffb66278bc80a59aa"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/01-attack-green.png",
+      "bytes": 1264048,
+      "sha256": "85d8f21d1e0724476a02a5cc352940866d6bf902784de6e1c4ab8fd0641dd189"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/01-side-green.png",
+      "bytes": 1294408,
+      "sha256": "1edf5baf1496f7a2a6cd8ba18efbe37d163042242f529f688f2386ca1f763d55"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/02-attack-green.png",
+      "bytes": 1316577,
+      "sha256": "24392b58ee90d1cd91769575344e75902f54ac32c359b9eb5f66be55b68fcd4e"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/02-side-green.png",
+      "bytes": 1257843,
+      "sha256": "484867c811fd68644bcd9aba9f86575d99d0ea385ecb17013fc22459ce6ab2ca"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/03-attack-green.png",
+      "bytes": 1313475,
+      "sha256": "be3db1b559c9d0241f74480c2d265da6edb0db9a45a13ee683a495b93b988384"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/03-side-green.png",
+      "bytes": 1313929,
+      "sha256": "5a08436e20795d05cb625234509bd3e925c7825d725d535b58de0b4098e5b18e"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/04-attack-green.png",
+      "bytes": 1395167,
+      "sha256": "00863516ac1981bff8ee2ba591e9282769074373089e739cca649a70e705e2d8"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/04-side-green.png",
+      "bytes": 1417782,
+      "sha256": "83469c2b63db9b2f7c3884ed69fd7eadbac59d934353ed884bfd162a04ff8f37"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/05-attack-green.png",
+      "bytes": 1291474,
+      "sha256": "a964e8eb6804ec07b9e85432558786840350eda617a76d1f8979e5ee874e4315"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/05-side-green.png",
+      "bytes": 1350456,
+      "sha256": "4cf7c4c931614e20d3309c5f362214f07832e60d736199ad52cdd0c549c6131c"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/manifest.json",
+      "bytes": 35641,
+      "sha256": "5587af727beab542df7310e87c4893bc81bd071fbe1e2645c521e0bb39efd0ad"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/panorama.png",
+      "bytes": 12321842,
+      "sha256": "472a9ea276572321b60ac8d90dcbb330411eb6635391e8836c02f46c6389e076"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/join-01.txt",
+      "bytes": 1219,
+      "sha256": "02dbf2c096d4fcc9f8b62aa7ef74d328f0a0de4f6198be490184bf3fd44fa3f6"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/join-02.txt",
+      "bytes": 897,
+      "sha256": "dd4afa1a0f8f3218c78ca2d336ff590fd9d5a67bbf53fe5ddbc5e455f1dcb116"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/join-03-tone-v02.txt",
+      "bytes": 839,
+      "sha256": "337e043e32f568e2c46d2b1aff1ed51a4d66c3b4166b8c45f1fb0615f6d28b76"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/join-03.txt",
+      "bytes": 1122,
+      "sha256": "ba9cd8319ea88f5d7ab002505c02e59ebfa9eb602a92e63376a615ac2d1ed5b1"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/join-04-tone-v02.txt",
+      "bytes": 824,
+      "sha256": "3442bd42bf772230075802c77b223ec9d1d68b039f6ec71216f556fb0a44557d"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/join-04.txt",
+      "bytes": 1093,
+      "sha256": "433eecc246d259db64ee54c209b72307af7e61c88e22229f1e5bfeb8342fd897"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-01-attack-green.txt",
+      "bytes": 1020,
+      "sha256": "a61e1ea9539176f9e7ea5119b8679aa25b74beb7e7605ae99a8381b05b2753f4"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-01-attack-reframe.txt",
+      "bytes": 523,
+      "sha256": "77ed4241e393f424892d80373962f5343f4003fc3fa1c978ed225272958096ad"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-01-side-green.txt",
+      "bytes": 1705,
+      "sha256": "e81ee5e1db5e926ff715cb3bb171e8461c80867bfad79bfe7c4ef8fa6db1d5c9"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-02-attack-green.txt",
+      "bytes": 1011,
+      "sha256": "11feb92364fbe00d714e6cab52b27c30672dca33a906d91d4b12850cddcf51c2"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-02-side-green.txt",
+      "bytes": 1525,
+      "sha256": "1e7c047976b2fcaa652dbfce82b031d77adb92fcc2b3dfa970f306976b694b24"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-02-side-reframe.txt",
+      "bytes": 594,
+      "sha256": "53bd971c6d0eccae14c2f14248ebc6f8d7761d192a5a0954f3dc16371972c05a"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-03-attack-green.txt",
+      "bytes": 1066,
+      "sha256": "5adbf7b350aca1482ebae78c848142d8fde172c564be7448109e1cbeb506c592"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-03-side-green.txt",
+      "bytes": 1495,
+      "sha256": "ee40dd518a378c39fb470861edd46e42837b26669cd767d6593d62929991670b"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-04-attack-arm-root-v03.txt",
+      "bytes": 909,
+      "sha256": "90be066aaa41c0a0f5c196e0a34b27ece3c1a0ce0c75cc8504da19deea6f0434"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-04-attack-green.txt",
+      "bytes": 1093,
+      "sha256": "2858e025d6333db672e3f58876ea23ce07f2c24a59529ae63c6b48b126e69763"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-04-attack-repair.txt",
+      "bytes": 991,
+      "sha256": "2c5315a7f55fdc32ba36c8be3ce8b0f16d1b5a6760631c7a86c5558ab5b00cf8"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-04-side-green.txt",
+      "bytes": 1439,
+      "sha256": "d8584bcdd9bd2c67deb9e2fe8571859d5f331d92e58dc2c957b07d0a012e17a6"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-05-attack-green.txt",
+      "bytes": 1050,
+      "sha256": "caa6323c3acc36dddd268fe8c33a378b622ebffd6ee3993e4c27168006d460b8"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-05-attack-reframe.txt",
+      "bytes": 505,
+      "sha256": "70af3d2594c8f7e7fdfab2e8714b1c5823eb55192ff26eb1895cb493335bcc6c"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-05-side-green.txt",
+      "bytes": 1538,
+      "sha256": "f947b4b0f6e2ba5da134e6f3e630f1669ce9a0eccae83ed4514a98030940710d"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-01-road-v02.txt",
+      "bytes": 1237,
+      "sha256": "130c9b5d2ffb9e76acfc3a1d69148a43ebd62ae2c3d05bd42885084e1e8b0b02"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-01.txt",
+      "bytes": 2406,
+      "sha256": "9610436f29a01845c3b5950d2e9f5d505232e43c16437bc26e95e12f2b8bb0b0"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-02.txt",
+      "bytes": 2001,
+      "sha256": "ccad755cfeadd54d67ddb2e540491bd0e564ee77c00dd47a84d75403b1138200"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-03.txt",
+      "bytes": 1846,
+      "sha256": "7be53c7a6705a710c41d461a80866be75bc5847cb00cfbe6a798e2a26de4caf5"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-04-road-v02.txt",
+      "bytes": 1205,
+      "sha256": "5a60deb641fcad38ad3fd76715ac6ab048a470e654a61140d6febb912ec9b93e"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-04.txt",
+      "bytes": 1956,
+      "sha256": "119ff0c9a7c32e2740b74c23baf02499a95ea712103567f78fee7bc1e0844c72"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-05-road-v02.txt",
+      "bytes": 1013,
+      "sha256": "460edfc8b9ebb3d58df8a0eee199678e53d957ae5e50a2f71dd9f19095f39d4a"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-05.txt",
+      "bytes": 1837,
+      "sha256": "99d183e1cab5cb0f9f50e740401c0dbd4274784599571db1d81367a577698d67"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/continuity-review.json",
+      "bytes": 364,
+      "sha256": "bcbb4d648d58332b4248d18f60504f79307687d76bf70ef2aa26027f2e9c8fa0"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-01-composite.png",
+      "bytes": 2538793,
+      "sha256": "5909a7d5bcfdcda4ac70277b4c7476e06d51bc62a21295e3e8ffeddb95345c74"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-01-input.png",
+      "bytes": 2572172,
+      "sha256": "5e0dc9d60d3c698e81212cd42bd7d112e55877a135a091853061788c24948ef6"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-01-metadata.json",
+      "bytes": 919,
+      "sha256": "a12d1412da669f06d6aba35859e6184192850ba919d28f82e7ec5630e1544f35"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-01-repaint.png",
+      "bytes": 2442695,
+      "sha256": "c801aab0980a89cbe23850777ae99577a068fe6b8a9d411327943acd81a0f92e"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-02-composite.png",
+      "bytes": 2519020,
+      "sha256": "d9a4b69f86f1d417fc78999a8ff88135699da8c114656fe3f703394901f36fae"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-02-input.png",
+      "bytes": 2558059,
+      "sha256": "7650fcb4508a7d645c325fcf3f051bcd99c5a96550f32a75f2696b6b3b4e363a"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-02-metadata.json",
+      "bytes": 883,
+      "sha256": "7cf1beab96e56437e0923863f2bb9560980e3529cafa13625903335d2c39908b"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-02-repaint.png",
+      "bytes": 2456572,
+      "sha256": "1ae38e8ea50bdb4bcada391d679a361a94adbf9c177ed7e6cd36da1e92fad6a5"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-03-composite.png",
+      "bytes": 2410431,
+      "sha256": "452b975242ca9d70b52f5d7bb422fe0056439c1ce7e9207be9c46a18d26e0dd9"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-03-input.png",
+      "bytes": 2483200,
+      "sha256": "545cf46efd56f9b97d3026273905f454fe4c1dcbf4af599ae12d36628290e215"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-03-metadata.json",
+      "bytes": 19190,
+      "sha256": "1cf4c0dad1d2345deb3cab43d1982896122edf8e10075ce45d8d371412ba8069"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-03-previous-bdd597ec4e0a-composite.png",
+      "bytes": 2487255,
+      "sha256": "276ede0c99cc7ee67e56bf809ee27410f5fd0d53e6b6c68cf4643381d5f7bbbd"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-03-previous-bdd597ec4e0a-metadata.json",
+      "bytes": 896,
+      "sha256": "b1399bb78fe0a6d2c569542b68ca3eae865a3d2edba99315906ae306bb340c94"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-03-previous-bdd597ec4e0a-repaint.png",
+      "bytes": 2453665,
+      "sha256": "bdd597ec4e0a4ddc28758c08044c214fb640c314f09b8d065b2dca57b747176c"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-03-rectangular-composite.png",
+      "bytes": 2432505,
+      "sha256": "4585b289c4a64e5df03df0da23688e5e832c2616f462648c8f5c3df1ab1ffd4a"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-03-repaint.png",
+      "bytes": 2331895,
+      "sha256": "dc95a6be04cc75103b0ef958e7b89400fd008bd181e4c39f5f3bece597395a62"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-04-composite.png",
+      "bytes": 2335624,
+      "sha256": "773eac953fd79f3454733b1483d2e8cbbfcce2c67f32c5179916582156f40425"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-04-input.png",
+      "bytes": 2413322,
+      "sha256": "b1190f0d536d30fb8765cfe95332becb2577c69890684818ad13655bd04fd8d8"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-04-metadata.json",
+      "bytes": 19190,
+      "sha256": "f190111d5b0679823d413ca01b61aa5e2c6d783ec3740ca4bbd741c22f9d8082"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-04-previous-bccaf7d17435-composite.png",
+      "bytes": 2385294,
+      "sha256": "495b4483a5dbd0687c070a825100d3d8b9ddae7c26ecd0388c47554b55a257ac"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-04-previous-bccaf7d17435-metadata.json",
+      "bytes": 852,
+      "sha256": "8b92eb0caf50b0481c68605ef5e95120e0d896b0a46e43a70516547db6e2322e"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-04-previous-bccaf7d17435-repaint.png",
+      "bytes": 2321873,
+      "sha256": "bccaf7d1743564c3936c75be470a450dd09a7419d088f20a6528308ad84060c1"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-04-rectangular-composite.png",
+      "bytes": 2343605,
+      "sha256": "1920070d13a8d80056947d67a26f3a9c0b267cd11d12be6cf3119128a9854d91"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-04-repaint.png",
+      "bytes": 2257924,
+      "sha256": "e03d695e16997ae12fd1ce46176129211a75391872e7e4bec44534bf7eb2250d"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/joins-native.png",
+      "bytes": 2393453,
+      "sha256": "5d4479e1fea46c010441c491edefde6023527af6ff75ebd608efaf3f874765d8"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/K006-M01-A.json",
+      "bytes": 1371,
+      "sha256": "4dc197da57c4a7c11dc12d9658760f044482fea3c8e447e163e8a2d11156e3f5"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/K006-M01-G.json",
+      "bytes": 1360,
+      "sha256": "5dffd9151e39ff08091816d4d95630c4cc7b3377a36a76d192abc8f296fbe00a"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/K006-M02-A.json",
+      "bytes": 1374,
+      "sha256": "fd9880f5506431fc9ba2fe7517fa60506682401c41f805310aae8b18d4a615ae"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/K006-M02-G.json",
+      "bytes": 1379,
+      "sha256": "5876739655a1e15f72cd852cc2e459c2af27909931cd9b93a5009f4332f839a2"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/K006-M03-A.json",
+      "bytes": 1356,
+      "sha256": "c8f22f4c42afb65db0283e2bb3b3edae8ea7d414d64e9572692886a80c1391d2"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/K006-M03-G.json",
+      "bytes": 1364,
+      "sha256": "7d773e334f61a15858d037607812619ac08ee65438b0cdeb683ba9bd5ec4cc65"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/K006-M04-A.json",
+      "bytes": 1424,
+      "sha256": "c9ec37a632087d9bd15ac9d5b3405af541761b9b5fcbd3cbd11f131d2350b870"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/K006-M04-G.json",
+      "bytes": 1418,
+      "sha256": "9f57d26458b24dd75ec68b878a60c990704c28b4921a02ab549024044dfbc503"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/K006-M05-A.json",
+      "bytes": 1381,
+      "sha256": "26ee388325a63ee14692280807c8c8296b6b04d168bd3080239f31498af25c5e"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/K006-M05-G.json",
+      "bytes": 1384,
+      "sha256": "726b3672e6ed9ea0f28ac269e7d00f71ef16bf5b754e5485986f9836b3a2d925"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/K006-S01.json",
+      "bytes": 917,
+      "sha256": "cdb0028f9a0e6232f4ae205bb63567078d972349273d8301508fda3ddfbc3789"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/K006-S02.json",
+      "bytes": 895,
+      "sha256": "10c2d9f2139aa1f8337878f40f4b1291d65ff7f9c9843d7cbd16702e53bd6a49"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/K006-S03.json",
+      "bytes": 913,
+      "sha256": "46330d753dc33f2939defac91b8e0d7ad2e3046d545abb0cd90753b8cedb5841"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/K006-S04.json",
+      "bytes": 1918,
+      "sha256": "5350aeb63b53586c37b1291dbaebda83e99d892c98c4dc5df90b4df80453f86b"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/K006-S05.json",
+      "bytes": 1897,
+      "sha256": "d18c3484423a8b889e04e893d7d045f6f5b36277b98bc4f472ac10c111e46253"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/monster-01-attack-tight.png",
+      "bytes": 1299866,
+      "sha256": "ce9c816555267623293f485e80163082d93c4e8f9d88135791195ff0c26702c5"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/monster-02-side-tight.png",
+      "bytes": 1302432,
+      "sha256": "bc7f22165086cb49570b92b26703dc97010912169c527b3c113b67a85843f4ae"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/monster-04-attack-root-v02.png",
+      "bytes": 1372660,
+      "sha256": "2a244b6d63904219803acd7f7a5e99738fed48f1d0a491b32a8fed93b92eb026"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/monster-04-attack-wrong-root.png",
+      "bytes": 1431043,
+      "sha256": "995dabe14cd62c15a2cc7f03b054edb64f1d1e0e589e2ef97e67c326655521b4"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/monster-05-attack-tight.png",
+      "bytes": 1377967,
+      "sha256": "e5d5b184dfcf5c096440befb2f59d04357b63283c752fd26f86de7b74f6c0438"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/panorama-assembly.json",
+      "bytes": 2177,
+      "sha256": "1fb0139a2a868a932f627cd9768b00f7ece9764a3d08472dad99895aab69cc5f"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/panorama-unreviewed.png",
+      "bytes": 12759229,
+      "sha256": "45b8b365dc3b000f7035cde727b00f449340c6e5357bd47c68de6e91c6f1d751"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/scene-01-narrow-road-v01.png",
+      "bytes": 2483479,
+      "sha256": "69273c51ae213e3ac6a1163910303b8deffa121b92de0c5e42aa316e5b444c6f"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/scene-04-previous-711dc3d6e27d.png",
+      "bytes": 2516438,
+      "sha256": "711dc3d6e27dc4f47ecb6c984fc69afc35a8286c693bdb688d0d67e16141b087"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/scene-05-previous-bf0401254744.png",
+      "bytes": 2543826,
+      "sha256": "bf040125474462b1fb8a01d4bbd389a19655b476af68e51fb8e703f9d5133a3f"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/01.png",
+      "bytes": 2487402,
+      "sha256": "0a95836ece1ea98b8b12e2785d2d15fcf874eb8087945130d426c212c59a78e0"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/02.png",
+      "bytes": 2583630,
+      "sha256": "78c47addc3ed28b76ff9c40ad96724b9fcc0396ae4dbb1f3d4721adcc46ebbd2"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/03.png",
+      "bytes": 2536806,
+      "sha256": "1fe781cea1aa6b83b0066ac1228b572f597bc799bced8d17747eeaa9d044c401"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/04.png",
+      "bytes": 2361189,
+      "sha256": "fa39b449d96b1fec415245ede1f719092e94556e6d126389289bfa81bbb304aa"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/05.png",
+      "bytes": 2465011,
+      "sha256": "f7f27c94c16e4cb4c541eccf10c133f701bb9f2628991a4751a1fdee0985e4e4"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/spec.json",
+      "bytes": 11471,
+      "sha256": "51f4279e6afdb968f2b5e67d7ff4d83cea47075e189703491a41ccb3d7faa83a"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/continuous-scenes/01.png",
+      "bytes": 2011977,
+      "sha256": "3b74004d5448e638ca510fbc49a919520259d75e576d3fa69abaa93e57150df2"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/continuous-scenes/02.png",
+      "bytes": 1947345,
+      "sha256": "fc8b250feef0ddca357a388abd712c84d05d75c91a3e9b8ff17d4c7925851d20"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/continuous-scenes/03.png",
+      "bytes": 1946070,
+      "sha256": "cb898bab32d588c8d877ae6340e594ced6c6078c5e2a4c0745873e1a4fba0886"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/continuous-scenes/04.png",
+      "bytes": 1934449,
+      "sha256": "b4856622e6524087137bb120e466c6c71e9ae27446c79681322d58e432cb8902"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/continuous-scenes/05.png",
+      "bytes": 1950219,
+      "sha256": "941311715d53c3166059b1d2aeea68464c3ae937f213ed9c175472b01ecc49b5"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/01-attack-green.png",
+      "bytes": 1294566,
+      "sha256": "8168c4248ff8db186d28f4c6fa7f93f29f74b7816936aae26a8c35399c03a8ce"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/01-side-green.png",
+      "bytes": 1264651,
+      "sha256": "d501b6cd23a90afa3cb2e18a5e00e68d716b96b1b726b376e391bd459479a4bc"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/02-attack-green.png",
+      "bytes": 1293838,
+      "sha256": "a9de2db6ea288ef750a13059f68e66b4907804daed3cbe2b6ff2ef30a8e7a655"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/02-side-green.png",
+      "bytes": 1274283,
+      "sha256": "44ac44c28ab23c92f0c81dfa8fad3c5b485d4e0421a977b079478b5eb885356d"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/03-attack-green.png",
+      "bytes": 1262345,
+      "sha256": "b35d9159ef935eb025adc8a5caca8509d9ba0adba23526e5aef76bf8b823b3f2"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/03-side-green.png",
+      "bytes": 1226719,
+      "sha256": "f5aa28cc77b07de338f5e34e6201ecfce8fdd5b2c9abe85f78798672fb787c21"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/04-attack-green.png",
+      "bytes": 1333727,
+      "sha256": "7aa90fcc658fbf67441928ae1edd057a132668a8b7d8ee65c187e74618d0d95a"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/04-side-green.png",
+      "bytes": 1335109,
+      "sha256": "446a442ac280e3f5bcf16e6c056c58c0f1603272748cce96b737cd33005d1ce0"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/05-attack-green.png",
+      "bytes": 1305219,
+      "sha256": "5d4849489833abe2eb19045b1b5da0b0dde705e195fce43dc32928b22e9b5690"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/05-side-green.png",
+      "bytes": 1232543,
+      "sha256": "6a7d722edcbc958b9bc46e22954e3f17c39bfb8bd185f52e11111c9525c775b7"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/manifest.json",
+      "bytes": 33364,
+      "sha256": "7dda2565c000b17026ab593d8e7670e3e60ec0d7675e0ed2da81d7594447a209"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/panorama.png",
+      "bytes": 9783580,
+      "sha256": "bcc3cc1d9d89cf7271e5c8a4a7e134a06a865bbd2426b5a2739ca08508eb993b"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/join-01.txt",
+      "bytes": 1226,
+      "sha256": "1d8b5ec9717ae5111b8ec2dbbb8f388a948718ec368a95ba637cf0ef67db301e"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/join-02.txt",
+      "bytes": 1226,
+      "sha256": "1d8b5ec9717ae5111b8ec2dbbb8f388a948718ec368a95ba637cf0ef67db301e"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/join-03-tone-v02.txt",
+      "bytes": 979,
+      "sha256": "55634daa6ae9c327b38e850256c68a7bb1e8dfabf8fee792166f0eb47988125a"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/join-03.txt",
+      "bytes": 1239,
+      "sha256": "32a2a6da9b56f928723e7205c8ff98a98ff47d8b9332081d2aeb35e6da2de164"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/join-04.txt",
+      "bytes": 1429,
+      "sha256": "76ddeef1290fd18381a758c15ea975156c878e94f9f0e382280e736717ddb7e6"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-01-attack-green.txt",
+      "bytes": 1046,
+      "sha256": "1ca760867f73129b235d511459b123e91601809349cac449c5fd9d750354ab27"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-01-side-green.txt",
+      "bytes": 1441,
+      "sha256": "c3b563baedb394c549ae0e1fed47e0a4af6a4bb927f36e017c5eb2ae92222a34"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-02-attack-green.txt",
+      "bytes": 1138,
+      "sha256": "ec3fb32c606118eae5defefa00aa58d0d65335d67b0f5714df237e77b496daa3"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-02-side-green.txt",
+      "bytes": 1357,
+      "sha256": "3ac28922938fbb406a47c71f49b00a95c8376bee5e4c8f85d3b540f211194e38"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-03-attack-green.txt",
+      "bytes": 1085,
+      "sha256": "a4616ce02fadcd3b916bc8d82d8b12eaedce234748e520f4bb96e8c50cf23c69"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-03-side-green.txt",
+      "bytes": 1518,
+      "sha256": "279c904e60f3a518a341cc430d446b940b76a2421bd112e4539a43df600aee40"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-04-attack-green.txt",
+      "bytes": 1030,
+      "sha256": "c51c801687564fb2c919104cc27b8131df88de896aa35ae990a274eefc7f5ac2"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-04-side-green.txt",
+      "bytes": 1431,
+      "sha256": "02c262608c0c369ed1d749912849cfc11f4823aed0b464881ad46c5f48bb019e"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-05-attack-green.txt",
+      "bytes": 1331,
+      "sha256": "eca09644c216f03bdc746641121aefd83c5f7e0fd17f5b9a65f6aba616c3a2b6"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-05-side-green.txt",
+      "bytes": 1485,
+      "sha256": "f2fad80d8c62553dd1f8f9d12e7c884ff2450082880eba00d9b3c4a8e201bf6b"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/scene-01.txt",
+      "bytes": 2242,
+      "sha256": "c7eeee561bb65feca5597e141816e0a84e66871e6af8f593a22cece999ff2470"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/scene-02.txt",
+      "bytes": 1827,
+      "sha256": "d0da372e2122f5efaf0ea68249723fcc11429a7e07356f4486fd68fb5ca1f98e"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/scene-03.txt",
+      "bytes": 1679,
+      "sha256": "4b72d680165eebc0ebd23c93f94b01a32d1bbaf2a05d838a786f31160c465283"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/scene-04.txt",
+      "bytes": 1767,
+      "sha256": "6b5f3ac8b055a3736459a085a540f5b62ccab7a9233c41d8c1bdef97d9892fb1"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/scene-05.txt",
+      "bytes": 1743,
+      "sha256": "645589a2fa0164d9bf6bc63b402106f4a4fc16165cded13fce1661aed1fad198"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/continuity-review.json",
+      "bytes": 364,
+      "sha256": "bcbb4d648d58332b4248d18f60504f79307687d76bf70ef2aa26027f2e9c8fa0"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-01-composite.png",
+      "bytes": 2009834,
+      "sha256": "fd048ef0165880dac73d73bb9d1b481b5a6730d0d73fb061d21235aae747c50b"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-01-input.png",
+      "bytes": 2020271,
+      "sha256": "4d65914dbd998304b7ef6544a870444b5fa62067a76ce6ef749414a9d3bf0bd8"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-01-metadata.json",
+      "bytes": 862,
+      "sha256": "4acae48afb2e41c1326a4e0e07a0759fd0007ed842c6404c2b429f96c07ec028"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-01-repaint.png",
+      "bytes": 1906680,
+      "sha256": "eb0445625b556acdee86debaddcc69cbfc1aac2831ff129d3ca14ddfc84cce73"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-02-composite.png",
+      "bytes": 1954547,
+      "sha256": "2c376b2a5fb9b32df4bea1c2c11bf1a4173076c62cd4f8b362a19cefad70b22e"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-02-input.png",
+      "bytes": 1968847,
+      "sha256": "06cb203aaae2068510bb1764f5b88134dfdd518388437a02efbd763d7186f0b6"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-02-metadata.json",
+      "bytes": 857,
+      "sha256": "4ca22129f372336be160f58fdbc70970a9b0c9fe2bff456c4f4d5699f04ab183"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-02-repaint.png",
+      "bytes": 1894885,
+      "sha256": "bd6ee308d090b6a4b5bd285b5916fa1a2e4f3d66095220e6ed029264251a99e5"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-03-composite.png",
+      "bytes": 1955205,
+      "sha256": "8977c417707600d29b536027e8a97ac594e95ec427a0a3404b1e755289de2594"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-03-input.png",
+      "bytes": 1967407,
+      "sha256": "1746f3c2a94fb4b2806ee9f3ead6e5f164674ea4ac31865e3631a499b5c001cb"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-03-metadata.json",
+      "bytes": 893,
+      "sha256": "346cbe4efe7bff9c8cb543038d5163bbc671f7eee87678fd2312acbacc549aa4"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-03-previous-9044c6213618-composite.png",
+      "bytes": 1969394,
+      "sha256": "e5904336234811454d14317d51aa917a9e66ea3160c322d7ed80da598bdff3be"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-03-previous-9044c6213618-metadata.json",
+      "bytes": 869,
+      "sha256": "5ab807f3aa5b9c062ab339c8921ff46c35f2ac62aee37201849f1ff3d5246d8f"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-03-previous-9044c6213618-repaint.png",
+      "bytes": 1918567,
+      "sha256": "9044c6213618893413b02f07f866689d19a334f83f40ae7ed5c2827e7e193a25"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-03-repaint.png",
+      "bytes": 1894670,
+      "sha256": "9a140460e638d19f3e11ecb0e64b8cbe318c0b9580274c432d7b406b6dd5704e"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-04-composite.png",
+      "bytes": 1901875,
+      "sha256": "049e1597bbabb89047aac7d60fde6798aacfef28d724b66500a40ea27b7b1a55"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-04-input.png",
+      "bytes": 1909234,
+      "sha256": "054603553a2f4028080b38eaa912d536f8440425ea068ec02af1edfd3f7e23c2"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-04-metadata.json",
+      "bytes": 881,
+      "sha256": "ae8aba0aab4279f6ddfb8419e7776a32169e5cb232336c9ad1ffa073a43a6984"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-04-repaint.png",
+      "bytes": 1857072,
+      "sha256": "248702a5ee9175df1dee25969092434524d5e426b5a8d026470697894e632306"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/K007-M01-A.json",
+      "bytes": 1436,
+      "sha256": "002af8b0f82a102edd13329e34107c3748564ba01d24ec2a52a9ba1b913a1310"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/K007-M01-G.json",
+      "bytes": 1349,
+      "sha256": "bb480339a417370075c3ca32f8a9fb032fe0f78b53da5798480dd7b51c2432b3"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/K007-M02-A.json",
+      "bytes": 1391,
+      "sha256": "f5703a4787c1fe6590c8ad064f6cf39f69a17d26659cdd3d4eb34af43722fe05"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/K007-M02-G.json",
+      "bytes": 1395,
+      "sha256": "f266dcd6a94302dc1f6d564d85847d6ec026dfb2c1c29f40819323a6d436f291"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/K007-M03-A.json",
+      "bytes": 1396,
+      "sha256": "e95d8dbc53d56e9f51c49d90eb6c1a7710f488a9da2d6d7042ee0d8ad8c8abd6"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/K007-M03-G.json",
+      "bytes": 1359,
+      "sha256": "c7d37c42e42f0dc838186fbcef5bda7f04e183ded86f35b5f348681f798b624f"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/K007-M04-A.json",
+      "bytes": 1402,
+      "sha256": "bf02a37342e27dcd97ea3f0b14682e5099d9120abb9d6b568150795b894eb5c1"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/K007-M04-G.json",
+      "bytes": 1365,
+      "sha256": "0ac625c32f4f8f1f49e83af36fa23230b1eff807568eb0d9c260289f3e5a664d"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/K007-M05-A.json",
+      "bytes": 1394,
+      "sha256": "1fcffcbbf8612617568d2f26f07936d594e8b7faf04d5c7865d0659e7aabcde7"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/K007-M05-G.json",
+      "bytes": 1357,
+      "sha256": "416208a17e15e164f93db5209e58e3f72d0ec4e31c75fb7743dcfb2ef3c10ce9"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/K007-S01.json",
+      "bytes": 909,
+      "sha256": "e8595a30c423e184857b68423275971b5ff46fd6fe41a461e898fd8f007c91ad"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/K007-S02.json",
+      "bytes": 914,
+      "sha256": "4914022a48d62e164a03acf77776cac3c5552b5002afb21d5081187cf1029507"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/K007-S03.json",
+      "bytes": 878,
+      "sha256": "4ad54d9cefdbdbf1d2d46907dded4f9e0684f05f1ecc2eb1869d062060c677ee"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/K007-S04.json",
+      "bytes": 861,
+      "sha256": "9bc4d2ac948d45cf5950a51b7dd98237d94fddd26565b8e16909629a04b3fed1"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/K007-S05.json",
+      "bytes": 891,
+      "sha256": "5337b8ce591b056721ab37d373841d379a00084d1e07bdc1b115985fe7e33db2"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/panorama-assembly.json",
+      "bytes": 2167,
+      "sha256": "46a3db49496ceed1438e6125e700e4f5a8da4d87db59ee6e8682252251b4b7b9"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/scenes/01.png",
+      "bytes": 2013305,
+      "sha256": "37801d02404d77b39f87f6ae3164639e8a5e6e6c82fbf98e7606887624315fa6"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/scenes/02.png",
+      "bytes": 1949600,
+      "sha256": "427f7ef0f391f65cf4fd0d2922ba7fb66e0c983b0498188fcd28d58e378aeb54"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/scenes/03.png",
+      "bytes": 1954886,
+      "sha256": "001caad0333d8b5e5ff110af2f3257a84d427ce75741b055d3bc72b211f54044"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/scenes/04.png",
+      "bytes": 1929142,
+      "sha256": "923bae609cb79097d39898ae235b252f20c5be53e9f9660fc10930fe9c443ce3"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/scenes/05.png",
+      "bytes": 1935729,
+      "sha256": "bf4fc95fab67c66660f346f303fdec8516be0ea81f3d9f92c88f1e81ac490a18"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/spec.json",
+      "bytes": 11693,
+      "sha256": "1cbef1980db7b9729e42acb0e018bbe3ee192ff3f203d8eb2bcd9ed4aa6d0a7b"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/01-attack-green.png",
+      "bytes": 1424970,
+      "sha256": "89bd31cbbf438f229c8b460821606deb5163c00dd98b87b502b8770a1f66b494"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/01-side-green.png",
+      "bytes": 1232581,
+      "sha256": "37c85a66d034172272013b6020c55d74dcf35368d91243d5a33cfe60cb470f50"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/02-attack-green.png",
+      "bytes": 1264163,
+      "sha256": "e3a40720c1eaac837597fc07f3060c3fa5effaecf8ceedb793a3af75fccebe9d"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/02-side-green.png",
+      "bytes": 1234201,
+      "sha256": "a5a3b0c63427253b960a56aa2cc6921322b605d9169b1e30f8e03fcb58e2892d"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/03-attack-green.png",
+      "bytes": 1394612,
+      "sha256": "5f9b6febec1418e03b281b771cb35f868c74c89eb000db0f81caa6422e2a20c3"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/03-side-green.png",
+      "bytes": 1375451,
+      "sha256": "4dc7fcdd01e3d672309e9ce02f7545cb2823712223a47d2d856971bdbf153704"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/04-attack-green.png",
+      "bytes": 1261798,
+      "sha256": "ff40f27f5bcf8ba0f483a733eee3d644b9032ca3e5f4eb1daff8c3775972a009"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/04-side-green.png",
+      "bytes": 1235225,
+      "sha256": "dd3dca86ede790427ce182ed86902b0a78b5dd38e078abc49fcce2bc0a1e09e7"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/05-attack-green.png",
+      "bytes": 1255805,
+      "sha256": "0cef19b2459dfc0c92f2ae0a7f93b3b27bb7f794178a6cf3f3b8bfd0a5615dec"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/05-side-green.png",
+      "bytes": 1236275,
+      "sha256": "5b562f815ad36d4891ace168402fd684af23223cee47b6fea4df2534687b99ca"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/manifest.json",
+      "bytes": 29491,
+      "sha256": "4df5dce4baa1bdaed4282077766746b12b32a19d21d28f1a585e4e3fbe7bfa00"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-01-attack-green-hand-v02.txt",
+      "bytes": 665,
+      "sha256": "5fdc93b67a41bd43de5569c747008cdfa42978611bc83b2e5c4b90297a49ed87"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-01-attack-green-hand-v03.txt",
+      "bytes": 819,
+      "sha256": "7089ed409c7f3589b5d07854193435c84425030857e93e2fad03b8fe71f2df45"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-01-attack-green.txt",
+      "bytes": 979,
+      "sha256": "d7baea211375fa2b826091c9177b1c82de1e26d2d1786c63b8786724e2ea9203"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-01-side-green-margin-v02.txt",
+      "bytes": 710,
+      "sha256": "c8b7f7e35d02fe42404fb6c277046359a7a0db57843457dcb42cca249e9a5b35"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-01-side-green.txt",
+      "bytes": 1555,
+      "sha256": "0cc87eefab51e5ce5081cf794658e11d2022ceb70420b2312198bbab4d49ee00"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-02-attack-green.txt",
+      "bytes": 1114,
+      "sha256": "e90964099b3437d8faaa3d1022042ec9129939ae78d14edbbe0e438580f6ccb2"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-02-side-green.txt",
+      "bytes": 1311,
+      "sha256": "8400cf91ceef0c1b7eb9a2a8b5c560fa93a4706511535c2c5b7582c69f0f18ab"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-03-attack-green.txt",
+      "bytes": 1186,
+      "sha256": "c66076e53adb16b57819c336064eecac18c41a94f34bd094ab8097dfdc2c06d4"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-03-side-green.txt",
+      "bytes": 1435,
+      "sha256": "dc431343d61d29809c0833fd978151907075127ef781101097d99e5e14d08b92"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-04-attack-green.txt",
+      "bytes": 1138,
+      "sha256": "5562ec3f0d99a241c9bdc110c190a1914f67d143ac60d0a28879d16cab386f50"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-04-side-green.txt",
+      "bytes": 1298,
+      "sha256": "db0cc6baf69d78adb7786336e5e3de1cbbce556f2d5de62f67a18ba9aba13d05"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-05-attack-green.txt",
+      "bytes": 1190,
+      "sha256": "5a45c53d41ddc0a708f071b57c04ebd3e295bee645bb97a0ea38a944b793a006"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-05-side-green.txt",
+      "bytes": 1506,
+      "sha256": "09753ab3781f2a858613d5617a00f82a679e171ff003e91c8f175b33af84b1bf"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/scene-01-edge-v02.txt",
+      "bytes": 840,
+      "sha256": "1039c333be06f85460d92c720f0f885c5be6b8518e9d6cb9a3d06a5d0ba1ce69"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/scene-01.txt",
+      "bytes": 2138,
+      "sha256": "874d875c73506c551dfa19f167a9cdf3eb91b3c05523caa3e1ced67678f99799"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/scene-02.txt",
+      "bytes": 1771,
+      "sha256": "a1aa1d0928c2d875563984aa0e68407dd6f2fe2dcab4680dd19ff8664a0a030c"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/scene-03.txt",
+      "bytes": 1591,
+      "sha256": "65ab225562814fab8bbca9c0a4236fb7ce031d668d446d6ecb318d9595ae1386"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/scene-04.txt",
+      "bytes": 1586,
+      "sha256": "3114114ec030d0b61e1d4027c22d8e9ad3a4583171928e9ce0878dcedc25a5d9"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/scene-05.txt",
+      "bytes": 1640,
+      "sha256": "cf00d22028df99b2a7de6416c016adc2669d7a83163dbb9ab0409b50f580e9f7"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/K008-M01-A.json",
+      "bytes": 1401,
+      "sha256": "59c38760177c07eac517cf45ec59d4d8bce7a88539068fa6df03f1aaa39bb1d0"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/K008-M01-G.json",
+      "bytes": 1376,
+      "sha256": "ccf7d430316f15c481ab2e4e073fa68c7ebbd2bf92b0a9686315c72302b2d65d"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/K008-M02-A.json",
+      "bytes": 1396,
+      "sha256": "fd2d66d37b5ecb0d409d6273e414461307f2705065ce40c2e28e8f8950abc38f"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/K008-M02-G.json",
+      "bytes": 1402,
+      "sha256": "cd6b91f8c5134cf47a568be588f3a2aa167ad802e685b88d67b8fa10053e166b"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/K008-M03-A.json",
+      "bytes": 1395,
+      "sha256": "0cb569ed2af350e2f5faf2fc3664ce147e12ebd6953ea9c560628850caa2f71f"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/K008-M03-G.json",
+      "bytes": 1392,
+      "sha256": "fb6c9f66d01077c528e6f1b711b76add2d62eb784e8a2f27b073fd6498f52cd0"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/K008-M04-A.json",
+      "bytes": 1408,
+      "sha256": "027dd78b01fc463bf3514ea9a063673f66f4a05dc80b22a13fcfa73ac63d7cf6"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/K008-M04-G.json",
+      "bytes": 1426,
+      "sha256": "ddbde59dc72d473723930097c9e325bb2e0abde8584c19e654722ed639bd278c"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/K008-M05-A.json",
+      "bytes": 1447,
+      "sha256": "322752c6b2f307d4da10918bfde8580bba3af7260f980b456a34f6db00f42c11"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/K008-M05-G.json",
+      "bytes": 1415,
+      "sha256": "32ed99f2b433513f438677c634a130029ae5b46695d181a7b2ced1eb16c6c2aa"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/K008-S01.json",
+      "bytes": 944,
+      "sha256": "6f882f98bf27370dc97817865efd23912689c103d949ee524440267fac1b9879"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/K008-S02.json",
+      "bytes": 923,
+      "sha256": "e042098903553640328f8c63ebecc612d439795a5e41664b1c959816d20cb7bd"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/K008-S03.json",
+      "bytes": 902,
+      "sha256": "5e4d2dae202d504079e2e343ab445e9e03edee0c598a3c0b448105da1c4d11ae"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/K008-S04.json",
+      "bytes": 901,
+      "sha256": "28a0c4284f8b3dcfd8006e0923c7017707c563aa81eda0c8a3119feb433eea84"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/K008-S05.json",
+      "bytes": 945,
+      "sha256": "965488b286f52a042434c7c648e37a25032c52704576e2fedf55182aeb1908b1"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/monster-01-attack-green-four-digits-v01.png",
+      "bytes": 1245499,
+      "sha256": "998852762a0c045cdc1f581ca2123885291cf5fd2adbfd01feec23d680e6791f"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/monster-01-attack-green-four-digits-v02.png",
+      "bytes": 1371767,
+      "sha256": "7fea1ae6adf85204fde729b2de33a698b9257fe76b8d3d39dcb24a6b0a26f7be"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/monster-01-side-green-tight-v01.png",
+      "bytes": 1260798,
+      "sha256": "cb04894f19ca5bdd03d118ed2d08dce5ae2588dd078cc1df4f9134fa9b54c59a"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/reviews/scene-01-cropped-sink-v01.png",
+      "bytes": 2316697,
+      "sha256": "dcc9c8af7b7462049a69e7a146fcbbea5ffdf75ff1503cfd77f8628cf4f63400"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/01.png",
+      "bytes": 2143248,
+      "sha256": "2fb464bde0980dc3d0ee4385f0f4a7b0d44e2640203ae9b8ebce93893e449b7b"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/02.png",
+      "bytes": 2166154,
+      "sha256": "60cc976ca69ab576bd83cba40c083719d4c3f4b03811c9dfd9e2f3d13ab1201b"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/03.png",
+      "bytes": 2118321,
+      "sha256": "142d1b95adbdfcbc72de1b282785da4ed1d8c4000469bfc1a9f366f103b765c4"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/04.png",
+      "bytes": 2137335,
+      "sha256": "661026d882b75897e9119d4d73da4a2ce25df7d9dadad74d59df618163e6f46b"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/05.png",
+      "bytes": 2192905,
+      "sha256": "85a8f5ffeb57460d07fc262d296edf5d1970b87f81871e2a0f6461c5088b91c3"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/spec.json",
+      "bytes": 12107,
+      "sha256": "4289cc6437ee1e6a4386572be10da5a4071cd41f4db3a0789677492ab634509b"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K009-mary-phone/manifest.json",
+      "bytes": 408,
+      "sha256": "28ac72d6e3d7a3e892b4f2c60ac0cb295493c73bac2480a6dc546511c1e6f795"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K009-mary-phone/prompts/scene-01.txt",
+      "bytes": 2037,
+      "sha256": "c2dc624a09dffff472a82319aec43f76139533ba556a91a9bbb859045e2b34b6"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/K009-mary-phone/spec.json",
+      "bytes": 12568,
+      "sha256": "ddfd8c90d3b97d5efd24106a5de2120080bc769d66ea4042d5c19a50d46dca62"
+    },
+    {
+      "file": "art/anomaly-concepts/continuous-20261004/README.md",
+      "bytes": 2355,
+      "sha256": "6eac8bd258c962805f73262475b9356dac54f813465992768d2e284ab83bdb3c"
+    },
+    {
+      "file": "art/anomaly-concepts/hasshaku-redraw-20261004-v02/generated/04-chatcut-nano-4k.png",
+      "bytes": 19830041,
+      "sha256": "3df575f6383ea220ae86c071ef1dc40e44ea87ad0a10a5e04a874039139a1c38"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/ART_PHASE_20261004.md",
+      "bytes": 3027,
+      "sha256": "62a17d2fac3c9cfb7425ceb6fa4a64f467d9b9e664f02bf5ff237fcb7aa09fcd"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/NEXT.md",
+      "bytes": 3655,
+      "sha256": "bb7381857071043d98f7ea91a39cb0d8effdee396134714b0efb0047d7c1bcfa"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/连续任务规范.md",
+      "bytes": 8647,
+      "sha256": "44ef033f5d7f0dce54ba6f30e9b0645a4956cda539b235096232cf0aa8348e91"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/r0000-builtin-verification-20261004.json",
+      "bytes": 606,
+      "sha256": "710c8915b8a6b610e6dd0dd060aa23a8474d6e4c625318212102b3097665c364"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/b0002-builtin-verification-20261004.json",
+      "bytes": 8386,
+      "sha256": "21ef563eaff1f51fd0e36703c80cd8e09ac112eb4980a1d6d3df1628d90e98a9"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/record_builtin_batch.py",
+      "bytes": 7684,
+      "sha256": "973d1e7d2bd35d1920c5597802d184d6db51aa050f6278be67a3319459cd7a30"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/record_builtin_green.py",
+      "bytes": 8108,
+      "sha256": "7db7dc4ca8762f2b4cd8a2f6ba7d78a0a93497c89b67fd77fc5a9e2589817c2e"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/record_join_repaint.py",
+      "bytes": 2219,
+      "sha256": "6c2e829715d30ef3fe0d23311a2b40cacf6a6f14c95d213653e389fc213ef755"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/assemble_join_native_contours.py",
+      "bytes": 2369,
+      "sha256": "e20f3b87061cd39ecd0fa2b30cdde86e26c7ac3b51083d4613b1301b0d022970"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/assemble_builtin_panorama.py",
+      "bytes": 3179,
+      "sha256": "be50b96bb56a5c1610fbb1ff177747c4e281d0df7c3e5c35ba2faf0e69f79383"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/verify_builtin_batch.py",
+      "bytes": 2948,
+      "sha256": "0f477649d45813994d03a4783626adc160f7fe97f2921e4de3acb7188fb99ce3"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/prepare_b0002.py",
+      "bytes": 14089,
+      "sha256": "ae6ead97fad001816cd3e9999f4c9c23d006e572a2ab1ae386a8b44fe97bffee"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/prepare_b0003.py",
+      "bytes": 14801,
+      "sha256": "aea3bf559209013f0df8387733691d40687aa144b64d6af48b6c4d00d0a213ef"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/sync-current-20261004/selected-images.json",
+      "bytes": 27133,
+      "sha256": "fdfbc3b329b3d6791c7777a18d4a8ece704f1347db6bae3a55b900eb0a3a8415"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/sync-current-20261004/verification-final.json",
+      "bytes": 19430,
+      "sha256": "70f31d19306d61e43a60e160b4dffd5f5f7aaac26c9250e8963c2273f4a8159f"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/sync-current-20261004/README.md",
+      "bytes": 2100,
+      "sha256": "affb0c0f1ac4d574f75aac5dc7ce159aca60dae5cab15f808ecdafc4672cd61f"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/sync-current-20261004/sync_checkpoint.py",
+      "bytes": 3394,
+      "sha256": "33727d1e85dd83988581f7f1cf7c3e81d22e0f6363b5d448a9f1fd73a678276d"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/sync-current-20261004/prepare_snapshot.py",
+      "bytes": 8647,
+      "sha256": "c588ce0a9a965ac0db7d01abad2452a27e3cbdac169ebe9fa39d1821ed23f019"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/sync-current-20261004/verify_snapshot.py",
+      "bytes": 3074,
+      "sha256": "9c10dca178cc1af16e40c285a47c51ceb68d898578b81e767d8d3b680189b944"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/sync-current-20261004/record_sync.py",
+      "bytes": 2556,
+      "sha256": "35ed88fa9788a43beb9f730e81e980c0c979419a1a2247fcb0509fec64ce9101"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/sync-current-20261004/package_git.py",
+      "bytes": 2427,
+      "sha256": "0257015cb3fd2c46d25ced8876cbad9083bb5f0d482b223d1d5fd9c0cc6868a3"
+    },
+    {
+      "file": "docs/anomaly-marathon-20261003/sync-current-20261004/queue-summary.json",
+      "bytes": 189392,
+      "sha256": "08a2e5169b49489cd61e6594a34f0ae7e31df3db48b33bf223ad2eeeddeeca1e"
+    }
+  ],
+  "scope": "Current art snapshot only. Full Feishu before/after raw responses and unrelated game edits remain local."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "K008-S02",
+  "kind": "scene",
+  "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/02.png",
+  "size": [
+    2169,
+    725
+  ],
+  "sha256": "60cc976ca69ab576bd83cba40c083719d4c3f4b03811c9dfd9e2f3d13ab1201b",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-f2485c06-0bdc-458b-9d1f-5b32231daffe.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/scene-02.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "user_approved": false,
+  "resampled": false,
+  "review": {
+    "visual": "五黄铜水龙头、双排水管、窄镜与肥皂架完整；后侧水槽不挡前景，镜内空墙正确，六角地砖与上一段同风格；接缝待合成检查。",
+    "continuity": "pairwise_join_review_pending",
+    "user_approved": false
+  }
+}

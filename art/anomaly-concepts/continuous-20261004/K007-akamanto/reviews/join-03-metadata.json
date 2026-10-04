@@ -1,0 +1,25 @@
+{
+  "join": 3,
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-7a65657f-32c9-416d-aa27-5a53df1d7aaf.png",
+  "repaint": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-03-repaint.png",
+  "sha256": "9a140460e638d19f3e11ecb0e64b8cbe318c0b9580274c432d7b406b6dd5704e",
+  "size": [
+    2172,
+    724
+  ],
+  "selected_crop": [
+    650,
+    0,
+    1603,
+    724
+  ],
+  "assembly": "AI artwork cropped and pasted at native coordinates; no scaling, painting or blending",
+  "boundary_mean_abs_rgb_difference": [
+    2.5759156947002246,
+    2.3139451606302432
+  ],
+  "visual_review": "二次校色后中央偏亮矩形消失，地砖和墙线连续；当前普通尺寸本地目检通过，仍待用户评价。",
+  "user_approved": false,
+  "needs_revision": false
+}

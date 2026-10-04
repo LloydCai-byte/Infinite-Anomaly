@@ -1,0 +1,46 @@
+{
+  "id": "K002-M02-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/02-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "5d34136575a1a95fbb317d68d1630ca7b18c9df2f55d3f95e16bdad399cd9f9d",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-2925222f-f4be-484f-9415-4f0854d5a62a.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-02-side-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "单只严格朝右检票员，帽下黑脸、深色制服、腰票与金属钳臂保留；仅一只白手持票，机械侧未多出白手。帽顶脚下均有绿边，钳口和双鞋完整。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      699,
+      110,
+      952,
+      920
+    ],
+    "margins_ltrb": [
+      0.455078125,
+      0.107421875,
+      0.3802083333333333,
+      0.1015625
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      16,
+      240,
+      18
+    ]
+  }
+}

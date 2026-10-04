@@ -1,0 +1,46 @@
+{
+  "id": "K006-M05-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/05-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "4cf7c4c931614e20d3309c5f362214f07832e60d736199ad52cdd0c549c6131c",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-953128bc-9b84-4380-a4a4-e729710297d5.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-05-side-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "成年女性右向侧面、白衫深领结黑发，完整两臂两手及封闭裙布尾，无血伤或下肢；留白充分。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      212,
+      228,
+      1309,
+      756
+    ],
+    "margins_ltrb": [
+      0.13802083333333334,
+      0.22265625,
+      0.14778645833333334,
+      0.26171875
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      16,
+      240,
+      18
+    ]
+  }
+}

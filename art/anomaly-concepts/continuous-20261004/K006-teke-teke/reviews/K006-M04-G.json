@@ -1,0 +1,46 @@
+{
+  "id": "K006-M04-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/04-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "83469c2b63db9b2f7c3884ed69fd7eadbac59d934353ed884bfd162a04ff8f37",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-bb90f999-757c-4ea0-8a70-e6e1e30b48aa.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-04-side-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "木箱、四铁轮、两条黑手套臂和一条弧轨完整；白面罩朝右，留白充分。两臂实际安装在可见侧前后，作为本次视觉设计保留。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      348,
+      260,
+      1199,
+      749
+    ],
+    "margins_ltrb": [
+      0.2265625,
+      0.25390625,
+      0.21940104166666666,
+      0.2685546875
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      16,
+      241,
+      17
+    ]
+  }
+}

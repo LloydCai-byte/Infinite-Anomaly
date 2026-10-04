@@ -1,0 +1,46 @@
+{
+  "id": "K006-M03-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/03-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "5a08436e20795d05cb625234509bd3e925c7825d725d535b58de0b4098e5b18e",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-599635dc-7b15-42e7-86bf-76333eba2527.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-03-side-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "警铃头、机柜身、两条道闸臂和两条短钢腿完整，无多余手指，朝右全身留白充分。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      613,
+      134,
+      929,
+      864
+    ],
+    "margins_ltrb": [
+      0.3990885416666667,
+      0.130859375,
+      0.3951822916666667,
+      0.15625
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      16,
+      240,
+      20
+    ]
+  }
+}

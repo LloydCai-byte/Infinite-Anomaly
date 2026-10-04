@@ -1,0 +1,46 @@
+{
+  "id": "K008-M01-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/01-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "89bd31cbbf438f229c8b460821606deb5163c00dd98b87b502b8770a1f66b494",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-e61b6b96-8863-4372-90c4-fdbda3458ac8.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-01-attack-green-hand-v03.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "近侧白掌向右伸出，四指与拇指均清楚；远手收回门侧，两臂两足完整，门钮和五金保持，留白充足。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      633,
+      177,
+      1126,
+      830
+    ],
+    "margins_ltrb": [
+      0.412109375,
+      0.1728515625,
+      0.2669270833333333,
+      0.189453125
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      12,
+      240,
+      24
+    ]
+  }
+}

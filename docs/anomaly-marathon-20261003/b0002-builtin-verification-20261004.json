@@ -1,0 +1,317 @@
+{
+  "batch": "B0002",
+  "status": "verified_local_art_draft_pending_user",
+  "remote_writes": false,
+  "game_integration": false,
+  "upscaled": false,
+  "items": [
+    {
+      "id": "K006",
+      "generated_images": 15,
+      "derived_panoramas": 1,
+      "files": [
+        {
+          "id": "K006-S01",
+          "size": [
+            2172,
+            724
+          ],
+          "sha256": "0a95836ece1ea98b8b12e2785d2d15fcf874eb8087945130d426c212c59a78e0",
+          "verified": true
+        },
+        {
+          "id": "K006-S02",
+          "size": [
+            2172,
+            724
+          ],
+          "sha256": "78c47addc3ed28b76ff9c40ad96724b9fcc0396ae4dbb1f3d4721adcc46ebbd2",
+          "verified": true
+        },
+        {
+          "id": "K006-S03",
+          "size": [
+            2172,
+            724
+          ],
+          "sha256": "1fe781cea1aa6b83b0066ac1228b572f597bc799bced8d17747eeaa9d044c401",
+          "verified": true
+        },
+        {
+          "id": "K006-S04",
+          "size": [
+            2172,
+            724
+          ],
+          "sha256": "fa39b449d96b1fec415245ede1f719092e94556e6d126389289bfa81bbb304aa",
+          "verified": true
+        },
+        {
+          "id": "K006-S05",
+          "size": [
+            2172,
+            724
+          ],
+          "sha256": "f7f27c94c16e4cb4c541eccf10c133f701bb9f2628991a4751a1fdee0985e4e4",
+          "verified": true
+        },
+        {
+          "id": "K006-M01-G",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "1edf5baf1496f7a2a6cd8ba18efbe37d163042242f529f688f2386ca1f763d55",
+          "verified": true
+        },
+        {
+          "id": "K006-M01-A",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "85d8f21d1e0724476a02a5cc352940866d6bf902784de6e1c4ab8fd0641dd189",
+          "verified": true
+        },
+        {
+          "id": "K006-M02-G",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "484867c811fd68644bcd9aba9f86575d99d0ea385ecb17013fc22459ce6ab2ca",
+          "verified": true
+        },
+        {
+          "id": "K006-M02-A",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "24392b58ee90d1cd91769575344e75902f54ac32c359b9eb5f66be55b68fcd4e",
+          "verified": true
+        },
+        {
+          "id": "K006-M03-G",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "5a08436e20795d05cb625234509bd3e925c7825d725d535b58de0b4098e5b18e",
+          "verified": true
+        },
+        {
+          "id": "K006-M03-A",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "be3db1b559c9d0241f74480c2d265da6edb0db9a45a13ee683a495b93b988384",
+          "verified": true
+        },
+        {
+          "id": "K006-M04-G",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "83469c2b63db9b2f7c3884ed69fd7eadbac59d934353ed884bfd162a04ff8f37",
+          "verified": true
+        },
+        {
+          "id": "K006-M04-A",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "00863516ac1981bff8ee2ba591e9282769074373089e739cca649a70e705e2d8",
+          "verified": true
+        },
+        {
+          "id": "K006-M05-G",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "4cf7c4c931614e20d3309c5f362214f07832e60d736199ad52cdd0c549c6131c",
+          "verified": true
+        },
+        {
+          "id": "K006-M05-A",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "a964e8eb6804ec07b9e85432558786840350eda617a76d1f8979e5ee874e4315",
+          "verified": true
+        },
+        {
+          "id": "K006-P01",
+          "size": [
+            10860,
+            724
+          ],
+          "sha256": "472a9ea276572321b60ac8d90dcbb330411eb6635391e8836c02f46c6389e076",
+          "verified": true
+        }
+      ],
+      "five_tiles_reconstruct_panorama": true,
+      "joins_reviewed": 4
+    },
+    {
+      "id": "K007",
+      "generated_images": 15,
+      "derived_panoramas": 1,
+      "files": [
+        {
+          "id": "K007-S01",
+          "size": [
+            2172,
+            724
+          ],
+          "sha256": "37801d02404d77b39f87f6ae3164639e8a5e6e6c82fbf98e7606887624315fa6",
+          "verified": true
+        },
+        {
+          "id": "K007-S02",
+          "size": [
+            2172,
+            724
+          ],
+          "sha256": "427f7ef0f391f65cf4fd0d2922ba7fb66e0c983b0498188fcd28d58e378aeb54",
+          "verified": true
+        },
+        {
+          "id": "K007-S03",
+          "size": [
+            2172,
+            724
+          ],
+          "sha256": "001caad0333d8b5e5ff110af2f3257a84d427ce75741b055d3bc72b211f54044",
+          "verified": true
+        },
+        {
+          "id": "K007-S04",
+          "size": [
+            2172,
+            724
+          ],
+          "sha256": "923bae609cb79097d39898ae235b252f20c5be53e9f9660fc10930fe9c443ce3",
+          "verified": true
+        },
+        {
+          "id": "K007-S05",
+          "size": [
+            2172,
+            724
+          ],
+          "sha256": "bf4fc95fab67c66660f346f303fdec8516be0ea81f3d9f92c88f1e81ac490a18",
+          "verified": true
+        },
+        {
+          "id": "K007-M01-G",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "d501b6cd23a90afa3cb2e18a5e00e68d716b96b1b726b376e391bd459479a4bc",
+          "verified": true
+        },
+        {
+          "id": "K007-M01-A",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "8168c4248ff8db186d28f4c6fa7f93f29f74b7816936aae26a8c35399c03a8ce",
+          "verified": true
+        },
+        {
+          "id": "K007-M02-G",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "44ac44c28ab23c92f0c81dfa8fad3c5b485d4e0421a977b079478b5eb885356d",
+          "verified": true
+        },
+        {
+          "id": "K007-M02-A",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "a9de2db6ea288ef750a13059f68e66b4907804daed3cbe2b6ff2ef30a8e7a655",
+          "verified": true
+        },
+        {
+          "id": "K007-M03-G",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "f5aa28cc77b07de338f5e34e6201ecfce8fdd5b2c9abe85f78798672fb787c21",
+          "verified": true
+        },
+        {
+          "id": "K007-M03-A",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "b35d9159ef935eb025adc8a5caca8509d9ba0adba23526e5aef76bf8b823b3f2",
+          "verified": true
+        },
+        {
+          "id": "K007-M04-G",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "446a442ac280e3f5bcf16e6c056c58c0f1603272748cce96b737cd33005d1ce0",
+          "verified": true
+        },
+        {
+          "id": "K007-M04-A",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "7aa90fcc658fbf67441928ae1edd057a132668a8b7d8ee65c187e74618d0d95a",
+          "verified": true
+        },
+        {
+          "id": "K007-M05-G",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "6a7d722edcbc958b9bc46e22954e3f17c39bfb8bd185f52e11111c9525c775b7",
+          "verified": true
+        },
+        {
+          "id": "K007-M05-A",
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "5d4849489833abe2eb19045b1b5da0b0dde705e195fce43dc32928b22e9b5690",
+          "verified": true
+        },
+        {
+          "id": "K007-P01",
+          "size": [
+            10860,
+            724
+          ],
+          "sha256": "bcc3cc1d9d89cf7271e5c8a4a7e134a06a865bbd2426b5a2739ca08508eb993b",
+          "verified": true
+        }
+      ],
+      "five_tiles_reconstruct_panorama": true,
+      "joins_reviewed": 4
+    }
+  ],
+  "total_generated_images": 30,
+  "total_derived_panoramas": 2
+}

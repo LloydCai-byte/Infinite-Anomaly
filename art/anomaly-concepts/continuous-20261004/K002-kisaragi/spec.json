@@ -1,0 +1,235 @@
+{
+  "id": "K002",
+  "row": 2,
+  "name": "如月车站",
+  "scenes": [
+    {
+      "n": 1,
+      "name": "无人到达站台",
+      "description": "深夜山间小站，蓝灰雨棚、空长椅、老式站牌和关闭的售票设备。建筑、站台和轨道位于后侧；前景是平直、连续的水泥维修便道，作为战斗带，无人、无敌人、无障碍。",
+      "left": "暗蓝山林、灰色矮墙、直线站台边缘",
+      "right": "灰色矮墙与稀疏雨棚立柱，站台边缘水平延续",
+      "file": "kisaragi/scenes/01.png",
+      "size": [
+        2172,
+        724
+      ]
+    },
+    {
+      "n": 2,
+      "name": "旧候车室外廊",
+      "description": "沿铁道后侧延续的木结构候车室外墙：暗窗、售票小窗、时刻表、暗红自贩机与空椅。前景水泥维修便道贯穿画面，轨道与站台不横穿战斗带。",
+      "left": "灰色矮墙与稀疏雨棚立柱",
+      "right": "候车室已结束，灰墙、细铁栏和疏落灯柱",
+      "file": "kisaragi/scenes/02.png",
+      "size": [
+        2172,
+        724
+      ]
+    },
+    {
+      "n": 3,
+      "name": "废弃货运侧台",
+      "description": "候车室后是露天货运站台，枕木垛、封存货厢、旧手推车和生锈工具箱均置于后侧。保留轨道平行线；横向道路无障碍，蓝黑山林逐渐靠近。",
+      "left": "灰墙、细铁栏和疏落灯柱",
+      "right": "逐渐变低的灰墙、暗林、连续灰色水泥地面",
+      "file": "kisaragi/scenes/03.png",
+      "size": [
+        2172,
+        724
+      ]
+    },
+    {
+      "n": 4,
+      "name": "林边祭灯便道",
+      "description": "后侧暗林中出现小祠、褪色祭灯与鼓架，暗示传说中的笛鼓声；背景铁路仍延续，前景水泥维修便道保持同一高度。红色点缀克制，设施不占据战斗带。",
+      "left": "低灰墙、暗林与水泥便道",
+      "right": "暗林、低矮石挡墙、两盏稀疏路灯",
+      "file": "kisaragi/scenes/04.png",
+      "size": [
+        2172,
+        724
+      ]
+    },
+    {
+      "n": 5,
+      "name": "隧道口与等候车辆",
+      "description": "同一条便道延续至山壁，隧道口在后景朝深处，不强制玩家转弯进入；旁边停一辆熄灯旧车、空司机等候牌和小路灯。车辆和隧道只构成视觉终点，前景仍可向右走。",
+      "left": "暗林、低石挡墙和路灯",
+      "right": "山壁与灰色便道，留出向右延长的接口",
+      "file": "kisaragi/scenes/05.png",
+      "size": [
+        2172,
+        724
+      ]
+    }
+  ],
+  "enemies": [
+    {
+      "n": 1,
+      "name": "折臂通勤者",
+      "silhouette": "瘦高成年男性，苍白而疲惫的正常脸、黑色侧分短发、黑长风衣、衬衫领带和旧公文包；一条手臂像折尺连续折成棱角，另一条正常下垂。保持参考的克制怪异。",
+      "palette": "煤黑、旧褐皮包、冷白肤色",
+      "attack": "折臂展开，把公文包平直挥向前方；命中后收回，仅普通近战。",
+      "origin": "用户参考01；从陌生列车乘客意象扩写，非原帖明述生物。",
+      "height": "1.1倍主角",
+      "lore": "他总是赶着上车，却从来不看时刻表。风衣口袋里塞着过期月票，公文包的锁已经锈死。每当站台灯熄灭一盏，他折起的手臂就会多出一个拐角，像是把走不完的通勤路藏进了袖子。队员第一次靠近时，他依旧闭着眼；只有公文包先一步伸了过来。",
+      "attack_steps": [
+        "折臂抱包、肩部后收",
+        "折臂拉开，公文包前砸",
+        "收包归胸，恢复闭目待机"
+      ],
+      "habitat": "无人到达站台（其他段可混编）",
+      "concept_file": "kisaragi/enemies/01.png",
+      "turnaround_file": "kisaragi/turnarounds/01.png",
+      "concept_file_size": [
+        1536,
+        1024
+      ],
+      "turnaround_file_size": [
+        1774,
+        887
+      ],
+      "id": "K002-M01",
+      "reference_turnaround": "art/anomaly-concepts/first-two-20261002-v01/kisaragi/turnarounds/01.png",
+      "reference_attack": "art/anomaly-concepts/first-two-20261002-v01/kisaragi/enemies/01.png",
+      "green_idle_file": "enemies/01-side-green.png",
+      "green_attack_file": "enemies/01-attack-green.png"
+    },
+    {
+      "n": 2,
+      "name": "伸钳检票员",
+      "silhouette": "极瘦长黑制服、低檐帽、白领白手套与腰间车票；脸藏在帽下阴影。一侧手臂由几节长矩形部件组成，末端是巨大的检票钳，另一手拿一张旧车票。",
+      "palette": "深海军黑、黄铜扣、象牙白票纸",
+      "attack": "机械臂横向伸长，检票钳合拢后缩回；只造成普通攻击伤害。",
+      "origin": "用户参考02；车站职业的原创异化。",
+      "height": "1.25倍主角",
+      "lore": "最后一班车离站后，他还在检查不存在的乘客。帽檐下没有可辨认的表情，腰边挂的车票都是空白的。曾经用来剪票的小钳子与袖管长在了一起，一节接一节伸向站台尽头。他不会询问目的地，发现靠近的身影便重复同一个检票动作。",
+      "attack_steps": [
+        "钳臂屈起，白手仍持票",
+        "矩形臂节伸出，钳口合拢",
+        "钳臂逐节缩回"
+      ],
+      "habitat": "旧候车室外廊（其他段可混编）",
+      "concept_file": "kisaragi/enemies/02.png",
+      "turnaround_file": "kisaragi/turnarounds/02.png",
+      "concept_file_size": [
+        1536,
+        1024
+      ],
+      "turnaround_file_size": [
+        1774,
+        887
+      ],
+      "id": "K002-M02",
+      "reference_turnaround": "art/anomaly-concepts/first-two-20261002-v01/kisaragi/turnarounds/02.png",
+      "reference_attack": "art/anomaly-concepts/first-two-20261002-v01/kisaragi/enemies/02.png",
+      "green_idle_file": "enemies/02-side-green.png",
+      "green_attack_file": "enemies/02-attack-green.png"
+    },
+    {
+      "n": 3,
+      "name": "枕木匍行兽",
+      "silhouette": "低矮横宽，成束旧枕木叠成躯干、金属箍与螺栓固定，六条折角铁腿支撑；前下方露出一对白色人手。没有大头或夸张血口，保留参考的木材质和非人轮廓。",
+      "palette": "焦木褐黑、氧化铁、苍白手指",
+      "attack": "六足前移，前方双手猛伸抓击，再收回木缝；普通近战。",
+      "origin": "用户参考03；铁路构件原创异化。",
+      "height": "高0.55倍、长1.6倍主角",
+      "lore": "货运侧台上有一垛枕木，无论搬走多少根，第二天总会回到原来的高度。最下面的铁箍会在夜里折成腿，两只苍白的手从木缝伸出，慢慢摸索地面。木头仍带着雨水和机油的味道，移动时能听见装卸货物般的闷响，却始终看不见搬运的人。",
+      "attack_steps": [
+        "铁足压低，白手缩进木缝",
+        "铁足推进，双手前伸抓击",
+        "白手缩回，枕木躯干落稳"
+      ],
+      "habitat": "废弃货运侧台（其他段可混编）",
+      "concept_file": "kisaragi/enemies/03.png",
+      "turnaround_file": "kisaragi/turnarounds/03.png",
+      "concept_file_size": [
+        1536,
+        1024
+      ],
+      "turnaround_file_size": [
+        1774,
+        887
+      ],
+      "id": "K002-M03",
+      "reference_turnaround": "art/anomaly-concepts/first-two-20261002-v01/kisaragi/turnarounds/03.png",
+      "reference_attack": "art/anomaly-concepts/first-two-20261002-v01/kisaragi/enemies/03.png",
+      "green_idle_file": "enemies/03-side-green.png",
+      "green_attack_file": "enemies/03-attack-green.png"
+    },
+    {
+      "n": 4,
+      "name": "鼓腹祭客",
+      "silhouette": "大圆腹与细长四肢形成反差，藏蓝祭服、暗红绳结，肚子嵌完整太鼓；很小的无五官浅色椭圆脸，双手握木槌，黑色细腿与尖脚。",
+      "palette": "藏蓝、暗朱红、暖象牙鼓皮",
+      "attack": "击腹鼓送出一道可见弧形气浪；固定普攻动画，不要求玩家踩节拍。",
+      "origin": "用户参考04；来自传说的鼓笛声意象，身体造型为改编。",
+      "height": "高1.15倍、腹宽0.7倍主角身高",
+      "lore": "远处的祭典早已散场，鼓声仍沿着铁道传来。这位祭客把鼓背进了身体，红绳勒住藏蓝衣袍，只留一张小小的空白面孔。它像是记得一段没有结尾的乐曲，遇到活人也不停演奏。木槌落下时，鼓皮上的空气会被敲出一道清楚的弧线。",
+      "attack_steps": [
+        "两槌抬起，鼓腹微后仰",
+        "双槌击鼓，气浪向前",
+        "木槌回弹，细腿站稳"
+      ],
+      "habitat": "林边祭灯便道（其他段可混编）",
+      "concept_file": "kisaragi/enemies/04.png",
+      "turnaround_file": "kisaragi/turnarounds/04.png",
+      "concept_file_size": [
+        1536,
+        1024
+      ],
+      "turnaround_file_size": [
+        1774,
+        887
+      ],
+      "id": "K002-M04",
+      "reference_turnaround": "art/anomaly-concepts/first-two-20261002-v01/kisaragi/turnarounds/04.png",
+      "reference_attack": "art/anomaly-concepts/first-two-20261002-v01/kisaragi/enemies/04.png",
+      "green_idle_file": "enemies/04-side-green.png",
+      "green_attack_file": "enemies/04-attack-green.png"
+    },
+    {
+      "n": 5,
+      "name": "长影引路人",
+      "silhouette": "正常和善的中年男性脸，灰黑短发、橄榄绿旧外套、米色内衬；双腿细长且膝盖折角反常，鞋底影子延伸为两只巨大的黑手。脸保持亲切，绝不变成狰狞鬼脸。",
+      "palette": "橄榄绿、旧米白、墨黑影子",
+      "attack": "躬身伸手邀请，地面的手形影子同步前拍；普通伤害，不做信任选项。",
+      "origin": "用户参考05；借用陌生人引路情节，影手为原创改编。",
+      "height": "1.35倍主角（含长腿）",
+      "lore": "他一直在隧道旁等人，衣服旧，笑容却很亲切。他会摊开手，示意疲惫的旅客往这边走。可灯照在身后时，他的影子仍向来人伸过去；影子的末端也不是鞋，而是张开的手掌。那双过长的腿让他几步就能走完一段站台，脸上的笑从未变过。",
+      "attack_steps": [
+        "微笑伸手，影手聚拢",
+        "弯膝前倾，影手向前拍",
+        "影子退回鞋底，恢复邀请姿势"
+      ],
+      "habitat": "隧道口与等候车辆（其他段可混编）",
+      "concept_file": "kisaragi/enemies/05.png",
+      "turnaround_file": "kisaragi/turnarounds/05.png",
+      "concept_file_size": [
+        1536,
+        1024
+      ],
+      "turnaround_file_size": [
+        1774,
+        887
+      ],
+      "id": "K002-M05",
+      "reference_turnaround": "art/anomaly-concepts/first-two-20261002-v01/kisaragi/turnarounds/05.png",
+      "reference_attack": "art/anomaly-concepts/first-two-20261002-v01/kisaragi/enemies/05.png",
+      "green_idle_file": "enemies/05-side-green.png",
+      "green_attack_file": "enemies/05-attack-green.png"
+    }
+  ],
+  "panorama": "kisaragi/panorama.png",
+  "panorama_size": [
+    10860,
+    724
+  ],
+  "legacy_slug": "kisaragi",
+  "batch": "R0000",
+  "scope": "add 5 right-side idle green + 5 same-character attack green; preserve old scenes",
+  "generator": "built-in image_gen",
+  "resolution_phase": "ordinary native; HD deferred until art approval",
+  "source_bestiary": "art/anomaly-concepts/first-two-20261002-v01/bestiary.json"
+}

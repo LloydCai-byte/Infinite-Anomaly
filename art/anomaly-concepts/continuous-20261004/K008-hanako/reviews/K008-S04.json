@@ -1,0 +1,22 @@
+{
+  "id": "K008-S04",
+  "kind": "scene",
+  "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/04.png",
+  "size": [
+    2169,
+    725
+  ],
+  "sha256": "661026d882b75897e9119d4d73da4a2ce25df7d9dadad74d59df618163e6f46b",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-7d5fce36-6016-4068-b0d4-78e6b4cd57ad.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/scene-04.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "user_approved": false,
+  "resampled": false,
+  "review": {
+    "visual": "左铰链半开百叶门、桶/拖把/折凳、深水池和表管完整；前景通畅，暖灯及木梁尺度匹配；墙面接口待拼接复核。",
+    "continuity": "pairwise_join_review_pending",
+    "user_approved": false
+  }
+}

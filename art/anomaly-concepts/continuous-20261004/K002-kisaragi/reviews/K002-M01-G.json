@@ -1,0 +1,46 @@
+{
+  "id": "K002-M01-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/01-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "4286ff2bf7ae620283436a0f3d8117a3a2140c7725a036af6377c2dfdee63e81",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-ee6f0c7d-df1c-4aa2-b219-f07ed642f5b2.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-01-side-green-v02-margin.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "单只全身朝右侧视，黑长风衣、旧公文包和折尺状袖臂与四视参考一致。第二版修正头脚留白，双脚完整；无地面和投影。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      637,
+      129,
+      847,
+      921
+    ],
+    "margins_ltrb": [
+      0.4147135416666667,
+      0.1259765625,
+      0.4485677083333333,
+      0.1005859375
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      14,
+      240,
+      15
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "K008-M03-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/03-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "5f9b6febec1418e03b281b771cb35f868c74c89eb000db0f81caa6422e2a20c3",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-c64c6c13-f774-4f76-b9c4-8ece4e803f23.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-03-attack-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "四铁腿四木足完整，单根布颈连在桶内并右向前探，桶把和后垂布保持；头与前足未裁切，绿幕无投影。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      233,
+      307,
+      1356,
+      799
+    ],
+    "margins_ltrb": [
+      0.15169270833333334,
+      0.2998046875,
+      0.1171875,
+      0.2197265625
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      16,
+      240,
+      17
+    ]
+  }
+}

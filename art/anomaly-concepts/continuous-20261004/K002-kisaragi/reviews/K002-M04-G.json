@@ -1,0 +1,46 @@
+{
+  "id": "K002-M04-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/04-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "bc4e7fabd5852d254d32fc193609aa05ffa6539486ee3557ffc25fad339c8526",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-5023c38f-7c4d-4f45-87c9-d85269acffe0.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-04-side-green-v02-margin.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "鼓腹祭客严格朝右，小无五官面、深蓝祭服、红绳、嵌腹鼓和细黑肢体保留；两手各握一槌，双槌双脚完整，头脚余量已修正，无地影。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      655,
+      158,
+      890,
+      863
+    ],
+    "margins_ltrb": [
+      0.4264322916666667,
+      0.154296875,
+      0.4205729166666667,
+      0.1572265625
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      13,
+      241,
+      21
+    ]
+  }
+}

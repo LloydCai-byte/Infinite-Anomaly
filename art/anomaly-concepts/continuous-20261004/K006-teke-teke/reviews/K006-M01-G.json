@@ -1,0 +1,46 @@
+{
+  "id": "K006-M01-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/01-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "1edf5baf1496f7a2a6cd8ba18efbe37d163042242f529f688f2386ca1f763d55",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-0f8d8fbd-ec5a-4fbc-88fd-4e7692ea30c8.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-01-side-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "黑影朝右，完整封闭布尾、两臂两手，灰袖口清楚；无开放伤口、无腿、四周绿幕留白充分。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      213,
+      288,
+      1260,
+      740
+    ],
+    "margins_ltrb": [
+      0.138671875,
+      0.28125,
+      0.1796875,
+      0.27734375
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      15,
+      240,
+      20
+    ]
+  }
+}

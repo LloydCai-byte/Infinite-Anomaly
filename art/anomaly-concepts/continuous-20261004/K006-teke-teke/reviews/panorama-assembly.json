@@ -1,0 +1,53 @@
+{
+  "id": "K006-P01",
+  "kind": "panorama",
+  "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/panorama.png",
+  "size": [
+    10860,
+    724
+  ],
+  "sha256": "472a9ea276572321b60ac8d90dcbb330411eb6635391e8836c02f46c6389e076",
+  "generator": "native assembly of built-in image_gen outputs",
+  "status": "reviewed_local_art_draft",
+  "resampled": false,
+  "uploaded": false,
+  "user_approved": false,
+  "source_scenes": [
+    "K006-S01",
+    "K006-S02",
+    "K006-S03",
+    "K006-S04",
+    "K006-S05"
+  ],
+  "join_sources": [
+    {
+      "join": 1,
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-01-composite.png",
+      "sha256": "5909a7d5bcfdcda4ac70277b4c7476e06d51bc62a21295e3e8ffeddb95345c74",
+      "metadata": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-01-metadata.json"
+    },
+    {
+      "join": 2,
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-02-composite.png",
+      "sha256": "d9a4b69f86f1d417fc78999a8ff88135699da8c114656fe3f703394901f36fae",
+      "metadata": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-02-metadata.json"
+    },
+    {
+      "join": 3,
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-03-composite.png",
+      "sha256": "452b975242ca9d70b52f5d7bb422fe0056439c1ce7e9207be9c46a18d26e0dd9",
+      "metadata": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-03-metadata.json"
+    },
+    {
+      "join": 4,
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-04-composite.png",
+      "sha256": "773eac953fd79f3454733b1483d2e8cbbfcce2c67f32c5179916582156f40425",
+      "metadata": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-04-metadata.json"
+    }
+  ],
+  "continuous_scene_directory": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/continuous-scenes",
+  "review": {
+    "visual": "五段及四处接缝逐一复核；当前普通尺寸静态美术草案，非像素无缝或用户最终验收。",
+    "user_approved": false
+  }
+}

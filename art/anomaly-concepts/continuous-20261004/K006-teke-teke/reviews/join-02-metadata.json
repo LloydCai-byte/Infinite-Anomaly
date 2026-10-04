@@ -1,0 +1,25 @@
+{
+  "join": 2,
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-124b13aa-61da-4c7d-a55b-e87ddd3d7995.png",
+  "repaint": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-02-repaint.png",
+  "sha256": "1ae38e8ea50bdb4bcada391d679a361a94adbf9c177ed7e6cd36da1e92fad6a5",
+  "size": [
+    2172,
+    724
+  ],
+  "selected_crop": [
+    631,
+    0,
+    1457,
+    724
+  ],
+  "assembly": "AI artwork cropped and pasted at native coordinates; no scaling, painting or blending",
+  "boundary_mean_abs_rgb_difference": [
+    6.541129527317372,
+    7.047063638223857
+  ],
+  "visual_review": "拼回后中央电线和屋顶连贯，栏网与路沿贯通；地面裂纹衔接改善，无大面积曝光跳变。",
+  "user_approved": false,
+  "needs_revision": false
+}

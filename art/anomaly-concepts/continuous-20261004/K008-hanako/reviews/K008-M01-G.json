@@ -1,0 +1,46 @@
+{
+  "id": "K008-M01-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/01-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "37c85a66d034172272013b6020c55d74dcf35368d91243d5a33cfe60cb470f50",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-ffe280e9-3a90-485e-af37-9cc4c87d78f5.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-01-side-green-margin-v02.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "门体朝右薄侧面、双黑臂各连一白手、双足、铜钮完整；修正头顶边距，无地面影或额外肢体。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      651,
+      181,
+      903,
+      829
+    ],
+    "margins_ltrb": [
+      0.423828125,
+      0.1767578125,
+      0.412109375,
+      0.1904296875
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      13,
+      240,
+      21
+    ]
+  }
+}

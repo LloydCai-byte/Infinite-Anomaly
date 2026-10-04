@@ -1,0 +1,46 @@
+{
+  "id": "K007-M01-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/01-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "d501b6cd23a90afa3cb2e18a5e00e68d716b96b1b726b376e391bd459479a4bc",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-61088b07-39f4-4e3f-9d29-7bc24b32a817.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-01-side-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "严格朝右折纸人，两臂两手、两纸腿可辨，纸扇收拢在近侧前臂，留白充足。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      678,
+      140,
+      863,
+      851
+    ],
+    "margins_ltrb": [
+      0.44140625,
+      0.13671875,
+      0.4381510416666667,
+      0.1689453125
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      14,
+      240,
+      18
+    ]
+  }
+}

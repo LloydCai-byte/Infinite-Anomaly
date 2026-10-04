@@ -1,0 +1,825 @@
+{
+  "id": "K007",
+  "batch": "B0002",
+  "status": "complete_pending_user_review",
+  "expected_new_images": 16,
+  "expected_generated_images": 15,
+  "expected_derived_panoramas": 1,
+  "assets": [
+    {
+      "id": "K007-S01",
+      "kind": "scene",
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/scenes/01.png",
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "37801d02404d77b39f87f6ae3164639e8a5e6e6c82fbf98e7606887624315fa6",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-80e05121-fe32-4718-bb88-38603223f6cb.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/scene-01.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "user_approved": false,
+      "resampled": false,
+      "review": {
+        "visual": "入口门、储物柜、伞架与公告细节丰富；地脚线实际约70%，地面约30%，后段以这张实际基准延续。无人和前景障碍。",
+        "continuity": "reviewed_in_repainted_panorama_pending_user",
+        "user_approved": false
+      },
+      "continuous_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/continuous-scenes/01.png",
+      "continuous_sha256": "3b74004d5448e638ca510fbc49a919520259d75e576d3fa69abaa93e57150df2",
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "JIgZjv",
+        "cell": "D17",
+        "token": "QrMQbieKOoFZGXxaTyQci468ngL",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/continuous-scenes/01.png",
+        "uploaded_sha256": "3b74004d5448e638ca510fbc49a919520259d75e576d3fa69abaa93e57150df2",
+        "verified": true,
+        "note": "连续场景上传continuous_file；原始生成图另保留。"
+      }
+    },
+    {
+      "id": "K007-S02",
+      "kind": "scene",
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/scenes/02.png",
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "427f7ef0f391f65cf4fd0d2922ba7fb66e0c983b0498188fcd28d58e378aeb54",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-1af98698-c948-4afd-a10a-ef388fbc829b.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/scene-02.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "user_approved": false,
+      "resampled": false,
+      "review": {
+        "visual": "四龙头三镜面可数、镜中空墙无人，水槽排水管连续，地脚线沿用01；右侧小搪瓷盆实际为固定式，作为可见设计保留。",
+        "continuity": "reviewed_in_repainted_panorama_pending_user",
+        "user_approved": false
+      },
+      "continuous_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/continuous-scenes/02.png",
+      "continuous_sha256": "fc8b250feef0ddca357a388abd712c84d05d75c91a3e9b8ff17d4c7925851d20",
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "JIgZjv",
+        "cell": "D18",
+        "token": "VJM1bRagHoQ8yRxqVCNcsMvznxe",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/continuous-scenes/02.png",
+        "uploaded_sha256": "fc8b250feef0ddca357a388abd712c84d05d75c91a3e9b8ff17d4c7925851d20",
+        "verified": true,
+        "note": "连续场景上传continuous_file；原始生成图另保留。"
+      }
+    },
+    {
+      "id": "K007-S03",
+      "kind": "scene",
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/scenes/03.png",
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "001caad0333d8b5e5ff110af2f3257a84d427ce75741b055d3bc72b211f54044",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-25db02f9-89b9-4479-80d7-64aac93a6568.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/scene-03.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "user_approved": false,
+      "resampled": false,
+      "review": {
+        "visual": "三扇暗朱隔间门铰链均在左侧，中门半开后仅有空墙，地脚线和墙砖高度一致，无人物和UI。",
+        "continuity": "reviewed_in_repainted_panorama_pending_user",
+        "user_approved": false
+      },
+      "continuous_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/continuous-scenes/03.png",
+      "continuous_sha256": "cb898bab32d588c8d877ae6340e594ced6c6078c5e2a4c0745873e1a4fba0886",
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "JIgZjv",
+        "cell": "D19",
+        "token": "Ca0HboA44oQLeVxOHozchVDGn5g",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/continuous-scenes/03.png",
+        "uploaded_sha256": "cb898bab32d588c8d877ae6340e594ced6c6078c5e2a4c0745873e1a4fba0886",
+        "verified": true,
+        "note": "连续场景上传continuous_file；原始生成图另保留。"
+      }
+    },
+    {
+      "id": "K007-S04",
+      "kind": "scene",
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/scenes/04.png",
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "923bae609cb79097d39898ae235b252f20c5be53e9f9660fc10930fe9c443ce3",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-a344c2a1-bc6c-4b22-ac59-99e632d70cb3.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/scene-04.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "user_approved": false,
+      "resampled": false,
+      "review": {
+        "visual": "两阀门、压力表、连续管道和杂物柜工具清楚，地脚线保持，前景无道具阻挡。",
+        "continuity": "reviewed_in_repainted_panorama_pending_user",
+        "user_approved": false
+      },
+      "continuous_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/continuous-scenes/04.png",
+      "continuous_sha256": "b4856622e6524087137bb120e466c6c71e9ae27446c79681322d58e432cb8902",
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "JIgZjv",
+        "cell": "D20",
+        "token": "VFQqbaFAboLSyIxhYgGc289rnIe",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/continuous-scenes/04.png",
+        "uploaded_sha256": "b4856622e6524087137bb120e466c6c71e9ae27446c79681322d58e432cb8902",
+        "verified": true,
+        "note": "连续场景上传continuous_file；原始生成图另保留。"
+      }
+    },
+    {
+      "id": "K007-S05",
+      "kind": "scene",
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/scenes/05.png",
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "bf4fc95fab67c66660f346f303fdec8516be0ea81f3d9f92c88f1e81ac490a18",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-bc3a7a81-d928-4cce-84f7-ff60eb6bb5ed.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/scene-05.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "user_approved": false,
+      "resampled": false,
+      "review": {
+        "visual": "窗框、暖气片、阀门和闭合检修门完整，墙砖与地脚线保持；前景左侧残余暖反光和全景接缝需复核。",
+        "continuity": "reviewed_in_repainted_panorama_pending_user",
+        "user_approved": false
+      },
+      "continuous_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/continuous-scenes/05.png",
+      "continuous_sha256": "941311715d53c3166059b1d2aeea68464c3ae937f213ed9c175472b01ecc49b5",
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "JIgZjv",
+        "cell": "D21",
+        "token": "TuCIbczcAo1Y7wx0wBRctooWnoH",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/continuous-scenes/05.png",
+        "uploaded_sha256": "941311715d53c3166059b1d2aeea68464c3ae937f213ed9c175472b01ecc49b5",
+        "verified": true,
+        "note": "连续场景上传continuous_file；原始生成图另保留。"
+      }
+    },
+    {
+      "id": "K007-M01-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/01-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "d501b6cd23a90afa3cb2e18a5e00e68d716b96b1b726b376e391bd459479a4bc",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-61088b07-39f4-4e3f-9d29-7bc24b32a817.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-01-side-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "严格朝右折纸人，两臂两手、两纸腿可辨，纸扇收拢在近侧前臂，留白充足。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          678,
+          140,
+          863,
+          851
+        ],
+        "margins_ltrb": [
+          0.44140625,
+          0.13671875,
+          0.4381510416666667,
+          0.1689453125
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          14,
+          240,
+          18
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D27",
+        "token": "QPBhbkzrhoIA5nxRnTvcteIfnge",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/01-side-green.png",
+        "uploaded_sha256": "d501b6cd23a90afa3cb2e18a5e00e68d716b96b1b726b376e391bd459479a4bc",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K007-M01-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/01-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "8168c4248ff8db186d28f4c6fa7f93f29f74b7816936aae26a8c35399c03a8ce",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-3dc61022-1095-416f-bace-e565d233be71.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-01-attack-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "右向出臂，前手处纸扇展开，双臂双腿完整，无游离纸片；实际纸扇由手端展开，前臂折面仍收拢，此视觉变更在设定中记录。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          547,
+          162,
+          1151,
+          797
+        ],
+        "margins_ltrb": [
+          0.3561197916666667,
+          0.158203125,
+          0.2506510416666667,
+          0.2216796875
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          13,
+          239,
+          22
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E27",
+        "token": "Z7PtbJXwNoi5elxVNQBcRzjBnEh",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/01-attack-green.png",
+        "uploaded_sha256": "8168c4248ff8db186d28f4c6fa7f93f29f74b7816936aae26a8c35399c03a8ce",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K007-M02-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/02-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "44ac44c28ab23c92f0c81dfa8fad3c5b485d4e0421a977b079478b5eb885356d",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-a8dcf6c9-8a6c-4d2a-bdc1-d66f1cd449c5.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-02-side-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "蓝布全身包裹、无脸右向，两只布套手和两布足清楚，近腕一条布带，无其它游离肢体；上下余量约10%。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          667,
+          101,
+          884,
+          909
+        ],
+        "margins_ltrb": [
+          0.4342447916666667,
+          0.0986328125,
+          0.4244791666666667,
+          0.1123046875
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          14,
+          240,
+          17
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D28",
+        "token": "M85sbEdtkoqYTpx6tHBckOXFnce",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/02-side-green.png",
+        "uploaded_sha256": "44ac44c28ab23c92f0c81dfa8fad3c5b485d4e0421a977b079478b5eb885356d",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K007-M02-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/02-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "a9de2db6ea288ef750a13059f68e66b4907804daed3cbe2b6ff2ef30a8e7a655",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-a87c1973-08a8-4cdb-9e66-391af7382adf.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-02-attack-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "两只布套手完整，近腕布带向右展开为一条连续弧线，端部无假手；双脚和背景余量正常。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          358,
+          221,
+          1288,
+          811
+        ],
+        "margins_ltrb": [
+          0.23307291666666666,
+          0.2158203125,
+          0.16145833333333334,
+          0.2080078125
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          13,
+          240,
+          15
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E28",
+        "token": "TshxbXGPwoNF7VxPJlDcRhOznWg",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/02-attack-green.png",
+        "uploaded_sha256": "a9de2db6ea288ef750a13059f68e66b4907804daed3cbe2b6ff2ef30a8e7a655",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K007-M03-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/03-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "f5aa28cc77b07de338f5e34e6201ecfce8fdd5b2c9abe85f78798672fb787c21",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-bba2eeb8-1040-4423-bcff-da6e9866efe6.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-03-side-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "镜面头朝右无人物倒影，开衫长裙和双手双鞋完整，近手握一把刮水器，头脚留白充足。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          705,
+          134,
+          849,
+          889
+        ],
+        "margins_ltrb": [
+          0.458984375,
+          0.130859375,
+          0.447265625,
+          0.1318359375
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          15,
+          241,
+          20
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D29",
+        "token": "SgevbG8IboSRWfx5d4Pchgqanfb",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/03-side-green.png",
+        "uploaded_sha256": "f5aa28cc77b07de338f5e34e6201ecfce8fdd5b2c9abe85f78798672fb787c21",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K007-M03-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/03-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "b35d9159ef935eb025adc8a5caca8509d9ba0adba23526e5aef76bf8b823b3f2",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-99e55a59-c176-4ddc-9c10-afde2a9c1952.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-03-attack-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "镜头保持右向，近手握单把刮水器前击，远手后展，两鞋可见，服饰和身形一致且全身留白足够。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          547,
+          132,
+          1073,
+          893
+        ],
+        "margins_ltrb": [
+          0.3561197916666667,
+          0.12890625,
+          0.3014322916666667,
+          0.1279296875
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          15,
+          239,
+          20
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E29",
+        "token": "DAeMbzzn2oXiV2xrJUBcNUjinzb",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/03-attack-green.png",
+        "uploaded_sha256": "b35d9159ef935eb025adc8a5caca8509d9ba0adba23526e5aef76bf8b823b3f2",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K007-M04-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/04-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "446a442ac280e3f5bcf16e6c056c58c0f1603272748cce96b737cd33005d1ce0",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-389eb678-0269-49be-bfff-767fb3903cb6.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-04-side-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "瓷水箱右端黑孔，四条管腿四个橡胶足可数，顶部单杆连体，无遮挡裁切、无额外手臂。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          351,
+          250,
+          1183,
+          744
+        ],
+        "margins_ltrb": [
+          0.228515625,
+          0.244140625,
+          0.22981770833333334,
+          0.2734375
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          16,
+          241,
+          16
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D30",
+        "token": "CgDfboXOaof4hjxPL3fcE05lnve",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/04-side-green.png",
+        "uploaded_sha256": "446a442ac280e3f5bcf16e6c056c58c0f1603272748cce96b737cd33005d1ce0",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K007-M04-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/04-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "7aa90fcc658fbf67441928ae1edd057a132668a8b7d8ee65c187e74618d0d95a",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-6d0b509b-6d32-4d71-bb0a-e8e6c611e1d6.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-04-attack-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "前倾低扑，四管腿与四橡胶足完整，顶部单根伸缩连杆有连续轴与一钝帽，无多余手臂，留白正常。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          310,
+          318,
+          1223,
+          733
+        ],
+        "margins_ltrb": [
+          0.20182291666666666,
+          0.310546875,
+          0.20377604166666666,
+          0.2841796875
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          16,
+          239,
+          15
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E30",
+        "token": "AUObbm9SLolcIKxP8YUc47tXnqf",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/04-attack-green.png",
+        "uploaded_sha256": "7aa90fcc658fbf67441928ae1edd057a132668a8b7d8ee65c187e74618d0d95a",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K007-M05-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/05-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "6a7d722edcbc958b9bc46e22954e3f17c39bfb8bd185f52e11111c9525c775b7",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-fd20a925-42d4-482e-b059-369cd159ae86.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-05-side-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "单张右侧面悬空面具，空领、暗朱外层与靛蓝内衬，两袖两黑手，无腿脚，留白充分。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          572,
+          103,
+          864,
+          892
+        ],
+        "margins_ltrb": [
+          0.3723958333333333,
+          0.1005859375,
+          0.4375,
+          0.12890625
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          14,
+          241,
+          17
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D31",
+        "token": "Kz3TbbNSWoKeiixKeL4c0IYAnwQ",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/05-side-green.png",
+        "uploaded_sha256": "6a7d722edcbc958b9bc46e22954e3f17c39bfb8bd185f52e11111c9525c775b7",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K007-M05-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/05-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "5d4849489833abe2eb19045b1b5da0b0dde705e195fce43dc32928b22e9b5690",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-75a9ddfb-0ddb-4c2e-bb25-ce4c5217c5c2.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-05-attack-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "右向两袖两黑手，近袖带动连续弧形袍缘横扫，面具悬空朝右，无第三手或腿脚，所有末端在绿幕内。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          335,
+          94,
+          1365,
+          900
+        ],
+        "margins_ltrb": [
+          0.21809895833333334,
+          0.091796875,
+          0.111328125,
+          0.12109375
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          16,
+          241,
+          15
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E31",
+        "token": "CSi2bR62soZsocxtqxccwcOsnuc",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/05-attack-green.png",
+        "uploaded_sha256": "5d4849489833abe2eb19045b1b5da0b0dde705e195fce43dc32928b22e9b5690",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K007-P01",
+      "kind": "panorama",
+      "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/panorama.png",
+      "size": [
+        10860,
+        724
+      ],
+      "sha256": "bcc3cc1d9d89cf7271e5c8a4a7e134a06a865bbd2426b5a2739ca08508eb993b",
+      "generator": "native assembly of built-in image_gen outputs",
+      "status": "reviewed_local_art_draft",
+      "resampled": false,
+      "uploaded": true,
+      "user_approved": false,
+      "source_scenes": [
+        "K007-S01",
+        "K007-S02",
+        "K007-S03",
+        "K007-S04",
+        "K007-S05"
+      ],
+      "join_sources": [
+        {
+          "join": 1,
+          "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-01-composite.png",
+          "sha256": "fd048ef0165880dac73d73bb9d1b481b5a6730d0d73fb061d21235aae747c50b",
+          "metadata": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-01-metadata.json"
+        },
+        {
+          "join": 2,
+          "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-02-composite.png",
+          "sha256": "2c376b2a5fb9b32df4bea1c2c11bf1a4173076c62cd4f8b362a19cefad70b22e",
+          "metadata": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-02-metadata.json"
+        },
+        {
+          "join": 3,
+          "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-03-composite.png",
+          "sha256": "8977c417707600d29b536027e8a97ac594e95ec427a0a3404b1e755289de2594",
+          "metadata": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-03-metadata.json"
+        },
+        {
+          "join": 4,
+          "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-04-composite.png",
+          "sha256": "049e1597bbabb89047aac7d60fde6798aacfef28d724b66500a40ea27b7b1a55",
+          "metadata": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-04-metadata.json"
+        }
+      ],
+      "continuous_scene_directory": "art/anomaly-concepts/continuous-20261004/K007-akamanto/continuous-scenes",
+      "review": {
+        "visual": "五段及四处接缝逐一复核；当前普通尺寸静态美术草案，非像素无缝或用户最终验收。",
+        "user_approved": false
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "yyLGNe",
+        "cell": "D5",
+        "token": "MExObiWpioUhOdx5QHMcgFIvnyg",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/panorama.png",
+        "uploaded_sha256": "bcc3cc1d9d89cf7271e5c8a4a7e134a06a865bbd2426b5a2739ca08508eb993b",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    }
+  ],
+  "created_at": "2026-10-04T05:16:07.438361+08:00",
+  "user_approved": false,
+  "generated_images": 15,
+  "derived_panoramas": 1,
+  "updated_at": "2026-10-04T14:45:57.423605+08:00",
+  "feishu_verified_images": 16
+}

@@ -1,0 +1,46 @@
+{
+  "id": "K003-M01-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/01-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "5a8b3c1b36255e5faf585f097049407f6bc6480a34b9ca26da9543e17307cc83",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-bcf643ba-3aa0-4fc5-acaa-cc2fc7de56f7.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-01-side-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "草帽、蓝工装、白毛巾、棕裤胶靴保留；正常近手持竹尺，另一臂从肩后反折绕到胸前，两臂未重复。朝右侧视、帽檐竹尺及双靴完整，留白足够。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      654,
+      130,
+      889,
+      902
+    ],
+    "margins_ltrb": [
+      0.42578125,
+      0.126953125,
+      0.4212239583333333,
+      0.119140625
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      13,
+      241,
+      18
+    ]
+  }
+}

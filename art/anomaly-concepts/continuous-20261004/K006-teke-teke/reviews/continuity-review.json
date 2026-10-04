@@ -1,0 +1,16 @@
+{
+  "status": "reviewed_local_draft_pending_user",
+  "native_size_each": [
+    2172,
+    724
+  ],
+  "joined_size": [
+    10860,
+    724
+  ],
+  "resampled": false,
+  "findings": [
+    "四接口已内置重绘并拼回，原生逐接口和全景目检；不将局部目检等同用户验收或4K验收。"
+  ],
+  "panorama_counted_complete": true
+}

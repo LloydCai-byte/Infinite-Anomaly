@@ -1,0 +1,46 @@
+{
+  "id": "K003-M03-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/03-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "43275df79bb200ec729f9b9318394569b19140be74e2888e6df9a71793fe0ece",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-24a4613d-d3f1-43d1-8ebb-585b9a2bd95c.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-03-side-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "背夫朝右，横向稻束与双大草手、兜帽棕衣保留；四只布鞋可分别辨认，远后腿部分遮挡合理，真人双手抓肩绳。完整草穗指端和脚底，无投影。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      421,
+      118,
+      1104,
+      901
+    ],
+    "margins_ltrb": [
+      0.2740885416666667,
+      0.115234375,
+      0.28125,
+      0.1201171875
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      16,
+      241,
+      14
+    ]
+  }
+}

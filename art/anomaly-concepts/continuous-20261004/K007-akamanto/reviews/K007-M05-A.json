@@ -1,0 +1,46 @@
+{
+  "id": "K007-M05-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/05-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "5d4849489833abe2eb19045b1b5da0b0dde705e195fce43dc32928b22e9b5690",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-75a9ddfb-0ddb-4c2e-bb25-ce4c5217c5c2.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-05-attack-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "右向两袖两黑手，近袖带动连续弧形袍缘横扫，面具悬空朝右，无第三手或腿脚，所有末端在绿幕内。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      335,
+      94,
+      1365,
+      900
+    ],
+    "margins_ltrb": [
+      0.21809895833333334,
+      0.091796875,
+      0.111328125,
+      0.12109375
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      16,
+      241,
+      15
+    ]
+  }
+}

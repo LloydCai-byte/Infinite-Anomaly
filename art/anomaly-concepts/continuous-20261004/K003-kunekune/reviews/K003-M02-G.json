@@ -1,0 +1,46 @@
+{
+  "id": "K003-M02-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/02-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "93c287d800175deaa604c9d72753e41efc9b9581c234f80c36ad4bbf9c1eec4b",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-102e497e-06d4-4773-856d-7b072b92ebe5.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-02-side-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "风袋圆口朝右，红白布颈、破布尾、深绿小雨披、竹杆及双竹腿胶鞋清楚；双短手可见，未添加人脸。整体完整且四边留白，无场景或投影。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      379,
+      106,
+      1056,
+      884
+    ],
+    "margins_ltrb": [
+      0.24674479166666666,
+      0.103515625,
+      0.3125,
+      0.13671875
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      15,
+      240,
+      15
+    ]
+  }
+}

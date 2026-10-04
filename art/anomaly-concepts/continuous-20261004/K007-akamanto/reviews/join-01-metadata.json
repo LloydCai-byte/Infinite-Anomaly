@@ -1,0 +1,25 @@
+{
+  "join": 1,
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-11a6328f-fe14-46fd-bc31-b24eddf3d87b.png",
+  "repaint": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-01-repaint.png",
+  "sha256": "eb0445625b556acdee86debaddcc69cbfc1aac2831ff129d3ca14ddfc84cce73",
+  "size": [
+    2172,
+    724
+  ],
+  "selected_crop": [
+    811,
+    0,
+    1322,
+    724
+  ],
+  "assembly": "AI artwork cropped and pasted at native coordinates; no scaling, painting or blending",
+  "boundary_mean_abs_rgb_difference": [
+    2.4529363617761404,
+    2.0829240843053
+  ],
+  "visual_review": "拼回后墙砖/地脚线连贯，原中央地砖V形折角已消除，未见明显纵向色带。",
+  "user_approved": false,
+  "needs_revision": false
+}

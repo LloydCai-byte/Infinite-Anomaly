@@ -1,0 +1,46 @@
+{
+  "id": "K006-M04-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/04-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "00863516ac1981bff8ee2ba591e9282769074373089e739cca649a70e705e2d8",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-67cd8458-0cb5-4c6d-bb8f-64f7a1e8d7a3.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-04-attack-arm-root-v03.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "前臂现明确连接木箱圆形座，部分经过面罩后遮挡，完整两臂两手共同推一弧轨；四轮可数，右端留白足够。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      358,
+      313,
+      1309,
+      687
+    ],
+    "margins_ltrb": [
+      0.23307291666666666,
+      0.3056640625,
+      0.14778645833333334,
+      0.3291015625
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      13,
+      240,
+      20
+    ]
+  }
+}

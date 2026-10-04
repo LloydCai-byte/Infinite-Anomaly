@@ -1,0 +1,46 @@
+{
+  "id": "K006-S04",
+  "kind": "scene",
+  "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/04.png",
+  "size": [
+    2172,
+    724
+  ],
+  "sha256": "fa39b449d96b1fec415245ede1f719092e94556e6d126389289bfa81bbb304aa",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-381c59c0-788c-4cd5-bad5-c353b37d2463.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-04-road-v02.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "user_approved": false,
+  "resampled": false,
+  "review": {
+    "visual": "路面碎纹已减少，增加有形水迹并对齐前三段色调；保留棚、路沿与裂纹布局，仍需接缝整体复核。",
+    "continuity": "pairwise_join_review_pending",
+    "user_approved": false
+  },
+  "previous_versions": [
+    {
+      "id": "K006-S04",
+      "kind": "scene",
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/04.png",
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "711dc3d6e27dc4f47ecb6c984fc69afc35a8286c693bdb688d0d67e16141b087",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-684e0cb3-582c-4a02-98da-20ae30484d24.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-04.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": false,
+      "user_approved": false,
+      "resampled": false,
+      "review": {
+        "visual": "检修棚枕木、线圈、推车与支架清楚，水平路沿保持；前景裂纹分布已变化，但纹理细碎程度需整套评审。",
+        "continuity": "pairwise_join_review_pending",
+        "user_approved": false
+      }
+    }
+  ]
+}

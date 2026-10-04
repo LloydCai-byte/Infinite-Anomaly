@@ -1,0 +1,46 @@
+{
+  "id": "K008-M02-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/enemies/02-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "e3a40720c1eaac837597fc07f3060c3fa5effaecf8ceedb793a3af75fccebe9d",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-4caa7cdf-29fc-422d-9c78-833b294146fc.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/monster-02-attack-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "右向跨步推掌，两臂两手两腿完整，远手回腰，领口封闭黑影；服色、扣子、裙长和鞋保持，无地面影。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      488,
+      173,
+      1071,
+      879
+    ],
+    "margins_ltrb": [
+      0.3177083333333333,
+      0.1689453125,
+      0.302734375,
+      0.1416015625
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      16,
+      240,
+      20
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "K007-S05",
+  "kind": "scene",
+  "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/scenes/05.png",
+  "size": [
+    2172,
+    724
+  ],
+  "sha256": "bf4fc95fab67c66660f346f303fdec8516be0ea81f3d9f92c88f1e81ac490a18",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-bc3a7a81-d928-4cce-84f7-ff60eb6bb5ed.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/scene-05.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "user_approved": false,
+  "resampled": false,
+  "review": {
+    "visual": "窗框、暖气片、阀门和闭合检修门完整，墙砖与地脚线保持；前景左侧残余暖反光和全景接缝需复核。",
+    "continuity": "pairwise_join_review_pending",
+    "user_approved": false
+  }
+}

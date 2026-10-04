@@ -1,0 +1,22 @@
+{
+  "id": "K008-S05",
+  "kind": "scene",
+  "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/05.png",
+  "size": [
+    2169,
+    725
+  ],
+  "sha256": "85a8f5ffeb57460d07fc262d296edf5d1970b87f81871e2a0f6461c5088b91c3",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-c767ead7-1300-4353-80de-f7cd2d74fe1d.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/scene-05.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "user_approved": false,
+  "resampled": false,
+  "review": {
+    "visual": "窗格/护栏、完整长凳、暖气与闭合木门清楚，窗外无人物；手摇铃改为画中拉杆式旧铜铃，作为原创道具选择记录；地面比例一致，待拼接复核。",
+    "continuity": "pairwise_join_review_pending",
+    "user_approved": false
+  }
+}

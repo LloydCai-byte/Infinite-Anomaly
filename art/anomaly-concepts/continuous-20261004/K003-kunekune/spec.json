@@ -1,0 +1,235 @@
+{
+  "id": "K003",
+  "row": 3,
+  "name": "くねくね",
+  "scenes": [
+    {
+      "n": 1,
+      "name": "盛夏村口",
+      "description": "刺眼盛夏正午的乡村，旧巴士站、低瓦屋、红色小邮筒和电线杆在后侧；稻田向右展开。前景是一条笔直的灰米色农道，宽阔无障碍，清爽外表下空无一人。",
+      "left": "矮宅围墙、稻田与水平农道",
+      "right": "平直沟渠、稻田、远处深绿林线",
+      "file": "kunekune/scenes/01.png",
+      "size": [
+        2172,
+        724
+      ]
+    },
+    {
+      "n": 2,
+      "name": "灌渠稻田",
+      "description": "延续村口农道，后侧展开整齐水田、平行水渠、闸板和一座小水泵棚；前景不跨沟、不转弯。亮绿稻叶、低对比水面与酷热白云形成压抑空旷。",
+      "left": "平直沟渠、稻田、深绿林线",
+      "right": "低水渠、绿色田埂和稻田，远山高度不变",
+      "file": "kunekune/scenes/02.png",
+      "size": [
+        2172,
+        724
+      ]
+    },
+    {
+      "n": 3,
+      "name": "晒谷棚边",
+      "description": "同路右行到低矮敞口农棚和晾晒区：成束稻草、旧斗笠、折叠竹架、悬挂的空蓝工装。物品都是后景，不塞满道路；棚外黄色干草与绿田形成色彩变化。",
+      "left": "低水渠、绿色田埂和稻田",
+      "right": "稻田、低木栅、同色农道与连续草边",
+      "file": "kunekune/scenes/03.png",
+      "size": [
+        2172,
+        724
+      ]
+    },
+    {
+      "n": 4,
+      "name": "驱鸟田界",
+      "description": "农道继续沿高杆驱鸟带延伸，后景有褪红银色风袋、破旧农业广播喇叭、规整竹架和不成人形的旧防鸟布条。强日光、长而硬的杆影；没有需要躲避的装置。",
+      "left": "稻田、低木栅、同色农道",
+      "right": "渐高芦苇、深绿防风林、笔直低沟渠",
+      "file": "kunekune/scenes/04.png",
+      "size": [
+        2172,
+        724
+      ]
+    },
+    {
+      "n": 5,
+      "name": "白影田野",
+      "description": "农道到防风林边的最后一片开阔田野，远处废弃白色灌溉塔与扭折晾布杆提供不安形状，稻穗局部向不同方向倾斜。留出后续放置くねくね的位置，背景图本身不烘焙怪物。",
+      "left": "渐高芦苇、深绿防风林、低沟渠",
+      "right": "防风林、稻田和笔直农道，保留延长接口",
+      "file": "kunekune/scenes/05.png",
+      "size": [
+        2172,
+        724
+      ]
+    }
+  ],
+  "enemies": [
+    {
+      "n": 1,
+      "name": "反肘巡田人",
+      "silhouette": "戴宽草帽的中年农夫，正常平静面孔，靛蓝卷袖工装、褐色束脚裤与黑胶靴；一只手握竹尺，另一只肘部朝反方向折叠，让手绕过肩后出现在胸前。身形中等、无血肉拼贴。",
+      "palette": "靛蓝、草黄、旧褐、冷白皮肤",
+      "attack": "身体向后弯，反肘手臂从肩后划到身前，竹尺横扫；简单近战。",
+      "origin": "原创陪衬敌人；借乡野远看正常、近看异常的主题，不宣称来自原传说。",
+      "height": "1.0倍主角",
+      "lore": "村口常能见到他低头量田，帽沿压得很低，袖口永远卷到同一个位置。没人说得清他是哪户的农人。远望时他的动作十分熟练，走近后才发现，那只拿竹尺的手是从肩膀背后绕过来的。他不回答招呼，只把面前的人也当成需要丈量的田界。",
+      "attack_steps": [
+        "竹尺收于身侧、反肘抬起",
+        "肩背扭转，竹尺向前横扫",
+        "尺尖落低，反肘归肩后"
+      ],
+      "habitat": "盛夏村口（其他段可混编）",
+      "concept_file": "kunekune/enemies/01.png",
+      "turnaround_file": "kunekune/turnarounds/01.png",
+      "concept_file_size": [
+        1536,
+        1024
+      ],
+      "turnaround_file_size": [
+        1774,
+        887
+      ],
+      "id": "K003-M01",
+      "reference_turnaround": "art/anomaly-concepts/first-two-20261002-v01/kunekune/turnarounds/01.png",
+      "reference_attack": "art/anomaly-concepts/first-two-20261002-v01/kunekune/enemies/01.png",
+      "green_idle_file": "enemies/01-side-green.png",
+      "green_attack_file": "enemies/01-attack-green.png"
+    },
+    {
+      "n": 2,
+      "name": "风袋长颈客",
+      "silhouette": "一只褪红与米白相间的旧驱鸟风袋构成很长的弯曲头颈，口沿是完整圆金属圈，内部漆黑；深绿短雨披包住极小肩架，两条细竹节腿穿旧黑胶鞋，一双短手抱住杆身。上大下小、像走动的风向袋，绝不画成白衣人。",
+      "palette": "褪红、米白、深绿、竹褐",
+      "attack": "风袋先后仰蓄形，再像软槌向前甩击；无风向解谜。",
+      "origin": "原创田间驱鸟器具异化。",
+      "height": "1.35倍主角，软颈可卷曲",
+      "lore": "这是田边用了很多年的驱鸟风袋，红色已经晒成淡褐，金属口沿也掉了漆。某个没有风的午后，它自行撑满空气，竹杆从地里拔出了两条腿。雨披下面的小手始终紧握着自己，像在努力稳住一个过重的脑袋；无论风往哪边吹，袋口都朝着靠近的人。",
+      "attack_steps": [
+        "袋颈后弯，口沿抬高",
+        "软颈前甩，圆口沿撞击",
+        "袋颈回卷，竹节腿站稳"
+      ],
+      "habitat": "灌渠稻田（其他段可混编）",
+      "concept_file": "kunekune/enemies/02.png",
+      "turnaround_file": "kunekune/turnarounds/02.png",
+      "concept_file_size": [
+        1536,
+        1024
+      ],
+      "turnaround_file_size": [
+        1774,
+        887
+      ],
+      "id": "K003-M02",
+      "reference_turnaround": "art/anomaly-concepts/first-two-20261002-v01/kunekune/turnarounds/02.png",
+      "reference_attack": "art/anomaly-concepts/first-two-20261002-v01/kunekune/enemies/02.png",
+      "green_idle_file": "enemies/02-side-green.png",
+      "green_attack_file": "enemies/02-attack-green.png"
+    },
+    {
+      "n": 3,
+      "name": "稻束背夫",
+      "silhouette": "矮壮驼背的成年搬运工，旧棕工作服、露出半张敦厚脸；背负巨大横向稻束，稻束两端各伸出一只粗稻绳手。本人两只手仍抓肩带，四条粗草绳腿替代人的下肢，穿四只旧布鞋。宽厚草垛剪影。",
+      "palette": "麦黄、棕褐、暗橘绑绳",
+      "attack": "稻束左右扭转，其中一只大草绳手向前拍击；普通近战。",
+      "origin": "原创收割劳动意象异化，与白影主体区别。",
+      "height": "高0.85倍、宽1.25倍主角身高",
+      "lore": "晒谷棚旁的搬运工从不卸下背上的稻束。干草比他的身体宽得多，两头垂下的草结远看像松散绳头，近看却是有五根指头的巨手。他自己的手一直抓着肩带，沉默地往前走。四只旧布鞋踩出的脚步不在同一节拍上，但每一步都很稳。",
+      "attack_steps": [
+        "四足分开，草绳手后摆",
+        "稻束旋转，巨草手前拍",
+        "草手垂下，四足归位"
+      ],
+      "habitat": "晒谷棚边（其他段可混编）",
+      "concept_file": "kunekune/enemies/03.png",
+      "turnaround_file": "kunekune/turnarounds/03.png",
+      "concept_file_size": [
+        1536,
+        1024
+      ],
+      "turnaround_file_size": [
+        1774,
+        887
+      ],
+      "id": "K003-M03",
+      "reference_turnaround": "art/anomaly-concepts/first-two-20261002-v01/kunekune/turnarounds/03.png",
+      "reference_attack": "art/anomaly-concepts/first-two-20261002-v01/kunekune/enemies/03.png",
+      "green_idle_file": "enemies/03-side-green.png",
+      "green_attack_file": "enemies/03-attack-green.png"
+    },
+    {
+      "n": 4,
+      "name": "水渠折扇虫",
+      "silhouette": "很低很宽的非人异物，由锈青色折叠灌溉闸片组成扇状背壳，六条短水管足，前部只有一个老式白瓷水位刻度盘，刻度像闭着的眼；湿黑软管尾巴盘起。轮廓像低伏扇贝而非蜘蛛或人。",
+      "palette": "锈青、白瓷、暗灰橡胶、少量赭锈",
+      "attack": "闸片背壳从合拢到扇形张开，前足普通撞击；不抬水位、不堵路。",
+      "origin": "原创灌溉设施异化；不属于传统くねくね条目。",
+      "height": "高0.4倍、宽1.1倍主角身高",
+      "lore": "村里的灌渠停水后，闸门却还在每天开合。脱落的铁片一层压着一层，围住一块白瓷刻度盘，管道在下面长成短足。它平时伏在泥边，像一件被遗忘的农具；受惊时整面闸片忽然张开，露出扇贝一样的轮廓。刻度盘上的弧线始终像一只闭着的眼。",
+      "attack_steps": [
+        "短足压低，闸片合拢",
+        "背壳扇开，前足撞击",
+        "闸片回叠，软管尾收卷"
+      ],
+      "habitat": "驱鸟田界（其他段可混编）",
+      "concept_file": "kunekune/enemies/04.png",
+      "turnaround_file": "kunekune/turnarounds/04.png",
+      "concept_file_size": [
+        1536,
+        1024
+      ],
+      "turnaround_file_size": [
+        1774,
+        887
+      ],
+      "id": "K003-M04",
+      "reference_turnaround": "art/anomaly-concepts/first-two-20261002-v01/kunekune/turnarounds/04.png",
+      "reference_attack": "art/anomaly-concepts/first-two-20261002-v01/kunekune/enemies/04.png",
+      "green_idle_file": "enemies/04-side-green.png",
+      "green_attack_file": "enemies/04-attack-green.png"
+    },
+    {
+      "n": 5,
+      "name": "田间白折影",
+      "silhouette": "真正的くねくね主体：一整条苍白布面般的细长人体，头是细窄弯折轮廓、看不清五官；颈腰膝呈互相反向的S形，肢体长度近似人但折向不可能。表面只有少量清晰冷灰折面，布条式两臂，末端收尖；不加嘴、眼、牙或血。",
+      "palette": "骨白、冷灰阴影，细黑外轮廓",
+      "attack": "全身分节折向前方，长臂鞭扫后恢复S形；只作普通攻击，没有凝视、理智或即死机制。",
+      "origin": "来自くねくね远处白色扭动形体的核心意象；具体造型与战斗为游戏改编。",
+      "height": "1.5倍主角，极瘦",
+      "lore": "盛夏的田地尽头有一条白色轮廓，看起来像人，也像挂在空中的布。稻穗已经静止，它仍在反复弯折：脖子、腰和膝盖各自朝向不同方向。队员逼近后，没有看见清楚的脸，只看见一道又一道冷白折面。它的长臂展开时，整个身体像一条被拉直的折痕。",
+      "attack_steps": [
+        "全身S形反向压折",
+        "腰膝展开，布条长臂鞭扫",
+        "各关节重新反折，回到扭动待机"
+      ],
+      "habitat": "白影田野（其他段可混编）",
+      "concept_file": "kunekune/enemies/05.png",
+      "turnaround_file": "kunekune/turnarounds/05.png",
+      "concept_file_size": [
+        1536,
+        1024
+      ],
+      "turnaround_file_size": [
+        1774,
+        887
+      ],
+      "id": "K003-M05",
+      "reference_turnaround": "art/anomaly-concepts/first-two-20261002-v01/kunekune/turnarounds/05.png",
+      "reference_attack": "art/anomaly-concepts/first-two-20261002-v01/kunekune/enemies/05.png",
+      "green_idle_file": "enemies/05-side-green.png",
+      "green_attack_file": "enemies/05-attack-green.png"
+    }
+  ],
+  "panorama": "kunekune/panorama.png",
+  "panorama_size": [
+    10860,
+    724
+  ],
+  "legacy_slug": "kunekune",
+  "batch": "R0000",
+  "scope": "add 5 right-side idle green + 5 same-character attack green; preserve old scenes",
+  "generator": "built-in image_gen",
+  "resolution_phase": "ordinary native; HD deferred until art approval",
+  "source_bestiary": "art/anomaly-concepts/first-two-20261002-v01/bestiary.json"
+}

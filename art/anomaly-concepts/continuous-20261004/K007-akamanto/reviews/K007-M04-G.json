@@ -1,0 +1,46 @@
+{
+  "id": "K007-M04-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/04-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "446a442ac280e3f5bcf16e6c056c58c0f1603272748cce96b737cd33005d1ce0",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-389eb678-0269-49be-bfff-767fb3903cb6.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-04-side-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "瓷水箱右端黑孔，四条管腿四个橡胶足可数，顶部单杆连体，无遮挡裁切、无额外手臂。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      351,
+      250,
+      1183,
+      744
+    ],
+    "margins_ltrb": [
+      0.228515625,
+      0.244140625,
+      0.22981770833333334,
+      0.2734375
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      16,
+      241,
+      16
+    ]
+  }
+}

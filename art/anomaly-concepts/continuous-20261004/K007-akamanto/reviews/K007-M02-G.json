@@ -1,0 +1,46 @@
+{
+  "id": "K007-M02-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/02-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "44ac44c28ab23c92f0c81dfa8fad3c5b485d4e0421a977b079478b5eb885356d",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-a8dcf6c9-8a6c-4d2a-bdc1-d66f1cd449c5.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-02-side-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "蓝布全身包裹、无脸右向，两只布套手和两布足清楚，近腕一条布带，无其它游离肢体；上下余量约10%。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      667,
+      101,
+      884,
+      909
+    ],
+    "margins_ltrb": [
+      0.4342447916666667,
+      0.0986328125,
+      0.4244791666666667,
+      0.1123046875
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      14,
+      240,
+      17
+    ]
+  }
+}

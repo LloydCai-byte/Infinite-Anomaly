@@ -1,0 +1,46 @@
+{
+  "id": "K002-M03-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/03-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "fa5610d33c2636e31066ae852329b41eddd5753a8a8501109b36b5e72eabc8aa",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-4b97f09a-b706-4bbe-914b-c1e431cd87da.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-03-attack-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "同一枕木兽六只金属足撑稳，两只白手分别从木缝向右抓出，手与铁足分离，指端和所有足尖完整；保持木束尺度与低位基线，无效果线和投影。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      215,
+      318,
+      1354,
+      682
+    ],
+    "margins_ltrb": [
+      0.13997395833333334,
+      0.310546875,
+      0.11848958333333333,
+      0.333984375
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      14,
+      242,
+      32
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "K003-M03-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/03-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "1b12ae3893c9d1480e5793384146526d704399985826d860859d32859b26442c",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-c4da9e4e-d48e-43e9-bd99-67a40b3c84fe.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-03-attack-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "同一背夫四足撑地，四条草腿和四只鞋完整分离；双真人手仍抓肩绳，一只大草手向右拍出另一垂下，草臂与稻束连续，脸未被遮挡。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      400,
+      115,
+      1381,
+      896
+    ],
+    "margins_ltrb": [
+      0.2604166666666667,
+      0.1123046875,
+      0.10091145833333333,
+      0.125
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      16,
+      241,
+      21
+    ]
+  }
+}

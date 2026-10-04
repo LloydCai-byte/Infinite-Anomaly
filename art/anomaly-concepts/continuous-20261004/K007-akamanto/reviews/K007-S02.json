@@ -1,0 +1,22 @@
+{
+  "id": "K007-S02",
+  "kind": "scene",
+  "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/scenes/02.png",
+  "size": [
+    2172,
+    724
+  ],
+  "sha256": "427f7ef0f391f65cf4fd0d2922ba7fb66e0c983b0498188fcd28d58e378aeb54",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-1af98698-c948-4afd-a10a-ef388fbc829b.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/scene-02.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "user_approved": false,
+  "resampled": false,
+  "review": {
+    "visual": "四龙头三镜面可数、镜中空墙无人，水槽排水管连续，地脚线沿用01；右侧小搪瓷盆实际为固定式，作为可见设计保留。",
+    "continuity": "pairwise_join_review_pending",
+    "user_approved": false
+  }
+}

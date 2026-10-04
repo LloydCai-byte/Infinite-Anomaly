@@ -1,0 +1,46 @@
+{
+  "id": "K002-M03-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/03-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "dc231e79a627dadf4ba2f97dba4868ddcba1ad0049b71cfc0779280178f84b26",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-07394a75-1fbc-4c30-9a6c-71d4ae5c5c72.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-03-side-green-v03-feet.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "第三版补回近前金属足，六只尖形铁足可逐个区分，两只白手另从前端木缝伸出，未接在铁腿上。低矮横宽、朝右侧视，绿幕四边足够，无地面投影。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      289,
+      337,
+      1248,
+      682
+    ],
+    "margins_ltrb": [
+      0.18815104166666666,
+      0.3291015625,
+      0.1875,
+      0.333984375
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      11,
+      239,
+      22
+    ]
+  }
+}

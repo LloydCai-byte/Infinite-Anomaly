@@ -1,0 +1,46 @@
+{
+  "id": "K003-M04-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/04-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "9c2a4de4b71b8e2786c44c34de51d3f26bd9af0e3c514cd6c090d79589097f63",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-81fc299b-f4c3-4ec3-9193-75641f166168.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-04-side-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "朝右低伏水渠异物，锈青闸片叠壳、右侧白瓷刻度盘、左后黑软管环一致；六个管足法兰底可辨，所有边缘完整，无背景或接触阴影。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      304,
+      231,
+      1239,
+      783
+    ],
+    "margins_ltrb": [
+      0.19791666666666666,
+      0.2255859375,
+      0.193359375,
+      0.2353515625
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      16,
+      241,
+      16
+    ]
+  }
+}

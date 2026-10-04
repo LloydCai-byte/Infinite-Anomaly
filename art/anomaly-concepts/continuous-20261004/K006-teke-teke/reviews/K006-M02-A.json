@@ -1,0 +1,46 @@
+{
+  "id": "K006-M02-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/02-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "24392b58ee90d1cd91769575344e75902f54ac32c359b9eb5f66be55b68fcd4e",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-3fcca530-ccfb-4992-85ca-a98e6fb55390.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-02-attack-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "右向提灯前撞，远手回收，双脚完整分离，灯有实握把手；身份与待机一致，无额外肢体。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      513,
+      158,
+      1110,
+      846
+    ],
+    "margins_ltrb": [
+      0.333984375,
+      0.154296875,
+      0.27734375,
+      0.173828125
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      14,
+      240,
+      19
+    ]
+  }
+}

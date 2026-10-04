@@ -1,0 +1,46 @@
+{
+  "id": "K003-M01-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/01-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "ba6f0cfd1216511893eeda8d05baf5c368d9b40416fa486244d61484ca56b7c5",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-e36fd190-5181-43b7-a936-88974987d837.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-01-attack-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "同一巡田人右向竹尺横击，正常手持尺，反肘空手仍绕肩向前，只有两臂两手。帽檐、尺尖和双靴均完整，保持头部尺度，无额外效果。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      483,
+      128,
+      1366,
+      891
+    ],
+    "margins_ltrb": [
+      0.314453125,
+      0.125,
+      0.11067708333333333,
+      0.1298828125
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      14,
+      240,
+      19
+    ]
+  }
+}

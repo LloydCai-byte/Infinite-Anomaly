@@ -1,0 +1,22 @@
+{
+  "id": "K007-S03",
+  "kind": "scene",
+  "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/scenes/03.png",
+  "size": [
+    2172,
+    724
+  ],
+  "sha256": "001caad0333d8b5e5ff110af2f3257a84d427ce75741b055d3bc72b211f54044",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-25db02f9-89b9-4479-80d7-64aac93a6568.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/scene-03.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "user_approved": false,
+  "resampled": false,
+  "review": {
+    "visual": "三扇暗朱隔间门铰链均在左侧，中门半开后仅有空墙，地脚线和墙砖高度一致，无人物和UI。",
+    "continuity": "pairwise_join_review_pending",
+    "user_approved": false
+  }
+}

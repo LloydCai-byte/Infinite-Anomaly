@@ -1,0 +1,46 @@
+{
+  "id": "K003-M02-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/02-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "4adc176b39acaf79b9d1ce750968b2842571c19eb6441844db1f9bf7257cf743",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-ec1686c6-56e5-4f68-b6ef-4a084a8f6000.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-02-attack-green-v02-hands.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "同一风袋向右下甩击，完整环口及布尾，双手握杆、两竹腿双鞋撑稳；第二版删除雨披下多余手形，余量足够且没有特效或地影。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      313,
+      206,
+      1299,
+      885
+    ],
+    "margins_ltrb": [
+      0.20377604166666666,
+      0.201171875,
+      0.154296875,
+      0.1357421875
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      13,
+      240,
+      16
+    ]
+  }
+}

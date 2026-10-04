@@ -1,0 +1,46 @@
+{
+  "id": "K007-M02-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/02-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "a9de2db6ea288ef750a13059f68e66b4907804daed3cbe2b6ff2ef30a8e7a655",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-a87c1973-08a8-4cdb-9e66-391af7382adf.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-02-attack-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "两只布套手完整，近腕布带向右展开为一条连续弧线，端部无假手；双脚和背景余量正常。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      358,
+      221,
+      1288,
+      811
+    ],
+    "margins_ltrb": [
+      0.23307291666666666,
+      0.2158203125,
+      0.16145833333333334,
+      0.2080078125
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      13,
+      240,
+      15
+    ]
+  }
+}

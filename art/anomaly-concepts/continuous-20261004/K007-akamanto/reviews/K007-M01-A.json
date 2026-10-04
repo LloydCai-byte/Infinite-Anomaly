@@ -1,0 +1,46 @@
+{
+  "id": "K007-M01-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/01-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "8168c4248ff8db186d28f4c6fa7f93f29f74b7816936aae26a8c35399c03a8ce",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-3dc61022-1095-416f-bace-e565d233be71.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-01-attack-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "右向出臂，前手处纸扇展开，双臂双腿完整，无游离纸片；实际纸扇由手端展开，前臂折面仍收拢，此视觉变更在设定中记录。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      547,
+      162,
+      1151,
+      797
+    ],
+    "margins_ltrb": [
+      0.3561197916666667,
+      0.158203125,
+      0.2506510416666667,
+      0.2216796875
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      13,
+      239,
+      22
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "K007-M03-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/03-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "b35d9159ef935eb025adc8a5caca8509d9ba0adba23526e5aef76bf8b823b3f2",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-99e55a59-c176-4ddc-9c10-afde2a9c1952.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-03-attack-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "镜头保持右向，近手握单把刮水器前击，远手后展，两鞋可见，服饰和身形一致且全身留白足够。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      547,
+      132,
+      1073,
+      893
+    ],
+    "margins_ltrb": [
+      0.3561197916666667,
+      0.12890625,
+      0.3014322916666667,
+      0.1279296875
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      15,
+      239,
+      20
+    ]
+  }
+}

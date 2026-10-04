@@ -1,0 +1,583 @@
+{
+  "anomaly": "K003",
+  "batch": "R0000",
+  "expected_new_images": 10,
+  "assets": [
+    {
+      "id": "K003-M01-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/01-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "5a8b3c1b36255e5faf585f097049407f6bc6480a34b9ca26da9543e17307cc83",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-bcf643ba-3aa0-4fc5-acaa-cc2fc7de56f7.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-01-side-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "草帽、蓝工装、白毛巾、棕裤胶靴保留；正常近手持竹尺，另一臂从肩后反折绕到胸前，两臂未重复。朝右侧视、帽檐竹尺及双靴完整，留白足够。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          654,
+          130,
+          889,
+          902
+        ],
+        "margins_ltrb": [
+          0.42578125,
+          0.126953125,
+          0.4212239583333333,
+          0.119140625
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          13,
+          241,
+          18
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D17",
+        "token": "ABgZb6WmSo1DbMx12rDcgwhinAg",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/01-side-green.png",
+        "uploaded_sha256": "5a8b3c1b36255e5faf585f097049407f6bc6480a34b9ca26da9543e17307cc83",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K003-M01-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/01-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "ba6f0cfd1216511893eeda8d05baf5c368d9b40416fa486244d61484ca56b7c5",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-e36fd190-5181-43b7-a936-88974987d837.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-01-attack-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "同一巡田人右向竹尺横击，正常手持尺，反肘空手仍绕肩向前，只有两臂两手。帽檐、尺尖和双靴均完整，保持头部尺度，无额外效果。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          483,
+          128,
+          1366,
+          891
+        ],
+        "margins_ltrb": [
+          0.314453125,
+          0.125,
+          0.11067708333333333,
+          0.1298828125
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          14,
+          240,
+          19
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E17",
+        "token": "WeJNbfZPXooDMqxaqeWcAoStnGf",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/01-attack-green.png",
+        "uploaded_sha256": "ba6f0cfd1216511893eeda8d05baf5c368d9b40416fa486244d61484ca56b7c5",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K003-M02-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/02-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "93c287d800175deaa604c9d72753e41efc9b9581c234f80c36ad4bbf9c1eec4b",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-102e497e-06d4-4773-856d-7b072b92ebe5.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-02-side-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "风袋圆口朝右，红白布颈、破布尾、深绿小雨披、竹杆及双竹腿胶鞋清楚；双短手可见，未添加人脸。整体完整且四边留白，无场景或投影。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          379,
+          106,
+          1056,
+          884
+        ],
+        "margins_ltrb": [
+          0.24674479166666666,
+          0.103515625,
+          0.3125,
+          0.13671875
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          15,
+          240,
+          15
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D18",
+        "token": "QSnabZOB6odJxvxhW4sclU9Vnif",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/02-side-green.png",
+        "uploaded_sha256": "93c287d800175deaa604c9d72753e41efc9b9581c234f80c36ad4bbf9c1eec4b",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K003-M02-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/02-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "4adc176b39acaf79b9d1ce750968b2842571c19eb6441844db1f9bf7257cf743",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-ec1686c6-56e5-4f68-b6ef-4a084a8f6000.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-02-attack-green-v02-hands.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "同一风袋向右下甩击，完整环口及布尾，双手握杆、两竹腿双鞋撑稳；第二版删除雨披下多余手形，余量足够且没有特效或地影。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          313,
+          206,
+          1299,
+          885
+        ],
+        "margins_ltrb": [
+          0.20377604166666666,
+          0.201171875,
+          0.154296875,
+          0.1357421875
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          13,
+          240,
+          16
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E18",
+        "token": "XsDCb1LSEostkHxy4ZTcq8oVnwb",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/02-attack-green.png",
+        "uploaded_sha256": "4adc176b39acaf79b9d1ce750968b2842571c19eb6441844db1f9bf7257cf743",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K003-M03-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/03-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "43275df79bb200ec729f9b9318394569b19140be74e2888e6df9a71793fe0ece",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-24a4613d-d3f1-43d1-8ebb-585b9a2bd95c.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-03-side-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "背夫朝右，横向稻束与双大草手、兜帽棕衣保留；四只布鞋可分别辨认，远后腿部分遮挡合理，真人双手抓肩绳。完整草穗指端和脚底，无投影。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          421,
+          118,
+          1104,
+          901
+        ],
+        "margins_ltrb": [
+          0.2740885416666667,
+          0.115234375,
+          0.28125,
+          0.1201171875
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          16,
+          241,
+          14
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D19",
+        "token": "VWQsbtm9roYEVkxI0ZGcpdDonoe",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/03-side-green.png",
+        "uploaded_sha256": "43275df79bb200ec729f9b9318394569b19140be74e2888e6df9a71793fe0ece",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K003-M03-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/03-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "1b12ae3893c9d1480e5793384146526d704399985826d860859d32859b26442c",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-c4da9e4e-d48e-43e9-bd99-67a40b3c84fe.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-03-attack-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "同一背夫四足撑地，四条草腿和四只鞋完整分离；双真人手仍抓肩绳，一只大草手向右拍出另一垂下，草臂与稻束连续，脸未被遮挡。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          400,
+          115,
+          1381,
+          896
+        ],
+        "margins_ltrb": [
+          0.2604166666666667,
+          0.1123046875,
+          0.10091145833333333,
+          0.125
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          16,
+          241,
+          21
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E19",
+        "token": "XY8bbXTo9opKqtxgCosczeoYnzc",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/03-attack-green.png",
+        "uploaded_sha256": "1b12ae3893c9d1480e5793384146526d704399985826d860859d32859b26442c",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K003-M04-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/04-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "9c2a4de4b71b8e2786c44c34de51d3f26bd9af0e3c514cd6c090d79589097f63",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-81fc299b-f4c3-4ec3-9193-75641f166168.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-04-side-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "朝右低伏水渠异物，锈青闸片叠壳、右侧白瓷刻度盘、左后黑软管环一致；六个管足法兰底可辨，所有边缘完整，无背景或接触阴影。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          304,
+          231,
+          1239,
+          783
+        ],
+        "margins_ltrb": [
+          0.19791666666666666,
+          0.2255859375,
+          0.193359375,
+          0.2353515625
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          16,
+          241,
+          16
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D20",
+        "token": "G0ydbcVXao9VM4xrYn2cpObBnuT",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/04-side-green.png",
+        "uploaded_sha256": "9c2a4de4b71b8e2786c44c34de51d3f26bd9af0e3c514cd6c090d79589097f63",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K003-M04-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/04-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "16bf63761d713771b130efb4aa19b1c394fec8bed70abb0da2bdf650f00a4c3f",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-3b8252a6-3c95-435e-9dac-dba8e4c8a3bd.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-04-attack-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "同一水渠虫闸片铰链向上展开，右向瓷盘与后侧软管保持，六只法兰足完整，前足略抬形成冲撞动作。最高提手也有绿边，未叠加特效或地面。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          285,
+          96,
+          1250,
+          811
+        ],
+        "margins_ltrb": [
+          0.185546875,
+          0.09375,
+          0.18619791666666666,
+          0.2080078125
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          16,
+          242,
+          26
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E20",
+        "token": "Fcs3bcxaToHY3FxGxv8cOKMKnTe",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/04-attack-green.png",
+        "uploaded_sha256": "16bf63761d713771b130efb4aa19b1c394fec8bed70abb0da2bdf650f00a4c3f",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K003-M05-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/05-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "8b78708244c75f21292fc8f77371c29e45a951a9d9acba8e1d2971f2cc390097",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-e192d937-b522-4400-8955-a6cd1c7ef83a.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-05-side-green-v02-far-arm.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "朝右空白钩形头与S形反折躯干保留，修订后两条尖端布臂与两腿都清楚可辨；骨白冷灰赛璐璐，不生眼口指头，完整绿边，无雾光或地影。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          610,
+          110,
+          930,
+          879
+        ],
+        "margins_ltrb": [
+          0.3971354166666667,
+          0.107421875,
+          0.39453125,
+          0.1416015625
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          14,
+          240,
+          16
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D21",
+        "token": "DPTUbqt2ToWYUOxfLd7cmKlTnBf",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/05-side-green.png",
+        "uploaded_sha256": "8b78708244c75f21292fc8f77371c29e45a951a9d9acba8e1d2971f2cc390097",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K003-M05-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/05-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "86c8808aef9c69977efedaac2df33ad6418acd9c32c6cff1785c6a615f458434",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-d1cacfb2-d46f-4ffa-b45b-729a310e0093.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-05-attack-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "同一白折影右向伸展鞭臂，一臂前扫一臂后垂，两腿两三角足清楚；空白钩头与白灰折面保持，尖端完整未出画，无额外条带或特效。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          422,
+          125,
+          1405,
+          880
+        ],
+        "margins_ltrb": [
+          0.2747395833333333,
+          0.1220703125,
+          0.08528645833333333,
+          0.140625
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          16,
+          239,
+          18
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E21",
+        "token": "H8mfbiQ3Hoka1UxL0ric96hnnje",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/05-attack-green.png",
+        "uploaded_sha256": "86c8808aef9c69977efedaac2df33ad6418acd9c32c6cff1785c6a615f458434",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    }
+  ],
+  "status": "complete_pending_user_review",
+  "user_approved": false,
+  "updated_at": "2026-10-04T14:45:57.423605+08:00",
+  "generated_images": 10,
+  "derived_panoramas": 0,
+  "feishu_verified_images": 10
+}

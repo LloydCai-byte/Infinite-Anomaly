@@ -1,0 +1,46 @@
+{
+  "id": "K003-M05-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/05-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "86c8808aef9c69977efedaac2df33ad6418acd9c32c6cff1785c6a615f458434",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-d1cacfb2-d46f-4ffa-b45b-729a310e0093.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-05-attack-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "同一白折影右向伸展鞭臂，一臂前扫一臂后垂，两腿两三角足清楚；空白钩头与白灰折面保持，尖端完整未出画，无额外条带或特效。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      422,
+      125,
+      1405,
+      880
+    ],
+    "margins_ltrb": [
+      0.2747395833333333,
+      0.1220703125,
+      0.08528645833333333,
+      0.140625
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      16,
+      239,
+      18
+    ]
+  }
+}

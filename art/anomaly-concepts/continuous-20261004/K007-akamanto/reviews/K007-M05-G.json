@@ -1,0 +1,46 @@
+{
+  "id": "K007-M05-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/05-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "6a7d722edcbc958b9bc46e22954e3f17c39bfb8bd185f52e11111c9525c775b7",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-fd20a925-42d4-482e-b059-369cd159ae86.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-05-side-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "单张右侧面悬空面具，空领、暗朱外层与靛蓝内衬，两袖两黑手，无腿脚，留白充分。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      572,
+      103,
+      864,
+      892
+    ],
+    "margins_ltrb": [
+      0.3723958333333333,
+      0.1005859375,
+      0.4375,
+      0.12890625
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      14,
+      241,
+      17
+    ]
+  }
+}

@@ -1,0 +1,8205 @@
+{
+  "status": "active_builtin_art_phase_hd_deferred",
+  "counts": {
+    "source_entries": 393,
+    "primary": 335,
+    "aliases": 56,
+    "excluded": 2,
+    "existing_complete": 2,
+    "remaining_primary": 331,
+    "side_green_required": 1675,
+    "side_green_complete": 35,
+    "legacy_complete_not_new_standard": 2,
+    "scene_plans_detailed": 40,
+    "scene_plans_required": 1675,
+    "scene_plans_uploaded_verified": 40,
+    "side_green_attacks_complete": 35,
+    "existing_concept_packages": 4,
+    "current_phase_missing_scenes": 1640,
+    "current_phase_missing_side_green": 1640,
+    "current_phase_missing_attack_green": 1640,
+    "scenes_complete": 35
+  },
+  "current": {
+    "batch": "B0003",
+    "batch_anomalies": [
+      "K008",
+      "K009"
+    ],
+    "anomaly": "K009",
+    "phase": "builtin_art_generation",
+    "next_assets": [
+      "K009-S01",
+      "K009-S02"
+    ],
+    "stop_after_batch": false
+  },
+  "batches": [
+    {
+      "id": "B0001",
+      "anomalies": [
+        "K004",
+        "K005"
+      ],
+      "status": "concept_package_verified_hd_and_seams_pending",
+      "expected_images": 32,
+      "generated_images": 32,
+      "uploaded_images": 32,
+      "verification": "docs/anomaly-marathon-20261003/b0001-final-verification.json"
+    },
+    {
+      "id": "B0002",
+      "anomalies": [
+        "K006",
+        "K007"
+      ],
+      "status": "complete_pending_user_review",
+      "expected_images": 32,
+      "generated_images": 32,
+      "uploaded_images": 32,
+      "local_design_at": "2026-10-04T05:16:07.438361+08:00",
+      "local_design_anomalies": [
+        "K006",
+        "K007"
+      ]
+    },
+    {
+      "id": "B0003",
+      "anomalies": [
+        "K008",
+        "K009"
+      ],
+      "status": "in_progress",
+      "expected_images": 32,
+      "generated_images": 15,
+      "uploaded_images": 15,
+      "local_design_at": "2026-10-04T11:27:44.913117+08:00",
+      "local_design_anomalies": [
+        "K008",
+        "K009"
+      ]
+    },
+    {
+      "id": "B0004",
+      "anomalies": [
+        "K010",
+        "K011"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0005",
+      "anomalies": [
+        "K012",
+        "K013"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0006",
+      "anomalies": [
+        "K014",
+        "K015"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0007",
+      "anomalies": [
+        "K016",
+        "K022"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0008",
+      "anomalies": [
+        "K023",
+        "K025"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0009",
+      "anomalies": [
+        "K026",
+        "K028"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0010",
+      "anomalies": [
+        "K030",
+        "K031"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0011",
+      "anomalies": [
+        "K033",
+        "K034"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0012",
+      "anomalies": [
+        "K035",
+        "K036"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0013",
+      "anomalies": [
+        "K039",
+        "K046"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0014",
+      "anomalies": [
+        "K058",
+        "K059"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0015",
+      "anomalies": [
+        "K060",
+        "K061"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0016",
+      "anomalies": [
+        "K062",
+        "K063"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0017",
+      "anomalies": [
+        "K064",
+        "K065"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0018",
+      "anomalies": [
+        "K066",
+        "K067"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0019",
+      "anomalies": [
+        "K068",
+        "K069"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0020",
+      "anomalies": [
+        "K070",
+        "K071"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0021",
+      "anomalies": [
+        "K072",
+        "K073"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0022",
+      "anomalies": [
+        "K074",
+        "K075"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0023",
+      "anomalies": [
+        "K077",
+        "K078"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0024",
+      "anomalies": [
+        "K079",
+        "K080"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0025",
+      "anomalies": [
+        "K081",
+        "K082"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0026",
+      "anomalies": [
+        "K083",
+        "K084"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0027",
+      "anomalies": [
+        "K085",
+        "K086"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0028",
+      "anomalies": [
+        "K087",
+        "K088"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0029",
+      "anomalies": [
+        "K089",
+        "K090"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0030",
+      "anomalies": [
+        "K091",
+        "K092"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0031",
+      "anomalies": [
+        "K093",
+        "K094"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0032",
+      "anomalies": [
+        "K095",
+        "K096"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0033",
+      "anomalies": [
+        "K097",
+        "K098"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0034",
+      "anomalies": [
+        "K099",
+        "K100"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0035",
+      "anomalies": [
+        "K101",
+        "K102"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0036",
+      "anomalies": [
+        "K103",
+        "K104"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0037",
+      "anomalies": [
+        "K105",
+        "K106"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0038",
+      "anomalies": [
+        "K107",
+        "K109"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0039",
+      "anomalies": [
+        "K110",
+        "K111"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0040",
+      "anomalies": [
+        "K112",
+        "K113"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0041",
+      "anomalies": [
+        "K114",
+        "K115"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0042",
+      "anomalies": [
+        "K116",
+        "K117"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0043",
+      "anomalies": [
+        "K119",
+        "K120"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0044",
+      "anomalies": [
+        "K121",
+        "K122"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0045",
+      "anomalies": [
+        "K123",
+        "K125"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0046",
+      "anomalies": [
+        "K126",
+        "K127"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0047",
+      "anomalies": [
+        "K128",
+        "K129"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0048",
+      "anomalies": [
+        "K130",
+        "K131"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0049",
+      "anomalies": [
+        "K132",
+        "K133"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0050",
+      "anomalies": [
+        "K134",
+        "K135"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0051",
+      "anomalies": [
+        "K136",
+        "K137"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0052",
+      "anomalies": [
+        "K138",
+        "K139"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0053",
+      "anomalies": [
+        "K140",
+        "K141"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0054",
+      "anomalies": [
+        "K142",
+        "K143"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0055",
+      "anomalies": [
+        "K144",
+        "K145"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0056",
+      "anomalies": [
+        "K146",
+        "K147"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0057",
+      "anomalies": [
+        "K148",
+        "K150"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0058",
+      "anomalies": [
+        "K151",
+        "K152"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0059",
+      "anomalies": [
+        "K153",
+        "K154"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0060",
+      "anomalies": [
+        "K155",
+        "K156"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0061",
+      "anomalies": [
+        "K157",
+        "K158"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0062",
+      "anomalies": [
+        "K159",
+        "K160"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0063",
+      "anomalies": [
+        "K162",
+        "K163"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0064",
+      "anomalies": [
+        "K164",
+        "K165"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0065",
+      "anomalies": [
+        "K166",
+        "K167"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0066",
+      "anomalies": [
+        "K168",
+        "K169"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0067",
+      "anomalies": [
+        "K170",
+        "K171"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0068",
+      "anomalies": [
+        "K173",
+        "K174"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0069",
+      "anomalies": [
+        "K175",
+        "K176"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0070",
+      "anomalies": [
+        "K177",
+        "K178"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0071",
+      "anomalies": [
+        "K179",
+        "K180"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0072",
+      "anomalies": [
+        "K181",
+        "K182"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0073",
+      "anomalies": [
+        "K183",
+        "K184"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0074",
+      "anomalies": [
+        "K185",
+        "K186"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0075",
+      "anomalies": [
+        "K187",
+        "K188"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0076",
+      "anomalies": [
+        "K189",
+        "K190"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0077",
+      "anomalies": [
+        "K191",
+        "K192"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0078",
+      "anomalies": [
+        "K194",
+        "K195"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0079",
+      "anomalies": [
+        "K196",
+        "K197"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0080",
+      "anomalies": [
+        "K200",
+        "K201"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0081",
+      "anomalies": [
+        "K202",
+        "K203"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0082",
+      "anomalies": [
+        "K204",
+        "K205"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0083",
+      "anomalies": [
+        "K206",
+        "K207"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0084",
+      "anomalies": [
+        "K208",
+        "K209"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0085",
+      "anomalies": [
+        "K210",
+        "K212"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0086",
+      "anomalies": [
+        "K213",
+        "K214"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0087",
+      "anomalies": [
+        "K215",
+        "K216"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0088",
+      "anomalies": [
+        "K217",
+        "K218"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0089",
+      "anomalies": [
+        "K219",
+        "K221"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0090",
+      "anomalies": [
+        "K222",
+        "K223"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0091",
+      "anomalies": [
+        "K224",
+        "K225"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0092",
+      "anomalies": [
+        "K226",
+        "K227"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0093",
+      "anomalies": [
+        "K228",
+        "K229"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0094",
+      "anomalies": [
+        "K230",
+        "K231"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0095",
+      "anomalies": [
+        "K232",
+        "K233"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0096",
+      "anomalies": [
+        "K234",
+        "K235"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0097",
+      "anomalies": [
+        "K236",
+        "K237"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0098",
+      "anomalies": [
+        "K238",
+        "K239"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0099",
+      "anomalies": [
+        "K240",
+        "K241"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0100",
+      "anomalies": [
+        "K243",
+        "K244"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0101",
+      "anomalies": [
+        "K245",
+        "K246"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0102",
+      "anomalies": [
+        "K247",
+        "K248"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0103",
+      "anomalies": [
+        "K249",
+        "K250"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0104",
+      "anomalies": [
+        "K251",
+        "K252"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0105",
+      "anomalies": [
+        "K253",
+        "K254"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0106",
+      "anomalies": [
+        "K255",
+        "K256"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0107",
+      "anomalies": [
+        "K257",
+        "K259"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0108",
+      "anomalies": [
+        "K260",
+        "K261"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0109",
+      "anomalies": [
+        "K262",
+        "K263"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0110",
+      "anomalies": [
+        "K264",
+        "K265"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0111",
+      "anomalies": [
+        "K266",
+        "K267"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0112",
+      "anomalies": [
+        "K268",
+        "K269"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0113",
+      "anomalies": [
+        "K270",
+        "K271"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0114",
+      "anomalies": [
+        "K272",
+        "K273"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0115",
+      "anomalies": [
+        "K274",
+        "K275"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0116",
+      "anomalies": [
+        "K276",
+        "K277"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0117",
+      "anomalies": [
+        "K278",
+        "K279"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0118",
+      "anomalies": [
+        "K280",
+        "K281"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0119",
+      "anomalies": [
+        "K282",
+        "K283"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0120",
+      "anomalies": [
+        "K284",
+        "K285"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0121",
+      "anomalies": [
+        "K286",
+        "K287"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0122",
+      "anomalies": [
+        "K288",
+        "K289"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0123",
+      "anomalies": [
+        "K290",
+        "K291"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0124",
+      "anomalies": [
+        "K292",
+        "K293"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0125",
+      "anomalies": [
+        "K294",
+        "K295"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0126",
+      "anomalies": [
+        "K297",
+        "K298"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0127",
+      "anomalies": [
+        "K299",
+        "K300"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0128",
+      "anomalies": [
+        "K302",
+        "K303"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0129",
+      "anomalies": [
+        "K304",
+        "K305"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0130",
+      "anomalies": [
+        "K306",
+        "K308"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0131",
+      "anomalies": [
+        "K309",
+        "K310"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0132",
+      "anomalies": [
+        "K311",
+        "K312"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0133",
+      "anomalies": [
+        "K315",
+        "K316"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0134",
+      "anomalies": [
+        "K317",
+        "K318"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0135",
+      "anomalies": [
+        "K319",
+        "K320"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0136",
+      "anomalies": [
+        "K321",
+        "K322"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0137",
+      "anomalies": [
+        "K323",
+        "K324"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0138",
+      "anomalies": [
+        "K325",
+        "K326"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0139",
+      "anomalies": [
+        "K327",
+        "K328"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0140",
+      "anomalies": [
+        "K329",
+        "K330"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0141",
+      "anomalies": [
+        "K331",
+        "K332"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0142",
+      "anomalies": [
+        "K333",
+        "K334"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0143",
+      "anomalies": [
+        "K335",
+        "K336"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0144",
+      "anomalies": [
+        "K337",
+        "K338"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0145",
+      "anomalies": [
+        "K339",
+        "K340"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0146",
+      "anomalies": [
+        "K341",
+        "K342"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0147",
+      "anomalies": [
+        "K343",
+        "K344"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0148",
+      "anomalies": [
+        "K345",
+        "K346"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0149",
+      "anomalies": [
+        "K347",
+        "K348"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0150",
+      "anomalies": [
+        "K349",
+        "K350"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0151",
+      "anomalies": [
+        "K351",
+        "K352"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0152",
+      "anomalies": [
+        "K354",
+        "K355"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0153",
+      "anomalies": [
+        "K356",
+        "K357"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0154",
+      "anomalies": [
+        "K358",
+        "K359"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0155",
+      "anomalies": [
+        "K360",
+        "K361"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0156",
+      "anomalies": [
+        "K362",
+        "K363"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0157",
+      "anomalies": [
+        "K364",
+        "K365"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0158",
+      "anomalies": [
+        "K366",
+        "K367"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0159",
+      "anomalies": [
+        "K368",
+        "K369"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0160",
+      "anomalies": [
+        "K370",
+        "K371"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0161",
+      "anomalies": [
+        "K374",
+        "K375"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0162",
+      "anomalies": [
+        "K376",
+        "K377"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0163",
+      "anomalies": [
+        "K383",
+        "K384"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0164",
+      "anomalies": [
+        "K387",
+        "K390"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0165",
+      "anomalies": [
+        "K391",
+        "K392"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0166",
+      "anomalies": [
+        "K393",
+        "K394"
+      ],
+      "status": "queued",
+      "expected_images": 32,
+      "generated_images": 0,
+      "uploaded_images": 0
+    },
+    {
+      "id": "B0167",
+      "anomalies": [
+        "K395"
+      ],
+      "status": "queued",
+      "expected_images": 16,
+      "generated_images": 0,
+      "uploaded_images": 0
+    }
+  ],
+  "builtin_art_phase_20261004": {
+    "rules": "docs/anomaly-marathon-20261003/ART_PHASE_20261004.md",
+    "generator": "built-in image_gen only",
+    "chatcut_allowed": false,
+    "external_image_api_allowed": false,
+    "feishu_write_allowed": false,
+    "game_integration_allowed": false,
+    "resolution": "ordinary native output; 4K only after all art approved",
+    "approved_style_reference": "art/anomaly-concepts/hasshaku-redraw-20261004-v02/generated/04-chatcut-nano-4k.png",
+    "reference_note": "Previously generated local image is style reference only; user forbids future ChatCut use",
+    "baseline_missing_generated_images": 4985,
+    "baseline_new_anomalies": 331,
+    "baseline_side_green_backfill": 20,
+    "generated_selected_since_resume": 65
+  },
+  "latest_upload_checkpoint": {
+    "date": "2026-10-04T15:58:43.334348+08:00",
+    "user_instruction": "目前的内容上传飞书和git",
+    "scope": "2026-10-04当前成果单次快照",
+    "feishu_selected_images": 67,
+    "feishu_reference_images": 1,
+    "feishu_verified": true,
+    "verification": "docs/anomaly-marathon-20261003/sync-current-20261004/verification-final.json",
+    "git_branch": "codex/art-checkpoint-20261004",
+    "git_status": "prepared_pending_push",
+    "future_default_upload": false,
+    "production_goal_complete": false
+  },
+  "items": [
+    {
+      "id": "K002",
+      "name": "如月车站",
+      "canonical_id": "K002",
+      "relation": "primary",
+      "status": "legacy_package_preserved_green_backfill_complete_pending_user_review",
+      "completed": {
+        "scenes": 5,
+        "turnarounds": 5,
+        "attacks": 5,
+        "panoramas": 1,
+        "uploaded_images": 26,
+        "side_green": 5,
+        "side_green_attacks": 5
+      }
+    },
+    {
+      "id": "K003",
+      "name": "くねくね",
+      "canonical_id": "K003",
+      "relation": "primary",
+      "status": "legacy_package_preserved_green_backfill_complete_pending_user_review",
+      "completed": {
+        "scenes": 5,
+        "turnarounds": 5,
+        "attacks": 5,
+        "panoramas": 1,
+        "uploaded_images": 26,
+        "side_green": 5,
+        "side_green_attacks": 5
+      }
+    },
+    {
+      "id": "K004",
+      "name": "八尺大人",
+      "canonical_id": "K004",
+      "relation": "primary",
+      "status": "concept_package_verified_hd_and_seams_pending",
+      "completed": {
+        "scenes": 5,
+        "turnarounds": 0,
+        "attacks": 5,
+        "panoramas": 1,
+        "uploaded_images": 16,
+        "side_green": 5,
+        "side_green_attacks": 5
+      }
+    },
+    {
+      "id": "K005",
+      "name": "裂口女",
+      "canonical_id": "K005",
+      "relation": "primary",
+      "status": "concept_package_verified_hd_and_seams_pending",
+      "completed": {
+        "scenes": 5,
+        "turnarounds": 0,
+        "attacks": 5,
+        "panoramas": 1,
+        "uploaded_images": 16,
+        "side_green": 5,
+        "side_green_attacks": 5
+      }
+    },
+    {
+      "id": "K006",
+      "name": "Teke Teke",
+      "canonical_id": "K006",
+      "relation": "primary",
+      "status": "complete_pending_user_review",
+      "completed": {
+        "scenes": 5,
+        "turnarounds": 0,
+        "attacks": 5,
+        "panoramas": 1,
+        "uploaded_images": 16,
+        "side_green": 5,
+        "side_green_attacks": 5
+      }
+    },
+    {
+      "id": "K007",
+      "name": "红斗篷 / 赤マント",
+      "canonical_id": "K007",
+      "relation": "primary",
+      "status": "complete_pending_user_review",
+      "completed": {
+        "scenes": 5,
+        "turnarounds": 0,
+        "attacks": 5,
+        "panoramas": 1,
+        "uploaded_images": 16,
+        "side_green": 5,
+        "side_green_attacks": 5
+      }
+    },
+    {
+      "id": "K008",
+      "name": "厕所花子",
+      "canonical_id": "K008",
+      "relation": "primary",
+      "status": "in_progress",
+      "completed": {
+        "scenes": 5,
+        "turnarounds": 0,
+        "attacks": 5,
+        "panoramas": 0,
+        "uploaded_images": 15,
+        "side_green": 5,
+        "side_green_attacks": 5
+      }
+    },
+    {
+      "id": "K009",
+      "name": "Mary的电话",
+      "canonical_id": "K009",
+      "relation": "primary",
+      "status": "in_progress",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K010",
+      "name": "猿梦",
+      "canonical_id": "K010",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K011",
+      "name": "人面犬",
+      "canonical_id": "K011",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K012",
+      "name": "紫镜",
+      "canonical_id": "K012",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K013",
+      "name": "山之怪 / 山ノケ",
+      "canonical_id": "K013",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K014",
+      "name": "巨头オ",
+      "canonical_id": "K014",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K015",
+      "name": "红房间",
+      "canonical_id": "K015",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K016",
+      "name": "一个人的捉迷藏",
+      "canonical_id": "K016",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K017",
+      "name": "猿梦",
+      "canonical_id": "K010",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K018",
+      "name": "Mary的电话",
+      "canonical_id": "K009",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K019",
+      "name": "八尺大人",
+      "canonical_id": "K004",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K020",
+      "name": "红斗篷",
+      "canonical_id": "K007",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K021",
+      "name": "一个人的捉迷藏",
+      "canonical_id": "K016",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K022",
+      "name": "异世界电梯",
+      "canonical_id": "K022",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K023",
+      "name": "杉泽村",
+      "canonical_id": "K023",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K024",
+      "name": "巨头オ",
+      "canonical_id": "K014",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K025",
+      "name": "コトリバコ（小鸟箱）",
+      "canonical_id": "K025",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K026",
+      "name": "犬鸣村/犬鸣峠怪谈",
+      "canonical_id": "K026",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K027",
+      "name": "Teke Teke（テケテケ）",
+      "canonical_id": "K006",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K028",
+      "name": "カシマさん（鹿岛さん）",
+      "canonical_id": "K028",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K029",
+      "name": "紫镜（紫の鏡）",
+      "canonical_id": "K012",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K030",
+      "name": "牛之首（牛の首）",
+      "canonical_id": "K030",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K031",
+      "name": "隙间女（隙間女）",
+      "canonical_id": "K031",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K032",
+      "name": "人面犬（人面犬）",
+      "canonical_id": "K011",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K033",
+      "name": "电话亭怪谈",
+      "canonical_id": "K033",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K034",
+      "name": "きさらぎ駅系“异界车站”衍生怪谈",
+      "canonical_id": "K034",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K035",
+      "name": "梦男 / This Man",
+      "canonical_id": "K035",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K036",
+      "name": "后座的人",
+      "canonical_id": "K036",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K037",
+      "name": "口裂女（口裂け女）",
+      "canonical_id": "K005",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K038",
+      "name": "厕所里的花子（トイレの花子さん）",
+      "canonical_id": "K008",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K039",
+      "name": "狐狗狸（コックリさん）",
+      "canonical_id": "K039",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K040",
+      "name": "Teke Teke（テケテケ）",
+      "canonical_id": "K006",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K041",
+      "name": "Mary的电话（メリーさんの電話）",
+      "canonical_id": "K009",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K042",
+      "name": "赤斗篷（赤マント）",
+      "canonical_id": "K007",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K043",
+      "name": "人面犬（人面犬）",
+      "canonical_id": "K011",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K044",
+      "name": "鹿岛玲子 / Kashima-san（カシマさん）",
+      "canonical_id": "K028",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K045",
+      "name": "山之怪（ヤマノケ）",
+      "canonical_id": "K013",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K046",
+      "name": "悟君（さとるくん）",
+      "canonical_id": "K046",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K047",
+      "name": "コックリさん / 狐狗狸",
+      "canonical_id": "K039",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K048",
+      "name": "カシマさん / 鹿岛玲子",
+      "canonical_id": "K028",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K049",
+      "name": "人面犬",
+      "canonical_id": "K011",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K050",
+      "name": "さとるくん / 悟君",
+      "canonical_id": "K046",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K051",
+      "name": "紫镜",
+      "canonical_id": "K012",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K052",
+      "name": "牛之首",
+      "canonical_id": "K030",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K053",
+      "name": "山之怪 / ヤマノケ",
+      "canonical_id": "K013",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K054",
+      "name": "コトリバコ / 小鸟箱",
+      "canonical_id": "K025",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K055",
+      "name": "杉泽村",
+      "canonical_id": "K023",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K056",
+      "name": "犬鸣村",
+      "canonical_id": "K026",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K057",
+      "name": "隙间女 / 隙間女",
+      "canonical_id": "K031",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K058",
+      "name": "ひきこさん / Hikiko-san",
+      "canonical_id": "K058",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K059",
+      "name": "首なしライダー / 无头骑士",
+      "canonical_id": "K059",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K060",
+      "name": "三本足のリカちゃん / 三条腿的莉香娃娃",
+      "canonical_id": "K060",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K061",
+      "name": "白い手 / 白手",
+      "canonical_id": "K061",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K062",
+      "name": "Bloody Mary / 血腥玛丽",
+      "canonical_id": "K062",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K063",
+      "name": "The Hook / 钩子杀手",
+      "canonical_id": "K063",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K064",
+      "name": "Vanishing Hitchhiker / 消失的搭车人",
+      "canonical_id": "K064",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K065",
+      "name": "Black-Eyed Children / 黑眼儿童",
+      "canonical_id": "K065",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K066",
+      "name": "Bunny Man / 兔人",
+      "canonical_id": "K066",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K067",
+      "name": "Candyman",
+      "canonical_id": "K067",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K068",
+      "name": "Mothman / 天蛾人",
+      "canonical_id": "K068",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K069",
+      "name": "Jersey Devil / 泽西恶魔",
+      "canonical_id": "K069",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K070",
+      "name": "La Llorona / 哭泣女",
+      "canonical_id": "K070",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K071",
+      "name": "El Silbón / 吹哨人",
+      "canonical_id": "K071",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K072",
+      "name": "La Sayona",
+      "canonical_id": "K072",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K073",
+      "name": "La Planchada / 熨衣护士",
+      "canonical_id": "K073",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K074",
+      "name": "Pontianak / Kuntilanak",
+      "canonical_id": "K074",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K075",
+      "name": "Krasue / กระสือ",
+      "canonical_id": "K075",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K076",
+      "name": "电梯游戏 / Elevator Game",
+      "canonical_id": "K022",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K077",
+      "name": "Slender Man / 瘦长鬼影",
+      "canonical_id": "K077",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K078",
+      "name": "The Rake / 耙子怪",
+      "canonical_id": "K078",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K079",
+      "name": "Goatman / 羊人",
+      "canonical_id": "K079",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K080",
+      "name": "Pope Lick Monster",
+      "canonical_id": "K080",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K081",
+      "name": "Melon Heads / 瓜头人",
+      "canonical_id": "K081",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K082",
+      "name": "Green Children of Woolpit / 伍尔皮特绿孩",
+      "canonical_id": "K082",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K083",
+      "name": "Black Shuck / 黑犬",
+      "canonical_id": "K083",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K084",
+      "name": "Spring-Heeled Jack / 弹簧腿杰克",
+      "canonical_id": "K084",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K085",
+      "name": "Highgate Vampire / 海格特吸血鬼",
+      "canonical_id": "K085",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K086",
+      "name": "Grey Man of Ben MacDhui",
+      "canonical_id": "K086",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K087",
+      "name": "White Lady / 白衣女鬼",
+      "canonical_id": "K087",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K088",
+      "name": "Krampus",
+      "canonical_id": "K088",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K089",
+      "name": "Nachzehrer",
+      "canonical_id": "K089",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K090",
+      "name": "Dancing Plague / 舞蹈瘟疫传说",
+      "canonical_id": "K090",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K091",
+      "name": "Azzurrina / 蓝发女孩",
+      "canonical_id": "K091",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K092",
+      "name": "The Flying Dutchman / 飞翔的荷兰人",
+      "canonical_id": "K092",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K093",
+      "name": "Draugen",
+      "canonical_id": "K093",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K094",
+      "name": "Myling",
+      "canonical_id": "K094",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K095",
+      "name": "Baba Yaga",
+      "canonical_id": "K095",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K096",
+      "name": "Rusalka",
+      "canonical_id": "K096",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K097",
+      "name": "Dybbuk / 迪布克",
+      "canonical_id": "K097",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K098",
+      "name": "Jinn / Djinn 怪谈",
+      "canonical_id": "K098",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K099",
+      "name": "Umm Al Duwais",
+      "canonical_id": "K099",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K100",
+      "name": "Vetala / वेताल",
+      "canonical_id": "K100",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K101",
+      "name": "Churel / चुड़ैल",
+      "canonical_id": "K101",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K102",
+      "name": "Nale Ba / “明天再来”",
+      "canonical_id": "K102",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K103",
+      "name": "Krasue 的菲律宾近亲 Manananggal",
+      "canonical_id": "K103",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K104",
+      "name": "White Lady of Balete Drive",
+      "canonical_id": "K104",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K105",
+      "name": "Tikbalang",
+      "canonical_id": "K105",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K106",
+      "name": "Penanggalan",
+      "canonical_id": "K106",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K107",
+      "name": "四点婆婆 / ヨジババ",
+      "canonical_id": "K107",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K108",
+      "name": "红房间诅咒 / 赤い部屋",
+      "canonical_id": "K015",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K109",
+      "name": "四角游戏 / Corner Game",
+      "canonical_id": "K109",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K110",
+      "name": "活人偶 / Living Doll",
+      "canonical_id": "K110",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K111",
+      "name": "お菊人形 / 阿菊人偶",
+      "canonical_id": "K111",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K112",
+      "name": "二宫金次郎像夜行",
+      "canonical_id": "K112",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K113",
+      "name": "人体模型夜行",
+      "canonical_id": "K113",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K114",
+      "name": "音乐教室的贝多芬画像",
+      "canonical_id": "K114",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K115",
+      "name": "13级阶梯",
+      "canonical_id": "K115",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K116",
+      "name": "Mujina / 无脸人（のっぺらぼう）现代都市版本",
+      "canonical_id": "K116",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K117",
+      "name": "The Babysitter and the Man Upstairs",
+      "canonical_id": "K117",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K118",
+      "name": "The Killer in the Backseat",
+      "canonical_id": "K036",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K119",
+      "name": "The Licked Hand / 人狗舔手",
+      "canonical_id": "K119",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K120",
+      "name": "The Roommate’s Death",
+      "canonical_id": "K120",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K121",
+      "name": "The Clown Statue",
+      "canonical_id": "K121",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K122",
+      "name": "Cropsey",
+      "canonical_id": "K122",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K123",
+      "name": "Charlie No-Face / Green Man",
+      "canonical_id": "K123",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K124",
+      "name": "The Bunny Man Bridge",
+      "canonical_id": "K066",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K125",
+      "name": "La Mala Hora",
+      "canonical_id": "K125",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K126",
+      "name": "Cadejo",
+      "canonical_id": "K126",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K127",
+      "name": "La Siguanaba",
+      "canonical_id": "K127",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K128",
+      "name": "El Sombrerón",
+      "canonical_id": "K128",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K129",
+      "name": "El Cucuy / Coco",
+      "canonical_id": "K129",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K130",
+      "name": "Madam Koi Koi",
+      "canonical_id": "K130",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K131",
+      "name": "Tokoloshe",
+      "canonical_id": "K131",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K132",
+      "name": "Popobawa",
+      "canonical_id": "K132",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K133",
+      "name": "Bunyip",
+      "canonical_id": "K133",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K134",
+      "name": "Yowie",
+      "canonical_id": "K134",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K135",
+      "name": "Min Min Lights",
+      "canonical_id": "K135",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K136",
+      "name": "Patupaiarehe",
+      "canonical_id": "K136",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K137",
+      "name": "猫脸老太太",
+      "canonical_id": "K137",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K138",
+      "name": "红衣小女孩",
+      "canonical_id": "K138",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K139",
+      "name": "魔神仔",
+      "canonical_id": "K139",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K140",
+      "name": "送肉粽",
+      "canonical_id": "K140",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K141",
+      "name": "香港狐仙事件",
+      "canonical_id": "K141",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K142",
+      "name": "达德学校鬼故事",
+      "canonical_id": "K142",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K143",
+      "name": "自由路鬼屋 / 凶宅怪谈体系",
+      "canonical_id": "K143",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K144",
+      "name": "处女鬼 / 처녀귀신",
+      "canonical_id": "K144",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K145",
+      "name": "Egg Ghost / 달걀귀신",
+      "canonical_id": "K145",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K146",
+      "name": "厕所鬼 / Cheuksin（측신）",
+      "canonical_id": "K146",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K147",
+      "name": "Mae Nak Phra Khanong",
+      "canonical_id": "K147",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K148",
+      "name": "Nang Tani",
+      "canonical_id": "K148",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K149",
+      "name": "Phi Krasue",
+      "canonical_id": "K075",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K150",
+      "name": "Phi Pop",
+      "canonical_id": "K150",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K151",
+      "name": "Mae Sue / 婴儿守护灵相关怪谈",
+      "canonical_id": "K151",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K152",
+      "name": "Toyol / Tuyul",
+      "canonical_id": "K152",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K153",
+      "name": "Pocong",
+      "canonical_id": "K153",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K154",
+      "name": "Wewe Gombel",
+      "canonical_id": "K154",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K155",
+      "name": "Sundel Bolong",
+      "canonical_id": "K155",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K156",
+      "name": "Hantu Galah",
+      "canonical_id": "K156",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K157",
+      "name": "Orang Minyak / 油人",
+      "canonical_id": "K157",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K158",
+      "name": "Aswang",
+      "canonical_id": "K158",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K159",
+      "name": "Kapre",
+      "canonical_id": "K159",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K160",
+      "name": "Tiyanak",
+      "canonical_id": "K160",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K161",
+      "name": "Pontianak 香味规则",
+      "canonical_id": "K074",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K162",
+      "name": "Bhoot / Bhuta",
+      "canonical_id": "K162",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K163",
+      "name": "Pichal Peri / Pichal Pairi",
+      "canonical_id": "K163",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K164",
+      "name": "Munyurangabo / Night Dancer 类怪谈",
+      "canonical_id": "K164",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K165",
+      "name": "Asanbosam",
+      "canonical_id": "K165",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K166",
+      "name": "Adze",
+      "canonical_id": "K166",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K167",
+      "name": "Grootslang",
+      "canonical_id": "K167",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K168",
+      "name": "Daruma-san ga Koronda / 浴缸达摩",
+      "canonical_id": "K168",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K169",
+      "name": "Tomino's Hell / トミノの地獄",
+      "canonical_id": "K169",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K170",
+      "name": "Dream School / 梦中的学校怪谈",
+      "canonical_id": "K170",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K171",
+      "name": "異世界への行き方「飽きた」",
+      "canonical_id": "K171",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K172",
+      "name": "ひとり鬼ごっこ / 一个人捉迷藏",
+      "canonical_id": "K016",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K173",
+      "name": "Blue Baby / 蓝宝宝",
+      "canonical_id": "K173",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K174",
+      "name": "Three Kings Ritual / 三王游戏",
+      "canonical_id": "K174",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K175",
+      "name": "Midnight Game / 午夜游戏",
+      "canonical_id": "K175",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K176",
+      "name": "11 Miles Ritual",
+      "canonical_id": "K176",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K177",
+      "name": "The Devil's Toy Box",
+      "canonical_id": "K177",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K178",
+      "name": "Dead Children's Playground",
+      "canonical_id": "K178",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K179",
+      "name": "Crybaby Bridge",
+      "canonical_id": "K179",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K180",
+      "name": "Gravity Hill",
+      "canonical_id": "K180",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K181",
+      "name": "Resurrection Mary",
+      "canonical_id": "K181",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K182",
+      "name": "Ghost Tracks of San Antonio",
+      "canonical_id": "K182",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K183",
+      "name": "The Hairy Hands of Dartmoor",
+      "canonical_id": "K183",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K184",
+      "name": "The Screaming Skull",
+      "canonical_id": "K184",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K185",
+      "name": "Borley Rectory",
+      "canonical_id": "K185",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K186",
+      "name": "Phantom Drummer of Tedworth",
+      "canonical_id": "K186",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K187",
+      "name": "Ankou",
+      "canonical_id": "K187",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K188",
+      "name": "Dullahan / 无头骑士",
+      "canonical_id": "K188",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K189",
+      "name": "Banshee / 报丧女妖",
+      "canonical_id": "K189",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K190",
+      "name": "Dearg Due",
+      "canonical_id": "K190",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K191",
+      "name": "Alp",
+      "canonical_id": "K191",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K192",
+      "name": "Mare / Nightmare",
+      "canonical_id": "K192",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K193",
+      "name": "Pontianak 香蕉树辨认法相关传说",
+      "canonical_id": "K074",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K194",
+      "name": "Hantu Raya",
+      "canonical_id": "K194",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K195",
+      "name": "Hantu Tetek",
+      "canonical_id": "K195",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K196",
+      "name": "Jenglot",
+      "canonical_id": "K196",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K197",
+      "name": "Leyak / Leak",
+      "canonical_id": "K197",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K198",
+      "name": "Hachishaku-sama 之外的 Hasshaku 系衍生暂不算",
+      "canonical_id": "K198",
+      "relation": "excluded",
+      "status": "excluded",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K199",
+      "name": "Gozu / Cow Head（牛头）",
+      "canonical_id": "K030",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K200",
+      "name": "Jinmenju / 人面树",
+      "canonical_id": "K200",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K201",
+      "name": "Ushi no Koku Mairi / 丑时参拜",
+      "canonical_id": "K201",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K202",
+      "name": "Hitobashira / 人柱",
+      "canonical_id": "K202",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K203",
+      "name": "Funayūrei / 船幽灵",
+      "canonical_id": "K203",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K204",
+      "name": "Umibōzu / 海坊主",
+      "canonical_id": "K204",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K205",
+      "name": "Mokumokuren / 目目连",
+      "canonical_id": "K205",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K206",
+      "name": "Akaname / 垢尝",
+      "canonical_id": "K206",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K207",
+      "name": "Betobeto-san / べとべとさん",
+      "canonical_id": "K207",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K208",
+      "name": "Aka Manto不同体系的 Ao Manto / 青斗篷",
+      "canonical_id": "K208",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K209",
+      "name": "The Bell Witch",
+      "canonical_id": "K209",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K210",
+      "name": "Bloody Bones / Rawhead and Bloody Bones",
+      "canonical_id": "K210",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K211",
+      "name": "The Jersey Devil",
+      "canonical_id": "K069",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K212",
+      "name": "Fresno Nightcrawler",
+      "canonical_id": "K212",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K213",
+      "name": "Dover Demon",
+      "canonical_id": "K213",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K214",
+      "name": "Flatwoods Monster",
+      "canonical_id": "K214",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K215",
+      "name": "Hopkinsville Goblins",
+      "canonical_id": "K215",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K216",
+      "name": "Loveland Frogman",
+      "canonical_id": "K216",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K217",
+      "name": "Enfield Horror",
+      "canonical_id": "K217",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K218",
+      "name": "Phantom Kangaroo",
+      "canonical_id": "K218",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K219",
+      "name": "The Grinning Man / Indrid Cold",
+      "canonical_id": "K219",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K220",
+      "name": "The Ghost of Kyiv?",
+      "canonical_id": "K220",
+      "relation": "excluded",
+      "status": "excluded",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K221",
+      "name": "Gef the Talking Mongoose",
+      "canonical_id": "K221",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K222",
+      "name": "Black-Eyed Monk of Pontefract",
+      "canonical_id": "K222",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K223",
+      "name": "Owlman of Mawnan",
+      "canonical_id": "K223",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K224",
+      "name": "Beast of Bodmin Moor",
+      "canonical_id": "K224",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K225",
+      "name": "Beast of Gévaudan / 热沃当怪兽",
+      "canonical_id": "K225",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K226",
+      "name": "Tarasque",
+      "canonical_id": "K226",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K227",
+      "name": "Tatzelwurm",
+      "canonical_id": "K227",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K228",
+      "name": "Wolpertinger",
+      "canonical_id": "K228",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K229",
+      "name": "Leshy",
+      "canonical_id": "K229",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K230",
+      "name": "Domovoi",
+      "canonical_id": "K230",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K231",
+      "name": "封门村",
+      "canonical_id": "K231",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K232",
+      "name": "375路公交车 / 北京午夜公交",
+      "canonical_id": "K232",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K233",
+      "name": "上海龙柱传说",
+      "canonical_id": "K233",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K234",
+      "name": "荔湾广场怪谈",
+      "canonical_id": "K234",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K235",
+      "name": "重庆红衣男孩事件衍生怪谈",
+      "canonical_id": "K235",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K236",
+      "name": "辫子姑娘 / 香港地铁鬼故事",
+      "canonical_id": "K236",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K237",
+      "name": "高街鬼屋",
+      "canonical_id": "K237",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K238",
+      "name": "孟婆桥/学校鬼电梯类香港校园怪谈",
+      "canonical_id": "K238",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K239",
+      "name": "Mongdal Ghost / 몽달귀신",
+      "canonical_id": "K239",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K240",
+      "name": "Mul Gwishin / 물귀신（水鬼）",
+      "canonical_id": "K240",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K241",
+      "name": "Gwishin Highway / 自由路女鬼",
+      "canonical_id": "K241",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K242",
+      "name": "Kokkuri-san 韩国/日本传播体系",
+      "canonical_id": "K039",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K243",
+      "name": "Kuman Thong / 古曼童",
+      "canonical_id": "K243",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K244",
+      "name": "Phi Am / ผีอำ",
+      "canonical_id": "K244",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K245",
+      "name": "Phi Tai Hong",
+      "canonical_id": "K245",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K246",
+      "name": "Mae Ya Nang",
+      "canonical_id": "K246",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K247",
+      "name": "Orang Bunian",
+      "canonical_id": "K247",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K248",
+      "name": "Hantu Pisang",
+      "canonical_id": "K248",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K249",
+      "name": "Langsuir",
+      "canonical_id": "K249",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K250",
+      "name": "Bajang",
+      "canonical_id": "K250",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K251",
+      "name": "Kuyang",
+      "canonical_id": "K251",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K252",
+      "name": "Mangkukulam",
+      "canonical_id": "K252",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K253",
+      "name": "White Lady of Loakan Road",
+      "canonical_id": "K253",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K254",
+      "name": "Bakunawa",
+      "canonical_id": "K254",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K255",
+      "name": "Nishi Daak / নিশি ডাক",
+      "canonical_id": "K255",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K256",
+      "name": "Shakchunni",
+      "canonical_id": "K256",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K257",
+      "name": "Brahmadaitya",
+      "canonical_id": "K257",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K258",
+      "name": "Vetala尸体规则",
+      "canonical_id": "K100",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K259",
+      "name": "Ghoul / Ghul",
+      "canonical_id": "K259",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K260",
+      "name": "Qareen / قرين",
+      "canonical_id": "K260",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K261",
+      "name": "Aisha Qandisha",
+      "canonical_id": "K261",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K262",
+      "name": "El Chupacabra / 卓柏卡布拉",
+      "canonical_id": "K262",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K263",
+      "name": "La Lechuza",
+      "canonical_id": "K263",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K264",
+      "name": "El Charro Negro / 黑衣骑士",
+      "canonical_id": "K264",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K265",
+      "name": "La Mano Peluda / 毛手",
+      "canonical_id": "K265",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K266",
+      "name": "El Nahual / 纳瓦尔",
+      "canonical_id": "K266",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K267",
+      "name": "El Duende",
+      "canonical_id": "K267",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K268",
+      "name": "La Luz Mala / 邪光",
+      "canonical_id": "K268",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K269",
+      "name": "Pombero",
+      "canonical_id": "K269",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K270",
+      "name": "Lobisón",
+      "canonical_id": "K270",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K271",
+      "name": "La Tunda",
+      "canonical_id": "K271",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K272",
+      "name": "El Familiar",
+      "canonical_id": "K272",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K273",
+      "name": "Mapinguari",
+      "canonical_id": "K273",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K274",
+      "name": "Curupira",
+      "canonical_id": "K274",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K275",
+      "name": "Boitatá",
+      "canonical_id": "K275",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K276",
+      "name": "Pisadeira",
+      "canonical_id": "K276",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K277",
+      "name": "Corpo-Seco / 干尸人",
+      "canonical_id": "K277",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K278",
+      "name": "The Headless Mule / Mula-sem-cabeça",
+      "canonical_id": "K278",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K279",
+      "name": "Jenny Greenteeth",
+      "canonical_id": "K279",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K280",
+      "name": "Redcap",
+      "canonical_id": "K280",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K281",
+      "name": "Kelpie",
+      "canonical_id": "K281",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K282",
+      "name": "Each-Uisge",
+      "canonical_id": "K282",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K283",
+      "name": "Nuckelavee",
+      "canonical_id": "K283",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K284",
+      "name": "Bean Nighe",
+      "canonical_id": "K284",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K285",
+      "name": "Púca / Pooka",
+      "canonical_id": "K285",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K286",
+      "name": "Fear Gorta / 饥饿人",
+      "canonical_id": "K286",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K287",
+      "name": "La Befana相关夜间民俗",
+      "canonical_id": "K287",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K288",
+      "name": "Strigoi",
+      "canonical_id": "K288",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K289",
+      "name": "Moroi",
+      "canonical_id": "K289",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K290",
+      "name": "Vrykolakas",
+      "canonical_id": "K290",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K291",
+      "name": "Kallikantzaroi",
+      "canonical_id": "K291",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K292",
+      "name": "Aka Manto系以外：Kanashibari（金缚り）",
+      "canonical_id": "K292",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K293",
+      "name": "Zashiki-warashi / 座敷童子",
+      "canonical_id": "K293",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K294",
+      "name": "Ubume / 产女",
+      "canonical_id": "K294",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K295",
+      "name": "Tōfu-kozō / 豆腐小僧",
+      "canonical_id": "K295",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K296",
+      "name": "Nopperabō / 无脸怪",
+      "canonical_id": "K116",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K297",
+      "name": "Rokurokubi / 辘轳首",
+      "canonical_id": "K297",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K298",
+      "name": "Nukekubi / 飞头蛮",
+      "canonical_id": "K298",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K299",
+      "name": "Jinmen-gyo / 人面鱼",
+      "canonical_id": "K299",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K300",
+      "name": "Kokkuri之外：Angel-sama / エンジェル様",
+      "canonical_id": "K300",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K301",
+      "name": "Hide-and-Seek Alone之外：Square / 四角游戏的中国版本",
+      "canonical_id": "K109",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K302",
+      "name": "鬼来电 / 死亡电话都市传说体系",
+      "canonical_id": "K302",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K303",
+      "name": "Bus 14 / 14路末班车类怪谈",
+      "canonical_id": "K303",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K304",
+      "name": "罗布泊双鱼玉佩传说",
+      "canonical_id": "K304",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K305",
+      "name": "营口坠龙事件衍生龙尸传说",
+      "canonical_id": "K305",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K306",
+      "name": "鬼新娘 / 冥婚怪谈体系",
+      "canonical_id": "K306",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K307",
+      "name": "Cheonyeo Gwishin / 处女鬼之外：Dalgyal Gwishin",
+      "canonical_id": "K145",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K308",
+      "name": "Jangsan Beom / 长山虎",
+      "canonical_id": "K308",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K309",
+      "name": "Dokkaebi / 도깨비",
+      "canonical_id": "K309",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K310",
+      "name": "Arang / 阿娘传说",
+      "canonical_id": "K310",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K311",
+      "name": "Krahang",
+      "canonical_id": "K311",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K312",
+      "name": "Phi Kong Koi",
+      "canonical_id": "K312",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K313",
+      "name": "Hantu Bungkus",
+      "canonical_id": "K153",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K314",
+      "name": "Hantu Kopek",
+      "canonical_id": "K195",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K315",
+      "name": "Orang Mawas",
+      "canonical_id": "K315",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K316",
+      "name": "Sigbin",
+      "canonical_id": "K316",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K317",
+      "name": "Berbalang",
+      "canonical_id": "K317",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K318",
+      "name": "Amalanhig",
+      "canonical_id": "K318",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K319",
+      "name": "Chonchon",
+      "canonical_id": "K319",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K320",
+      "name": "Trauco",
+      "canonical_id": "K320",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K321",
+      "name": "Caleuche",
+      "canonical_id": "K321",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K322",
+      "name": "Alicanto",
+      "canonical_id": "K322",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K323",
+      "name": "罗斯威尔事件 Roswell",
+      "canonical_id": "K323",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K324",
+      "name": "贝蒂与巴尼·希尔绑架事件",
+      "canonical_id": "K324",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K325",
+      "name": "肯尼斯·阿诺德目击事件",
+      "canonical_id": "K325",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K326",
+      "name": "伦德尔舍姆森林事件",
+      "canonical_id": "K326",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K327",
+      "name": "凤凰城之光 Phoenix Lights",
+      "canonical_id": "K327",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K328",
+      "name": "灰人 Grey Aliens",
+      "canonical_id": "K328",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K329",
+      "name": "Nordic Aliens / 北欧型外星人",
+      "canonical_id": "K329",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K330",
+      "name": "Reptilians / 蜥蜴人",
+      "canonical_id": "K330",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K331",
+      "name": "Men in Black / 黑衣人",
+      "canonical_id": "K331",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K332",
+      "name": "Area 51 外星人传说",
+      "canonical_id": "K332",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K333",
+      "name": "Majestic 12 / MJ-12",
+      "canonical_id": "K333",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K334",
+      "name": "Dulce Base / 杜尔塞地下基地",
+      "canonical_id": "K334",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K335",
+      "name": "Battle of Los Angeles",
+      "canonical_id": "K335",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K336",
+      "name": "Washington 1952 UFO flap",
+      "canonical_id": "K336",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K337",
+      "name": "Varginha事件",
+      "canonical_id": "K337",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K338",
+      "name": "Westall UFO事件",
+      "canonical_id": "K338",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K339",
+      "name": "Ariel School事件",
+      "canonical_id": "K339",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K340",
+      "name": "Belgian UFO Wave",
+      "canonical_id": "K340",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K341",
+      "name": "黑色三角飞行器 Black Triangle",
+      "canonical_id": "K341",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K342",
+      "name": "Foo Fighters",
+      "canonical_id": "K342",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K343",
+      "name": "古代宇航员 Ancient Astronauts",
+      "canonical_id": "K343",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K344",
+      "name": "动物园假说 Zoo Hypothesis",
+      "canonical_id": "K344",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K345",
+      "name": "黑暗森林假说",
+      "canonical_id": "K345",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K346",
+      "name": "大过滤器 Great Filter",
+      "canonical_id": "K346",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K347",
+      "name": "稀有地球假说 Rare Earth",
+      "canonical_id": "K347",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K348",
+      "name": "文明自我毁灭",
+      "canonical_id": "K348",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K349",
+      "name": "星际旅行太难",
+      "canonical_id": "K349",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K350",
+      "name": "我们出现得太早",
+      "canonical_id": "K350",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K351",
+      "name": "文明窗口错开",
+      "canonical_id": "K351",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K352",
+      "name": "后生物文明 / 机器文明",
+      "canonical_id": "K352",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K354",
+      "name": "俄耳甫斯回头",
+      "canonical_id": "K354",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K355",
+      "name": "洛特之妻",
+      "canonical_id": "K355",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K356",
+      "name": "潘多拉魔盒",
+      "canonical_id": "K356",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K357",
+      "name": "美杜莎",
+      "canonical_id": "K357",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K358",
+      "name": "巴西利斯克",
+      "canonical_id": "K358",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K359",
+      "name": "那喀索斯",
+      "canonical_id": "K359",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K360",
+      "name": "忒修斯迷宫 / 米诺陶洛斯",
+      "canonical_id": "K360",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K361",
+      "name": "西西弗斯",
+      "canonical_id": "K361",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K362",
+      "name": "坦塔罗斯",
+      "canonical_id": "K362",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K363",
+      "name": "普罗米修斯",
+      "canonical_id": "K363",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K364",
+      "name": "九头蛇 Hydra",
+      "canonical_id": "K364",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K365",
+      "name": "喀迈拉 Chimera",
+      "canonical_id": "K365",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K366",
+      "name": "斯芬克斯谜题",
+      "canonical_id": "K366",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K367",
+      "name": "命运三女神 Moirai",
+      "canonical_id": "K367",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K368",
+      "name": "卡珊德拉",
+      "canonical_id": "K368",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K369",
+      "name": "米达斯点金术",
+      "canonical_id": "K369",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K370",
+      "name": "塞壬 Siren",
+      "canonical_id": "K370",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K371",
+      "name": "洛蕾莱 Lorelei",
+      "canonical_id": "K371",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K372",
+      "name": "Banshee 报丧女妖",
+      "canonical_id": "K189",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K373",
+      "name": "Dullahan 无头骑士",
+      "canonical_id": "K188",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K374",
+      "name": "Wild Hunt 狂猎",
+      "canonical_id": "K374",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K375",
+      "name": "Fae Fairy Ring / 妖精圈",
+      "canonical_id": "K375",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K376",
+      "name": "Tam Lin / 妖精替身与献祭",
+      "canonical_id": "K376",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K377",
+      "name": "Changeling / 换生灵",
+      "canonical_id": "K377",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K378",
+      "name": "Kelpie 水马",
+      "canonical_id": "K281",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K379",
+      "name": "Nuckelavee",
+      "canonical_id": "K283",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K380",
+      "name": "Leshy 森林之灵",
+      "canonical_id": "K229",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K381",
+      "name": "Baba Yaga 小屋",
+      "canonical_id": "K095",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K382",
+      "name": "Rusalka",
+      "canonical_id": "K096",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K383",
+      "name": "Koschei the Deathless",
+      "canonical_id": "K383",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K384",
+      "name": "Anansi",
+      "canonical_id": "K384",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K385",
+      "name": "Ankou",
+      "canonical_id": "K187",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K386",
+      "name": "Jinn / 镇尼",
+      "canonical_id": "K098",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K387",
+      "name": "Ifrit",
+      "canonical_id": "K387",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K388",
+      "name": "Ghul / 食尸鬼",
+      "canonical_id": "K259",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K389",
+      "name": "Vetala",
+      "canonical_id": "K100",
+      "relation": "alias",
+      "status": "shared_pending",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K390",
+      "name": "Rakshasa / 罗刹",
+      "canonical_id": "K390",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K391",
+      "name": "Apsara / 天女",
+      "canonical_id": "K391",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K392",
+      "name": "Yama / 阎摩",
+      "canonical_id": "K392",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K393",
+      "name": "照妖镜",
+      "canonical_id": "K393",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K394",
+      "name": "画皮",
+      "canonical_id": "K394",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    },
+    {
+      "id": "K395",
+      "name": "相柳",
+      "canonical_id": "K395",
+      "relation": "primary",
+      "status": "queued",
+      "completed": {
+        "scenes": 0,
+        "turnarounds": 0,
+        "attacks": 0,
+        "panoramas": 0,
+        "uploaded_images": 0,
+        "side_green": 0,
+        "side_green_attacks": 0
+      }
+    }
+  ],
+  "note": "Status summary only; original source cells omitted. Do not initialize production queue from this summary."
+}

@@ -1,0 +1,873 @@
+{
+  "id": "K006",
+  "batch": "B0002",
+  "status": "complete_pending_user_review",
+  "expected_new_images": 16,
+  "expected_generated_images": 15,
+  "expected_derived_panoramas": 1,
+  "assets": [
+    {
+      "id": "K006-S01",
+      "kind": "scene",
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/01.png",
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "0a95836ece1ea98b8b12e2785d2d15fcf874eb8087945130d426c212c59a78e0",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-353c0f35-4411-4ea9-94fb-6e9e5645d661.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-01-road-v02.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "user_approved": false,
+      "resampled": false,
+      "review": {
+        "visual": "维修铺、轨道、电网及路面细节清楚；修订后路面约下方36%，路沿水平，无角色或障碍。接口需与后段实际拼看。",
+        "continuity": "reviewed_in_repainted_panorama_pending_user",
+        "user_approved": false
+      },
+      "continuous_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/continuous-scenes/01.png",
+      "continuous_sha256": "ea8ccad961c07092b6797a2561024117d90430bd1a2cc272ef0653b9658646f4",
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "JIgZjv",
+        "cell": "D12",
+        "token": "Lplcb3E3AozvwLxe0MlcVAymnRb",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/continuous-scenes/01.png",
+        "uploaded_sha256": "ea8ccad961c07092b6797a2561024117d90430bd1a2cc272ef0653b9658646f4",
+        "verified": true,
+        "note": "连续场景上传continuous_file；原始生成图另保留。"
+      }
+    },
+    {
+      "id": "K006-S02",
+      "kind": "scene",
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/02.png",
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "78c47addc3ed28b76ff9c40ad96724b9fcc0396ae4dbb1f3d4721adcc46ebbd2",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-ab858757-e291-4e15-8033-a5c4087b6e16.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-02.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "user_approved": false,
+      "resampled": false,
+      "review": {
+        "visual": "信号所窗框、管线、柜体清楚，路沿和网栏高度保持01基准，无前景障碍；连接电线与远屋需拼图检查。",
+        "continuity": "reviewed_in_repainted_panorama_pending_user",
+        "user_approved": false
+      },
+      "continuous_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/continuous-scenes/02.png",
+      "continuous_sha256": "10d3ad3171064833e64b85282d04236fc638e602bf244f26724b26a046f128f9",
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "JIgZjv",
+        "cell": "D13",
+        "token": "ROQpbusYCoIWWdxEgcgcsrH0niT",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/continuous-scenes/02.png",
+        "uploaded_sha256": "10d3ad3171064833e64b85282d04236fc638e602bf244f26724b26a046f128f9",
+        "verified": true,
+        "note": "连续场景上传continuous_file；原始生成图另保留。"
+      }
+    },
+    {
+      "id": "K006-S03",
+      "kind": "scene",
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/03.png",
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "1fe781cea1aa6b83b0066ac1228b572f597bc799bced8d17747eeaa9d044c401",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-1f0e59bd-ea9b-469f-9a14-06d678f95e93.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-03.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "user_approved": false,
+      "resampled": false,
+      "review": {
+        "visual": "道口支路向后穿轨，主路仍水平畅通；警示设备无人物，路沿高度稳定。前景补丁与02有重复结构，后续全景需评审。",
+        "continuity": "reviewed_in_repainted_panorama_pending_user",
+        "user_approved": false
+      },
+      "continuous_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/continuous-scenes/03.png",
+      "continuous_sha256": "dc202aabe68a73c8fed9ea94377ac2296df18d35e8526e3f007ab1cfad214030",
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "JIgZjv",
+        "cell": "D14",
+        "token": "HPTLb2ZtooeJxhxEmdtcC8gxnbc",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/continuous-scenes/03.png",
+        "uploaded_sha256": "dc202aabe68a73c8fed9ea94377ac2296df18d35e8526e3f007ab1cfad214030",
+        "verified": true,
+        "note": "连续场景上传continuous_file；原始生成图另保留。"
+      }
+    },
+    {
+      "id": "K006-S04",
+      "kind": "scene",
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/04.png",
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "fa39b449d96b1fec415245ede1f719092e94556e6d126389289bfa81bbb304aa",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-381c59c0-788c-4cd5-bad5-c353b37d2463.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-04-road-v02.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "user_approved": false,
+      "resampled": false,
+      "review": {
+        "visual": "路面碎纹已减少，增加有形水迹并对齐前三段色调；保留棚、路沿与裂纹布局，仍需接缝整体复核。",
+        "continuity": "reviewed_in_repainted_panorama_pending_user",
+        "user_approved": false
+      },
+      "previous_versions": [
+        {
+          "id": "K006-S04",
+          "kind": "scene",
+          "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/04.png",
+          "size": [
+            2172,
+            724
+          ],
+          "sha256": "711dc3d6e27dc4f47ecb6c984fc69afc35a8286c693bdb688d0d67e16141b087",
+          "generator": "built-in image_gen",
+          "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-684e0cb3-582c-4a02-98da-20ae30484d24.png",
+          "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-04.txt",
+          "status": "reviewed_local_art_draft",
+          "uploaded": false,
+          "user_approved": false,
+          "resampled": false,
+          "review": {
+            "visual": "检修棚枕木、线圈、推车与支架清楚，水平路沿保持；前景裂纹分布已变化，但纹理细碎程度需整套评审。",
+            "continuity": "pairwise_join_review_pending",
+            "user_approved": false
+          }
+        }
+      ],
+      "continuous_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/continuous-scenes/04.png",
+      "continuous_sha256": "2668fcc8ba1e792acdcb32099165e7240cf8d33ef6ee968189b2654ed0c308e4",
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "JIgZjv",
+        "cell": "D15",
+        "token": "QpvNb7m9woEB75xWZZ7ccytDnve",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/continuous-scenes/04.png",
+        "uploaded_sha256": "2668fcc8ba1e792acdcb32099165e7240cf8d33ef6ee968189b2654ed0c308e4",
+        "verified": true,
+        "note": "连续场景上传continuous_file；原始生成图另保留。"
+      }
+    },
+    {
+      "id": "K006-S05",
+      "kind": "scene",
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/05.png",
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "f7f27c94c16e4cb4c541eccf10c133f701bb9f2628991a4751a1fdee0985e4e4",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-6f7fdeb3-562e-4f6d-a76b-8789c6c019cf.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-05-road-v02.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "user_approved": false,
+      "resampled": false,
+      "review": {
+        "visual": "路面色调和水迹向03靠拢，桥梁构图和道路高度保留；尚有微纹理差异，接口修订未验收。",
+        "continuity": "reviewed_in_repainted_panorama_pending_user",
+        "user_approved": false
+      },
+      "previous_versions": [
+        {
+          "id": "K006-S05",
+          "kind": "scene",
+          "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/scenes/05.png",
+          "size": [
+            2172,
+            724
+          ],
+          "sha256": "bf040125474462b1fb8a01d4bbd389a19655b476af68e51fb8e703f9d5133a3f",
+          "generator": "built-in image_gen",
+          "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-ecf2f158-5faf-457d-bc27-4224f1d3f6e4.png",
+          "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/scene-05.txt",
+          "status": "reviewed_local_art_draft",
+          "uploaded": false,
+          "user_approved": false,
+          "resampled": false,
+          "review": {
+            "visual": "桥梁铆钉、桥墩与铁路围栏完整，前景畅通，05桥台向右边缘延伸。与04道路接口及远屋待实际拼看。",
+            "continuity": "pairwise_join_review_pending",
+            "user_approved": false
+          }
+        }
+      ],
+      "continuous_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/continuous-scenes/05.png",
+      "continuous_sha256": "15af176d8b4bfa249bdbde68b93f79400bfa524f0ca0818ffb66278bc80a59aa",
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "JIgZjv",
+        "cell": "D16",
+        "token": "O3MVb9jk6oBLk7xwxMwcuel1nac",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/continuous-scenes/05.png",
+        "uploaded_sha256": "15af176d8b4bfa249bdbde68b93f79400bfa524f0ca0818ffb66278bc80a59aa",
+        "verified": true,
+        "note": "连续场景上传continuous_file；原始生成图另保留。"
+      }
+    },
+    {
+      "id": "K006-M01-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/01-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "1edf5baf1496f7a2a6cd8ba18efbe37d163042242f529f688f2386ca1f763d55",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-0f8d8fbd-ec5a-4fbc-88fd-4e7692ea30c8.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-01-side-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "黑影朝右，完整封闭布尾、两臂两手，灰袖口清楚；无开放伤口、无腿、四周绿幕留白充分。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          213,
+          288,
+          1260,
+          740
+        ],
+        "margins_ltrb": [
+          0.138671875,
+          0.28125,
+          0.1796875,
+          0.27734375
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          15,
+          240,
+          20
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D22",
+        "token": "AfHXbBcamoPGJvxoxpPcYqXWnge",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/01-side-green.png",
+        "uploaded_sha256": "1edf5baf1496f7a2a6cd8ba18efbe37d163042242f529f688f2386ca1f763d55",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K006-M01-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/01-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "85d8f21d1e0724476a02a5cc352940866d6bf902784de6e1c4ab8fd0641dd189",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-4d50e34c-1e2b-4b08-a480-034a30c7b598.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-01-attack-reframe.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "完整右向抓击，一臂伸出一臂下撑，布尾无伤口；修订后两侧留白充分。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          262,
+          327,
+          1276,
+          685
+        ],
+        "margins_ltrb": [
+          0.17057291666666666,
+          0.3193359375,
+          0.16927083333333334,
+          0.3310546875
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          14,
+          240,
+          22
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E22",
+        "token": "WGxkbGOi0oJMRpxYPlBcGNBfnRd",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/01-attack-green.png",
+        "uploaded_sha256": "85d8f21d1e0724476a02a5cc352940866d6bf902784de6e1c4ab8fd0641dd189",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K006-M02-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/02-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "484867c811fd68644bcd9aba9f86575d99d0ea385ecb17013fc22459ce6ab2ca",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-b0f7f253-317e-481a-89a6-e9f12e7e8fff.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-02-side-reframe.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "朝右信号灯头三格、工装安全带、独立两手和双靴完整；头顶脚下留白已补足，灯无绿色。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          706,
+          167,
+          853,
+          836
+        ],
+        "margins_ltrb": [
+          0.4596354166666667,
+          0.1630859375,
+          0.4446614583333333,
+          0.18359375
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          16,
+          240,
+          17
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D23",
+        "token": "ZA7rb8SsSoNJyNxmfVycfYu5ntf",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/02-side-green.png",
+        "uploaded_sha256": "484867c811fd68644bcd9aba9f86575d99d0ea385ecb17013fc22459ce6ab2ca",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K006-M02-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/02-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "24392b58ee90d1cd91769575344e75902f54ac32c359b9eb5f66be55b68fcd4e",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-3fcca530-ccfb-4992-85ca-a98e6fb55390.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-02-attack-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "右向提灯前撞，远手回收，双脚完整分离，灯有实握把手；身份与待机一致，无额外肢体。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          513,
+          158,
+          1110,
+          846
+        ],
+        "margins_ltrb": [
+          0.333984375,
+          0.154296875,
+          0.27734375,
+          0.173828125
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          14,
+          240,
+          19
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E23",
+        "token": "OTxNbv3Y5o6yHSx6Pl8ckTahnFg",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/02-attack-green.png",
+        "uploaded_sha256": "24392b58ee90d1cd91769575344e75902f54ac32c359b9eb5f66be55b68fcd4e",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K006-M03-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/03-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "5a08436e20795d05cb625234509bd3e925c7825d725d535b58de0b4098e5b18e",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-599635dc-7b15-42e7-86bf-76333eba2527.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-03-side-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "警铃头、机柜身、两条道闸臂和两条短钢腿完整，无多余手指，朝右全身留白充分。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          613,
+          134,
+          929,
+          864
+        ],
+        "margins_ltrb": [
+          0.3990885416666667,
+          0.130859375,
+          0.3951822916666667,
+          0.15625
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          16,
+          240,
+          20
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D24",
+        "token": "EA4GbaqSToh8qzx54SEcQaRXnGh",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/03-side-green.png",
+        "uploaded_sha256": "5a08436e20795d05cb625234509bd3e925c7825d725d535b58de0b4098e5b18e",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K006-M03-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/03-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "be3db1b559c9d0241f74480c2d265da6edb0db9a45a13ee683a495b93b988384",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-58db6a79-6355-4d8f-8d2f-420aa4965260.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-03-attack-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "近侧道闸臂水平横扫，另一臂向后低垂，完整两臂两腿，头部与掌端留白足够。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          525,
+          132,
+          1200,
+          865
+        ],
+        "margins_ltrb": [
+          0.341796875,
+          0.12890625,
+          0.21875,
+          0.1552734375
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          16,
+          240,
+          23
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E24",
+        "token": "GFCEb03lIo82XLx06KscQOHin1d",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/03-attack-green.png",
+        "uploaded_sha256": "be3db1b559c9d0241f74480c2d265da6edb0db9a45a13ee683a495b93b988384",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K006-M04-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/04-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "83469c2b63db9b2f7c3884ed69fd7eadbac59d934353ed884bfd162a04ff8f37",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-bb90f999-757c-4ea0-8a70-e6e1e30b48aa.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-04-side-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "木箱、四铁轮、两条黑手套臂和一条弧轨完整；白面罩朝右，留白充分。两臂实际安装在可见侧前后，作为本次视觉设计保留。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          348,
+          260,
+          1199,
+          749
+        ],
+        "margins_ltrb": [
+          0.2265625,
+          0.25390625,
+          0.21940104166666666,
+          0.2685546875
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          16,
+          241,
+          17
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D25",
+        "token": "VGs6b1cU6oYQOFxnu7JcYPQznEd",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/04-side-green.png",
+        "uploaded_sha256": "83469c2b63db9b2f7c3884ed69fd7eadbac59d934353ed884bfd162a04ff8f37",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K006-M04-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/04-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "00863516ac1981bff8ee2ba591e9282769074373089e739cca649a70e705e2d8",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-67cd8458-0cb5-4c6d-bb8f-64f7a1e8d7a3.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-04-attack-arm-root-v03.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "前臂现明确连接木箱圆形座，部分经过面罩后遮挡，完整两臂两手共同推一弧轨；四轮可数，右端留白足够。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          358,
+          313,
+          1309,
+          687
+        ],
+        "margins_ltrb": [
+          0.23307291666666666,
+          0.3056640625,
+          0.14778645833333334,
+          0.3291015625
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          13,
+          240,
+          20
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E25",
+        "token": "ZsavbeihnodXiQxAJ77coDKFnBd",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/04-attack-green.png",
+        "uploaded_sha256": "00863516ac1981bff8ee2ba591e9282769074373089e739cca649a70e705e2d8",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K006-M05-G",
+      "kind": "side_green",
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/05-side-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "4cf7c4c931614e20d3309c5f362214f07832e60d736199ad52cdd0c549c6131c",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-953128bc-9b84-4380-a4a4-e729710297d5.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-05-side-green.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "成年女性右向侧面、白衫深领结黑发，完整两臂两手及封闭裙布尾，无血伤或下肢；留白充分。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          212,
+          228,
+          1309,
+          756
+        ],
+        "margins_ltrb": [
+          0.13802083333333334,
+          0.22265625,
+          0.14778645833333334,
+          0.26171875
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          16,
+          240,
+          18
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "D26",
+        "token": "PPCDbUrl7oEClDxMe96cBuVunwd",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/05-side-green.png",
+        "uploaded_sha256": "4cf7c4c931614e20d3309c5f362214f07832e60d736199ad52cdd0c549c6131c",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K006-M05-A",
+      "kind": "side_green_attack",
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/05-attack-green.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "a964e8eb6804ec07b9e85432558786840350eda617a76d1f8979e5ee874e4315",
+      "generator": "built-in image_gen",
+      "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-471b054c-5849-4dab-af15-70f6ba2188c6.png",
+      "prompt": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/prompts/monster-05-attack-reframe.txt",
+      "status": "reviewed_local_art_draft",
+      "uploaded": true,
+      "review": {
+        "visual": "右向抓击一臂伸出一臂撑地，身份及两臂两手一致，修订后所有末端完整且留白充足。",
+        "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+        "single_pose": true,
+        "side_direction": "right",
+        "user_approved": false,
+        "not_animation": true,
+        "not_transparent": true,
+        "size": [
+          1536,
+          1024
+        ],
+        "subject_bbox": [
+          267,
+          305,
+          1277,
+          691
+        ],
+        "margins_ltrb": [
+          0.173828125,
+          0.2978515625,
+          0.16861979166666666,
+          0.3251953125
+        ],
+        "green_border_fraction": 1.0,
+        "reference_background_rgb": [
+          14,
+          240,
+          18
+        ]
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "ZYrOxl",
+        "cell": "E26",
+        "token": "WXozbljyso7wFHxqPd3c7nTKnnc",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/enemies/05-attack-green.png",
+        "uploaded_sha256": "a964e8eb6804ec07b9e85432558786840350eda617a76d1f8979e5ee874e4315",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    },
+    {
+      "id": "K006-P01",
+      "kind": "panorama",
+      "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/panorama.png",
+      "size": [
+        10860,
+        724
+      ],
+      "sha256": "472a9ea276572321b60ac8d90dcbb330411eb6635391e8836c02f46c6389e076",
+      "generator": "native assembly of built-in image_gen outputs",
+      "status": "reviewed_local_art_draft",
+      "resampled": false,
+      "uploaded": true,
+      "user_approved": false,
+      "source_scenes": [
+        "K006-S01",
+        "K006-S02",
+        "K006-S03",
+        "K006-S04",
+        "K006-S05"
+      ],
+      "join_sources": [
+        {
+          "join": 1,
+          "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-01-composite.png",
+          "sha256": "5909a7d5bcfdcda4ac70277b4c7476e06d51bc62a21295e3e8ffeddb95345c74",
+          "metadata": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-01-metadata.json"
+        },
+        {
+          "join": 2,
+          "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-02-composite.png",
+          "sha256": "d9a4b69f86f1d417fc78999a8ff88135699da8c114656fe3f703394901f36fae",
+          "metadata": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-02-metadata.json"
+        },
+        {
+          "join": 3,
+          "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-03-composite.png",
+          "sha256": "452b975242ca9d70b52f5d7bb422fe0056439c1ce7e9207be9c46a18d26e0dd9",
+          "metadata": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-03-metadata.json"
+        },
+        {
+          "join": 4,
+          "file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-04-composite.png",
+          "sha256": "773eac953fd79f3454733b1483d2e8cbbfcce2c67f32c5179916582156f40425",
+          "metadata": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-04-metadata.json"
+        }
+      ],
+      "continuous_scene_directory": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/continuous-scenes",
+      "review": {
+        "visual": "五段及四处接缝逐一复核；当前普通尺寸静态美术草案，非像素无缝或用户最终验收。",
+        "user_approved": false
+      },
+      "feishu_checkpoint": {
+        "date": "2026-10-04T15:58:43.334348+08:00",
+        "spreadsheet_token": "RAqiszeH4hgCNStMvagcP4btnmh",
+        "sheet_id": "yyLGNe",
+        "cell": "D4",
+        "token": "YXFAboTfsoVyzmx7DqRcF7z6nRh",
+        "uploaded_file": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/panorama.png",
+        "uploaded_sha256": "472a9ea276572321b60ac8d90dcbb330411eb6635391e8836c02f46c6389e076",
+        "verified": true,
+        "note": "本次明确授权的快照上传。"
+      }
+    }
+  ],
+  "created_at": "2026-10-04T05:16:07.438361+08:00",
+  "user_approved": false,
+  "generated_images": 15,
+  "derived_panoramas": 1,
+  "updated_at": "2026-10-04T14:45:57.423605+08:00",
+  "feishu_verified_images": 16
+}

@@ -1,0 +1,25 @@
+{
+  "join": 2,
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-cc19f3e9-8084-43d8-a08d-6b98bb8053b9.png",
+  "repaint": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-02-repaint.png",
+  "sha256": "bd6ee308d090b6a4b5bd285b5916fa1a2e4f3d66095220e6ed029264251a99e5",
+  "size": [
+    2172,
+    724
+  ],
+  "selected_crop": [
+    631,
+    0,
+    1497,
+    724
+  ],
+  "assembly": "AI artwork cropped and pasted at native coordinates; no scaling, painting or blending",
+  "boundary_mean_abs_rgb_difference": [
+    3.0153468385512583,
+    2.2254450583179866
+  ],
+  "visual_review": "拼回后原接缝处地砖不再镜像折回，墙砖接续，未见明显纵向色带。",
+  "user_approved": false,
+  "needs_revision": false
+}

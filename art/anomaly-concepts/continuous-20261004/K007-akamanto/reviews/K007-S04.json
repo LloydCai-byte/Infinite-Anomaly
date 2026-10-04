@@ -1,0 +1,22 @@
+{
+  "id": "K007-S04",
+  "kind": "scene",
+  "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/scenes/04.png",
+  "size": [
+    2172,
+    724
+  ],
+  "sha256": "923bae609cb79097d39898ae235b252f20c5be53e9f9660fc10930fe9c443ce3",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-a344c2a1-bc6c-4b22-ac59-99e632d70cb3.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/scene-04.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "user_approved": false,
+  "resampled": false,
+  "review": {
+    "visual": "两阀门、压力表、连续管道和杂物柜工具清楚，地脚线保持，前景无道具阻挡。",
+    "continuity": "pairwise_join_review_pending",
+    "user_approved": false
+  }
+}

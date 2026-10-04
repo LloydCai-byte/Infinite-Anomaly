@@ -1,0 +1,46 @@
+{
+  "id": "K002-M02-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/02-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "6e5c855cdf8c305c60982e0dffb35fb76b5273cbfe6e5656a2b55fb882d5668d",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-b81eff92-7a55-415c-99ef-cb654bd52c8b.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-02-attack-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "同一检票员右向前伸钳臂，机械段/黄铜轴和钳口连贯，白手仍持单票。双腿迈步、完整双鞋，头脚与待机高度接近；无多余白手或地面投影。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      580,
+      112,
+      1203,
+      913
+    ],
+    "margins_ltrb": [
+      0.3776041666666667,
+      0.109375,
+      0.216796875,
+      0.1083984375
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      14,
+      239,
+      23
+    ]
+  }
+}

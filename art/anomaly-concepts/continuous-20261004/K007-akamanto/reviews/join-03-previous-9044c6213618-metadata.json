@@ -1,0 +1,25 @@
+{
+  "join": 3,
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-7f1f2761-7247-4cc4-b4f2-db5e8c30a1ae.png",
+  "repaint": "art/anomaly-concepts/continuous-20261004/K007-akamanto/reviews/join-03-repaint.png",
+  "sha256": "9044c6213618893413b02f07f866689d19a334f83f40ae7ed5c2827e7e193a25",
+  "size": [
+    2172,
+    724
+  ],
+  "selected_crop": [
+    736,
+    0,
+    1318,
+    724
+  ],
+  "assembly": "AI artwork cropped and pasted at native coordinates; no scaling, painting or blending",
+  "boundary_mean_abs_rgb_difference": [
+    6.612543482709229,
+    6.223347657049314
+  ],
+  "visual_review": "地砖线已重绘，但拼回后中间出现偏亮蓝色矩形，不能接受，须继续校色修订。",
+  "user_approved": false,
+  "needs_revision": true
+}

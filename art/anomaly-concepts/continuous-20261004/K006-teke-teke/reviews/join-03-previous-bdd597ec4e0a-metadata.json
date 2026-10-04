@@ -1,0 +1,25 @@
+{
+  "join": 3,
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-8edeee02-93fa-4467-97a8-42a9b729c984.png",
+  "repaint": "art/anomaly-concepts/continuous-20261004/K006-teke-teke/reviews/join-03-repaint.png",
+  "sha256": "bdd597ec4e0a4ddc28758c08044c214fb640c314f09b8d065b2dca57b747176c",
+  "size": [
+    2172,
+    724
+  ],
+  "selected_crop": [
+    898,
+    0,
+    1533,
+    724
+  ],
+  "assembly": "AI artwork cropped and pasted at native coordinates; no scaling, painting or blending",
+  "boundary_mean_abs_rgb_difference": [
+    7.123900143237159,
+    7.802179251074279
+  ],
+  "visual_review": "中央电线/远屋与道路接续改善；拼回后左侧天空在x约898处仍有轻微纵向色差，须再修，不算通过。",
+  "user_approved": false,
+  "needs_revision": true
+}

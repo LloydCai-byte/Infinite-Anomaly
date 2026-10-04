@@ -1,0 +1,46 @@
+{
+  "id": "K003-M04-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K003-kunekune/enemies/04-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "16bf63761d713771b130efb4aa19b1c394fec8bed70abb0da2bdf650f00a4c3f",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-3b8252a6-3c95-435e-9dac-dba8e4c8a3bd.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K003-kunekune/prompts/monster-04-attack-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "同一水渠虫闸片铰链向上展开，右向瓷盘与后侧软管保持，六只法兰足完整，前足略抬形成冲撞动作。最高提手也有绿边，未叠加特效或地面。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      285,
+      96,
+      1250,
+      811
+    ],
+    "margins_ltrb": [
+      0.185546875,
+      0.09375,
+      0.18619791666666666,
+      0.2080078125
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      16,
+      242,
+      26
+    ]
+  }
+}

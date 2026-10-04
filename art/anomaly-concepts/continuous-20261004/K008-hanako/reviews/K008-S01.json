@@ -1,0 +1,22 @@
+{
+  "id": "K008-S01",
+  "kind": "scene",
+  "file": "art/anomaly-concepts/continuous-20261004/K008-hanako/scenes/01.png",
+  "size": [
+    2169,
+    725
+  ],
+  "sha256": "2fb464bde0980dc3d0ee4385f0f4a7b0d44e2640203ae9b8ebce93893e449b7b",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-45e77ced-2eb1-45f6-99bf-8422e6064d1a.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K008-hanako/prompts/scene-01-edge-v02.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "user_approved": false,
+  "resampled": false,
+  "review": {
+    "visual": "入口木门、鞋柜、窗框与六角地砖细节清楚；右侧截断水槽已移除；实际后墙地面交界约73%而非初案64%，后续按成图固定衔接，暂无人物。",
+    "continuity": "pairwise_join_review_pending",
+    "user_approved": false
+  }
+}

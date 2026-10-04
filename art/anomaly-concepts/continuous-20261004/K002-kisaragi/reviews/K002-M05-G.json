@@ -1,0 +1,46 @@
+{
+  "id": "K002-M05-G",
+  "kind": "side_green",
+  "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/05-side-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "01c1f63935c1165629d937b550a4ca6eee145add18c7150803a4c75f8551bb5a",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-c9d801a8-cfe5-4706-9a99-56c375035b79.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-05-side-green-v02-hands-margin.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "朝右侧视的和善中年脸、橄榄外套、反折长腿保持。第二版消除前腕多余指形，两个正常手与两个鞋底连接的黑影手明确分开；完整影指、绿边充足，无额外投影。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      647,
+      139,
+      996,
+      872
+    ],
+    "margins_ltrb": [
+      0.4212239583333333,
+      0.1357421875,
+      0.3515625,
+      0.1484375
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      14,
+      240,
+      18
+    ]
+  }
+}

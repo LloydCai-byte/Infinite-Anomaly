@@ -1,0 +1,46 @@
+{
+  "id": "K002-M01-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/enemies/01-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "1e46e81c6cc635630f698beb177012010bb2f4a50fa3d190ff21bccbca0db3c0",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-a512591f-0720-42c6-86e7-635020e29985.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K002-kisaragi/prompts/monster-01-attack-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "同一通勤者右向挥包，折臂展开后袖臂向前伸长，另一只正常手在后侧；两脚完整、头部与鞋底高度和待机接近，绿幕留白充足，无投影。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      503,
+      128,
+      1170,
+      916
+    ],
+    "margins_ltrb": [
+      0.3274739583333333,
+      0.125,
+      0.23828125,
+      0.10546875
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      16,
+      240,
+      16
+    ]
+  }
+}

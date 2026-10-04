@@ -1,0 +1,46 @@
+{
+  "id": "K007-M04-A",
+  "kind": "side_green_attack",
+  "file": "art/anomaly-concepts/continuous-20261004/K007-akamanto/enemies/04-attack-green.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "7aa90fcc658fbf67441928ae1edd057a132668a8b7d8ee65c187e74618d0d95a",
+  "generator": "built-in image_gen",
+  "generated_source": "D:\\Codex\\home\\generated_images\\01a1018f-2c67-7002-a6ee-cb0ba54c9c79\\exec-6d0b509b-6d32-4d71-bb0a-e8e6c611e1d6.png",
+  "prompt": "art/anomaly-concepts/continuous-20261004/K007-akamanto/prompts/monster-04-attack-green.txt",
+  "status": "reviewed_local_art_draft",
+  "uploaded": false,
+  "review": {
+    "visual": "前倾低扑，四管腿与四橡胶足完整，顶部单根伸缩连杆有连续轴与一钝帽，无多余手臂，留白正常。",
+    "method": "assistant visual inspection plus green-edge/subject-margin measurements",
+    "single_pose": true,
+    "side_direction": "right",
+    "user_approved": false,
+    "not_animation": true,
+    "not_transparent": true,
+    "size": [
+      1536,
+      1024
+    ],
+    "subject_bbox": [
+      310,
+      318,
+      1223,
+      733
+    ],
+    "margins_ltrb": [
+      0.20182291666666666,
+      0.310546875,
+      0.20377604166666666,
+      0.2841796875
+    ],
+    "green_border_fraction": 1.0,
+    "reference_background_rgb": [
+      16,
+      239,
+      15
+    ]
+  }
+}
