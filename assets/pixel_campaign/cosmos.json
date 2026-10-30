@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "skill_clear_thresholds": [0, 30, 120],
+  "skill_cadence": 3,
+  "core_types": {
+    "lance": {"name":"裂隙星核","role":"进攻","description":"提高攻击与对首领伤害。适合集中火力，防护仍由队友承担。","color":"e9ac82"},
+    "aegis": {"name":"舰壁星核","role":"生存","description":"提高最大生命与入场护盾。适合高压战斗，护盾仍受35%总上限约束。","color":"8fc6da"},
+    "relay": {"name":"共鸣星核","role":"支援","description":"提高行动速度与治疗加成。更快的行动也会更频繁地触发星际技能。","color":"b6d88e"}
+  },
+  "skills": [
+    [
+      {"id":"rift_follow","name":"裂隙追击","description":"额外打击当前目标，造成110%攻击伤害。","effect":"single","power":1.1},
+      {"id":"orbit_blades","name":"环刃","description":"攻击所有存活敌人，各造成45%攻击伤害。","effect":"all","power":0.45},
+      {"id":"sever","name":"斩断","description":"攻击生命比例最低的敌人，造成100%攻击伤害；其生命不高于一半时提高至200%。","effect":"execute","power":1.0}
+    ],
+    [
+      {"id":"gravity_hammer","name":"引力锤","description":"造成90%攻击伤害，并削减目标初始护甲15%；与其他破甲合计最多削减70%。","effect":"break","power":0.9,"shred":0.15},
+      {"id":"fleet_wall","name":"舰壁","description":"为每名存活队友增加8%最大生命的护盾，护盾总量不超过最大生命35%。","effect":"shield_all","power":0.08},
+      {"id":"counterpressure","name":"反压","description":"消耗自身当前护盾的一半；造成80%攻击加上消耗护盾60%的伤害。","effect":"shield_strike","power":0.8}
+    ],
+    [
+      {"id":"orbital_shot","name":"轨道点射","description":"额外攻击最大生命最高的存活敌人，造成120%攻击伤害。","effect":"largest","power":1.2},
+      {"id":"swarm_rounds","name":"蜂群弹","description":"额外攻击两名存活敌人，各造成75%攻击伤害；仅剩一敌时只命中一次。","effect":"two","power":0.75},
+      {"id":"molten_round","name":"熔甲弹","description":"造成90%攻击伤害，并削减目标初始护甲20%；与其他破甲合计最多削减70%。","effect":"break","power":0.9,"shred":0.2}
+    ],
+    [
+      {"id":"area_repair","name":"全域修复","description":"治疗所有存活队友：各自4%最大生命加30%攻击，受治疗加成影响。","effect":"heal_all","power":0.3},
+      {"id":"rhythm_relay","name":"节拍中继","description":"为行动条最落后的两名存活队友推进18%行动进度；不影响已在出手队列中的队员。","effect":"charge","power":0.18},
+      {"id":"rescue_breath","name":"救援呼吸","description":"治疗生命比例最低的存活队友20%最大生命，并提供4%最大生命护盾。不能复活。","effect":"rescue","power":0.2}
+    ],
+    [
+      {"id":"plasma_focus","name":"等离子聚束","description":"额外打击当前目标，造成180%攻击的火焰伤害，受目标元素抗性影响。","effect":"plasma","power":1.8},
+      {"id":"stellar_wind","name":"恒星风","description":"攻击所有存活敌人，各造成60%攻击的火焰伤害。","effect":"fire_all","power":0.6},
+      {"id":"cold_trap","name":"低温陷阱","description":"攻击所有存活敌人，各造成45%攻击伤害；命中后使其行动速度降低4点，下次行动开始恢复。","effect":"freeze","power":0.45}
+    ]
+  ]
+}

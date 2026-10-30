@@ -1,0 +1,49 @@
+{
+  "version": "growth-1",
+  "status": "implementation",
+  "encounter": {
+    "world_offset": 5,
+    "depth_stride": 10,
+    "hp_step": 0.035,
+    "hp_exponent": 1.7,
+    "attack_step": 0.035,
+    "attack_exponent": 1.9
+  },
+  "experience": {
+    "base": 120,
+    "level_exponent": 1.2,
+    "kill_base": 18,
+    "rating_scale": 3,
+    "rating_exponent": 1.1
+  },
+  "gold": {
+    "kill_base": 12,
+    "rating_scale": 2,
+    "rating_exponent": 1.1,
+    "training_base": 80,
+    "training_linear": 45,
+    "training_quadratic": 3
+  },
+  "loot": {
+    "normal_probability": 0.38,
+    "max_probability": 0.75,
+    "miss_pity": 8,
+    "boss_level_bonus": 2,
+    "level_jitter_min": -2,
+    "level_jitter_max": 1
+  },
+  "combat": {
+    "armor_asymptote": 0.75,
+    "armor_scale": 3,
+    "armor_constant": 100,
+    "animation_rate_min": 0.7,
+    "animation_rate_max": 1.8,
+    "animation_speed_exponent": 0.5,
+    "burn_attack_ratio": 0.14
+  },
+  "scope_note": "Published v2-r3 numeric baseline; current view is wired separately after integration checks.",
+  "limits": {
+    "max_depth": 100,
+    "unlock_step": 3
+  }
+}

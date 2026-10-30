@@ -1,0 +1,542 @@
+{
+  "dadong": {
+    "size": [
+      160,
+      144
+    ],
+    "foot": [
+      80,
+      128
+    ],
+    "height": 64,
+    "source_size": [
+      50,
+      64
+    ],
+    "body_top": 64,
+    "direction": 1,
+    "clips": {
+      "idle": {
+        "frames": 20,
+        "fps": 15,
+        "columns": 8,
+        "unique_frames": 6,
+        "file": "idle.png"
+      },
+      "walk": {
+        "frames": 16,
+        "fps": 24,
+        "columns": 8,
+        "unique_frames": 16,
+        "file": "walk.png"
+      },
+      "attack": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 17,
+        "file": "attack.png"
+      },
+      "hurt": {
+        "frames": 10,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 8,
+        "file": "hurt.png"
+      },
+      "die": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 22,
+        "file": "die.png"
+      }
+    }
+  },
+  "wang": {
+    "size": [
+      160,
+      144
+    ],
+    "foot": [
+      80,
+      128
+    ],
+    "height": 64,
+    "source_size": [
+      55,
+      64
+    ],
+    "body_top": 64,
+    "direction": 1,
+    "clips": {
+      "idle": {
+        "frames": 20,
+        "fps": 15,
+        "columns": 8,
+        "unique_frames": 6,
+        "file": "idle.png"
+      },
+      "walk": {
+        "frames": 16,
+        "fps": 24,
+        "columns": 8,
+        "unique_frames": 16,
+        "file": "walk.png"
+      },
+      "attack": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 17,
+        "file": "attack.png"
+      },
+      "hurt": {
+        "frames": 10,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 8,
+        "file": "hurt.png"
+      },
+      "die": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 22,
+        "file": "die.png"
+      }
+    }
+  },
+  "fenfen": {
+    "size": [
+      160,
+      144
+    ],
+    "foot": [
+      80,
+      128
+    ],
+    "height": 64,
+    "source_size": [
+      88,
+      64
+    ],
+    "body_top": 64,
+    "direction": 1,
+    "clips": {
+      "idle": {
+        "frames": 20,
+        "fps": 15,
+        "columns": 8,
+        "unique_frames": 6,
+        "file": "idle.png"
+      },
+      "walk": {
+        "frames": 16,
+        "fps": 24,
+        "columns": 8,
+        "unique_frames": 16,
+        "file": "walk.png"
+      },
+      "attack": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 18,
+        "file": "attack.png"
+      },
+      "hurt": {
+        "frames": 10,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 8,
+        "file": "hurt.png"
+      },
+      "die": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 22,
+        "file": "die.png"
+      }
+    }
+  },
+  "qiqi": {
+    "size": [
+      160,
+      144
+    ],
+    "foot": [
+      80,
+      128
+    ],
+    "height": 64,
+    "source_size": [
+      66,
+      64
+    ],
+    "body_top": 64,
+    "direction": 1,
+    "clips": {
+      "idle": {
+        "frames": 20,
+        "fps": 15,
+        "columns": 8,
+        "unique_frames": 6,
+        "file": "idle.png"
+      },
+      "walk": {
+        "frames": 16,
+        "fps": 24,
+        "columns": 8,
+        "unique_frames": 16,
+        "file": "walk.png"
+      },
+      "attack": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 18,
+        "file": "attack.png"
+      },
+      "hurt": {
+        "frames": 10,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 8,
+        "file": "hurt.png"
+      },
+      "die": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 22,
+        "file": "die.png"
+      }
+    }
+  },
+  "gao": {
+    "size": [
+      160,
+      144
+    ],
+    "foot": [
+      80,
+      128
+    ],
+    "height": 64,
+    "source_size": [
+      56,
+      64
+    ],
+    "body_top": 64,
+    "direction": 1,
+    "clips": {
+      "idle": {
+        "frames": 20,
+        "fps": 15,
+        "columns": 8,
+        "unique_frames": 6,
+        "file": "idle.png"
+      },
+      "walk": {
+        "frames": 16,
+        "fps": 24,
+        "columns": 8,
+        "unique_frames": 16,
+        "file": "walk.png"
+      },
+      "attack": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 19,
+        "file": "attack.png"
+      },
+      "hurt": {
+        "frames": 10,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 8,
+        "file": "hurt.png"
+      },
+      "die": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 22,
+        "file": "die.png"
+      }
+    }
+  },
+  "tengu": {
+    "size": [
+      160,
+      144
+    ],
+    "foot": [
+      80,
+      128
+    ],
+    "height": 64,
+    "source_size": [
+      76,
+      64
+    ],
+    "body_top": 64,
+    "direction": -1,
+    "clips": {
+      "idle": {
+        "frames": 20,
+        "fps": 15,
+        "columns": 8,
+        "unique_frames": 6,
+        "file": "idle.png"
+      },
+      "walk": {
+        "frames": 16,
+        "fps": 24,
+        "columns": 8,
+        "unique_frames": 16,
+        "file": "walk.png"
+      },
+      "attack": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 19,
+        "file": "attack.png"
+      },
+      "hurt": {
+        "frames": 10,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 8,
+        "file": "hurt.png"
+      },
+      "die": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 22,
+        "file": "die.png"
+      }
+    }
+  },
+  "umbrella": {
+    "size": [
+      160,
+      144
+    ],
+    "foot": [
+      80,
+      128
+    ],
+    "height": 64,
+    "source_size": [
+      55,
+      64
+    ],
+    "body_top": 64,
+    "direction": -1,
+    "clips": {
+      "idle": {
+        "frames": 20,
+        "fps": 15,
+        "columns": 8,
+        "unique_frames": 6,
+        "file": "idle.png"
+      },
+      "walk": {
+        "frames": 16,
+        "fps": 24,
+        "columns": 8,
+        "unique_frames": 5,
+        "file": "walk.png"
+      },
+      "attack": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 21,
+        "file": "attack.png"
+      },
+      "hurt": {
+        "frames": 10,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 8,
+        "file": "hurt.png"
+      },
+      "die": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 22,
+        "file": "die.png"
+      }
+    }
+  },
+  "kappa": {
+    "size": [
+      160,
+      144
+    ],
+    "foot": [
+      80,
+      128
+    ],
+    "height": 58,
+    "source_size": [
+      70,
+      58
+    ],
+    "body_top": 70,
+    "direction": -1,
+    "clips": {
+      "idle": {
+        "frames": 20,
+        "fps": 15,
+        "columns": 8,
+        "unique_frames": 5,
+        "file": "idle.png"
+      },
+      "walk": {
+        "frames": 16,
+        "fps": 24,
+        "columns": 8,
+        "unique_frames": 16,
+        "file": "walk.png"
+      },
+      "attack": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 19,
+        "file": "attack.png"
+      },
+      "hurt": {
+        "frames": 10,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 8,
+        "file": "hurt.png"
+      },
+      "die": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 22,
+        "file": "die.png"
+      }
+    }
+  },
+  "wheel": {
+    "size": [
+      160,
+      144
+    ],
+    "foot": [
+      80,
+      128
+    ],
+    "height": 64,
+    "source_size": [
+      66,
+      64
+    ],
+    "body_top": 64,
+    "direction": -1,
+    "clips": {
+      "idle": {
+        "frames": 20,
+        "fps": 15,
+        "columns": 8,
+        "unique_frames": 6,
+        "file": "idle.png"
+      },
+      "walk": {
+        "frames": 16,
+        "fps": 24,
+        "columns": 8,
+        "unique_frames": 16,
+        "file": "walk.png"
+      },
+      "attack": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 12,
+        "file": "attack.png"
+      },
+      "hurt": {
+        "frames": 10,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 8,
+        "file": "hurt.png"
+      },
+      "die": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 22,
+        "file": "die.png"
+      }
+    }
+  },
+  "oni": {
+    "size": [
+      160,
+      144
+    ],
+    "foot": [
+      80,
+      128
+    ],
+    "height": 88,
+    "source_size": [
+      93,
+      88
+    ],
+    "body_top": 40,
+    "direction": -1,
+    "clips": {
+      "idle": {
+        "frames": 20,
+        "fps": 15,
+        "columns": 8,
+        "unique_frames": 6,
+        "file": "idle.png"
+      },
+      "walk": {
+        "frames": 16,
+        "fps": 24,
+        "columns": 8,
+        "unique_frames": 16,
+        "file": "walk.png"
+      },
+      "attack": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 19,
+        "file": "attack.png"
+      },
+      "hurt": {
+        "frames": 10,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 8,
+        "file": "hurt.png"
+      },
+      "die": {
+        "frames": 24,
+        "fps": 30,
+        "columns": 8,
+        "unique_frames": 22,
+        "file": "die.png"
+      }
+    }
+  }
+}

@@ -1,8 +1,0 @@
-Godot Engine v4.7.1.stable.mono.official.a13da4feb - https://godotengine.org
-
-ERROR: Failed to read the root certificate store.
-   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
-BALANCE M01: { "run_id": "run_1", "mission": "M01", "outcome": "victory", "completed": 3, "credits": 100, "alloy": 3, "time": 50.6499999999993, "stats": [{ "name": "乔越", "damage": 642.0, "taken": 329.0, "heal": 0.0 }, { "name": "周霁", "damage": 1204.0, "taken": 0.0, "heal": 0.0 }, { "name": "林衡", "damage": 945.0, "taken": 0.0, "heal": 0.0 }, { "name": "贺维", "damage": 305.0, "taken": 0.0, "heal": 108.0 }], "wins": 1 }
-BALANCE M02: victory time=71.0499999999981
-BALANCE M03: victory time=88.3999999999971
-REBOOT_MODEL: 46 checks / 0 failures

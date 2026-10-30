@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "chance": 0.65,
+  "pity_returns": 3,
+  "supports": {
+    "pulse": {"name":"脉冲护盾","description":"每景开始时，全队获得最大生命6%/8%/10%的护盾。","stat":"shield","values":[0.06,0.08,0.10]},
+    "sight": {"name":"协同瞄准仪","description":"全队暴击率提高3/4/5个百分点。","stat":"crit","values":[3,4,5]},
+    "anchor": {"name":"生命锚","description":"全队最大生命提高6%/8%/10%。","stat":"hp","values":[0.06,0.08,0.10]}
+  },
+  "events": [
+    {"id":"sixth_cup","title":"第六只杯子","phase":"earth","min":0,"max":5,"once":true,"cooldown":0,"weight":3,"cue":"tea","lines":[["七七","刚才明明只洗了五只杯子。"],["轩轩","茶几上多出一只温热的杯子。杯底没有名字，只有一道像眼睛的刻痕。"],["粉粉","先别收走。也许下一次，它会告诉我们是谁喝过。"]],"reward":{}},
+    {"id":"wall_answer","title":"墙后的回答","phase":"earth","min":0,"max":5,"once":true,"cooldown":0,"weight":3,"cue":"door","lines":[["高哥","我敲了一下墙。墙后敲了两下。"],["轩轩","墙的那一边不是另一间屋子。至少，今天不是。"],["大东老师","我记下时间。下一次回来的时候，再听听。"]],"reward":{}},
+    {"id":"quiet_dinner","title":"归来后的空位","phase":"earth","min":0,"max":99,"once":true,"cooldown":0,"weight":2,"cue":"tea","lines":[["老王","刚才还在想，回来以后第一句话该说什么。现在反倒说不出来了。"],["轩轩","那就先坐一会儿。"],["旁白","茶几上没有战报，也没有倒计时。这一小段安静，属于他们自己。"]],"reward":{}},
+    {"id":"blue_grain","title":"衣缝里的蓝砂","phase":"earth","min":0,"max":99,"once":false,"cooldown":2,"weight":3,"cue":"work","lines":[["粉粉","外套缝里抖出来的。碰过水以后，它们反而聚到了一起。"],["轩轩","不是沙子，是能稳定异常能量的介质。留给工作间。"]],"reward":{"material":4}},
+    {"id":"pulse_parcel","title":"没有寄件人的机箱","phase":"earth","min":0,"max":99,"once":true,"cooldown":0,"weight":3,"cue":"work","lines":[["大东老师","箱子就在工作间门口。收件人写的是我们五个人的名字。"],["轩轩","里面是脉冲护盾。把它装上，下一次进入战场时会保护整支队伍。"],["七七","寄出日期……是明天。"]],"reward":{"support":"pulse","material":3}},
+    {"id":"sky_city","title":"倒过来的城市","phase":"earth","min":6,"max":99,"once":true,"cooldown":0,"weight":3,"cue":"window","lines":[["七七","窗外的楼在天上，灯却还按街道的顺序亮着。"],["轩轩","地球在搬运训练场。别看太久。"],["老王","搬运？那我们进去的那些地方，原来在哪里？"]],"reward":{}},
+    {"id":"aim_echo","title":"重叠的准星","phase":"earth","min":6,"max":149,"once":true,"cooldown":0,"weight":3,"cue":"work","lines":[["大东老师","瞄准仪只有一个镜片，但能同时显示五个人看见的东西。"],["轩轩","它会让你们知道彼此想攻击哪里。别在家里试。"]],"reward":{"support":"sight"}},
+    {"id":"rain_up","title":"向上落的雨","phase":"earth","min":6,"max":299,"once":false,"cooldown":3,"weight":3,"cue":"window","lines":[["轩轩","窗外的水滴向天空升起，最后留下几块透明的结晶。"],["老王","像是地球把某种东西提纯了，送给我们。"]],"reward":{"material":6}},
+    {"id":"listening_seed","title":"会听心跳的种子","phase":"earth","min":30,"max":299,"once":true,"cooldown":0,"weight":2,"cue":"tea","lines":[["高哥","它不是跟着我跳，是跟着咱们五个人一起跳。"],["轩轩","生命锚。不要把它种进土里，把它接入小队的支援架。"]],"reward":{"support":"anchor","material":4}},
+    {"id":"planet_score","title":"桌上的星图","phase":"earth","min":100,"max":299,"once":true,"cooldown":0,"weight":3,"cue":"tea","lines":[["大东老师","这些圆点不是训练场。它们的位置一直在变。"],["轩轩","每一个点都是一颗星球。等地球确认你们准备好了，门会通向那里。"],["粉粉","所以现在的一切，只是出发之前。"]],"reward":{}},
+    {"id":"earth_dispatch","title":"地球的回执","phase":"earth","min":100,"max":299,"once":false,"cooldown":3,"weight":3,"cue":"work","lines":[["轩轩","工作间收到了地球的回执。没有表扬，只有补充物资。"],["高哥","那就把它用到该用的地方。"]],"reward":{"material":8}},
+    {"id":"empty_uniform","title":"没有人的制服","phase":"earth","min":200,"max":299,"once":true,"cooldown":0,"weight":3,"cue":"door","lines":[["七七","门缝里夹着一件空制服。它自己站了一会儿，然后散成了灰。"],["轩轩","以前也有人走到这里。"],["老王","这一次，我们会把五个人的名字留到最后。"]],"reward":{}},
+    {"id":"alien_reply","title":"不属于地球的回信","phase":"cosmos","min":0,"max":300,"once":true,"cooldown":0,"weight":3,"cue":"window","lines":[["大东老师","信上没有字，只有会改变形状的孔。"],["轩轩","这是另一种文明的语言。它们也有等人回来的地方。"],["粉粉","那就别急着把所有门都砍开。"]],"reward":{}},
+    {"id":"orbital_dust","title":"轨道上的遗物","phase":"cosmos","min":0,"max":300,"once":false,"cooldown":2,"weight":4,"cue":"work","lines":[["轩轩","小队带回来的残片在桌上拼成了一枚小小的环。"],["老王","至少有一部分技术，我们现在能理解了。"]],"reward":{"material":12}},
+    {"id":"two_earths","title":"第二颗地球","phase":"cosmos","min":100,"max":300,"once":true,"cooldown":0,"weight":3,"cue":"window","lines":[["七七","两颗蓝色的星球，一颗亮着，一颗是黑的。哪一颗才是家？"],["轩轩","回来以后还记得你们名字的那一颗。"]],"reward":{}},
+    {"id":"cycle_memory","title":"没有写过的批注","phase":"any","min":0,"max":600,"min_cycle":2,"once":true,"cooldown":0,"weight":4,"cue":"tea","lines":[["粉粉","这是我的字。但这一次，我还没写下它。"],["轩轩","有些东西会留下。装备如此，选择也是。"]],"reward":{"material":10}},
+    {"id":"last_window","title":"第三次日出","phase":"any","min":0,"max":600,"min_cycle":3,"once":true,"cooldown":0,"weight":4,"cue":"window","lines":[["大东老师","第三次了。可这回的太阳，像是真的。"],["轩轩","那就记住它。这一次，我们要把路走到尽头。"]],"reward":{}}
+  ]
+}

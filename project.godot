@@ -1,31 +1,30 @@
-; 无限异常 — Earth production preview, legacy campaign retained
-config_version=5
-
-[application]
-config/name="无限异常"
-config/description="五人出战与成长、七个房间交互。地球篇功能版，美术分项替换。"
-run/main_scene="res://scenes/earth/main.tscn"
-config/version="0.11.0-earth-kaidan"
-config/icon="res://assets/reboot/ui/emblem.svg"
-config/features=PackedStringArray("4.4", "GL Compatibility")
-
-[display]
-window/size/viewport_width=1600
-window/size/viewport_height=900
-window/size/window_width_override=1600
-window/size/window_height_override=900
-window/stretch/mode="canvas_items"
-window/size/resizable=true
-
-[rendering]
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
-environment/defaults/default_clear_color=Color(0.047, 0.065, 0.071, 1)
-textures/default_filters/use_nearest_mipmap_filter=false
-
-[debug]
-gdscript/warnings/untyped_declaration=0
-file_logging/log_path="user://logs/godot.log"
-
-[audio]
-driver/enable_input=false
+; 无限异常 — 用户确定的像素美术版本
+config_version=5
+
+[application]
+config/name="无限异常"
+config/description="轩轩在俯视像素主神空间行动，五人小队出战；前两关各十景，保留装备与成长。"
+run/main_scene="res://scenes/pixel_home/home.tscn"
+config/version="0.40.0-ground-shadows"
+config/features=PackedStringArray("4.4", "GL Compatibility")
+
+[display]
+window/size/viewport_width=1600
+window/size/viewport_height=900
+window/size/window_width_override=1600
+window/size/window_height_override=900
+window/stretch/mode="canvas_items"
+window/size/resizable=true
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.047, 0.065, 0.071, 1)
+textures/default_filters/use_nearest_mipmap_filter=false
+
+[debug]
+gdscript/warnings/untyped_declaration=0
+file_logging/log_path="user://logs/godot.log"
+
+[audio]
+driver/enable_input=false

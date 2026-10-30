@@ -1,0 +1,499 @@
+{
+  "source": "built-in image_gen, one articulated pose per call; atlas packing only",
+  "file": "res://art/xuan-motion-20261029/xuan-walk.png",
+  "size": [
+    1440,
+    640
+  ],
+  "reference_height": 132,
+  "columns": 9,
+  "idle_columns": [
+    8,
+    8,
+    8,
+    8
+  ],
+  "walk_columns": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "walk_fps": 18,
+  "cycle_distance": 160,
+  "frames": [
+    {
+      "rect": [
+        0,
+        0,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/front-0.png"
+    },
+    {
+      "rect": [
+        160,
+        0,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/front-1.png"
+    },
+    {
+      "rect": [
+        320,
+        0,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/front-2.png"
+    },
+    {
+      "rect": [
+        480,
+        0,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/front-3.png"
+    },
+    {
+      "rect": [
+        640,
+        0,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/front-4.png"
+    },
+    {
+      "rect": [
+        800,
+        0,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/front-5.png"
+    },
+    {
+      "rect": [
+        960,
+        0,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/front-6.png"
+    },
+    {
+      "rect": [
+        1120,
+        0,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/front-7.png"
+    },
+    {
+      "rect": [
+        1280,
+        0,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/front-idle.png"
+    },
+    {
+      "rect": [
+        0,
+        160,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/left-0.png"
+    },
+    {
+      "rect": [
+        160,
+        160,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/left-1.png"
+    },
+    {
+      "rect": [
+        320,
+        160,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/left-2.png"
+    },
+    {
+      "rect": [
+        480,
+        160,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/left-3.png"
+    },
+    {
+      "rect": [
+        640,
+        160,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/left-4.png"
+    },
+    {
+      "rect": [
+        800,
+        160,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/left-5.png"
+    },
+    {
+      "rect": [
+        960,
+        160,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/left-6.png"
+    },
+    {
+      "rect": [
+        1120,
+        160,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/left-7.png"
+    },
+    {
+      "rect": [
+        1280,
+        160,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/left-idle.png"
+    },
+    {
+      "rect": [
+        0,
+        320,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/right-0.png"
+    },
+    {
+      "rect": [
+        160,
+        320,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/right-1.png"
+    },
+    {
+      "rect": [
+        320,
+        320,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/right-2.png"
+    },
+    {
+      "rect": [
+        480,
+        320,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/right-3.png"
+    },
+    {
+      "rect": [
+        640,
+        320,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/right-4.png"
+    },
+    {
+      "rect": [
+        800,
+        320,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/right-5.png"
+    },
+    {
+      "rect": [
+        960,
+        320,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/right-6.png"
+    },
+    {
+      "rect": [
+        1120,
+        320,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/right-7.png"
+    },
+    {
+      "rect": [
+        1280,
+        320,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/right-idle.png"
+    },
+    {
+      "rect": [
+        0,
+        480,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/back-0.png"
+    },
+    {
+      "rect": [
+        160,
+        480,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/back-1.png"
+    },
+    {
+      "rect": [
+        320,
+        480,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/back-2.png"
+    },
+    {
+      "rect": [
+        480,
+        480,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/back-3.png"
+    },
+    {
+      "rect": [
+        640,
+        480,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/back-4.png"
+    },
+    {
+      "rect": [
+        800,
+        480,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/back-5.png"
+    },
+    {
+      "rect": [
+        960,
+        480,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/back-6.png"
+    },
+    {
+      "rect": [
+        1120,
+        480,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/back-7.png"
+    },
+    {
+      "rect": [
+        1280,
+        480,
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        146
+      ],
+      "source": "raw/back-idle.png"
+    }
+  ],
+  "sha256": "4df146ac1f8f7a229dbf1d9f14724f32462c129f98244c86590eb7d0b7d20912"
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "rooms": {
+    "R0001": {
+      "title": "翠雾渡口",
+      "source_image": "res://assets/pixel_campaign/backgrounds/L01-S01.png",
+      "portrait": "res://art/room-covers-first10-20261030/R0001/portrait.png",
+      "landscape": "res://art/room-covers-first10-20261030/R0001/landscape.png"
+    },
+    "R0002": {
+      "title": "朱灯戏棚",
+      "source_image": "res://assets/pixel_campaign/backgrounds/L01-S02.png",
+      "portrait": "res://art/room-covers-first10-20261030/R0002/portrait.png",
+      "landscape": "res://art/room-covers-first10-20261030/R0002/landscape.png"
+    },
+    "R0003": {
+      "title": "金灰焚纸场",
+      "source_image": "res://assets/pixel_campaign/backgrounds/L01-S03.png",
+      "portrait": "res://art/room-covers-first10-20261030/R0003/portrait.png",
+      "landscape": "res://art/room-covers-first10-20261030/R0003/landscape.png"
+    },
+    "R0004": {
+      "title": "紫夜晒伞坂",
+      "source_image": "res://assets/pixel_campaign/backgrounds/L01-S04.png",
+      "portrait": "res://art/room-covers-first10-20261030/R0004/portrait.png",
+      "landscape": "res://art/room-covers-first10-20261030/R0004/landscape.png"
+    },
+    "R0005": {
+      "title": "苍白归名庭",
+      "source_image": "res://assets/pixel_campaign/backgrounds/L01-S05.png",
+      "portrait": "res://art/room-covers-first10-20261030/R0005/portrait.png",
+      "landscape": "res://art/room-covers-first10-20261030/R0005/landscape.png"
+    },
+    "R0006": {
+      "title": "原示例·月下鬼市",
+      "source_image": "res://assets/pixel_campaign/backgrounds/L01-S06.png",
+      "portrait": "res://art/room-covers-first10-20261030/R0006/portrait.png",
+      "landscape": "res://art/room-covers-first10-20261030/R0006/landscape.png"
+    },
+    "R0007": {
+      "title": "碧根地藏窟",
+      "source_image": "res://assets/pixel_campaign/backgrounds/L01-S07.png",
+      "portrait": "res://art/room-covers-first10-20261030/R0007/portrait.png",
+      "landscape": "res://art/room-covers-first10-20261030/R0007/landscape.png"
+    },
+    "R0008": {
+      "title": "绯雾空汤屋",
+      "source_image": "res://assets/pixel_campaign/backgrounds/L01-S08.png",
+      "portrait": "res://art/room-covers-first10-20261030/R0008/portrait.png",
+      "landscape": "res://art/room-covers-first10-20261030/R0008/landscape.png"
+    },
+    "R0009": {
+      "title": "铅白悬钟阁",
+      "source_image": "res://assets/pixel_campaign/backgrounds/L01-S09.png",
+      "portrait": "res://art/room-covers-first10-20261030/R0009/portrait.png",
+      "landscape": "res://art/room-covers-first10-20261030/R0009/landscape.png"
+    },
+    "R0010": {
+      "title": "橙烬断桥台",
+      "source_image": "res://assets/pixel_campaign/backgrounds/L01-S10.png",
+      "portrait": "res://art/room-covers-first10-20261030/R0010/portrait.png",
+      "landscape": "res://art/room-covers-first10-20261030/R0010/landscape.png"
+    }
+  }
+}

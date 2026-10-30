@@ -1,0 +1,142 @@
+{
+  "version": 2,
+  "level_count": 2,
+  "scenes_per_level": 10,
+  "levels": [
+    {
+      "id": 1,
+      "title": "百鬼夜行",
+      "story": "原创：百鬼借走镇上灯火，祭夜在十处地点留下残迹。祭船、空戏棚、焚纸场、旧伞庭、归名庭与原鬼市共同组成地表路线，树根石窟、空汤屋、失声钟阁、焚后断桥补全这场借火祭礼。十景是同一叙事中的不同地点，不要求按空间或时间连续拼接。白狐面、朱红引魂结、无字纸灯维系身份；各景改变主色、空间、尺度与材质。",
+      "scenes": [
+        {
+          "id": "R02-S01",
+          "title": "翠雾渡口",
+          "image": "res://assets/pixel_campaign/backgrounds/L01-S01.png",
+          "floor_y": 620
+        },
+        {
+          "id": "R02-S02",
+          "title": "朱灯戏棚",
+          "image": "res://assets/pixel_campaign/backgrounds/L01-S02.png",
+          "floor_y": 620
+        },
+        {
+          "id": "R02-S03",
+          "title": "金灰焚纸场",
+          "image": "res://assets/pixel_campaign/backgrounds/L01-S03.png",
+          "floor_y": 620
+        },
+        {
+          "id": "R02-S04",
+          "title": "紫夜晒伞坂",
+          "image": "res://assets/pixel_campaign/backgrounds/L01-S04.png",
+          "floor_y": 620
+        },
+        {
+          "id": "R02-S05",
+          "title": "苍白归名庭",
+          "image": "res://assets/pixel_campaign/backgrounds/L01-S05.png",
+          "floor_y": 620
+        },
+        {
+          "id": "R02-S06",
+          "title": "原示例·月下鬼市",
+          "image": "res://assets/pixel_campaign/backgrounds/L01-S06.png",
+          "floor_y": 620
+        },
+        {
+          "id": "R02-S07",
+          "title": "碧根地藏窟",
+          "image": "res://assets/pixel_campaign/backgrounds/L01-S07.png",
+          "floor_y": 620
+        },
+        {
+          "id": "R02-S08",
+          "title": "绯雾空汤屋",
+          "image": "res://assets/pixel_campaign/backgrounds/L01-S08.png",
+          "floor_y": 620
+        },
+        {
+          "id": "R02-S09",
+          "title": "铅白悬钟阁",
+          "image": "res://assets/pixel_campaign/backgrounds/L01-S09.png",
+          "floor_y": 620
+        },
+        {
+          "id": "R02-S10",
+          "title": "橙烬断桥台",
+          "image": "res://assets/pixel_campaign/backgrounds/L01-S10.png",
+          "floor_y": 620
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "眠兽余温",
+      "story": "原创：一头山岭般巨兽死在农区，村庄仍沿着它的身体生活。水闸泄水绕过下颌，谷仓被一只脚撑开；后来抽水站听到胸腔回声，冷藏库发现骨质生长，山脊上未停止的呼吸让人无法确定它是否真的死去。固定体征：灰岩般皱皮、暗紫褶缝、浅色厚甲爪；固定人造线索：旧水利设施与褪色警戒绳。",
+      "scenes": [
+        {
+          "id": "R03-S01",
+          "title": "水闸眠兽",
+          "image": "res://assets/pixel_campaign/backgrounds/L02-S01.png",
+          "floor_y": 620
+        },
+        {
+          "id": "R03-S02",
+          "title": "谷仓巨足",
+          "image": "res://assets/pixel_campaign/backgrounds/L02-S02.png",
+          "floor_y": 620
+        },
+        {
+          "id": "R03-S03",
+          "title": "肋下泵房",
+          "image": "res://assets/pixel_campaign/backgrounds/L02-S03.png",
+          "floor_y": 620
+        },
+        {
+          "id": "R03-S04",
+          "title": "白霜冷库",
+          "image": "res://assets/pixel_campaign/backgrounds/L02-S04.png",
+          "floor_y": 620
+        },
+        {
+          "id": "R03-S05",
+          "title": "赤暮气井",
+          "image": "res://assets/pixel_campaign/backgrounds/L02-S05.png",
+          "floor_y": 620
+        },
+        {
+          "id": "R03-S06",
+          "title": "苔绿鳃渠",
+          "image": "res://assets/pixel_campaign/backgrounds/L02-S06.png",
+          "floor_y": 620
+        },
+        {
+          "id": "R03-S07",
+          "title": "钴蓝眼库",
+          "image": "res://assets/pixel_campaign/backgrounds/L02-S07.png",
+          "floor_y": 620
+        },
+        {
+          "id": "R03-S08",
+          "title": "锈红屠宰线",
+          "image": "res://assets/pixel_campaign/backgrounds/L02-S08.png",
+          "floor_y": 620
+        },
+        {
+          "id": "R03-S09",
+          "title": "灰白齿田",
+          "image": "res://assets/pixel_campaign/backgrounds/L02-S09.png",
+          "floor_y": 620
+        },
+        {
+          "id": "R03-S10",
+          "title": "紫暮颅穹",
+          "image": "res://assets/pixel_campaign/backgrounds/L02-S10.png",
+          "floor_y": 620
+        }
+      ]
+    }
+  ],
+  "battle_layout_standard": "art/pixel-first-two-levels-20261025/scale-standard/user-theatre-standard.png"
+}

@@ -1,0 +1,9 @@
+{
+  "version": "0.40.0-ground-shadows",
+  "package_sha256": "8ca0c438f6cc9d266d7fd29645d142f2ba8f4ae4459c727440771493ccfcf858",
+  "resource_count": 303,
+  "prior_runtime_checks": 466,
+  "branch": "codex/game-backup-0.40.0-20261031",
+  "source_parent": "8748d563bdef8d0e413343949d7577e3b401bfbd",
+  "scope": "current playable package and reproducible dependencies; historical commits retained"
+}

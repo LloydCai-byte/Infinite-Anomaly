@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>无限异常 · 脚底阴影对比</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#171b22;color:#e8e3d7;font:16px/1.7 system-ui,sans-serif}main{max-width:1500px;margin:40px auto;padding:0 24px}h1{font-size:30px;margin-bottom:8px}p{color:#bec3ce}button,select{font:inherit;background:#303844;color:#fff;border:1px solid #667281;border-radius:6px;padding:8px 14px}button{cursor:pointer}.bar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:20px 0}input{flex:1;min-width:160px;accent-color:#b4d9cb}.compare{position:relative;aspect-ratio:1600/340;overflow:hidden;background:#111;border:1px solid #596370}.image{position:absolute;inset:0;background-size:100% auto;background-position:center 83.929%;background-repeat:no-repeat;image-rendering:pixelated}.new{clip-path:inset(0 0 0 50%)}.line{position:absolute;top:0;bottom:0;left:50%;width:2px;background:#e6c681}.tag{position:absolute;top:12px;padding:3px 12px;background:#151a22dc;pointer-events:none}.oldtag{left:12px}.newtag{right:12px}.links{display:flex;gap:22px;flex-wrap:wrap;margin:12px 0 30px}a{color:#b4d9cb}.full{width:100%;display:block;image-rendering:pixelated}.note{font-size:14px;color:#98a4b3}
+</style>
+<main><h1>脚底阴影 · 实机对比</h1>
+<p>脚掌下保留深色接触影，外圈改为较淡的像素投影。阴影跟随动作脚位，抬脚时减弱接触，按场景冷暖配色。</p>
+<div class="bar"><label for="scene">场景与动作</label><select id="scene"><option value="room-15-idle">暖色荒地 · 站立</option><option value="room-15-walk">暖色荒地 · 行走</option><option value="room-15-attack">暖色荒地 · 攻击</option><option value="room-01-idle">港口 · 站立</option><option value="room-14-idle">冷色地面 · 站立</option></select><button id="old">只看修改前</button><button id="new">只看修改后</button></div>
+<div class="compare"><div class="image prior"></div><div class="image new"></div><div class="line"></div><span class="tag oldtag">修改前 · 0.39</span><span class="tag newtag">修改后 · 0.40</span></div>
+<div class="bar"><span>修改后</span><input id="split" type="range" min="0" max="100" value="50" aria-label="拖动对比边界"><span>修改前</span></div>
+<div class="links"><a id="before" href="before/room-15-idle.png">打开修改前原尺寸截图</a><a id="after" href="after/room-15-idle.png">打开修改后原尺寸截图</a><a href="../../docs/shadows-20261030/DELIVERY.md">交付记录</a></div>
+<p class="note">两版正式运行包使用同一份复制存档、同一帧动作截图。上方仅裁切视野便于看脚底，原图可直接打开。10 个角色与怪物、510 个姿态、20 张现有场景；具体视觉效果待评价。</p>
+<img id="full" class="full" src="after/room-15-idle.png" alt="修改后的完整战斗画面">
+</main><script>
+const split=document.querySelector('#split'),scene=document.querySelector('#scene');
+function border(){document.querySelector('.new').style.clipPath=`inset(0 0 0 ${split.value}%)`;document.querySelector('.line').style.left=split.value+'%';document.querySelector('.oldtag').hidden=split.value==0;document.querySelector('.newtag').hidden=split.value==100}
+function change(){const key=scene.value;document.querySelector('.prior').style.backgroundImage=`url(before/${key}.png)`;document.querySelector('.new').style.backgroundImage=`url(after/${key}.png)`;document.querySelector('#before').href=`before/${key}.png`;document.querySelector('#after').href=`after/${key}.png`;document.querySelector('#full').src=`after/${key}.png`}
+split.oninput=border;scene.onchange=change;document.querySelector('#old').onclick=()=>{split.value=100;border()};document.querySelector('#new').onclick=()=>{split.value=0;border()};change();border();
+</script></html>
